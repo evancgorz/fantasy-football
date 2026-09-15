@@ -1,0 +1,12 @@
+# Local secrets and authenticated browser artifacts
+.env
+.env.*
+!.env.example
+*.cookies
+*cookie*.json
+*session*.json
+
+# Private exports and local automation artifacts
+private-exports/
+exports/private/
+browser-artifacts/
