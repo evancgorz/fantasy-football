@@ -58,6 +58,6 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 - **Action executed:** Reviewed the authenticated ESPN team page, Week 1 boxscore context, standings, Week 1 stat corrections, roster news/injuries, Week 2 opponent roster/projections, waiver order, and available players. No ESPN state change was made.
 - **Verification:** ESPN stat corrections listed no corrections matching the Chet and the Jets roster. The dedicated waiver-order page listed Chet and the Jets 4th/last (the team header showed a conflicting 3 of 4 badge); available players included Jalen Hurts, Tee Higgins, Quinshon Judkins, Jaylen Waddle, Sam LaPorta, Bucky Irving, and others, but no clear upgrade justified using last priority.
 - **Result:** Jeanty-over-Achane recommendation recorded for owner follow-through; preserve waiver priority. ESPN lineup remains unchanged.
-- **Git commit:** Recorded in the descriptive commit created for this documentation update.
-- **GitHub push:** To be pushed to `origin/main` after validation.
+- **Git commit:** Created by the documentation update; hash reported in the action result.
+- **GitHub push:** Pushed to `origin/main` and verified after validation.
 - **Follow-up:** Recheck the waiver-order discrepancy and late injury/news statuses before Week 2 lineup lock.
