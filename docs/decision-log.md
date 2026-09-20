@@ -61,3 +61,17 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 - **Git commit:** Created by the documentation update; hash reported in the action result.
 - **GitHub push:** Pushed to `origin/main` and verified after validation.
 - **Follow-up:** Recheck the waiver-order discrepancy and late injury/news statuses before Week 2 lineup lock.
+
+## Early Sunday lineup check
+
+### 2026-09-20 — Week 2 pre-early-games lineup
+
+- **Observed at:** 2026-09-20 11:08:43 -04:00 (America/New_York)
+- **ESPN URL:** `https://fantasy.espn.com/football/team?leagueId=582597924&seasonId=2026&teamId=3&scoringPeriodId=2&view=overview`
+- **League/team/season:** `582597924` / `3` / `2026`
+- **Action:** Moved Ashton Jeanty from Bench into FLEX and moved De'Von Achane from FLEX to Bench.
+- **Rationale:** ESPN projected Jeanty at 18.3 points versus Achane at 17.1; Jeanty was listed without an injury designation, while ESPN news said his prior ankle issue was no longer in question. This was a straightforward legal RB/FLEX swap that increased the projected starter total from 145.0 to 146.2 without dropping a player, trading, or making a close risk-based choice.
+- **Injury and inactive review:** ESPN showed Chris Olave as questionable with a hamstring injury and reported he was on track to play, pending the official inactive list approximately 90 minutes before the 1:00 PM ET kickoff. No rostered player was marked inactive or clearly unavailable at the time of review; Olave remained benched because his 15.9 projection was below the starting WRs and he had not yet cleared the official inactive window.
+- **Matchup and lock context:** All nine legal slots were filled. ESPN displayed individual game times: 1:00 PM ET for Bijan Robinson, Justin Jefferson, Steelers D/ST, Chris Olave, Garrett Wilson, and Breece Hall; 4:05 PM ET for Omarion Hampton, Ashton Jeanty, and their opponent; 4:25 PM ET for Jayden Daniels, Jaxon Smith-Njigba, Trey McBride, De'Von Achane, and Jason Myers; and 8:20 PM ET for Jonathan Taylor. Each player's lineup lock is his ESPN-listed game time.
+- **Verification:** Refreshed the ESPN team page after the move. ESPN showed Ashton Jeanty in FLEX, De'Von Achane on Bench, and projected starters totaling 146.23 points.
+- **Result:** Week 2 lineup set with the verified Jeanty FLEX upgrade; no other straightforward change was justified.
