@@ -75,3 +75,23 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 - **Matchup and lock context:** All nine legal slots were filled. ESPN displayed individual game times: 1:00 PM ET for Bijan Robinson, Justin Jefferson, Steelers D/ST, Chris Olave, Garrett Wilson, and Breece Hall; 4:05 PM ET for Omarion Hampton, Ashton Jeanty, and their opponent; 4:25 PM ET for Jayden Daniels, Jaxon Smith-Njigba, Trey McBride, De'Von Achane, and Jason Myers; and 8:20 PM ET for Jonathan Taylor. Each player's lineup lock is his ESPN-listed game time.
 - **Verification:** Refreshed the ESPN team page after the move. ESPN showed Ashton Jeanty in FLEX, De'Von Achane on Bench, and projected starters totaling 146.23 points.
 - **Result:** Week 2 lineup set with the verified Jeanty FLEX upgrade; no other straightforward change was justified.
+
+## Week 3 quarterback injury waiver claim
+
+### 2026-09-22 — Week 3 — Jalen Hurts waiver claim
+
+- **Observed at:** 2026-09-22 20:33:15 -04:00 (America/New_York)
+- **ESPN URL:** `https://fantasy.espn.com/football/team?leagueId=582597924&seasonId=2026&teamId=3&scoringPeriodId=3`
+- **League/team/season:** `582597924` / `3` / `2026`
+- **Matchup state:** Chet and the Jets was 2-0-0 and 1st of 4; Week 3 opponent was Oldies but Goodies.
+- **Relevant roster state:** Jayden Daniels was listed doubtful with a Week 3 projection of 0.0. Jalen Hurts was available on Wednesday waivers with a 19.8 projection. Jeremiyah Love was on the bench with a 12.7 projection. ESPN showed Chet and the Jets 4th of 4 in waiver order.
+- **Decision:** Claim Jalen Hurts as the quarterback injury replacement and conditionally drop Jeremiyah Love if the claim succeeds.
+- **Alternatives considered:** Brock Purdy was the preferred fallback if the Hurts claim could not be won; other available quarterbacks were lower-priority alternatives.
+- **Reasoning:** Daniels' injury created an immediate Week 3 zero-projection risk. Hurts supplied a clear projected upgrade and a durable quarterback option, while Love was the lowest-projected expendable bench player.
+- **Rule or timing constraint:** ESPN marked Hurts as `WA (Wed)`. The transaction is conditional and will process on the morning of 2026-09-23; no immediate roster addition occurs before waiver processing.
+- **Action executed:** Submitted the authenticated ESPN waiver claim for Jalen Hurts with Jeremiyah Love selected as the conditional drop.
+- **Verification:** ESPN displayed `Pending Moves 1` and the pending-claims dialog stated: conditionally add Jalen Hurts from waivers; conditionally drop Jeremiyah Love to waivers; move will process on the morning of Sep 23. Daniels remained on the roster pending processing.
+- **Result:** Claim successfully queued; final award outcome is pending Wednesday waiver processing.
+- **Git commit:** Created by this documentation update.
+- **GitHub push:** Pushed to `origin/main` and verified after validation.
+- **Follow-up:** Recheck the waiver result after processing and set the best legal Week 3 quarterback before the relevant Sunday lock.
