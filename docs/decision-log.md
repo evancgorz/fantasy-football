@@ -95,3 +95,22 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 - **Git commit:** Created by this documentation update.
 - **GitHub push:** Pushed to `origin/main` and verified after validation.
 - **Follow-up:** Recheck the waiver result after processing and set the best legal Week 3 quarterback before the relevant Sunday lock.
+
+## Week 3 quarterback lineup correction
+
+### 2026-09-23 — Week 3 — Jalen Hurts starter
+
+- **Observed at:** 2026-09-23 20:26:13 -04:00 (America/New_York)
+- **ESPN URL:** `https://fantasy.espn.com/football/team?leagueId=582597924&seasonId=2026&teamId=3&fromTeamId=3&scoringPeriodId=3`
+- **League/team/season:** `582597924` / `3` / `2026`
+- **Matchup state:** Chet and the Jets was 2-0-0 and 1st of 4; Week 3 opponent was Oldies but Goodies.
+- **Relevant roster state:** ESPN's refreshed Week 3 lineup showed Jayden Daniels marked out with a 0.0 projection and Jalen Hurts on the bench with a 19.8 projection. The Sep 23 waiver report showed Chet and the Jets had already added Hurts and dropped Jeremiyah Love.
+- **Decision:** Move Jalen Hurts into the starting QB slot and move Jayden Daniels to the bench.
+- **Rationale:** Daniels' out designation created a clear zero-projection risk. Hurts was already rostered and supplied a healthy Week 3 quarterback projection, so the swap required no drop, waiver priority, or budget sacrifice.
+- **Rule or timing constraint:** Lineup changes lock individually at each player's scheduled game time; Week 3 had not locked for either quarterback at review time.
+- **Action executed:** Submitted the authenticated ESPN lineup swap for the Week 3 QB slot.
+- **Verification:** Refreshed the ESPN team page after the move. ESPN showed Jalen Hurts as the starting QB with a 19.8 projection and Jayden Daniels on the bench with an `O` designation and 0.0 projection.
+- **Result:** Week 3 lineup now has the clear injury replacement in place; no waiver or add/drop claim was justified because the roster remained deep and available upgrades required dropping meaningful bench assets.
+- **Git commit:** Created by this documentation update.
+- **GitHub push:** Pushed to `origin/main` and verified after validation.
+- **Follow-up:** Recheck late-week injury statuses before individual player locks.
