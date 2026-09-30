@@ -114,3 +114,43 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 - **Git commit:** Created by this documentation update.
 - **GitHub push:** Pushed to `origin/main` and verified after validation.
 - **Follow-up:** Recheck late-week injury statuses before individual player locks.
+
+## Week 4 De'Von Achane IR placement
+
+### 2026-09-29 — Week 4 — De'Von Achane placed on IR
+
+- **Observed at:** 2026-09-29 20:34:11 -04:00 (America/New_York)
+- **ESPN URL:** `https://fantasy.espn.com/football/team?leagueId=582597924&seasonId=2026&teamId=3&scoringPeriodId=4`
+- **League/team/season:** `582597924` / `3` / `2026`
+- **Matchup state:** Chet and the Jets was 3-0-0 and 1st of 4; the Week 4 opponent was Anna's Bananas.
+- **Relevant roster state:** ESPN's Sep. 28 injury news said Miami placed De'Von Achane on injured reserve after an ACL tear and that he was out for the season. Achane was still on the active bench with an IR designation, the IR slot was empty, Breece Hall was questionable with a 0.0 projection, and Omarion Hampton was the remaining non-IR bench running back with a 10.9 projection.
+- **Decision:** Move De'Von Achane from the active bench to the available IR slot.
+- **Alternatives considered:** Drop Achane; rejected because the player remains a premium roster asset despite the season-ending injury. Leave him on the bench; rejected because it unnecessarily consumed an active roster slot.
+- **Reasoning:** ESPN confirmed the season-ending injury and the roster had an unused IR slot. The move preserved Achane while creating a legal active-roster opening with no drop, waiver-priority, or budget sacrifice.
+- **Rule or timing constraint:** League settings show a 16-player roster with 9 starters and 7 bench/IR spots, including 1 IR slot. ESPN stated the roster change would be reflected for NFL Week 4.
+- **Action executed:** Used ESPN Manage IR to transfer Achane to the IR slot.
+- **Verification:** ESPN's Manage IR view showed Achane under Current IR and reported no remaining eligible active players; a refreshed team page showed Achane in the IR row and an empty active bench row.
+- **Result:** Achane is preserved on IR and one active bench slot is available for a low-risk replacement claim.
+- **Git commit:** Created by this documentation update.
+- **GitHub push:** Pushed to `origin/main` and verified after validation.
+- **Follow-up:** Recheck the waiver result after the Sep. 30 processing window.
+
+## Week 4 D'Andre Swift waiver claim
+
+### 2026-09-29 — Week 4 — D'Andre Swift injury-replacement claim
+
+- **Observed at:** 2026-09-29 20:34:11 -04:00 (America/New_York)
+- **ESPN URL:** `https://fantasy.espn.com/football/rosterfix?leagueId=582597924&seasonId=2026&teamId=3&players=4259545&type=claim`
+- **League/team/season:** `582597924` / `3` / `2026`
+- **Matchup state:** Chet and the Jets was 3-0-0 and 1st of 4; the Week 4 opponent was Anna's Bananas.
+- **Relevant roster state:** After moving Achane to IR, ESPN showed one empty active bench slot. D'Andre Swift was on Wednesday waivers with a 14.9 Week 4 projection, position rank 7, and 96.3% rostered rate. Omarion Hampton projected 10.9 and Breece Hall was questionable at 0.0; ESPN showed Chet and the Jets 4th of 4 in league waiver order.
+- **Decision:** Submit a conditional waiver claim to add D'Andre Swift without dropping a player.
+- **Alternatives considered:** Tee Higgins, Sam LaPorta, Jaylen Waddle, DJ Moore, and Brock Purdy were available, but they addressed positions with stronger existing depth or would have required dropping a meaningful player. Dropping a premium prospect or core starter was rejected.
+- **Reasoning:** Swift was the clearest available running-back replacement for the season-ending Achane injury, offered a meaningful projection upgrade over the current healthy bench-RB option, and fit into the newly available bench slot without a drop or FAAB commitment.
+- **Rule or timing constraint:** ESPN's one-day waiver period schedules the claim to process on the morning of Sep. 30. The league has no season acquisition limit and no FAAB budget displayed.
+- **Action executed:** Submitted the authenticated ESPN waiver claim for D'Andre Swift with no conditional drop selected.
+- **Verification:** ESPN displayed `Pending Moves 1`; the pending-claims dialog stated: conditionally add D'Andre Swift, CHI RB, from waivers to the bench; move will process on the morning of Sep. 30. The dialog showed waiver priority 1 for this claim, and no drop was listed.
+- **Result:** The low-risk injury-replacement claim is queued; Swift has not been awarded yet.
+- **Git commit:** Created by this documentation update.
+- **GitHub push:** Pushed to `origin/main` and verified after validation.
+- **Follow-up:** Re-read ESPN after the Sep. 30 waiver processing window, confirm the award or failure, and revisit the Week 4 lineup before individual player locks.
