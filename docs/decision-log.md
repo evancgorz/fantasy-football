@@ -1,5 +1,14 @@
 # Fantasy Football Decision Log
 
+## 2026-10-04 — Cross-chat login reliability test passed
+
+- **Request:** Owner authorized diagnosing and improving login reliability, including a read-only test in a separate scheduled-task chat.
+- **Test:** Sent a scoped read-only follow-up to existing Sunday late-game lineup check chat 01a10927-476f-7562-85ef-847d69217d47 using Sol 6.1 Low. No credentials transmitted; instructed it not to change ESPN or repository files.
+- **Result:** That chat successfully loaded the authenticated private team page in its in-app browser without another sign-in. Confirmed league/team/season/week and observed score 82.72-164.80, Jefferson out and locked, and Monday Robinson/London/Olave. No ESPN state changed.
+- **Scope:** Cross-chat access now verified. Future automatic runs, app restarts, and session expiry are not yet tested; no claim of permanent login reliability.
+- **Changes:** Updated all six prompts with the test evidence, tab preservation, bounded loading recheck, precise access-failure classification, and owner sign-in/rerun handoff. Added read-only 5 PM Eastern access/injury preflight to Thursday and Monday tasks, retaining their 7 PM action checks. All remain ACTIVE, gpt-6.1-sol / low, with existing transaction boundaries and GitHub archival requirements.
+- **Verification:** App accepted all six updates; repository snapshots and recovery procedure updated. Commit/push result reported after validation.
+
 ## 2026-10-04 — All six scheduled checks switched to Sol 6.1 Low
 
 - **Request:** Owner requested Sol 6.1 Light or Low for all scheduled agents.
