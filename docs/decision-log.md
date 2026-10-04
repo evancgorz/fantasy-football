@@ -1,5 +1,16 @@
 # Fantasy Football Decision Log
 
+## 2026-10-04 — Week 4 — Automation recovery and blocked damage audit
+
+- **Observed at:** Approximately 2026-10-04 18:59 -04:00 (America/New_York).
+- **Action:** Updated all six app automations to require explicit Chrome recovery, distinguish browser connectivity from ESPN login, prohibit in-app fallback, and commit/push/notify on blocked checks. Preserved Luna Extra High and existing coaching authority. Revised cadence in automation-recovery.md; saved complete definitions in automation-config.json.
+- **Verification:** App reported all six updates successful; reread each automation.toml and confirmed ACTIVE, Chrome recovery, updated schedules, gpt-5.6-luna, and xhigh.
+- **Failure evidence:** October 1 Thursday and both October 4 Sunday runs performed no live ESPN inspection. Current Chrome tab creation failed because Chrome was unavailable to browser controls. Installed Chrome found; launch blocked by tool policy; recheck still showed only in-app/MCP browsers.
+- **Known history:** September 29 team was 3-0 and first. September 30 successful Chrome review confirmed Swift awarded with no drop, Achane on IR, and no pending claim. Those observations do not verify today's roster or score.
+- **Result:** Instruction/schedule fixes saved; end-to-end Chrome access and live damage assessment remain blocked. No ESPN state change made. Cannot quantify lost points or causally attribute the owner's reported losing matchup to these failed checks.
+- **Owner action needed:** Open Chrome to the ESPN team and make Chrome available to this task's browser controls. Then audit locked/inactive starters and legal remaining-game corrections immediately.
+- **Archival:** Commit/push verification and hash reported after repository validation; no credentials or private exports recorded.
+
 Use one entry per material lineup, waiver, add/drop, or trade decision. Keep credentials, cookies, private tokens, and raw authenticated exports out of this file.
 
 ## Entry template
