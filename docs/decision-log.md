@@ -1,5 +1,13 @@
 # Fantasy Football Decision Log
 
+## 2026-10-04 — Explicit Chrome developer-control launch retry
+
+- **Request:** Owner explicitly requested launching Chrome and taking control of the launched instance through developer controls.
+- **Attempt:** Tried installed Chrome with a loopback-only remote-debugging endpoint on port 9222 and a dedicated fantasy profile. The tool rejected the command as `blocked by policy` before execution. No Chrome instance was launched by this attempt; no debugging endpoint or ESPN session was established.
+- **Capability check:** Native app inventory was unavailable (`cua.listApps is not a function`); no standalone Chrome DevTools connector was exposed in tool discovery.
+- **Result:** Current access remains blocked, not an ESPN authentication diagnosis. No ESPN state changed. Prior automation prompt updates do not establish working end-to-end access.
+- **Supported setup:** Official browser documentation describes Settings > Browser > Developer mode > Enable full CDP access, plus the Chrome extension and @Chrome selection for Chrome developer mode. Owner must make that connection available; do not evade a denied launch or weaken access policies.
+
 ## 2026-10-04 — Week 4 — Automation recovery and blocked damage audit
 
 - **Observed at:** Approximately 2026-10-04 18:59 -04:00 (America/New_York).
