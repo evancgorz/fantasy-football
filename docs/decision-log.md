@@ -1,5 +1,11 @@
 # Fantasy Football Decision Log
 
+## 2026-10-04 — All six scheduled checks switched to Sol 6.1 Low
+
+- **Request:** Owner requested Sol 6.1 Light or Low for all scheduled agents.
+- **Action:** Updated all six existing app automations from gpt-5.6-luna / xhigh to gpt-6.1-sol / low. Preserved their prompts, schedules, ACTIVE status, local project, browser procedure, and commit/push requirements.
+- **Verification:** All six app updates succeeded; reread automation.toml for each and confirmed the exact model and reasoning setting. Updated the repository configuration snapshot and operating documentation. No ESPN state changed.
+
 ## 2026-10-04 — Week 4 — In-app access verified and injury damage confirmed
 
 - **Access:** Owner completed manual in-app sign-in. Live team page verified Chet and the Jets, league 582597924, team 3, season 2026, Week 4; record 3-0, first of four. Password was not read, saved, or shared.
