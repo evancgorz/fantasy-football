@@ -173,3 +173,23 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 - **Git commit:** Created by this documentation update.
 - **GitHub push:** Pushed to `origin/main` and verified after validation.
 - **Follow-up:** Re-read ESPN after the Sep. 30 waiver processing window, confirm the award or failure, and revisit the Week 4 lineup before individual player locks.
+
+## Week 4 late-game lineup check — access blocked
+
+### 2026-10-04 — Week 4 — CHROME_LAUNCH_BLOCKED
+
+- **Observed at:** 2026-10-04 19:03:20 -04:00 (America/New_York)
+- **ESPN URL:** `https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026`
+- **League/team/season:** `582597924` / `3` / `2026` — not confirmed from a live ESPN page in this run.
+- **Matchup state:** Unverified; no authenticated ESPN page was readable.
+- **Relevant roster state:** Unverified; starters, bench, injury/inactive news, pending moves, and individual lock times were not inspected.
+- **Decision:** Do not claim the lineup was checked or safe; make no ESPN change.
+- **Alternatives considered:** The Codex In-app Browser and Codex MCP Apps were not acceptable substitutes because their ESPN sessions are separate from the owner's Chrome session.
+- **Reasoning:** Browser inventory exposed only the Codex In-app Browser and Codex MCP Apps, with no Chrome browser or tabs. The supported native launch hook was unavailable (`cua.computer` was undefined), so Chrome could not be opened or connected. The required recheck was unchanged.
+- **Rule or timing constraint:** This is an actionable access failure, not an ESPN login determination. The public Week 4 schedule showed the 4:25 PM ET late-window games already in progress/locked by this observation and Lions at Panthers at 8:20 PM ET on Sunday, October 4; the next affected deadline is the Sunday-night 8:20 PM ET kickoff. Monday's Falcons at Saints is scheduled for 8:15 PM ET on October 5 and also requires a separate pre-lock check if a rostered player is involved.
+- **Action executed:** Attempted the supported Chrome launch capability once, received `TypeError: Cannot read properties of undefined (reading 'launch_app')`, then rechecked browser inventory. No ESPN page was opened or changed.
+- **Verification:** Browser recheck still listed only Codex In-app Browser and Codex MCP Apps; Chrome connectivity remained unavailable. No league/team/season or lineup verification was possible.
+- **Result:** `CHROME_LAUNCH_BLOCKED`; late Sunday coverage was missed, including the uninspected 4:25 PM ET window and the upcoming 8:20 PM ET Sunday-night lock. Owner action: open the owner-authenticated Chrome ESPN page for this league/team and make Chrome available to browser controls; sign in manually there only if the actual Chrome ESPN page requests it.
+- **Git commit:** Pending this documentation update.
+- **GitHub push:** Pending this documentation update.
+- **Follow-up:** Re-run immediately after Chrome is connected to audit Week 4 score, starters/bench, inactives, individual locks, and remaining Sunday/Monday players. Do not infer missed points or causality without the live roster and legal replacement options.
