@@ -4,10 +4,10 @@ Updated October 4, 2026. All times are America/New_York. The six ACTIVE app auto
 
 ## Required recovery sequence
 
-1. Inventory connected browsers and select Chrome explicitly. Never substitute the in-app browser or MCP Apps: their ESPN sessions are separate.
-2. Reuse the Chrome ESPN tab or create one in Chrome at https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.
-3. If Chrome is closed, attempt supported browser/native launch and recheck inventory once. Respect launch denial; do not bypass policy. An open Chrome window alone does not establish browser-control connectivity.
-4. Report CHROME_NOT_CONNECTED or CHROME_LAUNCH_BLOCKED for access failures. Only report ESPN_LOGIN_REQUIRED after seeing that requirement on the actual Chrome ESPN page. Ask for manual sign-in there; never collect passwords, cookies, tokens, or authentication exports.
+1. Owner changed the preference to the in-app browser on October 4. Select iab first; reuse its ESPN tab or open one even when its tab inventory is empty. Do not treat missing tabs as failed authentication.
+2. Open https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026 in that browser. Its authenticated team page was verified in this coaching task on October 4. Cross-task scheduled-run access is not yet proven; verify it every run.
+3. If ESPN shows Log in Required, show and preserve the tab for owner sign-in. Connected Chrome can be tried as a fallback; respect launch denial and browser permissions. Browser sessions are separate.
+4. Report the precise missing-browser or observed login failure. Never read/save/share passwords, cookies, tokens, credential stores, or authentication exports in prompts, memory, task messages, or this repository. Agents receive the connection procedure only, not secrets.
 5. Confirm the live league/team/season, week, roster, pending moves, and individual lock times before acting. Historical snapshots do not establish current lineup safety.
 6. A blocked check is actionable: log timestamp, exact failure, uninspected game windows, and owner action needed in docs/decision-log.md; commit and push; notify the owner. Failure overrides quiet-on-no-action. Do not wait indefinitely for input.
 7. Verify each ESPN action before logging/committing/pushing under change-control.md. Never claim an unverified action succeeded.
@@ -33,6 +33,6 @@ Read ESPN's actual waiver deadline and kickoff schedule each run. Fixed times do
 - September 29 live observation had Chet and the Jets 3-0, first of four, facing Anna's Bananas in Week 4. Today's score is unverified.
 - At approximately 6:59 PM Eastern October 4, available browser controls exposed only the in-app browser and MCP Apps. Explicit Chrome tab creation returned `Browser is not available: chrome`. Chrome's executable was present; launching it was blocked by tool policy. A subsequent inventory still showed no Chrome connection.
 
-Confirmed damage is missed coverage: at least Thursday, Sunday early, and Sunday late checks. No current evidence yet establishes an inactive starter, forfeited points, missed claim, or a different legal lineup changing the result. A losing live matchup alone is not proof of automation-caused loss. Achane's IR move and Swift's award were completed before these failures.
+The initial audit was blocked. A subsequent authenticated in-app read confirmed real lineup damage: Jefferson was out, still starting, and locked after Minnesota's completed game. Olave and London were healthy-looking Monday bench alternatives, but cannot replace that locked slot now. The live score snapshot was 82.72 versus 162.60; Bijan remains a Monday starter. Exact missed replacement points are not yet known because those alternatives have not played. Achane's IR move and Swift's award were completed before these failures.
 
 After Chrome connection is restored, immediately inspect the live Week 4 score, starters/bench, inactives, locks, remaining Sunday/Monday players, and transactions. Make only authorized straightforward changes to unlocked players. Estimate missed points from a genuinely unavailable starter and a replacement legally available at the original lock; separate preventable zeros from hindsight bench explosions. Log verified facts, not inferred outcomes.

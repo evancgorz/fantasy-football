@@ -1,5 +1,14 @@
 # Fantasy Football Decision Log
 
+## 2026-10-04 — Week 4 — In-app access verified and injury damage confirmed
+
+- **Access:** Owner completed manual in-app sign-in. Live team page verified Chet and the Jets, league 582597924, team 3, season 2026, Week 4; record 3-0, first of four. Password was not read, saved, or shared.
+- **Score snapshot:** Chet and the Jets 82.72, Anna's Bananas 162.60; games still in progress, not a final result. Week 3 final result was 139.48-122.44 over Oldies but Goodies.
+- **Confirmed damage:** Justin Jefferson marked out with zero projection and no score, still in a locked starting WR slot after Minnesota's completed game. No MOVE button was available for him. Chris Olave (18.24 projection) and Drake London (16.73) remain Monday bench WRs with MOVE buttons; neither can retroactively replace Jefferson. Exact missed replacement points are unknown until their games finish; projections are not actual lost points.
+- **Remaining lineup:** Bijan Robinson remains an unlocked Monday starter (21.45 projection, Monday 8:15 PM). Other starters had completed or ongoing games. Breece Hall and Jayden Daniels were out but safely benched; Achane on IR; Swift on bench. No legal straightforward correction to the locked Jefferson slot was available; no ESPN state changed.
+- **Automation action:** Updated all six ACTIVE tasks to prefer iab, open ESPN even with no tabs, inspect actual authentication state, preserve a visible sign-in handoff when needed, and log/commit/push/alert on blocked checks. Kept schedules, Luna Extra High, and coaching boundaries. Saved procedure and updated definition snapshot without credentials.
+- **Verification limitation:** Live access proved in this task only. Cross-task scheduled-run authentication is not yet verified; tasks explicitly require checking it, not assuming it. No password-manager save prompt was exposed by the inspected page, and no password storage or distribution was attempted.
+
 ## 2026-10-04 — Explicit Chrome developer-control launch retry
 
 - **Request:** Owner explicitly requested launching Chrome and taking control of the launched instance through developer controls.

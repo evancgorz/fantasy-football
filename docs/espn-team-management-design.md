@@ -28,7 +28,7 @@ ESPN Fantasy Football is authoritative for:
 - matchups, standings, and playoff qualification;
 - the league's actual transaction outcome.
 
-The intended control browser is the user's authenticated Chrome session. It was available during prior successful runs but not connected during the October 4 recovery audit. The observed team URL is:
+The preferred control browser is now the authenticated in-app browser, as requested by the owner October 4. The live team page was verified there; availability to separate scheduled runs still requires testing. Connected Chrome is an optional fallback. The observed team URL is:
 
 `https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026`
 
@@ -51,8 +51,8 @@ An unofficial ESPN read API may be used later as an optional analysis accelerato
 
 ### Connection procedure
 
-1. Follow [automation-recovery.md](automation-recovery.md): inventory/select Chrome explicitly and attempt supported launch/tab creation before declaring an access failure. Never substitute the in-app browser.
-2. Distinguish missing Chrome connectivity from a login requirement observed in Chrome. Only the latter requires manual ESPN sign-in. Never request or store the password, one-time code, `espn_s2`, or `SWID`.
+1. Follow [automation-recovery.md](automation-recovery.md): select the in-app browser first, reuse or create its ESPN tab, and inspect the actual page. Connected Chrome is a fallback.
+2. Distinguish missing browser connectivity from an observed ESPN login requirement. Never request, store, or distribute the password, one-time code, `espn_s2`, or `SWID`.
 3. Confirm the visible league, team, season, and manager before taking action.
 4. Read league settings and the current roster before making recommendations.
 5. For every write, perform one ESPN action, reread the affected page, and verify the result.
