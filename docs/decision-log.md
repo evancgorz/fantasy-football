@@ -1,5 +1,33 @@
 # Fantasy Football Decision Log
 
+## 2026-10-04 — Old scheduled-run chat cleanup
+
+- **Request:** Owner asked to remove accumulated old automation chat instances.
+- **Action:** Archived 18 inactive fantasy scheduled-check chats, including their old owner follow-ups. Used recoverable app archival, not permanent deletion. Kept Chet and the Jets Head Coach open; unrelated chats untouched. Automation definitions and schedules unchanged.
+- **Verification:** Each archive returned archived=true. A subsequent 50-chat inventory showed only the head-coach chat for this project. Older entries beyond the inventory window were not individually audited.
+- **Recovery:** Archived chats remain recoverable through the app's archive/unarchive tools. No ESPN state changed.
+
+| Archived chat title | Chat ID |
+|---|---|
+| Sunday late-game lineup check | 01a10927-476f-7562-85ef-847d69217d47 |
+| Sunday late-game lineup check | 01a1091d-3e57-7030-bead-a0f69b2bf751 |
+| Sunday early lineup check | 01a1091d-3e1e-7e13-85b6-8b04fec62142 |
+| Thursday lineup check | 01a0f92a-b616-7fc2-ad7a-d1169634d191 |
+| Fantasy waiver execution | 01a0f48c-61db-7d63-ab96-feaa6e6f358b |
+| Fantasy waiver execution | 01a0efb5-7a4c-7ec0-93e3-955ea71089bc |
+| Fantasy weekly review | 01a0ed41-a6af-7621-81a4-ee3b17e14e94 |
+| Monday night lineup check | 01a0ea24-76d3-7942-aa3c-1eee6a3ce2ce |
+| Sunday late-game lineup check | 01a0e43d-e268-7101-a2ee-2596ad27c9c7 |
+| Sunday early lineup check | 01a0e362-8e92-72b3-aeb5-3429b4f44b6f |
+| Thursday lineup check | 01a0d51d-e7ee-7551-8282-d4818f9ea32d |
+| Fantasy waiver execution | 01a0d0cb-3bef-7621-8a16-fe7497188f51 |
+| Fantasy waiver execution | 01a0ac73-b6b8-7881-a965-c1ef47a4ff91 |
+| Fantasy weekly review | 01a0c935-d234-73d0-aa79-6ae3aaa8f1ca |
+| Monday night lineup check | 01a0c617-b7bd-77f3-9cc7-4991ee65a2cf |
+| Fantasy weekly review | 01a0a527-b298-7832-b84f-bce8ad666dfb |
+| Sunday late-game lineup check | 01a0c031-6fd9-7ae3-a470-019a6e4211aa |
+| Sunday early lineup check | 01a0bf57-0489-7432-8f71-faf86d195861 |
+
 ## 2026-10-04 — Cross-chat login reliability test passed
 
 - **Request:** Owner authorized diagnosing and improving login reliability, including a read-only test in a separate scheduled-task chat.
