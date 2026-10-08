@@ -1,6 +1,6 @@
 # Scheduled coaching: browser access and recovery
 
-Updated October 4, 2026. All times are America/New_York. The six ACTIVE app automations are authoritative; automation-config.json is their versioned snapshot, not another scheduler. All use gpt-6.1-sol / low, as requested by the owner.
+Updated October 8, 2026. All times are America/New_York. The six ACTIVE app automations are authoritative; automation-config.json is their versioned snapshot, not another scheduler. All use gpt-6.1-sol / medium, as requested by the owner.
 
 ## Required recovery sequence
 

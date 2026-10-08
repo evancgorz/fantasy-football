@@ -10,7 +10,7 @@
       "rrule": "FREQ=WEEKLY;BYDAY=TU,WE;BYHOUR=19;BYMINUTE=0",
       "name": "Fantasy waiver execution",
       "id": "fantasy-waiver-execution",
-      "reasoning_effort": "low"
+      "reasoning_effort": "medium"
     },
     {
       "model": "gpt-6.1-sol",
@@ -19,7 +19,7 @@
       "rrule": "FREQ=WEEKLY;BYDAY=TU;BYHOUR=9;BYMINUTE=0",
       "name": "Fantasy weekly review",
       "id": "fantasy-weekly-review",
-      "reasoning_effort": "low"
+      "reasoning_effort": "medium"
     },
     {
       "model": "gpt-6.1-sol",
@@ -28,7 +28,7 @@
       "rrule": "FREQ=WEEKLY;BYDAY=MO;BYHOUR=17,19;BYMINUTE=0",
       "name": "Monday night lineup check",
       "id": "monday-night-lineup-check",
-      "reasoning_effort": "low"
+      "reasoning_effort": "medium"
     },
     {
       "model": "gpt-6.1-sol",
@@ -37,7 +37,7 @@
       "rrule": "FREQ=WEEKLY;BYDAY=SU;BYHOUR=9,12;BYMINUTE=0",
       "name": "Sunday early lineup check",
       "id": "sunday-early-lineup-check",
-      "reasoning_effort": "low"
+      "reasoning_effort": "medium"
     },
     {
       "model": "gpt-6.1-sol",
@@ -46,7 +46,7 @@
       "rrule": "FREQ=WEEKLY;BYDAY=SU;BYHOUR=15,19;BYMINUTE=0",
       "name": "Sunday late-game lineup check",
       "id": "sunday-late-game-lineup-check",
-      "reasoning_effort": "low"
+      "reasoning_effort": "medium"
     },
     {
       "model": "gpt-6.1-sol",
@@ -55,7 +55,7 @@
       "rrule": "FREQ=WEEKLY;BYDAY=TH;BYHOUR=17,19;BYMINUTE=0",
       "name": "Thursday lineup check",
       "id": "thursday-lineup-check",
-      "reasoning_effort": "low"
+      "reasoning_effort": "medium"
     }
   ]
 }

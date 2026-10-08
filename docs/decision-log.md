@@ -1,5 +1,11 @@
 # Fantasy Football Decision Log
 
+## 2026-10-08 — All six automations switched to Sol 6.1 Medium
+
+- **Request:** Owner requested 6.1 Medium for all automations.
+- **Action:** Updated all six existing fantasy automations to gpt-6.1-sol / medium, preserving prompts, schedules, ACTIVE status, project, browser recovery, and GitHub archival requirements. No ESPN state changed.
+- **Verification:** App accepted all six updates; reread each automation.toml and confirmed model and reasoning effort. Updated versioned configuration and current operating documentation. Earlier suggested 8 AM Sunday timing and specific lineup handoffs were not part of this model-only change.
+
 ## 2026-10-04 — Old scheduled-run chat cleanup
 
 - **Request:** Owner asked to remove accumulated old automation chat instances.
