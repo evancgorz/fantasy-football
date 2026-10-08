@@ -1,5 +1,14 @@
 # Fantasy Football Decision Log
 
+## 2026-10-08 — Manual tests of all six current agent instructions
+
+- **Observed at:** Approximately 6:38–6:44 AM EDT; parent audit review follows the completed tests.
+- **Request/action:** Owner requested triggering every agent and reviewing responses. No direct automation-run tool was available; sent current saved prompts into six existing automation chats at gpt-6.1-sol / medium with explicit test-only read-only/no-agent-file-writes restrictions. Temporarily restored three archived chats, then restored their archived state after completion; no new chats or schedules.
+- **Result:** Four chats inspected authenticated ESPN; both Sunday chats lacked browser-control tools, including after follow-up discovery checks. Their queued panel requests did not establish authentication. All agents read required repo instructions and described authority, handoffs and archival; weekly/waiver comparisons were materially useful but incomplete.
+- **Verification:** Reviewed final responses and tool traces, compared all saved prompts/settings against the versioned snapshot, and independently read the parent chat's authenticated roster. No ESPN mutations or agent repo/memory/config writes were reported; parent worktree was clean before archival.
+- **Changes:** Added docs/agent-integration-test-2026-10-08.md and two structured tooling-block records, linked from the Week 5 report. No permanent prompts/model/schedules changed. Audit commit/hash and verified push are reported in the completion message.
+- **Limits/follow-up:** Manual prompt tests are not scheduler tests. Agent transaction execution and Git writes were deliberately not exercised. Sunday tool restoration/fresh app-triggered tests and serial report-archival tests remain needed. An unscheduled Friday waiver recheck is a handoff gap, not guaranteed coverage. No password reset or sign-in need was established.
+
 ## 2026-10-08 — Shared analysis, replacement-value policy and automation handoffs
 
 - **Observed at:** 2026-10-08 06:26 -04:00 (America/New_York), implementation session.

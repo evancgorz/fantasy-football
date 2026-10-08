@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-test-sunday-early-lineup-check-access",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-08T06:44:00-04:00",
+  "status": "blocked",
+  "category": "access",
+  "summary": "Manual integration test could not inspect ESPN because browser-control tools were absent.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "url": "codex://threads/01a0bf57-0489-7432-8f71-faf86d195861",
+      "observed_at": "2026-10-08T06:44:00-04:00",
+      "fact": "Completed initial test and follow-up tool-availability diagnostic; no mcp__cua_repl.js or supported discovery tool exposed. Initial panel request queued. This timestamp records audit review, not ESPN inspection."
+    }
+  ],
+  "alternatives": [
+    {
+      "action": "Fresh app-triggered run with browser tools",
+      "evidence": "Untested; four other existing chats and parent accessed authenticated ESPN."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Access recovery prerequisite; no refreshed roster evidence in this chat.",
+    "confidence": "unknown"
+  },
+  "rationale": "Absent controls are distinct from observed login-required. No safe lineup conclusion or transaction is possible from a queued panel.",
+  "missing_evidence": [
+    "Live team/season/week confirmation in this chat",
+    "Fresh injuries/locks and legal alternatives",
+    "Browser control and tab preservation"
+  ],
+  "execution_conditions": [
+    "Restore supported browser-control availability and rerun",
+    "Verify current league/team/season/week, roster and lock times before any action",
+    "Honor production run scope and approval rules"
+  ],
+  "fallback": "Owner/manual live check before affected lock if browser controls remain unavailable; sign in only if ESPN actually requests it.",
+  "recheck_at": "2026-10-11T08:00:00-04:00",
+  "deadline_at": "2026-10-11T09:30:00-04:00",
+  "verification": null,
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Correctly reported tooling block rather than fictional access or a login failure. Scheduler environment and production archival untested."
+  }
+}
