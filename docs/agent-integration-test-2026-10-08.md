@@ -41,4 +41,3 @@ The waiver response proposed a Friday 5 PM recheck for Swift/Jones. No existing 
 Other untested components: scheduler triggering, session persistence after restart, actual ESPN submission/persisted-state verification, owner-approval execution, each agent writing valid records and committing/pushing, and concurrent production writes. All agents described the verify → human log/structured record/report → selective commit → push → remote verification sequence, but description is not an execution test. Parent archival proves only this audit's Git push.
 
 Next acceptance tests: use actual app-triggered runs with current browser tools, especially both Sunday tasks; confirm missing controls are restored without assuming login is the issue; exercise repository-only report archival serially; verify a transaction only when a genuine authorized move exists, never churn the roster just to test it. Permanent prompt/schedule changes were not made.
-
