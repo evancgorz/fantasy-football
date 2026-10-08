@@ -4,9 +4,9 @@
   "season": 2026,
   "week": 5,
   "observed_at": "2026-10-08T06:44:00-04:00",
-  "status": "blocked",
+  "status": "completed",
   "category": "access",
-  "summary": "Manual integration test could not inspect ESPN because browser-control tools were absent.",
+  "summary": "Read-only browser tooling recovery completed; original missing-control failure retained in history.",
   "responsible_automation": "sunday-late-game-lineup-check",
   "requires_owner_approval": false,
   "owner_approval": null,
@@ -15,6 +15,12 @@
       "url": "codex://threads/01a10927-476f-7562-85ef-847d69217d47",
       "observed_at": "2026-10-08T06:44:00-04:00",
       "fact": "Completed initial test and follow-up tool-availability diagnostic; no mcp__cua_repl.js or supported discovery tool exposed. Initial panel request queued. This timestamp records audit review, not ESPN inspection."
+    },
+    {
+      "url": "codex://threads/01a10927-476f-7562-85ef-847d69217d47",
+      "observed_at": "2026-10-08T06:53:00-04:00",
+      "time_precision": "minute",
+      "fact": "Recovery final and browser-tool traces confirm runtime setup, selected iab, live team/league/season/week/locks and markHandoff; earlier usage error resolved for follow-up."
     }
   ],
   "alternatives": [
@@ -30,9 +36,9 @@
   },
   "rationale": "Absent controls are distinct from observed login-required. No safe lineup conclusion or transaction is possible from a queued panel.",
   "missing_evidence": [
-    "Live team/season/week confirmation in this chat",
-    "Fresh injuries/locks and legal alternatives",
-    "Browser control and tab preservation"
+    "Unattended scheduler invocation with current tool setup",
+    "Authentication persistence after restart",
+    "Fresh pregame injuries/inactives at future scheduled checks"
   ],
   "execution_conditions": [
     "Restore supported browser-control availability and rerun",
@@ -42,10 +48,28 @@
   "fallback": "Owner/manual live check before affected lock if browser controls remain unavailable; sign in only if ESPN actually requests it.",
   "recheck_at": "2026-10-11T15:00:00-04:00",
   "deadline_at": "2026-10-11T16:25:00-04:00",
-  "verification": null,
+  "verification": {
+    "observed_at": "2026-10-08T06:53:00-04:00",
+    "time_precision": "minute",
+    "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "persisted_result": "Read-only live access verified: Chet and the Jets, Gorczynski Family League, 582597924/3/2026/Week 5, 3-1 vs PAYrents; Sunday 9:30 AM, 1 PM, 4:05 PM, 4:25 PM and 8:20 PM locks read. Own tab preserved. No roster change."
+  },
   "outcome": {
     "actual_points": null,
     "alternative_actual_points": null,
-    "process_review": "Correctly reported tooling block rather than fictional access or a login failure. Scheduler environment and production archival untested."
-  }
+    "process_review": "Tooling recovery passed via the already-installed Browser plugin's trusted runtime setup. Production prompts now document both supported tool surfaces. Scheduler dispatch, restart persistence and roster transactions remain outside this verification."
+  },
+  "history": [
+    {
+      "status": "blocked",
+      "observed_at": "2026-10-08T06:44:00-04:00",
+      "note": "Initial manual test correctly reported absent unified tool; later discovery exposed installed Browser Node tool with uninitialized runtime."
+    },
+    {
+      "status": "completed",
+      "observed_at": "2026-10-08T06:53:00-04:00",
+      "time_precision": "minute",
+      "note": "Read-only recovery retest initialized trusted Browser runtime, inspected authenticated Week 5 team and locks, and preserved own tab. No ESPN mutation."
+    }
+  ]
 }

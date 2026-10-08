@@ -1,6 +1,6 @@
 # Fantasy coaching instructions
 
-Read docs/coaching-policy.md, docs/automation-recovery.md, and docs/change-control.md before fantasy work. ESPN is authoritative; old reports are not current roster or injury evidence.
+Read docs/coaching-policy.md, docs/automation-recovery.md, docs/browser-tooling.md, and docs/change-control.md before fantasy work. ESPN is authoritative; old reports are not current roster or injury evidence.
 
 Scheduled runs must read the current season/week report in analysis/ and unresolved records in decisions/ before acting. Waiver recommendations must be written there, not left only in a task's private memory. Honor the run-specific permissions: weekly review and Thursday/Monday 5 PM preflights are ESPN read-only.
 

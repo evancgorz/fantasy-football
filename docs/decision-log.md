@@ -1,5 +1,14 @@
 # Fantasy Football Decision Log
 
+## 2026-10-08 — Browser runtime recovery verified in both Sunday agents
+
+- **Request:** Owner goal: fix the tooling issues identified by the six-agent test.
+- **Diagnosis:** Local bundled Browser/Computer Use plugins were already installed and enabled. The two old Sunday chats lacked unified Computer Use but exposed the supported Browser Node tool; their runtime was uninitialized and bundled setup instructions were missing. No ESPN login requirement was observed.
+- **Repair:** Supplied installed trusted Browser runtime initialization, required returned API documentation, then used normal iab tab/navigation/inspection/preservation methods. Both chats completed authenticated Week 5 reads at approximately 6:53 AM EDT after an initial account-usage interruption. No policy bypass, global permission change, reinstall, credential handling or ESPN mutation.
+- **Durable changes:** Added docs/browser-tooling.md; updated AGENTS, recovery, README, weekly report, test audit and both structured access records. Updated all six saved automation prompts with browser readiness, supported runtime fallback and failure classification. Kept gpt-6.1-sol / medium, ACTIVE status, schedules, project and authority unchanged; refreshed automation-config.json.
+- **Verification:** Reviewed both completed retest responses and browser-call traces; they confirm team/league/season/week, all individual game windows and preserved own tabs. Saved app definitions are compared to the repo snapshot before commit/push. Record statuses completed refer to read-only access recovery, not roster transactions; original blocked evidence is retained.
+- **Limits:** Manual tooling recovery is verified. Fresh scheduler invocation, restart/session persistence, per-agent production Git execution and actual ESPN transactions remain untested. The separate unscheduled Friday recheck remains a planning gap, not a browser defect. Commit/hash and remote verification are reported at completion.
+
 ## 2026-10-08 — Manual tests of all six current agent instructions
 
 - **Observed at:** Approximately 6:38–6:44 AM EDT; parent audit review follows the completed tests.

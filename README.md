@@ -12,6 +12,7 @@ Start here:
 - [Weekly analysis and handoffs](analysis/2026-week-05.md)
 - [Structured decision records](decisions/README.md)
 - [Browser recovery and schedules](docs/automation-recovery.md)
+- [Browser tooling readiness](docs/browser-tooling.md)
 
 The authenticated ESPN browser session is the source of truth for team state and the only intended write path. Do not commit passwords, session cookies, `espn_s2`, `SWID`, API keys, or exported private league data.
 

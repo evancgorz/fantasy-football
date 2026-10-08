@@ -4,6 +4,8 @@ Updated October 8, 2026. All times are America/New_York. The six ACTIVE app auto
 
 ## Required recovery sequence
 
+Read browser-tooling.md first. Missing unified Computer Use does not mean all browser controls are absent: the installed Browser plugin may expose its supported Node tool and require runtime initialization. Use its documented setup, not a queued panel or shell workaround, and distinguish tooling/runtime failures from actual ESPN login-required.
+
 1. Owner changed the preference to the in-app browser on October 4. Select iab first; reuse its ESPN tab or open one even when its tab inventory is empty. Do not treat missing tabs as failed authentication.
 2. Open https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026 in that browser. On October 4 an existing separate automation chat successfully opened a new in-app ESPN tab and read the authenticated private team page without another sign-in. Cross-chat access passed; persistence through future scheduled runs or app restarts remains untested. Verify it every run.
 3. If ESPN shows Log in Required, show and preserve the tab for owner sign-in. Connected Chrome can be tried as a fallback; respect launch denial and browser permissions. Browser sessions are separate.
