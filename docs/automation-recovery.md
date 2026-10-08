@@ -16,12 +16,14 @@ Updated October 8, 2026. All times are America/New_York. The six ACTIVE app auto
 
 ## Active cadence
 
+All six prompts require AGENTS.md and coaching-policy.md, the current weekly report in analysis/, and unresolved structured records in decisions/. Weekly/waiver runs write replacement-value analysis and shared handoffs; lineup runs refresh evidence and relevant sections before executing. Reports and recommendations also require commit/push even when ESPN remains read-only. The initial Week 5 handoffs are dated, partial seeds and must be refreshed live.
+
 | Task | Runs (Eastern) | Purpose |
 |---|---|---|
 | Weekly review | Tuesday 9 AM | Results, standings, injuries; read-only |
 | Waiver execution | Tuesday and Wednesday 7 PM | Submit before processing; verify awards afterward |
 | Thursday lineup | Thursday 5 PM and 7 PM | Read-only access/injury preflight; final lineup check |
-| Sunday early lineup | Sunday 9 AM and noon | Early-game and closer-to-kickoff checks |
+| Sunday early lineup | Sunday 8 AM and noon | Resolve early locks with recovery time; recheck 1 PM inactives |
 | Sunday late lineup | Sunday 3 PM and 7 PM | Afternoon and separate night-game checks |
 | Monday lineup | Monday 5 PM and 7 PM | Read-only access/injury preflight; final lineup check |
 

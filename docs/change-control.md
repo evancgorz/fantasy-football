@@ -20,7 +20,7 @@ Read-only inspection, analysis, or a recommendation that does not change ESPN st
 Complete these steps immediately after ESPN confirms a state-changing action:
 
 1. Re-read ESPN and verify the intended player, slot, transaction status, and resulting roster.
-2. Append one entry to `docs/decision-log.md` with the Eastern timestamp, Week, ESPN URL, action, rationale, verification, and result.
+2. Append one entry to `docs/decision-log.md` with the Eastern timestamp, Week, ESPN URL, action, rationale, verification, and result. Update the corresponding structured record in `decisions/` and link it from the weekly report in `analysis/`; use the templates under `docs/templates/`.
 3. Run `git diff --check` and review the diff so unrelated files are not included.
 4. Stage only the intended files, normally `docs/decision-log.md` and any directly related documentation.
 5. Create one descriptive commit for the action, for example:
@@ -55,4 +55,4 @@ The browser session remains the credential boundary. GitHub receives only the mi
 
 ## Automation contract
 
-Every scheduled management prompt must follow this policy. For autonomous actions, the automation must verify ESPN first, write the decision-log entry second, then commit and push before reporting success. For owner-input actions, the automation may prepare a recommendation but must not commit a fictional action; it commits only after the owner-approved ESPN action is verified.
+Every scheduled management prompt must follow this policy. For autonomous actions, the automation must verify ESPN first, write the decision-log entry and structured record second, then commit and push before reporting success. Owner-input recommendations and read-only reports are also committed and pushed, clearly labeled as recommendations rather than executed actions. Record an owner-approved action as executed only after ESPN verification.

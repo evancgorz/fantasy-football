@@ -1,5 +1,16 @@
 # Fantasy Football Decision Log
 
+## 2026-10-08 — Shared analysis, replacement-value policy and automation handoffs
+
+- **Observed at:** 2026-10-08 06:26 -04:00 (America/New_York), implementation session.
+- **Request:** Owner approved implementing deeper sourced analysis and shared instructions, without an unsupported simulation engine.
+- **Repository changes:** Added AGENTS.md, docs/coaching-policy.md, weekly-analysis and structured-decision templates, decisions/ lifecycle guidance, a partial Week 5 report, and pending QB early-lock/Jefferson availability records. Updated change-control, recovery, README and the versioned automation snapshot.
+- **Automation changes:** Updated all six existing ACTIVE prompts to read shared repo instructions and current-week handoffs, assess replacement value, separate decision-time rationale from outcomes, and commit/push reports as well as verified actions. Sunday early check now runs at 8 AM and noon Eastern. Other schedules, project, browser recovery and owner-approval boundaries remain unchanged. All six retain gpt-6.1-sol / medium.
+- **Verification:** App accepted all six updates. Reread saved automation definitions and compared name, prompt, schedule, model, reasoning effort and status against docs/automation-config.json; all matched. Parsed structured records/templates as JSON and confirmed both Week 5 records remain pending, contain deadlines/recheck times and do not claim executed verification. Checked the diff for whitespace errors.
+- **ESPN result:** No ESPN inspection or mutation occurred in this implementation. Seeded player observations are dated context from earlier notes, not freshly confirmed facts; live health, availability, projections and locks must be refreshed before execution. No simulated win probability is enabled.
+- **Archival:** Commit/push for this implementation will be verified and the commit hash reported in the completion message. No credentials or raw authenticated exports are included.
+- **Follow-up:** Next relevant run completes the weekly report from live sources and resolves pending recommendations under current authorization and lock rules. Scheduler execution and future login persistence are not proven by configuration validation.
+
 ## 2026-10-08 — All six automations switched to Sol 6.1 Medium
 
 - **Request:** Owner requested 6.1 Medium for all automations.
