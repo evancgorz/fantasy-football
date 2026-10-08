@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-thursday-1700-preflight",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-08T17:02:35-04:00",
+  "status": "monitoring",
+  "category": "lineup",
+  "summary": "Thursday read-only access passed; no Thursday roster locks; Sunday injury and QB handoffs refreshed.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "observed_at": "2026-10-08T17:02:35-04:00",
+      "fact": "Unified Computer Use iab authenticated: Chet and the Jets, Gorczynski Family League, 582597924/3/2026/Week 5, 3-1 vs PAYrents. All 9 starters populated; all 17 rostered entries including IR have Sunday games. No Pending Moves control displayed.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    },
+    {
+      "observed_at": "2026-10-08T17:02:35-04:00",
+      "fact": "ESPN News: Jefferson ankle limited Wednesday, aiming to play; Olave rest/foot limited Thursday with new foot issue; Daniels left elbow full go without limitations per coordinator Thursday; Swift hip/knee limited Thursday; Hall quadriceps absent Thursday and week-to-week.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    },
+    {
+      "observed_at": "2026-10-08T17:02:35-04:00",
+      "fact": "Live league header confirms four teams, head-to-head points, PPR. Detailed settings did not render after load wait; individual-lock rule not freshly verified in this view.",
+      "url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924"
+    }
+  ],
+  "alternatives": [
+    {
+      "player": "Justin Jefferson",
+      "evidence": "Starting, Q, Sunday 1 PM; retain provisionally pending fresh availability/workload."
+    },
+    {
+      "player": "Chris Olave",
+      "evidence": "Bench, Q with new foot concern; same Sunday 1 PM game, not a confirmed healthy fallback."
+    },
+    {
+      "player": "Drake London",
+      "evidence": "Bench, no injury designation displayed, Sunday 8:20 PM; verify fresh health before use."
+    },
+    {
+      "player": "Garrett Wilson",
+      "evidence": "Bench, no injury designation displayed, Sunday 1 PM; compare with other healthy legal WRs."
+    },
+    {
+      "player": "Jayden Daniels / Jalen Hurts",
+      "evidence": "Daniels full-go news and displayed projections 20.5 vs 16.1 favor reconsideration, but no swap authorized in this read-only run."
+    }
+  ],
+  "expected_benefit": {
+    "basis": "Prevent inactive zero and preserve a healthy WR fallback; refresh QB choice before early lock. No quantified expected-point gain.",
+    "confidence": "medium",
+    "points": null
+  },
+  "rationale": "No Thursday-game player exists on the live roster, so no Thursday action is needed. New Olave injury changes fallback reliability; Daniels workload news materially improves the Sunday QB evidence. Existing recommendations remain unexecuted.",
+  "missing_evidence": [
+    "Friday final injury reports and Sunday inactives",
+    "Fresh Sunday availability/workload and legal move eligibility",
+    "Detailed live individual-lock setting did not render",
+    "Pending claims dialog not available; no Pending Moves control displayed",
+    "Full opponent/usage/acquisition review outside focused preflight"
+  ],
+  "execution_conditions": [
+    "This 5 PM run is ESPN read-only",
+    "Sunday 8 AM refresh QB evidence and lock eligibility before Hurts 9:30 AM lock",
+    "Sunday noon refresh Jefferson and all WR alternatives before 1 PM lock",
+    "Execute only authorized straightforward choice; escalate close strategic choices to owner"
+  ],
+  "fallback": "If Jefferson is confirmed inactive, use best freshly healthy legal WR among Olave, London and Wilson. Do not assume Olave healthy. Preserve Hurts if Daniels uncertainty returns without credible later fallback.",
+  "recheck_at": "2026-10-11T08:00:00-04:00",
+  "deadline_at": "2026-10-11T09:30:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-08T17:02:35-04:00",
+    "persisted_result": "Read-only access verified; no ESPN mutation. iab tab 1 preserved with markHandoff at team page."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Thursday preflight passed. Sunday 8 AM precedes earliest observed 9:30 AM roster lock; no current earlier-lock gap identified. Future schedule changes require fresh checks."
+  },
+  "originating_automation": "thursday-lineup-check"
+}

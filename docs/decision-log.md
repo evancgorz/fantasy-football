@@ -280,3 +280,12 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 - **Git commit:** Pending this documentation update.
 - **GitHub push:** Pending this documentation update.
 - **Follow-up:** Re-run immediately after Chrome is connected to audit Week 4 score, starters/bench, inactives, individual locks, and remaining Sunday/Monday players. Do not infer missed points or causality without the live roster and legal replacement options.
+
+### 2026-10-08 — Week 5 — Thursday 5 PM read-only preflight
+
+- **Observed at:** 2026-10-08T17:02:35-04:00 (Eastern).
+- **Source/identity:** https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026; live Chet and the Jets / Gorczynski Family League / 582597924 / 3 / 2026 / Week 5, 3-1 vs PAYrents.
+- **Access/action:** Unified Computer Use opened authenticated iab tab 1 and preserved it with markHandoff. No ESPN state change; all starters filled, no Thursday rostered player, all roster entries scheduled Sunday.
+- **Material handoff:** Olave newly Q with rest/foot limited Thursday; Jefferson Q ankle. Sunday noon must verify healthy WR fallback, including London/Wilson. Daniels full-go/no-limitations coordinator news strengthens Sunday 8 AM QB reassessment before Hurts 9:30 AM lock. Swift Q limited Thursday and Hall D absent Thursday remain bench monitoring items.
+- **Verification/limits:** Live roster and News read; four-team PPR header confirmed. Detailed individual-lock setting did not render after load wait. No Pending Moves control displayed; pending dialog not inspected. No guarantee of future authentication or final active status. No earlier lock than Sunday 9:30 AM observed; scheduled 8 AM check precedes it.
+- **Audit:** Linked report and decisions/2026-week-05-thursday-1700-preflight.json updated; repository-only commit/push required. Sunday handoffs remain pending fresh evidence, not executed recommendations.
