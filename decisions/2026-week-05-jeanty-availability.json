@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-jeanty-availability",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-08T19:01:15-04:00",
+  "status": "monitoring",
+  "category": "lineup",
+  "summary": "Jeanty now questionable; limited Thursday with ankle and added foot injury. Refresh before Sunday FLEX lock.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "fact": "Authenticated iab tab 1 confirmed league 582597924/team 3/2026/Week 5; all nine starters populated and every roster entry scheduled Sunday. Jeanty starting FLEX Q at NE Sunday 1 PM. Player Card Recent News dated Oct 8 5:31 PM reports limited Thursday for ankle/foot after full Wednesday; no confirmed inactive status.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-08T19:01:15-04:00"
+    }
+  ],
+  "alternatives": [
+    {
+      "player": "Ashton Jeanty",
+      "evidence": "Retain provisionally; questionable is not inactive. ESPN projection 17.83 is not proof of full workload."
+    },
+    {
+      "player": "Drake London",
+      "evidence": "WR eligible FLEX, no designation displayed, Sunday 8:20 PM; may also be needed for Jefferson."
+    },
+    {
+      "player": "Garrett Wilson",
+      "evidence": "WR eligible FLEX, no designation displayed, Sunday 1 PM; may also be needed for Jefferson."
+    },
+    {
+      "player": "Omarion Hampton",
+      "evidence": "RB bench, no designation displayed, Sunday 4:05 PM; latest ESPN news describes possible timeshare."
+    },
+    {
+      "player": "D'Andre Swift / Chris Olave",
+      "evidence": "Both questionable; verify health before treating either as fallback. Hall doubtful is not reliable."
+    }
+  ],
+  "expected_benefit": {
+    "basis": "Avoid an inactive FLEX zero while preserving a valuable starter if cleared; no quantified gain.",
+    "points": null,
+    "confidence": "medium"
+  },
+  "rationale": "New injury warning after 5 PM preflight. No Thursday roster player and no immediate forced replacement; defer Sunday injury decision to fresh evidence. Coordinate FLEX and WR fallback allocation if Jefferson and Jeanty both sit.",
+  "missing_evidence": [
+    "Friday injury report and Sunday inactives",
+    "Final workload and fallback health",
+    "Fresh detailed lock rules and move eligibility before execution",
+    "Pending claims dialog not inspected; no Pending Moves control displayed",
+    "Full usage, opponent and acquisition review not performed in focused Thursday check"
+  ],
+  "execution_conditions": [
+    "Refresh live season/week/roster and individual locks",
+    "Sunday 8 AM review final injury report; Sunday noon check Jeanty and Jefferson before 1 PM",
+    "If confirmed inactive replace with best freshly healthy legal FLEX; reserve a separate WR fallback for Jefferson",
+    "Escalate close strategic workload decisions; no add/drop under Thursday authority"
+  ],
+  "fallback": "Compare London, Wilson, Hampton and cleared Swift/Olave using fresh evidence; allocate separate legal WR and FLEX replacements if both starters are inactive.",
+  "recheck_at": "2026-10-11T12:00:00-04:00",
+  "deadline_at": "2026-10-11T13:00:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-08T19:01:15-04:00",
+    "persisted_result": "Thursday 7 PM read-only ESPN inspection completed; no ESPN mutation; authenticated iab tab 1 preserved with markHandoff. Earliest roster kickoff remains Sunday October 11 9:30 AM (Hurts), covered by scheduled 8 AM check. No earlier roster lock observed."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Thursday check passed; Sunday Jeanty injury monitoring remains unresolved. Existing Daniels/Hurts and Jefferson/Olave handoffs refreshed but not executed."
+  }
+}
