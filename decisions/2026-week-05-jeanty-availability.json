@@ -4,12 +4,12 @@
   "season": 2026,
   "week": 5,
   "observed_at": "2026-10-08T19:01:15-04:00",
-  "status": "monitoring",
+  "status": "completed",
   "category": "lineup",
   "summary": "Jeanty now questionable; limited Thursday with ankle and added foot injury. Refresh before Sunday FLEX lock.",
   "responsible_automation": "sunday-early-lineup-check",
   "requires_owner_approval": false,
-  "owner_approval": null,
+  "owner_approval": "October 11 owner approved implementing the data-based proposed swaps. Swift selected over Jeanty on fresh health/workload evidence, not a confirmed inactive designation.",
   "sources": [
     {
       "fact": "Authenticated iab tab 1 confirmed league 582597924/team 3/2026/Week 5; all nine starters populated and every roster entry scheduled Sunday. Jeanty starting FLEX Q at NE Sunday 1 PM. Player Card Recent News dated Oct 8 5:31 PM reports limited Thursday for ankle/foot after full Wednesday; no confirmed inactive status.",
@@ -62,12 +62,13 @@
   "recheck_at": "2026-10-11T12:00:00-04:00",
   "deadline_at": "2026-10-11T13:00:00-04:00",
   "verification": {
-    "observed_at": "2026-10-08T19:01:15-04:00",
-    "persisted_result": "Thursday 7 PM read-only ESPN inspection completed; no ESPN mutation; authenticated iab tab 1 preserved with markHandoff. Earliest roster kickoff remains Sunday October 11 9:30 AM (Hurts), covered by scheduled 8 AM check. No earlier roster lock observed."
+    "observed_at": "2026-10-11T07:34:00-04:00",
+    "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "persisted_result": "Swift selected and confirmed at Jeanty FLEX destination. Reload verified Swift starting FLEX, Jeanty bench, 152.0 starter projected total. Fresh Jeanty news remains Q with missed Friday practice; Swift Healthy and ESPN Friday news reports Monangai out/RB1 role. Individual scheduled-game locks verified; both 1 PM. Thursday read-only inspection retained in report history. Actual benefit unknown."
   },
   "outcome": {
     "actual_points": null,
     "alternative_actual_points": null,
-    "process_review": "Thursday check passed; Sunday Jeanty injury monitoring remains unresolved. Existing Daniels/Hurts and Jefferson/Olave handoffs refreshed but not executed."
+    "process_review": "Owner-authorized Swift replacement executed on refreshed health/workload evidence; Jeanty remains rostered. This supersedes the earlier provisional retain decision. Actual scoring pending."
   }
 }

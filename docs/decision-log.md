@@ -309,7 +309,15 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 
 ### 2026-10-11 — Week 5 — Start Daniels over Hurts
 
-- **Observed/verified:** approximately 07:34 Eastern; https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.
+- **Observed/verified:** approximately 07:33 Eastern; https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.
 - **Authority/action:** Owner approved data-based implementation. Starting QB Jayden Daniels; Jalen Hurts to bench, no drop.
 - **Rationale:** Healthy and Friday coach-confirmed starter, 20.5 versus 16.1 projected; return injury and diminished receivers acknowledged. Live individual scheduled-game locks and PPR/four-point passing TD verified; before Hurts 9:30 AM.
 - **Verification:** Confirmed swap then reloaded; Daniels starting QB, Hurts bench, projected starters 152.8. Actual benefit unknown. Structured QB record completed; commit/push before next ESPN mutation.
+
+### 2026-10-11 — Week 5 — Start Swift over Jeanty
+
+- **Observed/verified:** approximately 07:34 Eastern; https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.
+- **Authority/action:** Owner-approved implementation: Swift starting FLEX, Jeanty bench; neither dropped. QB change previously committed/pushed as a1ccb3e.
+- **Rationale:** Refreshed Swift Healthy and ESPN Friday Monangai-out/RB1 news; Jeanty remains Q with missed Friday after deteriorating practice. Prefer healthier workload for 0.79 projected-point concession. Not an inactive claim or guaranteed improvement.
+- **Verification:** Confirmed legal FLEX destination and reloaded; Swift FLEX, Jeanty bench, 152.0 starter projection. Actual scoring unknown. Corrected earlier QB approximate timestamp to 07:33 using the observed clock.
+- **Handoff:** Jefferson retained provisionally; existing noon check must refresh inactives/workload and cleared Olave fallback before 1 PM. Owner approval recorded in shared matchup record; no further ESPN mutation until this action is committed/pushed.

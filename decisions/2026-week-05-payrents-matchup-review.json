@@ -4,12 +4,12 @@
   "season": 2026,
   "week": 5,
   "observed_at": "2026-10-11T06:46:30-04:00",
-  "status": "awaiting_owner",
+  "status": "monitoring",
   "category": "lineup",
   "summary": "Recommend Daniels over Hurts and provisionally Swift over Jeanty; protect Jefferson with cleared Olave fallback.",
   "responsible_automation": "sunday-early-lineup-check",
   "requires_owner_approval": true,
-  "owner_approval": null,
+  "owner_approval": "October 11: Make the right choices and implement based on the data. Daniels/Hurts and Swift/Jeanty approved and subsequently verified; conditional Jefferson fallback authorized, pending fresh inactives/workload.",
   "sources": [
     {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&seasonId=2026&teamId=4", "observed_at": "2026-10-11T06:46:30-04:00", "fact": "Authenticated Week 5 boxscore: PAYrents 33, Chet 0; projected totals both 148.4. Opponent Pickens 28 and Aubrey 5 already final; seven opponent and all nine Chet starters yet to play. No numerical win probability displayed."},
     {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T06:46:30-04:00", "fact": "Roster confirms Hurts and Jeanty starting, Daniels and Swift bench; move controls displayed. Player Cards: Daniels Healthy, Friday 12:54 PM coach confirms Sunday start, McLaurin Q and Diggs out; Swift Healthy, Friday 5:52 PM ESPN news says RB1 with Monangai out; Jeanty Q, Friday 2:02 PM news says full Wednesday, limited Thursday, missed Friday, availability uncertain; Jefferson Q, final status around 11:30 AM; Olave Healthy, Friday full practice and no designation."}
@@ -24,8 +24,8 @@
   "missing_evidence": ["Owner direction on proposed strategic swaps", "Sunday final active/workload confirmation", "Detailed lock rules and swap eligibility immediately before execution", "No full acquisition, D/ST/K market, or calibrated simulation review"],
   "execution_conditions": ["Refresh ESPN before any move", "Resolve Daniels versus Hurts before 9:30 AM; do not execute after Hurts locks", "Recheck Jefferson and Jeanty official inactives around 11:30 AM and before 1 PM", "Refresh Olave and Swift health and legal eligibility", "Verify/log/commit/push each ESPN mutation separately"],
   "fallback": "If strategic swaps are not approved, retain existing lineup subject to standing inactive-replacement authority; no inactive replacement may rely on this stale observation. If Jefferson inactive, prefer freshly cleared Olave based on current projection, while reserving Swift separately for FLEX.",
-  "recheck_at": "2026-10-11T08:00:00-04:00",
-  "deadline_at": "2026-10-11T09:30:00-04:00",
+  "recheck_at": "2026-10-11T12:00:00-04:00",
+  "deadline_at": "2026-10-11T13:00:00-04:00",
   "verification": {"observed_at": "2026-10-11T06:46:30-04:00", "persisted_result": "Read-only authenticated boxscore, roster and four player cards inspected. No ESPN mutation. QB deadline applies to this combined recommendation; FLEX/WR need separate fresh evaluation until 1 PM."},
-  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": null}
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "QB and FLEX swaps executed separately and verified after reload; see completed QB and Jeanty records. Jefferson remains starting provisionally; noon run must refresh and replace if inactive or evidence supports materially reduced workload. Initial awaiting-owner rationale and read-only verification above are historical, superseded by owner approval and linked execution records."}
 }
