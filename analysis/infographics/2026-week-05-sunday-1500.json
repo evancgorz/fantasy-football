@@ -1,0 +1,20 @@
+{
+  "title": "Chet and the Jets | Sunday afternoon",
+  "subtitle": "Week 5 | Lineup retained; games in progress",
+  "observed_at": "2026-10-11T15:04:00-04:00",
+  "metrics": [
+    {"label": "Chet live score", "value": 59.48, "kind": "actual", "observed_at": "2026-10-11T15:04:00-04:00"},
+    {"label": "PAYrents live score", "value": 44.0, "kind": "actual", "observed_at": "2026-10-11T15:04:00-04:00"}
+  ],
+  "moves": [
+    {"label": "Smith-Njigba / McBride", "status": "retained", "reason": "Healthy cards; documented receiving roles favor starters. Both lock 4:25 PM."},
+    {"label": "Myers K", "status": "retained", "reason": "Healthy, 5/5 FGs. Mevis slightly higher forecast; matchup and misses do not establish upgrade."},
+    {"label": "Robinson RB", "status": "retained", "reason": "Lead rushing role favors Bijan over Hampton. Night refresh at 7 PM before 8:20 lock."}
+  ],
+  "notes": ["Chet: 5 playing / 4 yet to play; PAYrents: 2 / 5.", "Hampton bench locks 4:05; afternoon starters 4:25 EDT.", "No ESPN mutation; night check scheduled 7 PM EDT."],
+  "disclaimer": "Live actuals are not final; unequal games played. Official late inactives and pending queue independently unverified. No win odds or actual gain claimed.",
+  "sources": [
+    {"label": "ESPN roster / Player Cards", "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T15:04:00-04:00"},
+    {"label": "ESPN Week 5 boxscore", "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod", "observed_at": "2026-10-11T15:04:00-04:00"}
+  ]
+}

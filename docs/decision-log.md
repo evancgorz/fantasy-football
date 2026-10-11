@@ -1,5 +1,13 @@
 # Fantasy Football Decision Log
 
+### 2026-10-11 — Week 5 — Sunday 3 PM retain and matchup update
+
+- **Observed:** 15:01–15:04 EDT, authenticated unified Computer Use iab league 582597924/team 3/2026/Week 5. Team/loaded News, JSN/McBride/Myers/Mevis Cards, detailed settings, market, league activity and boxscore inspected. Final Overview same nine starters; tab 1 preserved. Source: https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.
+- **Authority/decision:** October 11 hands-off delegation; retain JSN/McBride/Myers/Robinson. No ESPN mutation. Receiving/rushing roles and health support incumbents; Myers versus Mevis matchup/miss evidence supports retain despite small forecast concession. Full alternatives/scenarios in decisions/2026-week-05-sunday-1500-retain.json. No necessary acquisition/drop/IR/trade found.
+- **Matchup:** Actual 59.48–44.0; Chet five playing/four remaining versus PAYrents two/five. Live projected final 156.1–141.0, not guaranteed points or win odds. Early starters playing/locked; no hindsight edits.
+- **Handoff/limits:** Hampton 4:05, JSN/McBride/Myers 4:25, Robinson/London 8:20 EDT. 7 PM checks night availability; cannot repair afternoon locks. Pending queue and complete official late inactives independently unverified; ESPN cards Healthy. Full ROS/weather/usage analysis incomplete; Mevis outlook FG total contradictory to stats/news. No earlier uncovered roster lock observed.
+- **Archive:** Report and decision link curated input/inspected PNG analysis/infographics/2026-week-05-sunday-1500; selective repository-only commit/push follows, hash in final.
+
 ## 2026-10-08 — Browser runtime recovery verified in both Sunday agents
 
 - **Request:** Owner goal: fix the tooling issues identified by the six-agent test.

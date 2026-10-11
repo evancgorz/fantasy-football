@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-sunday-1500-retain",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-11T15:04:00-04:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Retain four unlocked starters; early starters locked and playing; no ESPN mutation.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation authorizes autonomous evidence-backed retain decisions; no per-action approval claimed.",
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T15:04:00-04:00", "fact": "Authenticated Chet, 3-1 first of four, Week 5. Same nine starters: Daniels, Robinson, Taylor, Smith-Njigba, Jefferson, McBride, Swift, Steelers, Myers. Early starters playing/locked. Robinson 22.21 at 8:20; JSN 20.49/McBride 18.74/Myers 8.8 at 4:25; Hampton bench 12.01 at 4:05, London 16.02 at 8:20, all EDT. No designation on unlocked players. Hall O bench, Achane IR. No pending claims/offers control displayed."},
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T15:02:00-04:00", "fact": "Loaded News: Robinson last game 19 carries/145 yards/2 TD; London 5 catches/6 targets/96 yards. Healthy Player Cards: JSN season 32 catches/42 targets, Week 4 5/6; McBride season 33 catches/46 targets, Week 4 7/12, favorable DET TE outlook; Myers 5/5 FGs, 12/13 PATs. Myers outlook: SF allowed 9 FG attempts/5 PAT attempts through four weeks."},
+    {"url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924&seasonId=2026", "observed_at": "2026-10-11T15:03:00-04:00", "fact": "PPR, passing TD 4, rushing/receiving TD 6, yards .1 rush/receive, .04 passing; individual scheduled-game locks, protection off, one IR/seven bench. One-day waivers, weekly inverse standings, no acquisition limit or FAAB budget displayed. K FG 3/4/5/6 by distance, miss -1; D/ST points/yardage penalties. Trade deadline Dec 2 noon EST/one-day review. Four playoff teams, one-week first round/two-week championship."},
+    {"url": "https://fantasy.espn.com/football/players/add?leagueId=582597924", "observed_at": "2026-10-11T15:03:00-04:00", "fact": "FA Waddle 11.4 at 4:05, Evans 12.8/Jameson Williams 10.9/Emanuel Wilson 13.6 at 4:25, Andrews 9.5 at 8:20, Kincaid 8.8 Monday. Jones/Judkins/Nabers now Wednesday waivers. Seahawks FA DST 3.9. Mevis FA Healthy Monday 9.43, card stats/news 5/7 FGs/10/10 PATs, BUF allowed 6 FG tries through four weeks; outlook contradictory total says four FGs. Shrader 8.9/Little 9.7 locked Wednesday waivers."},
+    {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod", "observed_at": "2026-10-11T15:04:00-04:00", "fact": "Actual Chet 59.48 versus PAYrents 44.0; 5 playing/4 yet to play versus 2/5. Comparable live projected final 156.1 versus 141.0. Opponent Gibbs/Michael Wilson/LaPorta 4:25, Allen/Kyren Williams Monday 8:15. No win odds."}
+  ],
+  "alternatives": [
+    {"player": "JSN / London / Waddle / Evans / Jameson Williams", "evidence": "Retain Healthy JSN's lead target role and 20.49 forecast over London 16.02 despite SF matchup. London's Penix connection promising, no demonstrated superior role. Three FA WR candidates below both; no core drop justified."},
+    {"player": "Robinson / Hampton / Emanuel Wilson", "evidence": "Lead rushing role supports Robinson 22.21 over Hampton 12.01/FA Wilson 13.6. BAL defense/red-zone sharing downside remains. Retain Hampton depth, locks 4:05; night Robinson needs 7 PM refresh."},
+    {"player": "McBride / Andrews / Kincaid", "evidence": "Healthy high-target McBride/favorable DET outlook supports 18.74 over Andrews 9.5/Kincaid 8.8; no bench TE. Injury fallback needs fresh acquisition/drop legality."},
+    {"player": "Myers / Mevis / Shrader / Little", "evidence": "Retain Myers despite Mevis 0.63 higher forecast: perfect FG sample/SF opportunities versus Mevis misses and BUF only six FG tries. Small samples/weather unknown; no robust upgrade supports churn. Shrader/Little locked. Not an arbitrary projection threshold."},
+    {"player": "Jeanty / Olave / Wilson / Hall / Hurts / Achane", "evidence": "Locked bench/IR; cannot use now. Jeanty recovery, cleared Olave/Wilson WR depth, Hall week-to-week recovery, Hurts QB depth, Achane IR retained. In-progress bench scores do not justify hindsight edits/drops. All bench spots considered; no rostered bye today; full future bye/ROS valuation incomplete."},
+    {"player": "Steelers / Seahawks DST", "evidence": "Steelers locked; Seahawks 3.9 cannot legally replace this week."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Preserve best supported legal starters; no executed gain or calibrated win probability.", "confidence": "medium"},
+  "rationale": "Base established roles favor incumbents; downside tough JSN/Robinson matchups or random FG chances can favor alternatives; upside high volume/TDs favors incumbents. Do not sacrifice expected points for variance based on score. No necessary acquisition/IR/trade identified. Legacy pre-1 PM proposals expired for execution; fresh noon decisions and actual locked lineup govern.",
+  "missing_evidence": ["Complete official late inactives/caps not independently retrieved; ESPN cards Healthy/no warning", "Pending queue independently unverified; no claim/offer control displayed on team/league screens", "Complete snaps/routes, future byes/ROS replacement value, weather/pressure analysis incomplete", "Mevis outlook total contradicts stats/news; use stats/news"],
+  "execution_conditions": ["No ESPN mutation", "7 PM refresh night Robinson/London before 8:20", "New late injury before 4:25 needs immediate fresh legal alternative review; 7 PM cannot repair afternoon locks"],
+  "fallback": "London legal WR depth until JSN 4:25 lock. Hampton RB fallback closes 4:05. If Robinson unexpectedly out at night, inspect freshly healthy night/Monday FA RBs and legal drop capacity; London cannot occupy RB.",
+  "recheck_at": "2026-10-11T19:00:00-04:00",
+  "deadline_at": "2026-10-11T16:05:00-04:00",
+  "verification": {"observed_at": "2026-10-11T15:04:00-04:00", "time_precision": "minute", "persisted_result": "Final Overview unchanged, nine slots filled, four unlocked starter MOVE controls. iab tab 1 marked handoff. Initial URL lookup timed out; fresh creation succeeded authenticated, no login blocker. No ESPN mutation."},
+  "infographic": "../analysis/infographics/2026-week-05-sunday-1500.png",
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "3 PM check complete; games not final. No earlier uncovered roster kickoff observed; Hurts morning decision and noon injuries handled. Afternoon locks precede next 7 PM run."}
+}
