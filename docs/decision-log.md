@@ -306,3 +306,10 @@ Use one entry per material lineup, waiver, add/drop, or trade decision. Keep cre
 - **Recommendation, not execution:** Daniels over Hurts before 9:30 AM (+4.4 rounded projected points, not actual gain); provisionally cleared Swift over Jeanty due to worsening practice trajectory, pending fresh news and owner direction. Jefferson inactive fallback currently cleared Olave; allocate separate WR/FLEX options. PAYrents 33–0 from two completed players, both totals projected 148.4; no numerical probability verified.
 - **Verification/limits:** All our starters yet to play; move controls visible. Detailed rules/final inactives/market analysis not completed. No ESPN state change. Close strategic risk choices await owner input; routine inactive replacements retain standing policy authority.
 - **Durable handoff:** decisions/2026-week-05-payrents-matchup-review.json linked from current weekly report; repository-only commit/push required.
+
+### 2026-10-11 — Week 5 — Start Daniels over Hurts
+
+- **Observed/verified:** approximately 07:34 Eastern; https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.
+- **Authority/action:** Owner approved data-based implementation. Starting QB Jayden Daniels; Jalen Hurts to bench, no drop.
+- **Rationale:** Healthy and Friday coach-confirmed starter, 20.5 versus 16.1 projected; return injury and diminished receivers acknowledged. Live individual scheduled-game locks and PPR/four-point passing TD verified; before Hurts 9:30 AM.
+- **Verification:** Confirmed swap then reloaded; Daniels starting QB, Hurts bench, projected starters 152.8. Actual benefit unknown. Structured QB record completed; commit/push before next ESPN mutation.
