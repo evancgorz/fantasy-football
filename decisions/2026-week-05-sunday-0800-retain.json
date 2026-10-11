@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-sunday-0800-retain",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-11T08:00:00-04:00",
+  "status": "monitoring",
+  "category": "lineup",
+  "summary": "Daniels QB and Swift FLEX retained; Jefferson workout pending before noon decision.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation authorizes evidence-backed close choices; no per-action approval invented.",
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T07:57:00-04:00", "fact": "Authenticated Week 5 roster and loaded News: Daniels QB, Robinson/Taylor RB, Smith-Njigba/Jefferson WR, McBride TE, Swift FLEX, Steelers D/ST, Myers K. Projection 151.97. Daniels Friday coach-confirmed starter; Swift full Friday/no designation, Monangai out. Jefferson Q/limited Wed-Fri and Jeanty Q/Friday DNP/plantar-fasciitis flareup require pregame workouts before 1 PM. Olave full Friday/no designation. Hall ruled out, Achane IR; Hurts bench 9:30."},
+    {"url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924&seasonId=2026", "observed_at": "2026-10-11T07:58:00-04:00", "fact": "Four-team PPR; passing TD 4, rushing/receiving TD 6, reception 1, rushing/receiving yard 0.1. Individual scheduled-game locks; lineup protection off. 16 roster spots plus one IR. One-day waivers, inverse-standings weekly priority, no acquisition limit; no FAAB system displayed. Trade deadline Dec 2 noon EST and one-day review."},
+    {"url": "https://fantasy.espn.com/football/players/add?leagueId=582597924", "observed_at": "2026-10-11T07:59:00-04:00", "fact": "FA candidates: Jones 17.3 @NO, Judkins 14.6 @NYJ, Nabers 13.6 @WSH; Goff 19.4 @ARI and Purdy 17.9 @SEA both 4:25. D/ST: Jets FA 7.5 vs CLE, Jaguars FA 7.2 vs PHI (9:30), Texans FA 6.7 @TEN, Bengals FA 6.8 @MIA. K: Little FA 9.7 vs PHI (9:30), Reichard FA 9.5 @NO, Mevis FA 9.4 vs BUF."},
+    {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod", "observed_at": "2026-10-11T08:00:00-04:00", "fact": "Actual PAYrents 33 versus Chet 0, seven versus nine yet to play. Comparable projected final totals 148.4 versus 152.0. Pickens actual 28/Aubrey 5. No calibrated win odds."}
+  ],
+  "alternatives": [
+    {"player": "Daniels / Hurts", "evidence": "Keep confirmed starter Daniels 20.46 over Hurts 16.12; elbow return/depleted receivers remain risks. Later FA Goff/Purdy are contingency candidates if unexpected setback, requiring fresh health/capacity review."},
+    {"player": "Swift / Jeanty", "evidence": "Keep cleared Swift 17.05 with Monangai out over workout-pending Jeanty 17.84. Healthy full-workload Jeanty could outperform; no new clearance warrants reversing morning move."},
+    {"player": "Jefferson / Olave / London / Wilson", "evidence": "Provisional Jefferson 18.51 until noon workout/inactives. Olave 16.51 cleared and strong receiving role in ESPN News; London 16.02 recent connection with Penix, Wilson 14.64 no designation. Olave/Wilson lock 1 PM, London 8:20. Noon may select Olave even if Jefferson active but limited."},
+    {"player": "Hampton / Hall / Achane", "evidence": "Hampton 11.57 no designation is later RB depth, no present starter edge. Hall O/week-to-week retains recovery value pending full drop analysis. Achane remains on only IR slot; no spare capacity assumed."},
+    {"player": "Jones / Judkins / Nabers", "evidence": "Jones close to Swift without established health/workload superiority from this screen; Judkins lower FLEX forecast, Nabers below rostered WR fallbacks. No immediate uncovered slot. Screening is not complete rest-of-season drop valuation or waiver order."},
+    {"player": "Steelers / Jets / Jaguars / Texans / Bengals", "evidence": "Retain Steelers 6.76: season 36 points versus Jets 19 is background, not guaranteed matchup superiority. Modest Jets/Jaguars forecast edges lack fresh pressure/QB evidence; Texans/Bengals no clear advantage. Yardage/points penalties add downside uncertainty; no arbitrary one-point churn rule."},
+    {"player": "Myers / Little / Reichard / Mevis", "evidence": "Retain healthy Myers 8.8 on productive Seattle offense, ESPN News reports 5/5 FGs. Alternatives have modest forecast edges; fresh weather/drive/FG opportunity evidence unavailable. No proven advantage justifies drop now, rather than categorical rejection of sub-one-point gains."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Preserve supported morning decisions and legal WR choices until final availability; no guaranteed gain.", "confidence": "medium"},
+  "rationale": "No 9:30 starter remains. Confirmed Daniels return supports Hurts bench lock. Noon precedes all 1 PM starter locks. Base normal Jefferson workload supports retaining; downside inactive/limited favors cleared replacement; upside full return could beat fallback. Do not chase variance from unequal games played. All seven bench spots considered for today's lineup; no consequential drop/trade justified by limited evidence.",
+  "missing_evidence": ["Official inactives and final workload limits", "No Pending Moves or trade-offer control displayed; queue not independently proven absent", "Full snaps/routes, bye/playoff replacement value, weather and pressure metrics not collected in focused early check"],
+  "execution_conditions": ["Noon refresh identity/roster/inactives/eligibility", "Autonomously choose best WR before 1 PM including close limited-workload choices", "Do not undo verified morning swaps from stale awaiting-owner text", "Verify/log/commit/push each subsequent mutation"],
+  "fallback": "Fresh Olave/London/Wilson comparison if Jefferson out/limited; current Olave lean conditional, not fixed. Swift remains separate FLEX. Unexpected Daniels setback after Hurts lock requires fresh Goff/Purdy acquisition review.",
+  "recheck_at": "2026-10-11T12:00:00-04:00",
+  "deadline_at": "2026-10-11T13:00:00-04:00",
+  "verification": {"observed_at": "2026-10-11T08:00:00-04:00", "persisted_result": "Returned to team Overview: same nine starters and 152.0 projection. No ESPN mutation. iab tab 1 marked handoff. Earliest roster lock Hurts bench 9:30; no earlier unhandled roster lock observed."},
+  "infographic": "../analysis/infographics/2026-week-05-sunday-0800.png",
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "Early choice verified; Jefferson noon availability remains unresolved, not a safe-lineup guarantee."}
+}
