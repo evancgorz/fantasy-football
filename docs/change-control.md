@@ -55,4 +55,4 @@ The browser session remains the credential boundary. GitHub receives only the mi
 
 ## Automation contract
 
-Every scheduled management prompt must follow this policy. For autonomous actions, the automation must verify ESPN first, write the decision-log entry and structured record second, then commit and push before reporting success. Owner-input recommendations and read-only reports are also committed and pushed, clearly labeled as recommendations rather than executed actions. Record an owner-approved action as executed only after ESPN verification.
+Every scheduled management prompt must follow this policy. For autonomous actions, the automation must verify ESPN first, write the decision-log entry and structured record second, then commit and push before reporting success. Recommendations, read-only reports and curated visual input/PNG are also committed and pushed, labeled proposed versus executed. Record autonomous actions as executed only after ESPN verification. Cite delegated authority; platform confirmation still applies. If rendering fails or lock is imminent, archive verified text first and add the visual in a separate repository-only commit.

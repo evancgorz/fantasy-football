@@ -16,7 +16,7 @@ Previous final result/stat corrections; current standings; upcoming opponent and
 
 ## Start/sit decisions
 
-| Slot | Incumbent | Alternative | Projection and workload evidence | Base/upside/downside | Decision/approval | Recheck/deadline | Decision record |
+| Slot | Incumbent | Alternative | Projection and workload evidence | Base/upside/downside | Decision/authority | Recheck/deadline | Decision record |
 |---|---|---|---|---|---|---|---|
 | | | | | | | | |
 
@@ -26,11 +26,11 @@ For every bench player give retain/replace/monitor plus rationale. Compare at le
 
 ## Defense, kicker, and trade opportunities
 
-Compare legal available alternatives and costs; explain retain or change. Trade recommendations must show resulting starters/depth and the pickup filling any new vacancy; approval required.
+Compare legal available alternatives and costs; explain retain or change. Trade recommendations must show resulting starters/depth and the pickup filling any new vacancy; execute autonomously in action-capable runs after due diligence; read-only reviews create handoffs.
 
 ## Handoff queue
 
-Link unresolved decisions/*.json with responsible automation, fresh-evidence requirement, recheck, deadline, fallback, and owner question. Escalate blockers immediately; no execution based on old snapshots.
+Link unresolved decisions/*.json with responsible automation, fresh-evidence requirement, recheck, deadline, fallback, and any actual evidence/access/tool blocker. Escalate blockers immediately; no execution based on old snapshots.
 
 ## Previous-week decision scorecard
 
@@ -38,4 +38,8 @@ Record decision-time rationale/expected benefit, observed outcome, best comparab
 
 ## Coverage and limitations
 
-Checked windows, missed windows, missing sources/metrics, unresolved approval, unavailable tools. No simulated probability unless the coaching-policy simulation gate has been satisfied.
+Checked windows, missed windows, missing sources/metrics, unresolved blockers, unavailable tools. No simulated probability unless the coaching-policy simulation gate has been satisfied.
+
+## Visual brief
+
+Link the curated data and PNG from analysis/infographics/; follow docs/infographics.md. Separate actual/projected and proposed/executed; include source timestamps, move rationale and next check.

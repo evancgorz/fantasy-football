@@ -1,6 +1,6 @@
 # Scheduled coaching: browser access and recovery
 
-Updated October 8, 2026. All times are America/New_York. The six ACTIVE app automations are authoritative; automation-config.json is their versioned snapshot, not another scheduler. All use gpt-6.1-sol / medium, as requested by the owner.
+Updated October 11, 2026. All times are America/New_York. The six ACTIVE app automations are authoritative; automation-config.json is their versioned snapshot, not another scheduler. All use gpt-6.1-sol / medium, as requested by the owner.
 
 ## Required recovery sequence
 
@@ -29,7 +29,7 @@ All six prompts require AGENTS.md and coaching-policy.md, the current weekly rep
 | Sunday late lineup | Sunday 3 PM and 7 PM | Afternoon and separate night-game checks |
 | Monday lineup | Monday 5 PM and 7 PM | Read-only access/injury preflight; final lineup check |
 
-Read ESPN's actual waiver deadline and kickoff schedule each run. Fixed times do not guarantee coverage for international, Saturday, holiday, unusually early Monday, or rescheduled games. Flag a rostered-player lock preceding the next check and recommend an earlier check. Wednesday evening is not preparation for Wednesday-morning processing. Preserve existing authority boundaries and model choice.
+Read ESPN's actual waiver deadline and kickoff schedule each run. Fixed times do not guarantee coverage for international, Saturday, holiday, unusually early Monday, or rescheduled games. Flag a rostered-player lock preceding the next check and recommend an earlier check. Wednesday evening is not preparation for Wednesday-morning processing. Use October 11 delegated authority while preserving read-only windows and model choice.
 
 ## October 4 incident audit
 
@@ -41,8 +41,12 @@ Read ESPN's actual waiver deadline and kickoff schedule each run. Fixed times do
 
 The initial audit was blocked. A subsequent authenticated in-app read confirmed real lineup damage: Jefferson was out, still starting, and locked after Minnesota's completed game. Olave and London were healthy-looking Monday bench alternatives, but cannot replace that locked slot now. The live score snapshot was 82.72 versus 162.60; Bijan remains a Monday starter. Exact missed replacement points are not yet known because those alternatives have not played. Achane's IR move and Swift's award were completed before these failures.
 
-Use the verified in-app connection for subsequent live roster checks. Make only authorized straightforward changes to unlocked players. Estimate missed points from a genuinely unavailable starter and a replacement legally available at the original lock; separate preventable zeros from hindsight bench explosions. Log verified facts, not inferred outcomes.
+Use the verified in-app connection for subsequent live roster checks. Make evidence-backed autonomous changes to unlocked players under the current policy. Estimate missed points from a genuinely unavailable starter and a replacement legally available at the original lock; separate preventable zeros from hindsight bench explosions. Log verified facts, not inferred outcomes.
 
 ## Cross-chat test evidence
 
 On October 4, the owner authorized a read-only test in existing chat `01a10927-476f-7562-85ef-847d69217d47` (Sunday late-game lineup check), using Sol 6.1 Low. It independently opened/read an authenticated in-app page and confirmed Chet and the Jets, Gorczynski Family League, league 582597924, team 3, season 2026, NFL Week 4. Its score snapshot was 82.72-164.80 and it independently observed Jefferson out and locked, with Robinson/London/Olave scheduled Monday 8:15 PM. No ESPN or repository writes occurred during the test. This was a manual follow-up in an automation-created chat, not a fresh scheduler-triggered run or restart test.
+
+## Hands-off management and visual reporting
+
+October 11 owner delegation is in all six saved prompts. Weekly review and Thursday/Monday 5 PM remain ESPN read-only. Action-capable lineup and waiver runs execute justified moves/IR/trades under coaching-policy.md without routine strategic approval. All read docs/infographics.md; meaningful reports and verified moves get curated source data and a simple PNG. Preserve locks, verification and Git archiving if rendering fails. Schedules, project, local execution and gpt-6.1-sol/medium unchanged. Future runs use new prompts; old/running chats are not retroactively rewritten.

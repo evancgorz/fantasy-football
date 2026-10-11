@@ -1,0 +1,21 @@
+{
+  "title": "Chet and the Jets | Week 5 moves",
+  "subtitle": "Verified morning lineup changes | Historical snapshots",
+  "observed_at": "2026-10-11T07:34:00-04:00",
+  "metrics": [
+    {"label": "Our lineup before moves", "value": 148.4, "kind": "projection", "observed_at": "2026-10-11T06:46:30-04:00"},
+    {"label": "Our lineup after moves", "value": 152.0, "kind": "projection", "observed_at": "2026-10-11T07:34:00-04:00"},
+    {"label": "PAYrents earlier snapshot", "value": 148.4, "kind": "projection", "observed_at": "2026-10-11T06:46:30-04:00"}
+  ],
+  "moves": [
+    {"label": "QB: Daniels in / Hurts to bench", "status": "executed", "reason": "Healthy, confirmed starter; 20.5 vs 16.1 projected. Return injury and missing receivers remain risks."},
+    {"label": "FLEX: Swift in / Jeanty to bench", "status": "executed", "reason": "Swift cleared; Monangai out. Jeanty missed Friday practice. Prefer healthier workload despite slightly lower projection."},
+    {"label": "WR: Jefferson retained provisionally", "status": "retained", "reason": "No confirmed inactive status in this snapshot. Noon check before 1 PM; cleared Olave is current fallback."}
+  ],
+  "notes": ["Displayed projection change: +3.6 points, not guaranteed points gained.", "No players dropped. Each swap verified and pushed separately."],
+  "disclaimer": "Projections are estimates, not actual scores or win probabilities. Opponent snapshot was earlier; this is not a fresh live matchup forecast.",
+  "sources": [
+    {"label": "ESPN roster / player news", "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T07:34:00-04:00"},
+    {"label": "ESPN earlier boxscore", "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&seasonId=2026&teamId=4", "observed_at": "2026-10-11T06:46:30-04:00"}
+  ]
+}

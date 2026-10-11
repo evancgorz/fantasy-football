@@ -1,6 +1,6 @@
 # ESPN Fantasy Team-Management Design
 
-Status: Operating design; Chrome recovery updated October 4, 2026
+Status: Operating design; hands-off authority updated October 11, 2026
 Last live league-settings verification: 2026-09-13
 Team: Chet and the Jets
 Manager: Evan Gorczynski
@@ -197,8 +197,8 @@ Do not chase projected points at the expense of a locked player, an ineligible s
 | Move a player between legal lineup slots | Execute after preflight | Confirm player, slot, opponent, and game lock status |
 | Submit a waiver claim | Execute after evaluating alternatives | Confirm claim, bid/priority behavior, and resulting roster capacity |
 | Add a free agent / drop a player | Execute only after checking replacement value | Confirm drop target, undroppable status, roster count, and final roster |
-| Trade proposal | Prepare recommendation and terms | Recheck deadline, roster legality, and opponent context before submission |
-| Accept a trade | Treat as high impact | Verify both sides, review period, and playoff impact immediately before submit |
+| Trade proposal | Submit autonomously after whole-roster analysis | Recheck deadline, roster legality, and opponent context before submission |
+| Accept a trade | Execute autonomously after stronger due diligence | Verify both sides, review period, and playoff impact immediately before submit |
 | Change league settings or send league messages | Do not do as part of team management | Requires a separate explicit request |
 
 Never blindly repeat a click after an unclear ESPN response. Reread the page, inspect any dialog or toast, and determine whether the action succeeded before retrying.
@@ -264,3 +264,7 @@ After every confirmed ESPN state change—lineup move, waiver claim, add/drop, I
 5. Confirm the worktree is clean and retain the commit hash in the action record.
 
 If a push fails, report the local commit and the push failure; do not claim the action is fully archived until the commit reaches GitHub. Never commit passwords, session cookies, ESPN authentication values, API keys, or raw private exports.
+
+## 10. Current delegation and visual reporting
+
+October 11 hands-off authority in coaching-policy.md supersedes older strategic approval restrictions, including trades. Read-only windows, budgets and platform/security controls remain binding. Follow docs/infographics.md for sourced visuals; historical snapshots are not orders.

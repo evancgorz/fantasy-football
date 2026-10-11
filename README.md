@@ -17,3 +17,5 @@ Start here:
 The authenticated ESPN browser session is the source of truth for team state and the only intended write path. Do not commit passwords, session cookies, `espn_s2`, `SWID`, API keys, or exported private league data.
 
 Every state-changing fantasy action must be recorded, committed, and pushed to the configured GitHub remote immediately after ESPN confirms the result. Analysis-only checks do not create empty commits.
+
+October 11: hands-off team decisions under [coaching-policy.md](docs/coaching-policy.md); read-only reviews/preflights and platform/security controls remain. [Simple infographic workflow](docs/infographics.md) provides sourced move/projection summaries.
