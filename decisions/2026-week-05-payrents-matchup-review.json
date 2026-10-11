@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-payrents-matchup-review",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-11T06:46:30-04:00",
+  "status": "awaiting_owner",
+  "category": "lineup",
+  "summary": "Recommend Daniels over Hurts and provisionally Swift over Jeanty; protect Jefferson with cleared Olave fallback.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": true,
+  "owner_approval": null,
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&seasonId=2026&teamId=4", "observed_at": "2026-10-11T06:46:30-04:00", "fact": "Authenticated Week 5 boxscore: PAYrents 33, Chet 0; projected totals both 148.4. Opponent Pickens 28 and Aubrey 5 already final; seven opponent and all nine Chet starters yet to play. No numerical win probability displayed."},
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T06:46:30-04:00", "fact": "Roster confirms Hurts and Jeanty starting, Daniels and Swift bench; move controls displayed. Player Cards: Daniels Healthy, Friday 12:54 PM coach confirms Sunday start, McLaurin Q and Diggs out; Swift Healthy, Friday 5:52 PM ESPN news says RB1 with Monangai out; Jeanty Q, Friday 2:02 PM news says full Wednesday, limited Thursday, missed Friday, availability uncertain; Jefferson Q, final status around 11:30 AM; Olave Healthy, Friday full practice and no designation."}
+  ],
+  "alternatives": [
+    {"player": "Jayden Daniels versus Jalen Hurts", "evidence": "Daniels 20.5 versus Hurts 16.1 projected; confirmed return strengthens Daniels case, but weakened receiving corps and return injury risk remain. Hurts locks 9:30 AM, Daniels 1 PM."},
+    {"player": "D'Andre Swift versus Ashton Jeanty", "evidence": "Swift 17.05 versus Jeanty 17.84 Player Card projections. Swift cleared and Monangai out; Jeanty worsening practice trajectory. Prefer Swift provisionally; fresh strong full-workload clearance could change judgment. Both 1 PM."},
+    {"player": "Justin Jefferson / Chris Olave / Drake London / Garrett Wilson", "evidence": "Jefferson 18.5 if active and normal workload; cleared Olave 16.5, London 16.0 and Wilson 14.6 fallback options. Olave and Wilson lock 1 PM, London 8:20 PM. Reserve distinct WR and FLEX replacements."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Daniels adds 4.4 rounded ESPN projected points, not guaranteed actual points or a quantified change in win probability. Swift gives up 0.79 projected points relative to Jeanty but avoids uncertain availability/workload; net true benefit unknown.", "confidence": "medium"},
+  "rationale": "Close projected matchup warrants maximizing expected points and avoiding inactive zeros, not arbitrary variance chasing. Owner request was analysis; no ESPN mutation authorized in this turn. Close consequential starter risk choices require owner input under policy.",
+  "missing_evidence": ["Owner direction on proposed strategic swaps", "Sunday final active/workload confirmation", "Detailed lock rules and swap eligibility immediately before execution", "No full acquisition, D/ST/K market, or calibrated simulation review"],
+  "execution_conditions": ["Refresh ESPN before any move", "Resolve Daniels versus Hurts before 9:30 AM; do not execute after Hurts locks", "Recheck Jefferson and Jeanty official inactives around 11:30 AM and before 1 PM", "Refresh Olave and Swift health and legal eligibility", "Verify/log/commit/push each ESPN mutation separately"],
+  "fallback": "If strategic swaps are not approved, retain existing lineup subject to standing inactive-replacement authority; no inactive replacement may rely on this stale observation. If Jefferson inactive, prefer freshly cleared Olave based on current projection, while reserving Swift separately for FLEX.",
+  "recheck_at": "2026-10-11T08:00:00-04:00",
+  "deadline_at": "2026-10-11T09:30:00-04:00",
+  "verification": {"observed_at": "2026-10-11T06:46:30-04:00", "persisted_result": "Read-only authenticated boxscore, roster and four player cards inspected. No ESPN mutation. QB deadline applies to this combined recommendation; FLEX/WR need separate fresh evaluation until 1 PM."},
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": null}
+}
