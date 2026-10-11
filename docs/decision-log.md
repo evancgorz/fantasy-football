@@ -1,5 +1,12 @@
 # Fantasy Football Decision Log
 
+### 2026-10-11 — Week 5 — Sunday 7 PM retain and matchup update
+
+- **Observed:** approximately 19:05–19:08 EDT, authenticated unified Computer Use iab ESPN league 582597924/team 3/2026/Week 5. Team/Card/market/settings/league activity/boxscore inspected. Source: https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.
+- **Delegated decision:** Retain active Healthy Bijan RB; only unlocked starter. Official Falcons inactive list excludes Bijan/London and confirms Matthews active. Lead role supports retain over FA Brian Robinson Jr./Corum/Hill; London WR-only cannot enter locked WR/FLEX or RB. No ESPN mutation/acquisition/budget sacrifice.
+- **Verification:** Final Overview same nine starters, Bijan RB/London bench MOVE, others locked; tab 1 preserved. Actual 128.36–96.08, both three playing/one vs two yet; live projected finals 158.8–140.1. Not final result or win odds. Night lock 8:20 EDT; Allen/Kyren Monday 8:15, no Chet Monday starter. No earlier uncovered lock found.
+- **Limits/archive:** Queue independently unverified, no control displayed; full ROS/snap/route review incomplete. Record decisions/2026-week-05-sunday-1900-retain.json; report links curated input/inspected PNG. Selective repository-only commit/push follows, hash in final.
+
 ### 2026-10-11 — Week 5 — Sunday 3 PM retain and matchup update
 
 - **Observed:** 15:01–15:04 EDT, authenticated unified Computer Use iab league 582597924/team 3/2026/Week 5. Team/loaded News, JSN/McBride/Myers/Mevis Cards, detailed settings, market, league activity and boxscore inspected. Final Overview same nine starters; tab 1 preserved. Source: https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.

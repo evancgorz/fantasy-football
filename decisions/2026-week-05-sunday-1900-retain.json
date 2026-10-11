@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-sunday-1900-retain",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-11T19:08:00-04:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Active Bijan retained at RB; other starters locked. London remains bench WR. No ESPN mutation.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation; no per-action approval invented.",
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T19:05:00-04:00", "fact": "Authenticated Chet Week 5, 3-1 first of four. Bijan only unlocked starter; London only unlocked bench, both 8:20 PM. Healthy cards. Bijan 22.21 forecast, 85 season carries/494 rushing yards, 14 catches/120 yards; last game 19 carries/145 yards/2 rushing TD, one catch. BAL tough matchup/Brian Robinson red-zone sharing downside. London WR-only, 16.02 forecast, season 20 catches/26 targets/370 yards. No new workload warning."},
+    {"url": "https://www.atlantafalcons.com/news/atlanta-falcons-week-5-inactives-vs-baltimore-ravens-on-sunday-night-football", "observed_at": "2026-10-11T19:07:00-04:00", "fact": "Official 6:50 PM inactive list excludes Bijan/London; LT Matthews active. Inactive: Za'Darius Smith, Christian Harris, Cooper Rush emergency QB, Jack Strand, Ethan Onianwa, Malcolm DeWalt IV, Robert Longerbeam. Active does not guarantee full workload."},
+    {"url": "https://fantasy.espn.com/football/players/add?leagueId=582597924", "observed_at": "2026-10-11T19:05:00-04:00", "fact": "RB market: Brian Robinson Jr. FA 8.1 Sunday BAL; Corum FA 8.4 Monday BUF; Hill FA 3.8 Sunday ATL. Jones/Irving/Judkins/Emanuel Wilson locked WA Wednesday. RB filter succeeded, FA select timed out; available screen supplies FA labels. No transaction submitted."},
+    {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod", "observed_at": "2026-10-11T19:06:00-04:00", "fact": "Actual Chet 128.36-PAYrents 96.08, both three playing; one vs two yet to play. Live projected final 158.8-140.1. Chet JSN/McBride/Myers playing and Bijan night; opponent Gibbs/Michael Wilson/LaPorta playing, Allen/Kyren Monday 8:15. Provisional scores, no win odds."},
+    {"url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924", "observed_at": "2026-10-11T19:08:00-04:00", "fact": "Detailed loaded body confirms PPR, passing TD 4, rushing/receiving TD 6, yard 0.1; individual scheduled-game locks, protection Off. 16 spots/7 bench/1 IR, one-day weekly inverse-standings waivers, no acquisition limit/no FAAB field. Trade deadline Dec 2 noon EST, one-day review. Four playoff teams, 14 regular matchups, one-week first round/two-week championship."},
+    {"url": "https://fantasy.espn.com/football/league?leagueId=582597924", "observed_at": "2026-10-11T19:07:00-04:00", "fact": "League recent activity inspected; latest visible another team's Saturday Flowers add/Watson drop. No claim/offer queue control displayed; cannot certify pending moves absent."}
+  ],
+  "alternatives": [
+    {"player": "Bijan / Brian Robinson Jr. / Corum / Hill", "evidence": "Retain active lead rushing/receiving role. FA forecasts 8.1/8.4/3.8 vs 22.21 do not establish upgrade; Brian TD upside without superior workload. No roster/budget sacrifice justified. Exact candidate health not deeply researched since no acquisition proposed."},
+    {"player": "London", "evidence": "Active useful lead WR depth; cannot fill RB or locked WR/FLEX. Retain rather than drop for inferior insurance."},
+    {"player": "Hampton / Jeanty / Olave / Wilson / Hall / Hurts / Achane", "evidence": "All locked; retain RB/WR/QB depth and Hall O recovery/Achane IR pending fuller ROS analysis. No legal bench RB now. All seven bench spots considered; future bye/playoff valuation incomplete. No hindsight edits from scores."},
+    {"player": "Myers / Steelers", "evidence": "Locked, no legal replacement for occupied K/DST slots regardless of Monday market."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Preserve best supported legal night starter; no executed gain or calibrated odds.", "confidence": "high for retain; medium for workload"},
+  "rationale": "Base lead role favors Bijan; downside defense/red-zone sharing can favor backup, upside Bijan volume. Active clearance/Matthews availability supports retain. Do not sacrifice expected points based on current lead. No necessary acquisition, IR or trade; no budget spent. Earlier monitoring proposals fulfilled by morning/noon decisions and expired for execution, not new orders.",
+  "missing_evidence": ["Pending queue independently unverified", "Exact workload caps/full snap-route study", "Full future bye/playoff replacement-value analysis incomplete; no consequential drop proposed"],
+  "execution_conditions": ["No ESPN mutation", "Never edit locked players", "Unexpected pre-lock setback requires fresh health/capacity/drop/transaction verification"],
+  "fallback": "Fresh Brian Robinson Jr./Corum/Hill contingency comparison if unexpected setback; London cannot cover RB. Any acquisition requires separate verification/archive.",
+  "recheck_at": "2026-10-12T17:00:00-04:00",
+  "deadline_at": "2026-10-11T20:20:00-04:00",
+  "verification": {"observed_at": "2026-10-11T19:08:00-04:00", "time_precision": "minute", "persisted_result": "Loaded final Overview same nine starters; Bijan RB MOVE/London bench MOVE, all others locked. Official inactives checked, iab tab 1 preserved. No ESPN state change."},
+  "infographic": "../analysis/infographics/2026-week-05-sunday-1900.png",
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "Night check complete; no earlier uncovered roster kickoff found, preceding morning/noon/3 PM checks cover observed locks. Games live; Tuesday scorecard uses settled results."}
+}

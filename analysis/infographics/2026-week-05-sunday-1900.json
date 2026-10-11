@@ -1,0 +1,20 @@
+{
+  "title": "Chet and the Jets | Sunday night",
+  "subtitle": "Week 5 | Bijan retained; matchup still live",
+  "observed_at": "2026-10-11T19:06:00-04:00",
+  "metrics": [
+    {"label": "Chet live score", "value": 128.36, "kind": "actual", "observed_at": "2026-10-11T19:06:00-04:00"},
+    {"label": "PAYrents live score", "value": 96.08, "kind": "actual", "observed_at": "2026-10-11T19:06:00-04:00"}
+  ],
+  "moves": [
+    {"label": "Bijan Robinson | RB", "status": "retained", "reason": "Healthy card and official active clearance. Lead rushing/receiving role supports 8:20 PM EDT start."},
+    {"label": "Drake London | Bench", "status": "retained", "reason": "Active WR depth; cannot fill RB or enter locked WR/FLEX. No acquisition justified."}
+  ],
+  "notes": ["Both teams: 3 playing. Chet: 1 yet; PAYrents: 2 yet.", "Opponent Allen and Kyren: Monday 8:15 PM EDT.", "Next scheduled check: Monday 5 PM EDT preflight."],
+  "disclaimer": "Actuals provisional. No ESPN mutation, guaranteed gain or win odds. Pending queue independently unverified; active does not guarantee workload.",
+  "sources": [
+    {"label": "ESPN live Week 5 boxscore", "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod", "observed_at": "2026-10-11T19:06:00-04:00"},
+    {"label": "ESPN roster and Player Cards", "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T19:08:00-04:00"},
+    {"label": "Falcons official inactives", "url": "https://www.atlantafalcons.com/news/atlanta-falcons-week-5-inactives-vs-baltimore-ravens-on-sunday-night-football", "observed_at": "2026-10-11T19:07:00-04:00"}
+  ]
+}
