@@ -1,0 +1,20 @@
+{
+  "title": "Chet and the Jets | Sunday noon check",
+  "subtitle": "Week 5 | Jefferson active; lineup retained",
+  "observed_at": "2026-10-11T12:08:00-04:00",
+  "metrics": [
+    {"label": "Chet projected final", "value": 152.0, "kind": "projection", "observed_at": "2026-10-11T12:07:00-04:00"},
+    {"label": "PAYrents projected final", "value": 148.4, "kind": "projection", "observed_at": "2026-10-11T12:07:00-04:00"}
+  ],
+  "moves": [
+    {"label": "Jefferson WR", "status": "retained", "reason": "Active; Addison out supports lead receiving role. Ankle workload uncertainty remains; Olave is cleared depth."},
+    {"label": "Daniels QB / Swift FLEX", "status": "retained", "reason": "Morning swaps persist. Swift cleared with Monangai out; active Jeanty still has foot recurrence risk."},
+    {"label": "Steelers D/ST / Myers K", "status": "retained", "reason": "Market refreshed; no sufficiently supported immediate upgrade. No acquisition submitted."}
+  ],
+  "notes": ["Earliest starter lock: today 1 PM Eastern.", "Next scheduled check: 3 PM before 4:05/4:25 locks.", "All nine starters retained; no ESPN mutation this run."],
+  "disclaimer": "Projections are estimates, not actual gains or win odds. Active does not guarantee full workload. Pending queue independently unverified.",
+  "sources": [
+    {"label": "ESPN roster / loaded News", "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T12:08:00-04:00"},
+    {"label": "ESPN Week 5 boxscore", "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod", "observed_at": "2026-10-11T12:07:00-04:00"}
+  ]
+}

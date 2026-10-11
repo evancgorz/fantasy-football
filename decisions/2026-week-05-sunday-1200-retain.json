@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-sunday-1200-retain",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-11T12:08:00-04:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Jefferson active; retain all nine starters, including Daniels QB and Swift FLEX.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation authorizes autonomous close start/sit decisions and roster management; no per-action approval invented.",
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-11T12:05:00-04:00", "fact": "Live Week 5 Overview and loaded News: Jefferson active at NO, three limited practices, Addison inactive; possible reduced workload but no firm cap reported. Jeanty active after workout, Friday DNP and plantar-fasciitis recurrence risk. Swift cleared full Friday, Monangai out. Daniels no designation/coach-confirmed starter. Olave cleared full Friday, ESPN News reports 48 season targets. London and Wilson no designation. Hall O, Achane IR. Player Card Jefferson Healthy but Recent News still older 7:49 AM workout item; newer team News supplies active confirmation."},
+    {"url": "https://fantasy.espn.com/football/players/add?leagueId=582597924", "observed_at": "2026-10-11T12:06:00-04:00", "fact": "Available FA screen: Jones 17.3 at NO, Judkins 14.6 at NYJ, Nabers 13.6 at WSH; no designation shown. D/ST Jets FA 7.5 vs CLE, Texans FA 6.7 at TEN, Bengals FA 6.8 at MIA; Jaguars WA Wednesday/game already underway, not legal immediate alternative. K Reichard FA 9.5 at NO, Mevis FA 9.4 vs BUF Monday, Shrader FA 8.9 at PIT; Little WA Wednesday/already playing, not legal immediate alternative. These are forecasts, not actual gains."},
+    {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod", "observed_at": "2026-10-11T12:07:00-04:00", "fact": "Projected final Chet 152.0 vs PAYrents 148.4; actual 0 vs 33, nine vs seven yet to play. Opponent Allen/Williams Monday, Gibbs/Wilson/LaPorta 4:25, Tate/Commanders 1 PM, Pickens 28 and Aubrey 5 completed."},
+    {"url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924", "observed_at": "2026-10-11T12:07:00-04:00", "fact": "Detailed settings loaded after direct navigation: individual scheduled-game locks, PPR reception 1, rush/receive yard 0.1 and TD 6, passing TD 4; D/ST yardage/points penalties, sack 1/takeaway 2; K FG 3/4/5/6 by distance and miss -1. One-day waivers, inverse standings weekly order, no acquisition/trade limit, Dec 2 noon EST trade deadline and one-day review. No FAAB budget shown; no cost-bearing move attempted."},
+    {"url": "https://fantasy.espn.com/football/league?leagueId=582597924", "observed_at": "2026-10-11T12:07:00-04:00", "fact": "League home Recent Activity inspected. No pending-claims or trade-offer control displayed on home/team; absence of queue entries independently unverified."}
+  ],
+  "alternatives": [
+    {"player": "Jefferson / Olave / London / Wilson", "evidence": "Retain Jefferson 18.51: active, lead role with Addison out and middling Saints WR matchup. Olave 16.51 strong volume/cleared but aggressive MIN matchup; best alternative if a specific major restriction emerges. London 16.02 recent Penix connection/later kickoff; Wilson 14.64 lower forecast/no observed role boost. Base: Jefferson lead receiving role; downside: ankle restriction or recurrence favors Olave; upside: normal workload plus absent Addison. No quantified probabilities or guarantee of full workload."},
+    {"player": "Swift / Jeanty / Hampton", "evidence": "Retain Swift 17.05 over Jeanty 17.84: full Friday with Monangai out versus workout-dependent clearance, Friday DNP and possible foot flareup. Jeanty normal workload could outscore Swift; active alone does not remove recurrence risk. Hampton 12.01 later healthy depth, no demonstrated starter edge. Preserve all three recovery/depth options."},
+    {"player": "Daniels / Hurts / Hall / Achane", "evidence": "Daniels confirmed return, no designation; return injury and depleted receivers still risks. Hurts already playing/locked bench, cannot reverse morning choice; no hindsight scoring rationale. Hall out/week-to-week retained for recovery value pending fuller replacement valuation; Achane stays IR. No extra IR capacity assumed."},
+    {"player": "Jones / Judkins / Nabers", "evidence": "Jones close forecast but no fresh demonstrated workload advantage over cleared Swift sufficient to displace valuable depth; Judkins below Swift/Jeanty, Nabers below existing WR alternatives. No open emergency slot. Full ROS/bye/playoff health valuation incomplete; no consequential drop justified by this focused screen."},
+    {"player": "Steelers / Jets / Texans / Bengals", "evidence": "Retain Steelers 6.76 vs IND; Jets 7.5 vs CLE modest forecast edge without fresh pressure/QB superiority evidence, Texans 6.7 and Bengals 6.8 comparable. Yardage/points penalties make downside relevant. Not a fixed minimum churn threshold; no sufficiently supported advantage in current evidence."},
+    {"player": "Myers / Reichard / Mevis / Shrader", "evidence": "Retain Myers 8.8 vs SF; available Reichard 9.5, Mevis 9.4, Shrader 8.9 have modest forecast edges but no refreshed weather/drive/FG-opportunity evidence supporting displacement. Little now locked and unavailable immediately."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Evidence-adjusted starter retention; no executed move or guaranteed points gain.", "confidence": "medium"},
+  "rationale": "Fresh active confirmation resolves Jefferson noon handoff; absent Addison supports expected lead opportunity despite ankle uncertainty. Swift's clear role supports retaining morning FLEX decision despite Jeanty active. Taylor, Robinson, Smith-Njigba and McBride have no displayed injury warning and remain stronger starting options than screened depth. Do not chase variance from unequal games played.",
+  "missing_evidence": ["Exact Jefferson/Jeanty snap caps and complete official team inactive lists not independently retrieved; ESPN News active confirmation used", "Pending queue not independently verified empty; no overlapping transaction submitted", "Full snaps/routes, weather, ROS byes and playoff replacement-value research incomplete"],
+  "execution_conditions": ["No ESPN mutation selected", "Future actions require fresh eligibility/evidence and separate verify/log/commit/push"],
+  "fallback": "If a new pre-1 PM major Jefferson restriction appears, reassess cleared Olave; Swift remains separate FLEX. Later check refreshes Hampton and 4:25 PM/night starters.",
+  "recheck_at": "2026-10-11T15:00:00-04:00",
+  "deadline_at": "2026-10-11T13:00:00-04:00",
+  "verification": {"observed_at": "2026-10-11T12:08:00-04:00", "persisted_result": "Returned to Week 5 Overview: Daniels, Robinson, Taylor, Smith-Njigba, Jefferson, McBride, Swift, Steelers, Myers remain nine starters; 152.0 projection. Hurts locked bench; Hall O bench/Achane IR. No ESPN mutation. iab tab 1 marked handoff. Starting locks 1 PM (Daniels/Taylor/Jefferson/Swift/Steelers), 4:25 (Smith-Njigba/McBride/Myers), 8:20 (Robinson); Hampton bench 4:05, London bench 8:20. No unhandled earlier lock found."},
+  "infographic": "../analysis/infographics/2026-week-05-sunday-1200.png",
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "Pre-lock availability checked. Retention is an autonomous decision, not an executed swap; full-workload guarantee not claimed."}
+}
