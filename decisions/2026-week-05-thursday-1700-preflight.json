@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 5,
   "observed_at": "2026-10-08T17:02:35-04:00",
-  "status": "monitoring",
+  "status": "completed",
   "category": "lineup",
   "summary": "Thursday read-only access passed; no Thursday roster locks; Sunday injury and QB handoffs refreshed.",
   "responsible_automation": "sunday-early-lineup-check",
@@ -80,5 +80,6 @@
     "alternative_actual_points": null,
     "process_review": "Thursday preflight passed. Sunday 8 AM precedes earliest observed 9:30 AM roster lock; no current earlier-lock gap identified. Future schedule changes require fresh checks."
   },
-  "originating_automation": "thursday-lineup-check"
+  "originating_automation": "thursday-lineup-check",
+  "closure": {"observed_at": "2026-10-12T17:02:00-04:00", "reason": "Sunday monitoring fulfilled by completed QB/FLEX and noon retain/Jefferson records; execution windows expired. No stale order executed. Earlier rationale is historical; October 11 delegation supersedes routine strategic approval.", "record": "2026-week-05-monday-1700-preflight"}
 }

@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 5,
   "observed_at": "2026-10-11T06:46:30-04:00",
-  "status": "monitoring",
+  "status": "completed",
   "category": "lineup",
   "summary": "Recommend Daniels over Hurts and provisionally Swift over Jeanty; protect Jefferson with cleared Olave fallback.",
   "responsible_automation": "sunday-early-lineup-check",
@@ -27,5 +27,6 @@
   "recheck_at": "2026-10-11T12:00:00-04:00",
   "deadline_at": "2026-10-11T13:00:00-04:00",
   "verification": {"observed_at": "2026-10-11T06:46:30-04:00", "persisted_result": "Read-only authenticated boxscore, roster and four player cards inspected. No ESPN mutation. QB deadline applies to this combined recommendation; FLEX/WR need separate fresh evaluation until 1 PM."},
-  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "QB and FLEX swaps executed separately and verified after reload; see completed QB and Jeanty records. Jefferson remains starting provisionally; noon run must refresh and replace if inactive or evidence supports materially reduced workload. Initial awaiting-owner rationale and read-only verification above are historical, superseded by owner approval and linked execution records."}
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "QB and FLEX swaps executed separately and verified after reload; see completed QB and Jeanty records. Jefferson remains starting provisionally; noon run must refresh and replace if inactive or evidence supports materially reduced workload. Initial awaiting-owner rationale and read-only verification above are historical, superseded by owner approval and linked execution records."},
+  "closure": {"observed_at": "2026-10-12T17:02:00-04:00", "reason": "Sunday monitoring fulfilled by completed QB/FLEX and noon retain/Jefferson records; execution windows expired. No stale order executed. Earlier rationale is historical; October 11 delegation supersedes routine strategic approval.", "record": "2026-week-05-monday-1700-preflight"}
 }

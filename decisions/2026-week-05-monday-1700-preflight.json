@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-monday-1700-preflight",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-12T17:02:00-04:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Read-only Monday preflight: all Chet games complete; new JSN ankle handoff.",
+  "responsible_automation": "monday-night-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation; Monday 5 PM ESPN read-only. No per-action approval claimed.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-12T17:02:00-04:00",
+      "fact": "Authenticated Chet/Gorczynski Family League/582597924/3/2026/Week 5. 3-1 first of four; priority 3/4. All nine starters, seven bench and IR games completed. Daniels QB and Swift FLEX persist; JSN Q, Hall O, Achane IR. No pending control displayed. JSN card news Oct 12 4:28 PM: estimated limited Monday practice, ankle from Sunday's lateral run, no significant playing time lost; unrestricted Thursday vs Denver currently expected, not official clearance."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&seasonId=2026&teamId=4",
+      "observed_at": "2026-10-12T17:01:00-04:00",
+      "fact": "Actual Chet 163.76 vs PAYrents 102.38, lead 61.38. Neither playing; Chet zero remaining/zero minutes, PAYrents two/120. Josh Allen @LAR 19.9 and Kyren vs BUF 17.8 projected, Monday 8:15 PM EDT. Comparable projected finals 163.8–140.1, outcome unsettled."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924&seasonId=2026",
+      "observed_at": "2026-10-12T17:02:00-04:00",
+      "fact": "Four-team PPR: passing yards .04, TD 4, INT -2; rush/receive yards .1, TD 6, reception 1, fumble lost -2. Individual scheduled-game locks, lineup protection off; nine starters/seven bench/one IR. K distance/miss and D/ST points/yardage rules read. One-day waivers, inverse-standings weekly order, no acquisition/trade limit or FAAB displayed. Dec 2 noon EST trade deadline, one-day review."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924",
+      "observed_at": "2026-10-12T17:02:00-04:00",
+      "fact": "Recent activity inspected; latest displayed acquisition Oct 10 belongs to another team. Does not prove pending queues empty."
+    }
+  ],
+  "alternatives": [
+    {
+      "player": "All starters",
+      "evidence": "Daniels, Robinson, Taylor, JSN, Jefferson, McBride, Swift, Steelers, Myers completed/locked. No legal Monday replacement."
+    },
+    {
+      "player": "All bench/IR",
+      "evidence": "Hampton, Jeanty, London, Olave, Wilson, Hall, Hurts games completed; Achane IR. No unlocked fallback; no ROS/drop judgment inferred from actual scoring."
+    },
+    {
+      "player": "Acquisitions / D-ST / K",
+      "evidence": "All starting slots locked; no useful legal role match for a three-candidate market screen. No waiver/trade or cost-bearing move proposed."
+    },
+    {
+      "player": "Week 6 WR options",
+      "evidence": "Olave/London/Wilson candidates only if JSN worsens; refresh health, byes, workload, matchup and individual locks before ranking."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Avoid illegal locked changes; preserve new injury handoff. No gain from this run.",
+    "confidence": "high"
+  },
+  "rationale": "No Monday roster player; 5 PM read-only. Base forecasts favor Chet; downside Allen/Kyren exceed forecasts enough to overcome lead; upside they fall short. Qualitative scenarios only, no win odds.",
+  "missing_evidence": [
+    "Pending claims/offers independently unverified; no displayed control",
+    "Official JSN practice/Thursday workload clearance",
+    "Full Week 6 usage/bye/ROS/playoff replacement analysis",
+    "Final Monday scoring/stat corrections"
+  ],
+  "execution_conditions": [
+    "No ESPN mutation at 5 PM",
+    "7 PM refresh roster for unexpected new unlocked players before 8:15 PM; never alter locked slots",
+    "Tuesday settle Week 5 scorecard and refresh injuries",
+    "Thursday 5/7 PM refresh JSN health and actual kickoff"
+  ],
+  "fallback": "No Week 5 lineup repair; Week 6 replacements require fresh evidence, not stale orders.",
+  "recheck_at": "2026-10-12T19:00:00-04:00",
+  "deadline_at": "2026-10-12T20:15:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-12T17:02:00-04:00",
+    "persisted_result": "Live roster/boxscore/settings/activity/JSN card read. Returned to team page; iab tab 1 marked handoff. No ESPN mutation/budget spend or remaining Chet lock gap."
+  },
+  "infographic": "../analysis/infographics/2026-week-05-monday-1700.png",
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Preflight completed; matchup unsettled. Earlier Sunday monitoring fulfilled by later completed decisions; expired execution windows not acted upon."
+  }
+}

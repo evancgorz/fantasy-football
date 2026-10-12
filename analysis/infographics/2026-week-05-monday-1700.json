@@ -1,0 +1,49 @@
+{
+  "title": "Chet and the Jets | Monday preflight",
+  "subtitle": "Week 5 | Our lineup finished; opponent has two left",
+  "observed_at": "2026-10-12T17:02:00-04:00",
+  "metrics": [
+    {
+      "label": "Chet score",
+      "value": 163.76,
+      "kind": "actual",
+      "observed_at": "2026-10-12T17:02:00-04:00"
+    },
+    {
+      "label": "PAYrents score",
+      "value": 102.38,
+      "kind": "actual",
+      "observed_at": "2026-10-12T17:02:00-04:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Week 5 lineup",
+      "status": "retained",
+      "reason": "All roster games completed. No legal Monday replacement or ESPN change."
+    },
+    {
+      "label": "Smith-Njigba ankle",
+      "status": "pending",
+      "reason": "Estimated limited Monday practice. News expects unrestricted Thursday play; refresh before next lock."
+    }
+  ],
+  "notes": [
+    "Lead: 61.38 points; result unsettled.",
+    "PAYrents Allen + Kyren: Monday 8:15 PM EDT.",
+    "Next: 7 PM check; Tuesday injury/results review."
+  ],
+  "disclaimer": "Actuals subject to corrections. No guaranteed win or win odds. Pending queue independently unverified. Injury expectation is not clearance.",
+  "sources": [
+    {
+      "label": "ESPN Week 5 boxscore",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&seasonId=2026&teamId=4",
+      "observed_at": "2026-10-12T17:02:00-04:00"
+    },
+    {
+      "label": "ESPN roster / JSN news",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-12T17:02:00-04:00"
+    }
+  ]
+}

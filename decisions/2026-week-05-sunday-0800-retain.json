@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 5,
   "observed_at": "2026-10-11T08:00:00-04:00",
-  "status": "monitoring",
+  "status": "completed",
   "category": "lineup",
   "summary": "Daniels QB and Swift FLEX retained; Jefferson workout pending before noon decision.",
   "responsible_automation": "sunday-early-lineup-check",
@@ -34,5 +34,6 @@
   "deadline_at": "2026-10-11T13:00:00-04:00",
   "verification": {"observed_at": "2026-10-11T08:00:00-04:00", "persisted_result": "Returned to team Overview: same nine starters and 152.0 projection. No ESPN mutation. iab tab 1 marked handoff. Earliest roster lock Hurts bench 9:30; no earlier unhandled roster lock observed."},
   "infographic": "../analysis/infographics/2026-week-05-sunday-0800.png",
-  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "Early choice verified; Jefferson noon availability remains unresolved, not a safe-lineup guarantee."}
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "Early choice verified; Jefferson noon availability remains unresolved, not a safe-lineup guarantee."},
+  "closure": {"observed_at": "2026-10-12T17:02:00-04:00", "reason": "Sunday monitoring fulfilled by completed QB/FLEX and noon retain/Jefferson records; execution windows expired. No stale order executed. Earlier rationale is historical; October 11 delegation supersedes routine strategic approval.", "record": "2026-week-05-monday-1700-preflight"}
 }

@@ -1,5 +1,12 @@
 # Fantasy Football Decision Log
 
+### 2026-10-12 — Week 5 — Monday 5 PM read-only preflight
+
+- **Observed:** 17:00–17:02 EDT; authenticated unified Computer Use iab ESPN league 582597924/team 3/season 2026/Week 5. Roster/boxscore/scoring-lock rules/activity/JSN card inspected; team tab 1 preserved.
+- **Decision:** No ESPN mutation, all starters and bench/IR games complete. No legal Monday lineup alternative. Actual 163.76–102.38, 61.38 lead; Chet zero remaining, PAYrents Allen/Kyren 8:15 PM, two/120 minutes. Projected finals 163.8–140.1; result unsettled, no win odds.
+- **Warning:** JSN Q ankle, estimated limited Monday practice; Oct 12 4:28 PM ESPN-carried news currently expects unrestricted Thursday. Refresh Tuesday and Thursday before kickoff; no official clearance or permanent fallback ranking inferred. Hall O/Achane IR retained, no ROS drop valuation claimed.
+- **Limits/handoff:** Monday 5 PM ESPN read-only; no budget spent. Pending queue independently unverified. 7 PM refresh unexpected roster changes; Tuesday settle scorecard/Week 6 injuries. Earlier Sunday monitoring records closed as fulfilled, history preserved. New decision and curated infographic linked in current report; selective repository-only commit/push required. Sources/timestamps in decisions/2026-week-05-monday-1700-preflight.json.
+
 ### 2026-10-11 — Week 5 — Sunday 7 PM retain and matchup update
 
 - **Observed:** approximately 19:05–19:08 EDT, authenticated unified Computer Use iab ESPN league 582597924/team 3/2026/Week 5. Team/Card/market/settings/league activity/boxscore inspected. Source: https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026.
