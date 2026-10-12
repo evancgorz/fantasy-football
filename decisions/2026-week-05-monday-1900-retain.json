@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-05-monday-1900-retain",
+  "season": 2026,
+  "week": 5,
+  "observed_at": "2026-10-12T19:01:00-04:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Final Monday check: all Chet games complete; no legal lineup move; preflight unchanged.",
+  "responsible_automation": "monday-night-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation, Monday 7 PM action-capable scope; no per-action approval claimed.",
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-12T19:01:00-04:00", "fact": "Authenticated Chet and the Jets, Gorczynski Family League, 582597924/3/2026/Week 5; all nine starters, seven bench and Achane IR display completed games. Daniels QB/Swift FLEX persist. JSN Q, Hall O, Achane IR. JSN News still reports estimated limited Monday ankle practice and currently expects unrestricted Thursday vs Denver, not official clearance. No pending claims/offers control displayed."},
+    {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod", "observed_at": "2026-10-12T19:00:00-04:00", "fact": "Actual Chet 163.76–PAYrents 102.38, lead 61.38. Chet zero playing/remaining/minutes; opponent zero playing, two remaining/120 minutes: Allen @LAR and Kyren vs BUF Monday 8:15 PM EDT. Comparable projected finals 163.8–140.1; result unsettled."},
+    {"url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924&seasonId=2026", "observed_at": "2026-10-12T19:00:00-04:00", "fact": "Four-team PPR; pass yards .04/TD 4/INT -2, rush/receive yards .1/TD 6, reception 1, fumble lost -2. K distance/miss and DST points/yardage scoring read. Individual scheduled-game locks, protection off, nine starters/seven bench/one IR; one-day inverse-standings waivers, no acquisition/trade limit or FAAB displayed; Dec 2 noon EST trade deadline, one-day review."},
+    {"url": "https://fantasy.espn.com/football/league?leagueId=582597924", "observed_at": "2026-10-12T19:00:00-04:00", "fact": "Recent activity latest displayed acquisition Oct 10 belongs to another team; activity does not establish pending queue empty."}
+  ],
+  "alternatives": [
+    {"player": "Starters", "evidence": "Daniels, Robinson, Taylor, Smith-Njigba, Jefferson, McBride, Swift, Steelers, Myers completed and locked; no Monday start/sit decision."},
+    {"player": "Bench/IR", "evidence": "Hampton, Jeanty, London, Olave, Wilson, Hall, Hurts and Achane have completed games. None can replace a locked Week 5 slot. Retain for this check; no ROS/drop conclusion from hindsight scores."},
+    {"action": "Acquisition / IR / trade / DST / K move", "evidence": "No unlocked starting slot or required roster correction; no useful immediate role match for three acquisition candidates. Whole-roster future valuation deferred to Tuesday review; no cost-bearing transaction justified solely for activity."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Respect completed-game locks and preserve depth; no quantified gain.", "confidence": "high"},
+  "rationale": "Nothing material changed from 5 PM. No remaining Chet kickoff or uncovered early window. Base displayed forecasts favor Chet; downside Allen/Kyren exceed forecasts and erase lead, upside fall short. No calibrated win probability or guaranteed result.",
+  "missing_evidence": ["Pending claims/offers independently unverified; no displayed control", "Official JSN practice/workload clearance", "Full Week 6 usage/byes/ROS/playoff replacement analysis", "Final Monday score/stat corrections"],
+  "execution_conditions": ["Never alter locked Week 5 slots", "Tuesday review settles scorecard and refreshes Week 6 injuries/byes", "Thursday 5/7 PM refresh JSN and actual kickoff; independently verify alternatives"],
+  "fallback": "No Week 5 repair possible. Week 6 WR candidates require fresh eligibility, health and matchup evidence.",
+  "recheck_at": "2026-10-13T09:00:00-04:00",
+  "deadline_at": null,
+  "verification": {"observed_at": "2026-10-12T19:01:00-04:00", "persisted_result": "Roster, news, boxscore, league activity and settings inspected. No ESPN mutation or fantasy budget spent. iab tab 1 preserved. Initial tab creation timeout recovered with inventory and one bounded retry; no login failure."},
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "Unchanged non-actionable final check. No new infographic required under docs/infographics.md; 5 PM visual remains explicitly historical."}
+}
