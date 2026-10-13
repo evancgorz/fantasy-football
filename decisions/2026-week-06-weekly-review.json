@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-weekly-review",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-13T12:40:00-04:00",
+  "status": "completed",
+  "category": "review",
+  "summary": "Read-only weekly review archived: Week 5 win, Week 6 handoffs; late kicker control failure and pending-state evidence gaps documented.",
+  "responsible_automation": "fantasy-weekly-review",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation; this run's ESPN read-only scope governs.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "fact": "Settled actual Chet163.76/PAYrents152.48; all games completed. Daniels32.26/Hurts13.0; Swift17.3/Jeanty10.7; Jefferson18.8."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/league/standings?leagueId=582597924",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "fact": "Chet4-1 first, PF761.46/PA674.80; other teams3-2/2-3/1-4."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "fact": "Candidate/DST/K tables and available news inspected. Later kicker filter click shadow-root error; one fresh inspection and bounded retry timed out. No action denied or mutation attempted; returned to readable team page."
+    }
+  ],
+  "alternatives": [
+    {
+      "action": "Preserve supported team tab and hand off missing checks",
+      "evidence": "Team access authenticated, tab1 marked handoff; no login action needed. Do not infer claim queue empty or eligibility from past reports."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Durable sourced handoffs and corrected historical scorecard; no ESPN action or actual gain attributable to this review.",
+    "confidence": "high for observed results; medium for provisional decisions"
+  },
+  "rationale": "Full weekly review across bench, replacement market and roster windows performed with disclosed gaps; no ESPN changes in read-only scope. Next acquisition run must refresh claims/offers and actual cutoff before submission. JSN/Myers Thursday locks covered by scheduled preflight/action cadence.",
+  "missing_evidence": [
+    "Pending claims/offers independently unverified",
+    "Exact Wednesday waiver clock",
+    "Future official practices/inactives",
+    "Full snap/route/goal-line data",
+    "Fresh kicker health/accuracy/weather after control failure"
+  ],
+  "execution_conditions": [
+    "Recommendations are not executed or perpetual orders",
+    "Action run must verify current evidence/locks/cost/state",
+    "After each mutation verify/log/commit/push before another"
+  ],
+  "fallback": "Use verified current roster if refreshed alternatives do not support change; report critical unresolved blocker before affected lock.",
+  "recheck_at": "2026-10-13T19:00:00-04:00",
+  "deadline_at": "2026-10-15T20:15:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-13T12:40:00-04:00",
+    "persisted_result": "Read-only lineup unchanged. League582597924/team3/2026/Week6 authenticated; tab1 preserved. No submitted claim or offer."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Read-only review complete; recommendations conditional, no owner approval required. Browser error limits later research, not team login/access."
+  },
+  "report": "../analysis/2026-week-06.md",
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-jeanty-retain-flex",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-13T12:40:00-04:00",
+  "status": "proposed",
+  "category": "lineup",
+  "summary": "Retain Jeanty; provisionally start FLEX over Swift.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off owner delegation; recommendations are unexecuted because Tuesday weekly review is ESPN read-only.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "time_precision": "minute; review window 12:32–12:40 EDT",
+      "fact": "Authenticated league 582597924/team 3/2026/Week 6. Seven bench, Achane IR; individual games and loaded ESPN News/cards inspected."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "time_precision": "minute; review window 12:32–12:40 EDT",
+      "fact": "Available filter: candidates WA (Wed); current projections and available news inspected. Priority fourth of four, inverse standings, one-day waivers. No FAAB field displayed."
+    }
+  ],
+  "alternatives": [
+    {
+      "player": "Swift",
+      "evidence": "13.6 at ATL, nine carries/43 yards/TD plus four catches/30 yards with Monangai absent; role depends on his return."
+    },
+    {
+      "player": "London / Olave / Wilson",
+      "evidence": "16.0/17.4/14.6 forecasts; WR allocation must cover Jefferson bye and possible JSN absence first."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Evidence-adjusted role/replacement value; projections are forecasts, no actual gain or win odds.",
+    "confidence": "medium"
+  },
+  "rationale": "Healthy card. 22 catches/215 yards/2 receiving TD on 30 targets through five games offsets 3.3 YPC/no rushing TD. Week 5 only 10 carries, Laube goal-line score warns about ceiling. BUF OPRK31/18.9 forecast vs Swift 13.6, with Monangai O tag based on prior game, not final Week 6 exclusion. Favor receiving role and matchup; down case repeated limited rushing or recurring foot problem favors healthy Swift/London. Bye13/playoffs DEN/TEN/@ARI; preserve talent despite last week's lower score.",
+  "missing_evidence": [
+    "Fresh practice/inactive status before execution",
+    "Pending claims/offers independently unverified"
+  ],
+  "execution_conditions": [
+    "No ESPN mutation in this review",
+    "Action run must verify live season/week, health, locks, capacity, exact transaction state and applicable cost",
+    "After each mutation verify, log, selectively commit and push before another mutation"
+  ],
+  "fallback": "Retain roster if fresh comparison does not establish benefit; no blind execution of dated recommendation.",
+  "recheck_at": "2026-10-15T19:00:00-04:00",
+  "deadline_at": "2026-10-18T13:00:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-13T12:40:00-04:00",
+    "persisted_result": "Read-only recommendation/review only; original lineup unchanged and iab team tab 1 preserved."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+}

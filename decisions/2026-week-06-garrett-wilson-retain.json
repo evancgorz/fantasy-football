@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-garrett-wilson-retain",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-13T12:40:00-04:00",
+  "status": "completed",
+  "category": "roster",
+  "summary": "Retain Garrett Wilson as valuable WR/FLEX depth.",
+  "responsible_automation": "fantasy-weekly-review",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off owner delegation; recommendations are unexecuted because Tuesday weekly review is ESPN read-only.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "time_precision": "minute; review window 12:32–12:40 EDT",
+      "fact": "Authenticated league 582597924/team 3/2026/Week 6. Seven bench, Achane IR; individual games and loaded ESPN News/cards inspected."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "time_precision": "minute; review window 12:32–12:40 EDT",
+      "fact": "Available filter: candidates WA (Wed); current projections and available news inspected. Priority fourth of four, inverse standings, one-day waivers. No FAAB field displayed."
+    }
+  ],
+  "alternatives": [
+    {
+      "player": "Evans / Nabers",
+      "evidence": "17.2/17.4 forecasts but would add WR crowding. Need full ROS upgrade evidence before a premium WR drop."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Evidence-adjusted role/replacement value; projections are forecasts, no actual gain or win odds.",
+    "confidence": "medium"
+  },
+  "rationale": "Healthy; seven catches/11 targets/104 yards/TD, third TD through five games, teammate receiving ceiling26 yards supports lead role. 14.6 @NE versus Evans17.2 doesn't alone justify drop. Protects Week8 Olave and Week11 JSN/London byes; bye13/playoffs @ARI/NE/MIN. Best Week5 bench score doesn't establish knowable prior superiority.",
+  "missing_evidence": [
+    "Fresh practice/inactive status before execution",
+    "Pending claims/offers independently unverified"
+  ],
+  "execution_conditions": [
+    "No ESPN mutation in this review",
+    "Action run must verify live season/week, health, locks, capacity, exact transaction state and applicable cost",
+    "After each mutation verify, log, selectively commit and push before another mutation"
+  ],
+  "fallback": "Retain roster if fresh comparison does not establish benefit; no blind execution of dated recommendation.",
+  "recheck_at": "2026-10-15T19:00:00-04:00",
+  "deadline_at": "2026-10-18T13:00:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-13T12:40:00-04:00",
+    "persisted_result": "Read-only recommendation/review only; original lineup unchanged and iab team tab 1 preserved."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+}

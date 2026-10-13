@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-hampton-replacement",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-13T12:40:00-04:00",
+  "status": "proposed",
+  "category": "waiver",
+  "summary": "Prefer Stevenson claim dropping Hampton; Wilson fallback after fresh health/cost review.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off owner delegation; recommendations are unexecuted because Tuesday weekly review is ESPN read-only.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "time_precision": "minute; review window 12:32–12:40 EDT",
+      "fact": "Authenticated league 582597924/team 3/2026/Week 6. Seven bench, Achane IR; individual games and loaded ESPN News/cards inspected."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "time_precision": "minute; review window 12:32–12:40 EDT",
+      "fact": "Available filter: candidates WA (Wed); current projections and available news inspected. Priority fourth of four, inverse standings, one-day waivers. No FAAB field displayed."
+    }
+  ],
+  "alternatives": [
+    {
+      "player": "Stevenson",
+      "evidence": "16.3 projection, NYJ Sunday 1 PM; 13 carries/64 yards/TD plus 3 catches/21 yards in Week 5. Henderson high-ankle sprain expected multiple weeks; own recent knee issue requires fresh practice check."
+    },
+    {
+      "player": "Emanuel Wilson",
+      "evidence": "14.9 projection, @DEN Thursday 8:15 PM; 20 carries/61 yards/TD plus 2 catches/11 yards in Week 5. Charbonnet not expected back Thursday and Price IR; two recent scoring games, fumble/returning-competition risk."
+    },
+    {
+      "player": "Mike Evans",
+      "evidence": "17.2 projection, WSH Monday; 7 catches/10 targets/113 yards/TD in Week 5, Deebo expected out several weeks. Strong WR depth but does not clearly displace existing WR starters."
+    },
+    {
+      "player": "Purdy",
+      "evidence": "21.4 vs Daniels 19.9; 19/29, 189 yards, 2 TD/1 INT Sunday. Narrow projection edge does not establish whole-roster improvement; both SF/WSH Monday, and Hurts covers Week 7."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Evidence-adjusted role/replacement value; projections are forecasts, no actual gain or win odds.",
+    "confidence": "medium"
+  },
+  "rationale": "Hampton Healthy but 14 carries/33 yards and one catch/6 yards; Vidal nine touches and Mitchell six. Forecast 9.0 at KC, Week 7 bye, playoff SF/@MIA/KC. Limited starting path behind Bijan/Taylor/Jeanty/Swift and recovering Hall. Stevenson has clearer temporary volume and 16.3 forecast; opportunity warrants use of last priority if fresh knee/role evidence holds. Full roster remains Daniels/Hurts, Bijan/Taylor/Jeanty/Swift/Hall plus Stevenson, JSN/Jefferson/Olave/London/Wilson, McBride, PIT/Myers. No other core drop or duplicate RB claim. Wilson alternative improves short-term depth but Thursday lock/role expiry require care.",
+  "missing_evidence": [
+    "Fresh practice/inactive status before execution",
+    "Pending claims/offers independently unverified",
+    "Exact Wednesday processing time/cutoff unavailable; verify tonight",
+    "Candidate full season snap/route study and playoff schedule not retrieved"
+  ],
+  "execution_conditions": [
+    "No ESPN mutation in this review",
+    "Action run must verify live season/week, health, locks, capacity, exact transaction state and applicable cost",
+    "After each mutation verify, log, selectively commit and push before another mutation"
+  ],
+  "fallback": "Retain roster if fresh comparison does not establish benefit; no blind execution of dated recommendation.",
+  "recheck_at": "2026-10-13T19:00:00-04:00",
+  "deadline_at": null,
+  "verification": {
+    "observed_at": "2026-10-13T12:40:00-04:00",
+    "persisted_result": "Read-only recommendation/review only; original lineup unchanged and iab team tab 1 preserved."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+}

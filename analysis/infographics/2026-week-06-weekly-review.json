@@ -1,0 +1,59 @@
+{
+  "title": "Chet and the Jets | Weekly review",
+  "subtitle": "Week 5 win | 4–1, first | Week 6 actions proposed",
+  "observed_at": "2026-10-13T12:40:00-04:00",
+  "metrics": [
+    {
+      "label": "Chet Week 5 final",
+      "value": 163.76,
+      "kind": "actual",
+      "observed_at": "2026-10-13T12:40:00-04:00"
+    },
+    {
+      "label": "PAYrents Week 5 final",
+      "value": 152.48,
+      "kind": "actual",
+      "observed_at": "2026-10-13T12:40:00-04:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "WR / FLEX handoff",
+      "status": "proposed",
+      "reason": "Olave for Jefferson bye; Jeanty over Swift provisionally. Refresh health; no ESPN change."
+    },
+    {
+      "label": "Acquisition handoff",
+      "status": "proposed",
+      "reason": "Stevenson for Hampton; evaluate Shrader for Myers. Verify queue and Wednesday cutoff tonight."
+    },
+    {
+      "label": "Thursday ankle check",
+      "status": "pending",
+      "reason": "JSN Q; Monday estimate limited. Refresh clearance before Thursday 8:15 PM EDT lock."
+    }
+  ],
+  "notes": [
+    "Won by 11.28 actual points; subject to corrections.",
+    "Next: Tuesday 7 PM waivers; Thursday 5/7 PM checks.",
+    "Read-only review: no claim, lineup or trade submitted."
+  ],
+  "disclaimer": "Unknown pending queue/cutoff requires fresh check. Proposed moves are unexecuted. Injury expectations are not clearance; projections are not actual gain.",
+  "sources": [
+    {
+      "label": "ESPN Week 5 boxscore",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod",
+      "observed_at": "2026-10-13T12:40:00-04:00"
+    },
+    {
+      "label": "ESPN roster / news / available market",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-13T12:40:00-04:00"
+    },
+    {
+      "label": "ESPN acquisition market",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-13T12:40:00-04:00"
+    }
+  ]
+}

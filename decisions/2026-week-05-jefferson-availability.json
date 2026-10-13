@@ -57,9 +57,9 @@
     "persisted_result": "Jefferson remains starting WR, cleared designation; no ESPN mutation. Noon retain decision records Olave/London/Wilson comparison."
   },
   "outcome": {
-    "actual_points": null,
-    "alternative_actual_points": null,
-    "process_review": null
+    "actual_points": 18.8,
+    "alternative_actual_points": 8.6,
+    "process_review": "Noon availability check succeeded. Olave 8.6, London 18.8, Wilson 23.4; Wilson hindsight advantage does not establish decision-time error."
   },
   "history": [
     {
@@ -125,5 +125,11 @@
       }
     }
   ],
-  "infographic": "../analysis/infographics/2026-week-05-sunday-1200.png"
+  "infographic": "../analysis/infographics/2026-week-05-sunday-1200.png",
+  "scorecard": {
+    "subject_to_corrections": true,
+    "report": "../analysis/2026-week-06.md",
+    "source": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod",
+    "observed_at": "2026-10-13T12:40:00-04:00"
+  }
 }

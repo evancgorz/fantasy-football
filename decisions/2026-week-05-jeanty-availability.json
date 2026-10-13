@@ -68,8 +68,14 @@
     "persisted_result": "Swift selected and confirmed at Jeanty FLEX destination. Reload verified Swift starting FLEX, Jeanty bench, 152.0 starter projected total. Fresh Jeanty news remains Q with missed Friday practice; Swift Healthy and ESPN Friday news reports Monangai out/RB1 role. Individual scheduled-game locks verified; both 1 PM. Thursday read-only inspection retained in report history. Actual benefit unknown."
   },
   "outcome": {
-    "actual_points": null,
-    "alternative_actual_points": null,
-    "process_review": "Owner-authorized Swift replacement executed on refreshed health/workload evidence; Jeanty remains rostered. This supersedes the earlier provisional retain decision. Actual scoring pending."
+    "actual_points": 17.3,
+    "alternative_actual_points": 10.7,
+    "process_review": "Swift choice supported by Jeanty foot/DNP risk and Monangai absence. Jeanty played; this was not prevention of a confirmed inactive zero. Observed +6.6 is hindsight scoring."
+  },
+  "scorecard": {
+    "subject_to_corrections": true,
+    "report": "../analysis/2026-week-06.md",
+    "source": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&scoringPeriodId=5&seasonId=2026&teamId=4&view=scoringperiod",
+    "observed_at": "2026-10-13T12:40:00-04:00"
   }
 }
