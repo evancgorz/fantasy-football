@@ -1,0 +1,21 @@
+{
+  "title": "First place | Week 6 briefing",
+  "subtitle": "4-1 after beating PAYrents by 11.28 points",
+  "observed_at": "2026-10-14T18:56:36-04:00",
+  "metrics": [
+    {"label": "Week 5: Chet and the Jets", "value": 163.76, "kind": "actual", "observed_at": "2026-10-14T18:56:36-04:00"},
+    {"label": "Week 5: PAYrents", "value": 152.48, "kind": "actual", "observed_at": "2026-10-14T18:56:36-04:00"}
+  ],
+  "moves": [
+    {"label": "Week 6: cover Jefferson's bye", "status": "proposed", "reason": "Olave projects 17.4 but missed Wednesday with illness. London 16.0 is a healthy-looking alternative; Wilson 14.8 also available on our bench."},
+    {"label": "Week 6: reassess Jeanty versus Swift", "status": "proposed", "reason": "Jeanty 18.9 versus Swift 13.6 projected. Fresh practice/workload evidence must decide; last week's best choice is not automatically this week's."},
+    {"label": "Thursday: JSN and Myers at Denver", "status": "pending", "reason": "October 15, 8:15 PM Eastern. JSN card says Healthy, but latest loaded news is Tuesday's estimated limited practice; verify final status."}
+  ],
+  "notes": ["This week: Oldies but Goodies. Current projections 127.0 vs 126.3; ours still includes Jefferson on bye.", "Waiver check failed this morning. Anna acquired Shrader at 11:50 AM; old kicker proposal is no longer available."],
+  "disclaimer": "Read-only update: no roster changes made. Projections are estimates, not actual gains or win odds. Pending claims/offers not independently inspected.",
+  "sources": [
+    {"label": "ESPN Week 5 and Week 6 boxscores", "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod", "observed_at": "2026-10-14T18:56:36-04:00"},
+    {"label": "ESPN team / injury cards", "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-14T18:56:36-04:00"},
+    {"label": "ESPN recent activity", "url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924", "observed_at": "2026-10-14T18:56:36-04:00"}
+  ]
+}

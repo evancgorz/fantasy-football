@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 6,
   "observed_at": "2026-10-13T12:40:00-04:00",
-  "status": "proposed",
+  "status": "superseded",
   "category": "waiver",
   "summary": "Evaluate Shrader claim dropping Myers before Thursday lock.",
   "responsible_automation": "fantasy-waiver-execution",
@@ -65,7 +65,7 @@
   "outcome": {
     "actual_points": null,
     "alternative_actual_points": null,
-    "process_review": null
+    "process_review": "October14 approximately18:56EDT live recent activity verifies Anna acquired Shrader from free agency at11:50AM. This dated pickup proposal is unavailable and must not be executed. New kicker options require fresh pool/health/cost comparison. Source https://fantasy.espn.com/football/recentactivity?leagueId=582597924 . Original decision-time rationale retained."
   },
   "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
 }

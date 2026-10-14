@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-owner-status-update",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-14T18:56:36-04:00",
+  "status": "monitoring",
+  "category": "lineup",
+  "summary": "Read-only owner update: first at 4-1; Week 6 bye coverage, Olave illness, JSN Thursday check and obsolete Shrader proposal.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 standing delegation; current user asked for status, not an ESPN mutation.",
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=5&seasonId=2026&teamId=4&scoringPeriodId=5", "observed_at": "2026-10-14T18:56:36-04:00", "fact": "Final Chet163.76/PAYrents152.48, 4-1 first; Daniels32.26/Hurts13.0 and Swift17.3/Jeanty10.7."},
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-14T18:56:36-04:00", "fact": "Week6 Jefferson still starting on bye, Swift FLEX; OlaveQ17.38, London16.02, Wilson14.78, Jeanty18.94 vs Swift13.6; total126.99. Olave Wednesday illness DNP; JSN Healthy card but latest news Tuesday estimated limited ankle practice. JSN/Myers Thu8:15, DanielsMon8:15, bench HurtsSun1. HallD0. No claim queue inspected."},
+    {"url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod", "observed_at": "2026-10-14T18:56:36-04:00", "fact": "Opponent Oldies1-4 now has Egbuka starting and126.3 projected; ours127.0 has eight yet-to-play due to bye slot. Both0 actual."},
+    {"url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924", "observed_at": "2026-10-14T18:56:36-04:00", "fact": "Anna added Shrader from FA Wed11:50AM, Patriots11:49AM, Purdy/Watson waivers3:55AM. No Chet acquisition in displayed recent list; pending claims/offers remain unverified."}
+  ],
+  "alternatives": [
+    {"player": "Olave / London / Garrett Wilson", "evidence": "Refresh illness before selecting Jefferson bye replacement; do not assume yesterday's Healthy Olave status."},
+    {"player": "Jeanty / Swift", "evidence": "Fresh workload/health comparison needed; do not lock last week's selection in permanently."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Status and durable injury handoff only; no action or guaranteed benefit. Conditional projection with Olave and Jeanty is149.71, or148.35 with London and Jeanty, using126.99 baseline plus replacement WR plus18.94 minus13.6. These are hypothetical arithmetic, not submitted lineups or win odds.", "confidence": "medium"},
+  "rationale": "Outlook favorable after filling bye and reviewing FLEX, but incomplete current lineup and changing opponent options preclude claiming a safe lead. Access works now after morning network failure; future scheduled access not guaranteed.",
+  "missing_evidence": ["Official JSN final practice/inactives", "Olave Thursday/Friday recovery", "Fresh full FLEX workload comparison", "Independent pending claims/offers and current acquisition pool", "No fresh rules/budget audit in this read-only status review"],
+  "execution_conditions": ["No ESPN mutation in this status request", "Action-capable run refreshes current evidence, legality and existing transactions", "Supersede unavailable Shrader proposal; never execute based on old market", "Verify/log/commit/push each subsequent mutation"],
+  "fallback": "London or Wilson for bye WR if Olave remains unavailable; refresh both before execution. Do not treat a Wednesday illness or stale Q alone as final inactive status.",
+  "recheck_at": "2026-10-15T17:00:00-04:00",
+  "deadline_at": "2026-10-15T20:15:00-04:00",
+  "verification": {"observed_at": "2026-10-14T18:56:36-04:00", "persisted_result": "Authenticated iab live boxscores, roster, cards and recent activity inspected; no ESPN mutation. Source observation times approximate end-of-review minute."},
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "Prior swaps outscored original players by25.86 total, a hindsight scoring comparison not validated expected benefit. Week5 win margin11.28. No new roster action."},
+  "infographic": "../analysis/infographics/2026-week-06-owner-update.png"
+}
