@@ -57,5 +57,16 @@
     "alternative_actual_points": null,
     "process_review": null
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "completed",
+    "summary": "Retain Garrett Wilson as valuable WR/FLEX depth.",
+    "rationale": "Projection 14.78 at NE; seven catches on 11 targets for 104 yards and TD last game, no designation. Concentrated lead role supports retain. Nabers 17.41 is competitive, but improve weakest RB slot without sacrificing core WR depth. Bye 13 conflicts with Jeanty, Taylor and Hall; future coverage and usage remain uncertain.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }

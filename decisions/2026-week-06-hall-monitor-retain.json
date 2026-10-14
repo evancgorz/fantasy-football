@@ -58,5 +58,16 @@
     "alternative_actual_points": null,
     "process_review": null
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "completed",
+    "summary": "Retain Hall; doubtful and no legal IR transfer now.",
+    "rationale": "Doubtful with zero forecast; coach says week-to-week and DNP Wednesday, trending toward third missed game. Recovery date and final inactive status unknown. Manage IR explicitly reports no eligible players; D does not provide a legal transfer now. Irving, Swift and Jeanty cover absence, preserving Hall's possible returning lead role rather than adding duplicate temporary backs. Bye 13; recheck eligibility if designation changes.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-kicker-gay-handoff",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-14T19:08:00-04:00",
+  "status": "proposed",
+  "category": "kicker",
+  "summary": "Lineup run should compare free-agent Matt Gay with Myers before Thursday lock.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation; starter choices handed to lineup runs under waiver scope.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-14T19:08:00-04:00",
+      "fact": "Current kicker screen: Gay 10.7 FA vs BUF Sunday 4:25 PM; Zvada 10.9 FA vs NO Sunday 1 PM; Loop 9.7 FA; Little 9.5 FA Sunday 9:30 AM; Fairbairn 10.48 on Friday-morning waivers. Gay card: 11/12 FG, 11/11 PAT, one 50-plus attempt; missed 48-yard attempt last game. Zvada outlook: three misses from 40-plus yards in poor conditions, two 50-plus makes."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-14T19:08:00-04:00",
+      "fact": "Myers 8.61 at DEN Thursday 8:15 PM; five 40-plus field goals and two PAT last game, no designation. Still starter; no kicker transaction."
+    }
+  ],
+  "alternatives": [
+    {
+      "player": "Myers",
+      "evidence": "Stable offense and demonstrated long-kick scoring; weather unknown. Avoid over-weighting 23 actual points or forecast difference."
+    },
+    {
+      "player": "Gay",
+      "evidence": "Higher forecast and strong accuracy, indoors at LV; QB and drive quality risk, only one 50-plus attempt. Immediate FA requires exact Myers drop and verified resulting starter; no extra bench slot."
+    },
+    {
+      "player": "Zvada",
+      "evidence": "10.9 forecast, but rookie missed three kicks last game; conditions partly explain it. Refresh role and weather, no automatic rejection."
+    },
+    {
+      "player": "Fairbairn",
+      "evidence": "Friday-morning waivers occur after Myers Thursday lock. Do not assume locked Myers can be dropped, or sacrifice useful depth to stash a kicker. Early Sunday international check if acquired."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Gay forecast edge about 2.1 points over Myers, not guaranteed actual gain; fresh scoring, weather and role must decide.",
+    "confidence": "medium"
+  },
+  "rationale": "Compare Gay with Myers in Thursday 7 PM action run before Myers locks. Waiver scope hands off starter choices; no strategic owner approval required. Shrader proposal superseded after Anna acquired him.",
+  "missing_evidence": [
+    "Weather and exact legal transaction confirmation",
+    "Gay card news and outlook conflict on Buffalo points allowed: 26.8 versus 28.2; neither used",
+    "No independent pending queue exposed"
+  ],
+  "execution_conditions": [
+    "Refresh availability and individual locks",
+    "Starter choice stays with lineup run",
+    "Verify/log/commit/push each mutation"
+  ],
+  "fallback": "Retain Myers if fresh comparison does not support change; avoid late Fairbairn claim requiring locked Myers drop.",
+  "recheck_at": "2026-10-15T19:00:00-04:00",
+  "deadline_at": "2026-10-15T20:15:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "persisted_result": "No kicker transaction; Myers starter. Acquisition commit 574680d already pushed."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-06.md",
+  "infographic": "../analysis/infographics/2026-week-06-irving-for-hampton.png"
+}

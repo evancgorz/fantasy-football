@@ -58,5 +58,16 @@
     "alternative_actual_points": null,
     "process_review": null
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "completed",
+    "summary": "Retain Steelers provisionally after replacement screen.",
+    "rationale": "PIT 7.03 at TB: backup QB is helpful, Irving rushing success a risk. Available Ravens 7.53 at CLE and Rams 7.11 vs ARI; Seahawks 6.06 and Texans 5.27. No FA priority cost, but replacing PIT loses Week 7 at NO/Week 8 CLE coverage, while adding a second defense sacrifices useful depth. Uncertain forecast edge without fresh pressure/OL evidence does not establish improvement; no arbitrary minimum threshold. PIT bye 9.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }

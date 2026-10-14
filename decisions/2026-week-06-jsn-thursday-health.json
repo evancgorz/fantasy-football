@@ -58,5 +58,16 @@
     "alternative_actual_points": null,
     "process_review": null
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "monitoring",
+    "summary": "JSN full Wednesday/no designation; retain provisionally before Thursday lock.",
+    "rationale": "New loaded ESPN news reports full Wednesday practice and no Thursday designation, with 37 catches/583 yards/seven TD on 50 targets through five games. Lead role supports provisional retain versus London, Olave and Wilson. Thursday 5/7 PM checks refresh late setbacks and inactives before October 15 at 8:15 PM EDT. Official report not independently read; no starter swap in this scope.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }

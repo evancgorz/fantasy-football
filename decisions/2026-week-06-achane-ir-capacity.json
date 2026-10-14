@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 6,
   "observed_at": "2026-10-13T12:40:00-04:00",
-  "status": "proposed",
+  "status": "completed",
   "category": "ir",
   "summary": "Evaluate releasing Achane to reserve IR for Hall if needed.",
   "responsible_automation": "fantasy-waiver-execution",
@@ -60,7 +60,18 @@
   "outcome": {
     "actual_points": null,
     "alternative_actual_points": null,
-    "process_review": null
+    "process_review": "Conditional capacity proposal evaluated October14: no other legal IR-eligible player and no additional slot required; retain Achane IR. Original proposed rationale preserved."
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "completed",
+    "summary": "Retain Achane in occupied IR; no eligible transfer or capacity need.",
+    "rationale": "Fresh card estimates return February 15, 2027; no 2027 keepers and little expected 2026 value, but estimate is not medical certainty. Manage IR shows zero available and no other eligible players. Irving swap provides needed depth without an additional slot. Retain Achane IR; reevaluate if Hall becomes eligible and a worthwhile pickup requires capacity.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }

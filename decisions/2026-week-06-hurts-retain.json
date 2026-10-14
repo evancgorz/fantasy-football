@@ -57,5 +57,16 @@
     "alternative_actual_points": null,
     "process_review": null
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "completed",
+    "summary": "Retain Hurts for Daniels Week7bye and injury fallback.",
+    "rationale": "Projection 17.81 vs CAR, Daniels 19.86 at SF Monday. Latest game 21/40 for 220 yards and TD, two rushing yards. Retain for Daniels' Week 7 bye at DAL despite recent rushing weakness. Stafford 19.65 FA offers no need for a third QB; no priority sacrifice on Mahomes. Hurts bye 10; decide before Sunday 1 PM lock.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }

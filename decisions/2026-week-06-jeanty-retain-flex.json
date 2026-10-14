@@ -61,5 +61,16 @@
     "alternative_actual_points": null,
     "process_review": null
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "proposed",
+    "summary": "Retain Jeanty; lineup run compares FLEX afresh.",
+    "rationale": "Wednesday coach says Jeanty feels better and no rest discussions occurred. Projection 18.94 vs BUF, Swift 13.6 and Irving 15.06. Retain receiving role and development upside; foot/ankle recurrence and ten Week 5 carries are downside. Bye 13 overlaps Taylor, Garrett Wilson and Hall. Starter choice stays with lineup runs; full playoff schedule not reread.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }

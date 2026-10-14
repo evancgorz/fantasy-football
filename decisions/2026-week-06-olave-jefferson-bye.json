@@ -61,5 +61,16 @@
     "alternative_actual_points": null,
     "process_review": null
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "proposed",
+    "summary": "Retain Olave; illness must clear before bye replacement.",
+    "rationale": "Projection 17.38 at NYG; questionable after illness DNP Wednesday, with two practices remaining. Retain lead receiving role, but London 16.02 and Wilson 14.78 are alternatives if illness persists. Nabers 17.41 is an almost equal forecast and does not justify dropping Olave. Bye 8; no automatic start from Tuesday's healthy status.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }

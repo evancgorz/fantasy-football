@@ -57,5 +57,16 @@
     "alternative_actual_points": null,
     "process_review": null
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "latest_review": {
+    "observed_at": "2026-10-14T19:08:00-04:00",
+    "status": "completed",
+    "summary": "Retain London for bye and illness coverage.",
+    "rationale": "Projection 16.02 vs CHI; seven catches on 11 targets for 118 yards and three straight games with at least 96 yards. Atlanta QB ribs uncertainty, but lead target role supports retaining. Needed with Jefferson on bye and Olave Q. Nabers 17.41 is competitive but does not justify losing London. Bye 11 overlaps Bijan and JSN; Nabers bye 8 would overlap Olave. Prior playoff schedule is historical.",
+    "source_url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+    "requires_owner_approval": false,
+    "authority": "October 11 owner hands-off delegation",
+    "execution": "Retain/recommendation only; no ESPN mutation beyond already archived Irving acquisition",
+    "limitations": "Fresh team Overview, News, Schedule and IR controls; full usage/playoff schedules and future official practices not refreshed."
+  }
 }
