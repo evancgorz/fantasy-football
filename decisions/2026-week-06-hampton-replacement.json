@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 6,
   "observed_at": "2026-10-13T12:40:00-04:00",
-  "status": "proposed",
+  "status": "superseded",
   "category": "waiver",
   "summary": "Prefer Stevenson claim dropping Hampton; Wilson fallback after fresh health/cost review.",
   "responsible_automation": "fantasy-waiver-execution",
@@ -69,7 +69,8 @@
   "outcome": {
     "actual_points": null,
     "alternative_actual_points": null,
-    "process_review": null
+    "process_review": "October14 19:05EDT fresh execution chose free-agent Irving over Stevenson after Henderson limitedWednesday practice and whole-roster ROS/bye analysis. Original Tuesday claim proposal was not submitted; preserved historical rationale. Hampton dropped/Irving bench verified; see new record."
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png"
+  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "superseded_by": "2026-week-06-irving-for-hampton"
 }

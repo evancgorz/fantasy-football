@@ -1,0 +1,49 @@
+{
+  "title": "Irving added | RB depth improved",
+  "subtitle": "Chet and the Jets — Week 6 acquisition",
+  "observed_at": "2026-10-14T19:05:00-04:00",
+  "metrics": [
+    {
+      "label": "Bucky Irving — Week 6",
+      "value": 15.06,
+      "kind": "projection",
+      "observed_at": "2026-10-14T19:05:00-04:00"
+    },
+    {
+      "label": "Omarion Hampton — Week 6",
+      "value": 9.03,
+      "kind": "projection",
+      "observed_at": "2026-10-14T19:05:00-04:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Add Irving / drop Hampton",
+      "status": "executed",
+      "reason": "Reload verified Irving on bench and Hampton absent. Sustained carries and Week 7 coverage beat Hampton's timeshare and bye."
+    },
+    {
+      "label": "Starting lineup",
+      "status": "retained",
+      "reason": "No starter swaps in waiver scope. Jefferson's bye and FLEX choice go to lineup runs."
+    }
+  ],
+  "notes": [
+    "No waiver priority or fantasy bid spent: immediate free-agent move.",
+    "Next: Thursday Oct 15, 5/7 PM checks before JSN/Myers 8:15 PM locks.",
+    "JSN full Wednesday/no designation; Olave illness and Hall doubtful need follow-up."
+  ],
+  "disclaimer": "Forecasts compare bench assets, not actual points gained. No win probability. Role and health can change.",
+  "sources": [
+    {
+      "label": "ESPN roster and player cards",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-14T19:05:00-04:00"
+    },
+    {
+      "label": "ESPN available players / rules",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-14T19:05:00-04:00"
+    }
+  ]
+}

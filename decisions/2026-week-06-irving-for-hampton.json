@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-irving-for-hampton",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-14T19:05:00-04:00",
+  "status": "completed",
+  "category": "add-drop",
+  "summary": "Added free-agent Bucky Irving; dropped Omarion Hampton to waivers; Irving verified on bench.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 owner hands-off delegation; no invented per-action approval.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-14T19:05:00-04:00",
+      "fact": "Fresh authenticated Week6 roster full. Hampton9.03, Irving15.06 forecast. Confirmation move saved; reloaded roster Irving bench/Hampton absent, same nine starters and Achane IR. Player card manager CHET/Healthy. Observation window approximately19:00–19:05 EDT."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-14T19:05:00-04:00",
+      "fact": "Irving, Stevenson16.33, Emanuel Wilson14.86, Nabers17.41 and Evans17.19 free agents. Irving Healthy,77 carries406 yards/15 catches71 yards through five games; Week5 21 carries165 yards and two catches10 yards/two totalTD. Four consecutive15+carry games. Card: receiving targets diminished with backup Jalon Daniels. Bye10; playoffs NO/@ATL/LAR. Stevenson Henderson-dependent growth; Henderson limited Wednesday despite Tuesday multi-week estimate. Wilson Charbonnet/Price-dependent role, Thursday lock."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924",
+      "observed_at": "2026-10-14T19:05:00-04:00",
+      "fact": "PPR,16 active+1IR,9 starters/7 bench,RB maximum8,no2027 keepers; individual kickoff locks,waivers1day,inverse weekly reset,no acquisition limit,noFAAB field. Free-agent confirmation contains no bid/fee/priority cost; exact ADD Irving/DROP Hampton."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/league/waiverreport?leagueId=582597924",
+      "observed_at": "2026-10-14T19:05:00-04:00",
+      "fact": "October14 processed report only Anna Purdy/Mahomes and Watson/Love claims. No Chet award/failure listed. Recent activity timestamps03:55EDT; Shrader/Patriots later FA adds. Current team priority3/4."
+    }
+  ],
+  "alternatives": [
+    {
+      "player": "Retain Hampton",
+      "evidence": "14 carries33 yards/one catch6 last game; Vidal9/Mitchell6 touches. Limited starting path behind Bijan/Taylor/Jeanty/Swift/Hall, week7bye. Potential rebound/talent loss real; comparable starting-role FAs Stevenson/Wilson/Jones lessen replacement cost."
+    },
+    {
+      "player": "Stevenson",
+      "evidence": "16.33 forecast,57 carries227 yards/15 catches111; last2games26carries111/twoTD/six catches48. Strong immediate choice, but Henderson limitedWednesday makes absence duration uncertain. Bye11 overlaps Bijan/JSN/London; playoff@KC/@NYJ/DEN. Prefer Irving sustained role/bye coverage to1.27 temporary projection edge."
+    },
+    {
+      "player": "Emanuel Wilson",
+      "evidence": "14.86 forecast,41carries142/two rushingTD plus5catches50/TD last2games;73seasoncarries251. Clear current lead role but Charbonnet eventual return and Price IR limit ROS certainty. Thursdaylock and bye11 add congestion."
+    },
+    {
+      "player": "Nabers / Evans",
+      "evidence": "Nabers46targets/29catches329/twoTD,20Week5targets;17.41. Evans17.19. WR upside valuable, but London/Olave/Wilson already cover Jeffersonbye and JSN risk; prefer RB injury depth with Hall unavailable."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Improved RB depth and Week7 availability; 15.06 versus9.03 is a6.03 forecast difference between bench assets, NOT a starting-lineup gain. Starter forecast remains126.99 with Jeffersonbye. No actual benefit/win probability established.",
+    "confidence": "medium"
+  },
+  "rationale": "Whole roster after move: Daniels/Hurts; Bijan/Taylor/Swift/Jeanty/Hall/Irving; JSN/Jefferson/London/Olave/GarrettWilson; McBride; PIT/Myers; AchaneIR. Irving's sustained15+carry involvement and5.3YPC versus Hampton3.7/timeshare support durable rather than single-week benefit. Week7Hamptonbye removed. Irving diminished receiving/backupQB and possible Hampton rebound are downside; base is usable RB depth; upside recurring lead workload provides FLEX cover. No core starter sacrificed, no extra slot or priority/budget sacrifice.",
+  "missing_evidence": [
+    "Full snap/route/goal-line review and official practice corroboration unavailable",
+    "Future playoff defensive strength unknown",
+    "Fully loaded team DOM/screenshot and league home displayed no pending controls/offers/notices; no separate queue was exposed. No overlapping offer/claim submitted; absence is UI evidence, not a raw transaction audit.",
+    "Exact waiver cutoff not displayed; Wednesday03:55 awards observed, free-agent addition immediate"
+  ],
+  "execution_conditions": [
+    "Verified unlocked free agent and Hampton selectable for legal drop",
+    "Exact confirmation submitted once; persisted roster verified",
+    "Log/selectivecommit/push before any subsequent mutation",
+    "Starter selections handed to lineup runs"
+  ],
+  "fallback": "If Irving's role/health changes, compare Stevenson/Jones/Wilson and WR FLEX alternatives afresh; no automatic reversal.",
+  "recheck_at": "2026-10-15T19:00:00-04:00",
+  "deadline_at": "2026-10-18T13:00:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-14T19:05:00-04:00",
+    "persisted_result": "ESPN move saved Irving added/Hampton dropped to Waivers; after reload Irving bench managerCHET and Hampton rowcount0.16active+AchaneIR; same starters,priority3/4. Supported iabtab1markedhandoff."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Executed immediate FA swap, not pending waiver claim. One mutation; Git archive required before any next mutation."
+  },
+  "report": "../analysis/2026-week-06.md",
+  "infographic": "../analysis/infographics/2026-week-06-irving-for-hampton.png"
+}
