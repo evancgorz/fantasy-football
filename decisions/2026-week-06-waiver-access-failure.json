@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-waiver-access-failure",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-14T06:57:00-04:00",
+  "status": "failed",
+  "category": "access",
+  "summary": "Waiver execution blocked by ESPN DNS failure and error-page binding policy denial; no live inspection or mutation.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation applies; critical access failure prevents evidence-backed execution, not a routine strategy approval requirement.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-14T06:57:00-04:00",
+      "fact": "Unified Computer Use createBrowserTab(iab) failed net::ERR_NAME_NOT_RESOLVED. Fresh inventory showed iab tab 1 titled This site can't be reached. Bounded retry getTab(1, browser 2) denied by Browser Use URL policy for generated data error page. Browser actions stopped; no ESPN page content read."
+    },
+    {
+      "path": "../analysis/2026-week-06.md",
+      "observed_at": "2026-10-13T12:40:00-04:00",
+      "fact": "Historical report identifies Week 6 and Thursday October 15 8:15 PM EDT JSN/Myers locks; proposed Stevenson/Hampton and Shrader/Myers acquisitions and conditional IR capacity. None refreshed or executed by this run."
+    }
+  ],
+  "alternatives": [
+    {"action": "Fresh supported inspection and bounded retry", "evidence": "Inventory obtained; error-page binding denied. Stop rather than attempt another route around denial."},
+    {"action": "Execute historical acquisition proposals", "evidence": "Rejected: current availability, health, transaction state, eligibility, costs and actual processing cutoff unverified."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Failure reporting and durable recovery handoff; no acquisition or scoring gain established.", "confidence": "unknown"},
+  "rationale": "Current ESPN evidence is required before consequential roster changes. Historical analysis does not establish current roster, claim award/failure or empty queues. This invocation occurred around 6:55 AM EDT Wednesday, not the scheduled 7 PM window; actual processing time remains unknown and may not yet have occurred. No waiver outcome may be inferred.",
+  "missing_evidence": ["Live identity/season/week", "Current scoring and individual locks", "Roster health/workload and capacity", "Claim awards/failures and pending offers", "Legal available candidates, D/ST/K costs and fantasy budget", "Actual waiver processing deadline"],
+  "execution_conditions": ["Restore supported ESPN page access and refresh all critical evidence", "No blind execution or expired proposal submission", "Verify/log/commit/push each mutation before another", "Keep starter changes with lineup runs"],
+  "fallback": "Owner should verify ordinary ESPN browser access and rerun once reachable. No password or security-setting change requested. Existing error tab left open; markHandoff unavailable because binding denied. Lineup safety unverified.",
+  "recheck_at": "2026-10-14T19:00:00-04:00",
+  "deadline_at": null,
+  "verification": {"observed_at": "2026-10-14T06:57:00-04:00", "persisted_result": "No ESPN mutation attempted. Current week and locks unverified; week 6 is historical report context. Failure classified browser/network failure plus URL-policy denial, not login-required or usage-limit."},
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "Check failed before live evidence. Historical Thursday 8:15 PM lock remains a recovery priority. No verified move or meaningful current matchup update, so no new infographic."},
+  "report": "../analysis/2026-week-06.md"
+}
