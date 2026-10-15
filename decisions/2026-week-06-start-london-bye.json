@@ -1,9 +1,9 @@
 {
  "schema_version":1,"id":"2026-week-06-start-london-bye","season":2026,"week":6,
- "observed_at":"2026-10-15T19:15:00-04:00","status":"completed","category":"lineup",
+ "observed_at":"2026-10-15T19:06:00-04:00","status":"completed","category":"lineup",
  "summary":"Started healthy London at WR for bye-week Jefferson; Jefferson retained on bench.",
  "responsible_automation":"thursday-lineup-check","requires_owner_approval":false,"owner_approval":"October11 hands-off delegation, action-capable Thursday7PM run.",
- "sources":[{"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-15T19:15:00-04:00","fact":"Fresh London card Healthy,27 catches488yd on37targets; lastgame7/11 for118. Latest newsOct12 lead receiver regardless of Penix ribs uncertainty. Forecast15.77; OlaveQ17.3 after consecutive illnessDNPs reportedThu16:30; Wilson14.8 no designation; Jeffersonbye."}],
+ "sources":[{"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-15T19:06:00-04:00","fact":"Fresh London card Healthy,27 catches488yd on37targets; lastgame7/11 for118. Latest newsOct12 lead receiver regardless of Penix ribs uncertainty. Forecast15.77; OlaveQ17.3 after consecutive illnessDNPs reportedThu16:30; Wilson14.8 no designation; Jeffersonbye."}],
  "alternatives":[{"player":"Olave","evidence":"Higher17.3 forecast but two illnessDNPs; not assumed out. ReassessFriday/Sunday before13:00 with health/workload."},{"player":"Wilson","evidence":"Healthy-looking14.8, useful fallback; London recent lead receiving role and15.77 forecast narrowly favored."},{"player":"Jefferson","evidence":"Bye, cannot scoreWeek6. Preserve for rest of season, no drop."}],
  "expected_benefit":{"points":null,"basis":"Replaces bye with viable healthy starter. ESPN total130.5 to146.3 projected; not actual points gained.","confidence":"high for filling bye; medium for London versus healthy alternatives"},
  "rationale":"London's clear lead role and healthy status outweigh Olave's currently uncertain illness availability. Base: lead targets support reception floor; downside: Penix absence/ineffective passing; upside: strong yardage role plus TD. No calibrated probabilities. No acquisition/drop or future-week lineup change.",
@@ -11,7 +11,7 @@
  "execution_conditions":["Both unlocked and WR eligible; individual scheduled locks verified"],
  "fallback":"Sunday reassess cleared Olave and Wilson; London Sun13:00 lock. Preserve JSN in dedicated WR tonight.",
  "recheck_at":"2026-10-18T08:00:00-04:00","deadline_at":"2026-10-18T13:00:00-04:00",
- "verification":{"observed_at":"2026-10-15T19:15:00-04:00","persisted_result":"Clicked exact Jefferson WR destination after selecting London; reloaded roster LondonWR/JeffersonBench, total146.3; Gay remainsK. Prior Gay action pushed0f2e6bb before this mutation."},
+ "verification":{"observed_at":"2026-10-15T19:06:00-04:00","persisted_result":"Clicked exact Jefferson WR destination after selecting London; reloaded roster LondonWR/JeffersonBench, total146.3; Gay remainsK. Prior Gay action pushed0f2e6bb before this mutation."},
  "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},
  "report":"../analysis/2026-week-06.md","infographic":"../analysis/infographics/2026-week-06-start-london-bye.png"
 }

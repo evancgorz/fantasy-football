@@ -1,13 +1,13 @@
 {
   "title": "Gay in | Myers released",
   "subtitle": "Week 6 — verified free-agent kicker exchange",
-  "observed_at": "2026-10-15T19:10:00-04:00",
+  "observed_at": "2026-10-15T19:05:00-04:00",
   "metrics": [
-    {"label":"Matt Gay — Week 6", "value":10.71, "kind":"projection", "observed_at":"2026-10-15T19:10:00-04:00"},
-    {"label":"Jason Myers — Week 6", "value":8.61, "kind":"projection", "observed_at":"2026-10-15T19:10:00-04:00"}
+    {"label":"Matt Gay — Week 6", "value":10.71, "kind":"projection", "observed_at":"2026-10-15T19:05:00-04:00"},
+    {"label":"Jason Myers — Week 6", "value":8.61, "kind":"projection", "observed_at":"2026-10-15T19:05:00-04:00"}
   ],
   "moves": [{"label":"Add Gay / drop Myers", "status":"executed", "reason":"Reload verified Gay starting at K. Healthy, 11/12 FG; indoor home matchup. No useful bench player sacrificed."}],
   "notes": ["Immediate free agent: no bid or waiver priority spent.","Myers is a viable kicker, but may be claimed by another owner.","Next: Sunday 3 PM check before Gay's 4:25 PM lock."],
   "disclaimer":"Forecast edge 2.10 is not actual points gained. LV drive quality and long-range opportunity remain uncertain.",
-  "sources":[{"label":"ESPN market, player card and reloaded roster", "url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at":"2026-10-15T19:10:00-04:00"}]
+  "sources":[{"label":"ESPN market, player card and reloaded roster", "url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at":"2026-10-15T19:05:00-04:00"}]
 }

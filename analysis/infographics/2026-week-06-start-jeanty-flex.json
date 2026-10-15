@@ -1,0 +1,10 @@
+{
+ "title":"Jeanty starts | FLEX refreshed",
+ "subtitle":"Week 6 — verified lineup decision",
+ "observed_at":"2026-10-15T19:07:00-04:00",
+ "metrics":[{"label":"Jeanty — Week 6","value":19.17,"kind":"projection","observed_at":"2026-10-15T19:07:00-04:00"},{"label":"Swift — Week 6","value":15.0,"kind":"projection","observed_at":"2026-10-15T19:07:00-04:00"}],
+ "moves":[{"label":"Jeanty FLEX / Swift bench","status":"executed","reason":"Healthy, full Wednesday practice and 30 targets through five games favor his PPR role. Reload verified total 150.4 projected."}],
+ "notes":["Downside: foot recurrence, weak rushing and goal-line competition.","Swift/Irving remain healthy depth; Olave illness monitored.","Next: Sunday 8 AM/noon, BEFORE 1 PM backup locks."],
+ "disclaimer":"Projections are not actual gains. Final practice and inactive reports can change the choice; no win probability inferred.",
+ "sources":[{"label":"ESPN roster and Jeanty/Swift cards","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-15T19:07:00-04:00"}]
+}
