@@ -1,0 +1,10 @@
+{
+ "title":"Bye covered | London starts",
+ "subtitle":"Week 6 — Jefferson preserved on bench",
+ "observed_at":"2026-10-15T19:15:00-04:00",
+ "metrics":[{"label":"Lineup before WR change","value":130.5,"kind":"projection","observed_at":"2026-10-15T19:15:00-04:00"},{"label":"Lineup with London","value":146.3,"kind":"projection","observed_at":"2026-10-15T19:15:00-04:00"}],
+ "moves":[{"label":"London WR / Jefferson bench","status":"executed","reason":"Reload verified. Healthy lead receiver replaces a bye; no player dropped."}],
+ "notes":["London: 7 catches on 11 targets, 118 yards last game.","Olave illness: two missed practices; can reconsider if cleared.","Next: Sunday 8 AM/noon; London locks 1 PM Eastern."],
+ "disclaimer":"ESPN projected totals, not actual gain. QB health and Friday practice reports can change the final choice.",
+ "sources":[{"label":"ESPN reloaded roster and London card","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-15T19:15:00-04:00"}]
+}
