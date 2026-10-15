@@ -1,6 +1,6 @@
 # Scheduled coaching: browser access and recovery
 
-Updated October 11, 2026. All times are America/New_York. The six ACTIVE app automations are authoritative; automation-config.json is their versioned snapshot, not another scheduler. All use gpt-6.1-sol / medium, as requested by the owner.
+Updated October 15, 2026. All times are America/New_York. The six ACTIVE app automations are authoritative; automation-config.json is their versioned snapshot, not another scheduler. All now target the existing Head Coach chat as heartbeat schedules, not standalone new-chat runs. Chat-attached schedules have no per-schedule model/effort fields; keep the requested gpt-6.1-sol / medium in the Head Coach chat settings. This migration did not independently verify or change the chat's current model selection.
 
 ## Required recovery sequence
 
@@ -50,3 +50,9 @@ On October 4, the owner authorized a read-only test in existing chat `01a10927-4
 ## Hands-off management and visual reporting
 
 October 11 owner delegation is in all six saved prompts. Weekly review and Thursday/Monday 5 PM remain ESPN read-only. Action-capable lineup and waiver runs execute justified moves/IR/trades under coaching-policy.md without routine strategic approval. All read docs/infographics.md; meaningful reports and verified moves get curated source data and a simple PNG. Preserve locks, verification and Git archiving if rendering fails. Schedules, project, local execution and gpt-6.1-sol/medium unchanged. Future runs use new prompts; old/running chats are not retroactively rewritten.
+
+## Chat-attached scheduling — October 15
+
+Owner requested all six duties return to `Chet and the Jets Head Coach`, ID `01a09c17-7e9a-7380-9748-bda15f3dcf51`. Existing automation IDs were converted in place to heartbeat/thread destinations, retaining names, ACTIVE status, exact recurrence and coaching prompts plus a chat-scope guard. No duplicate or replacement jobs created. Earlier standalone/local per-task model descriptions above are historical; schedules now use this chat/workspace rather than independent project launches and model overrides. Do not archive this Head Coach chat at the end of a scheduled run. Reread repository state and run-specific scope; do not replay old instructions or transactions from chat history. Security, hands-off authority, read-only windows, quiet unchanged checks, infographic and Git sequencing remain.
+
+`pwsh -NoProfile -File scripts/test-automation-contract.ps1` compares saved definitions with the repo, checks all six target this chat, and rejects duplicate active standalone tasks in this project. Configuration checks do not prove future scheduled dispatch or browser access; verify on the next run. The app/tool does not accept model or reasoning-effort overrides for heartbeat schedules. Requested 6.1 Sol/Medium is recorded as a chat-level requirement, not a verified per-task setting.

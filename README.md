@@ -1,5 +1,7 @@
 # Fantasy Football Operations
 
+All six coaching schedules now return to the existing Head Coach chat (October 15), instead of creating a new chat per run. See [scheduling/recovery](docs/automation-recovery.md). Keep that chat on the requested 6.1 Sol/Medium setting; chat-attached jobs do not have independent model overrides.
+
 This repository contains the operating design and decision records for managing the ESPN Fantasy Football team **Chet and the Jets**.
 
 Start here:
