@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-thursday-1700-preflight",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-15T17:06:32-04:00",
+  "status": "monitoring",
+  "category": "lineup",
+  "summary": "Read-only preflight passed: JSN cleared, Myers healthy; 7 PM kicker decision, new Hurts OUT and Olave second illness DNP require handoffs.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 delegation; Thursday 5 PM explicitly ESPN read-only. No strategic approval requested.",
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-15T17:06:32-04:00", "fact": "Authenticated Chet/league582597924/team3/2026/Week6,4-1 first vs Oldies. JSN19.0 and Myers8.6 starting atDEN Thu8:15PM. JSN Healthy, Wednesday6:33PM news full practice/no Thursday designation; Myers Healthy. Hurts bench OUT0, estimated returnOct26; Thursday3:15PM ESPN news says ruled outWeek6. OlaveQ17.3, Thursday4:30PM news illness DNP again; Friday final practice opportunity. Jefferson starting BYE; SwiftFLEX15.0 vs benchJeanty19.2, London15.8, Wilson14.8, Irving15.2; HallD0. Irving bench/Hampton absent. Nine populated slots but bye WR remains unresolved. No separate pending-queue control displayed/inspected."},
+    {"url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924", "observed_at": "2026-10-15T17:06:32-04:00", "fact": "Live fullPPR, passingTD4, REC1, individual scheduled-game locks; lineup protectionOff,16active+1IR, one-day/inverse-standings waivers, no acquisition/trade limit or FAAB field shown. Kicking FG3/4/5/6 by distance, miss-1/PAT1."},
+    {"url": "https://fantasy.espn.com/football/players/add?leagueId=582597924", "observed_at": "2026-10-15T17:06:32-04:00", "fact": "Available K filter: Gay10.7 FA BUF Sun4:25, Zvada10.9 FA NO Sun1, Loop9.7 FA atCLE Sun1, Little9.5 FA HOU Sun9:30, Fairbairn10.5 WA(Fri) atJAX Sun9:30, Lutz8.4 FA SEA Thu8:15. No add/claim/drop submitted. Accuracy/news/weather not refreshed in this market screen."}
+  ],
+  "alternatives": [
+    {"player": "JSN versus London/Olave/Wilson", "evidence": "Provisional retain JSN based on fresh cleared status/lead role/19.0 forecast. London15.8 and Wilson14.8 show no designation; Olave17.3 has two illness DNPs. Recheck official inactives/setbacks before8:15PM; allocate distinct WR replacements for JSN and Jefferson if necessary."},
+    {"player": "Myers versus Gay/Zvada/Loop", "evidence": "Myers healthy with long-kick scoring history; Gay/Zvada higher forecasts and immediate FA availability warrant 7PM whole-cost/weather/role comparison. Not a projection-only order. Fairbairn's Friday waivers occur after Myers locks; don't assume locked drop or sacrifice useful bench depth."},
+    {"player": "Daniels with Hurts unavailable", "evidence": "Daniels starting Monday; Hurts now OUT and cannot serve as Week6 contingency. Refresh Monday-eligible backup market and Daniels health before Sunday locks. Reevaluate prior Week7 coverage plan; Oct26 estimated return is not guaranteed medical clearance."}
+  ],
+  "expected_benefit": {"points": null, "basis": "Read-only access/injury warning and executable handoffs. Gay/Myers rounded forecast difference2.1 is not validated benefit or guaranteed gain.", "confidence": "medium"},
+  "rationale": "Keep ESPN read-only at5PM. No current Thursday inactive starter observed, but kicker decision must occur before tonight's lock. New Hurts OUT and persistent Olave illness make yesterday's fallback assumptions stale. Maintain urgency without bypassing evidence or run scope.",
+  "missing_evidence": ["Official final game-day inactives not yet independently inspected", "Fresh kicker accuracy/drive/weather comparison", "Independent pending claims/offers queue not exposed or inspected", "Fresh QB replacement market and Hurts injury detail/Week7 prognosis", "Friday Olave practice", "Full bench/three skill-candidate/pressure/usage/playoff review deferred in focused preflight"],
+  "execution_conditions": ["5PM run makes no ESPN mutation", "7PM refresh JSN/Myers status/locks and exact K transaction state then decide autonomously", "Refresh Jefferson bye WR and FLEX choices; no stale Olave start order", "Resolve usable QB fallback before relevant Sunday/Monday individual locks", "Verify/log/commit/push each later mutation before another"],
+  "fallback": "Retain healthy Myers if fresh K comparison does not establish benefit. Replace JSN only for fresh availability/workload evidence, with distinct healthy WRs reserved for bye coverage. Do not use OUT Hurts as a fallback or treat OlaveQ as inactive.",
+  "recheck_at": "2026-10-15T19:00:00-04:00",
+  "deadline_at": "2026-10-15T20:15:00-04:00",
+  "verification": {"observed_at": "2026-10-15T17:06:32-04:00", "persisted_result": "Unified Computer Use authenticated live roster/cards/settings/K pool read. No ESPN mutation, no account/automation changes. Earliest roster lockJSN/Myers20:15EDT; no rostered earlier gap observed. Successful tab preserved for7PM. Source times approximate end-of-review minute."},
+  "outcome": {"actual_points": null, "alternative_actual_points": null, "process_review": "First Thursday5PM chat-attached wakeup completed live read-only preflight in Head Coach chat; future7PM dispatch/access still needs verification."},
+  "infographic": "../analysis/infographics/2026-week-06-thursday-1700-preflight.png"
+}
