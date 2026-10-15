@@ -1,0 +1,10 @@
+{
+ "title":"Thursday check | Three moves verified",
+ "subtitle":"Chet and the Jets vs Oldies — Week 6",
+ "observed_at":"2026-10-15T19:10:00-04:00",
+ "metrics":[{"label":"Chet — current lineup","value":150.4,"kind":"projection","observed_at":"2026-10-15T19:10:00-04:00"},{"label":"Oldies — current lineup","value":126.1,"kind":"projection","observed_at":"2026-10-15T19:10:00-04:00"}],
+ "moves":[{"label":"Gay in / Myers released","status":"executed","reason":"Healthy accurate kicker, indoor game; no waiver priority spent."},{"label":"London WR / Jefferson bench","status":"executed","reason":"Bye covered with healthy lead receiver; Olave illness still uncertain."},{"label":"Jeanty FLEX / Swift bench","status":"executed","reason":"Receiving role plus full Wednesday practice; Sunday health recheck required."}],
+ "notes":["JSN retained tonight, 8:15 PM Eastern; official final report clears him.","Sunday 8 AM/noon: Olave, Jeanty and QB alternatives BEFORE backup locks.","Daniels healthy; Hurts OUT. Week 7 QB coverage needs fresh evaluation."],
+ "disclaimer":"Both teams 0 actual. Forecast lead is not a win probability; opponent can improve its lineup. Every mutation verified and pushed separately.",
+ "sources":[{"label":"ESPN live Week 6 boxscore","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-15T19:10:00-04:00"},{"label":"Seahawks official final injury report","url":"https://www.seahawks.com/news/week-6-injury-report-seahawks-at-broncos","observed_at":"2026-10-15T19:10:00-04:00"}]
+}
