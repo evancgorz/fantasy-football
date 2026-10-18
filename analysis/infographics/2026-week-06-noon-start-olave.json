@@ -1,0 +1,13 @@
+{
+  "title":"Olave cleared | Starts over London",
+  "subtitle":"Week 6 noon check — verified WR change",
+  "observed_at":"2026-10-18T12:07:00-04:00",
+  "metrics":[
+    {"label":"Olave — at Giants","value":17.28,"kind":"projection","observed_at":"2026-10-18T12:07:00-04:00"},
+    {"label":"London — versus Bears","value":15.76,"kind":"projection","observed_at":"2026-10-18T12:07:00-04:00"}
+  ],
+  "moves":[{"label":"Olave WR / London bench","status":"executed","reason":"Active clearance and stronger season target volume give Olave a narrow PPR edge. Reload verified."}],
+  "notes":["Both are active; London remains a strong alternative.","Downside: residual illness and Saints QB/pressure risk.","Both lock at 1 PM Eastern. Next late-window check: 3 PM."],
+  "disclaimer":"Forecast edge 1.52 is not actual points gained. Starting forecast153.7; actual team score remains25.4. Website screenshot unavailable.",
+  "sources":[{"label":"ESPN live cards/roster and official Saints/Falcons inactives","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-18T12:07:00-04:00"}]
+}

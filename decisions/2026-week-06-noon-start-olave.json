@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-06-noon-start-olave",
+  "season": 2026,
+  "week": 6,
+  "observed_at": "2026-10-18T12:07:00-04:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Started active Olave over London after refreshing illness clearance and receiving roles.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation includes close start/sit decisions; Sunday noon is action-capable.",
+  "sources": [
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-18T12:07:00-04:00","fact":"Fresh Olave card Healthy/no Q,39 catches537yd on54targets,17.28 forecast. London Healthy,27 catches488yd on37targets,15.76 forecast. Both play13:00. Exact legal WR swap and reload verify OlaveWR/LondonBench, LoveQB/HurtsIR unchanged. Pregame lineup forecast152.2 before/153.7 after; actual25.4 unchanged."},
+    {"url":"https://www.neworleanssaints.com/news/new-orleans-saints-inactives-new-york-giants-2026-nfl-week-6-gameday","observed_at":"2026-10-18T12:07:00-04:00","fact":"Official Sunday inactive list excludes Olave and Shough. Giants CB Colton Hood and S Tyler Nubin inactive; RT Jermaine Eluemunor also inactive. This supports Olave availability, not a guaranteed full snap count."},
+    {"url":"https://www.neworleanssaints.com/news/injury-report-new-york-giants-vs-new-orleans-saints-2026-nfl-week-6-friday","observed_at":"2026-10-18T12:07:00-04:00","fact":"Olave returned limited Friday after two illness DNPs; Shough full all three practices despite left-hand injury."},
+    {"url":"https://www.espn.com/fantasy/football/story/_/page/FFSundayInactives-50188691/fantasy-football-injuries-nfl-week-6-inactive-active?ex_cid=fantasy_player_card","observed_at":"2026-10-18T12:07:00-04:00","fact":"Loaded browser article updated11:55 confirms Olave active and recommends usual fantasy use; no reported workload restriction. Penix and Caleb Williams active; Monangai remains out. Separate current ESPN Shough report says two broken bones in non-throwing hand, present sinceOct5, full practices/no missed playing time; diagnosis not publicly team-confirmed. No assumed statistical penalty."},
+    {"url":"https://www.atlantafalcons.com/news/atlanta-falcons-inactive-players-chicago-bears","observed_at":"2026-10-18T12:07:00-04:00","fact":"Official11:31 report confirms Penix starting and London/Bijan absent from inactive list; London is a viable healthy alternative, not benched due to false injury assumption."},
+    {"url":"https://fantasy.espn.com/football/league/settings?leagueId=582597924","observed_at":"2026-10-18T12:07:00-04:00","fact":"Refreshed fullPPR/4ptpassTD, individual scheduled-game locks,16active+1IR, no keepers, one-day/inverse-standings waivers, no acquisition limit or FAAB field."}
+  ],
+  "alternatives": [
+    {"player":"London","evidence":"Healthy with Penix active; three recent strong yardage games and established lead role. Fewer season targets/receptions and lower forecast narrowly favor cleared Olave; London could outperform if Saints offense struggles."},
+    {"player":"Garrett Wilson","evidence":"Current healthy14.8 roster option and concentrated lead role; no fresh evidence here establishes a better expected outcome than Olave. Retain as depth, no drop."},
+    {"player":"Nabers acquisition","evidence":"08AM verified17.36FA with strong recent role; historical snapshot, not current availability. Acquisition/drop costs are unnecessary for nearly equal forecast to already-owned cleared Olave. Re-screen market separately rather than replay old order."}
+  ],
+  "expected_benefit": {"points":null,"basis":"Olave17.28 versus London15.76 displayed forecasts differ1.52; not calibrated expected gain or actual points earned.","confidence":"medium, close choice"},
+  "rationale":"Active clearance removes the principal reason for Thursday's London selection. FullPPR target/reception volume plus Giants DB absences favor Olave narrowly. Base: usual lead receiving workload; downside: residual illness, blitz pressure/Shough hand and passing efficiency; upside: concentrated targets against depleted coverage. London/Penix remain sound. No claimed full snap/route audit, weather edge or win probability; not changing simply because we lead.",
+  "missing_evidence": ["Exact snap/route limits unavailable; no restriction reported is not proof of zero risk","Game-time weather and full pressure dataset","Separate pending queue not exposed; no claim/trade overlap","Website screenshot capture timed out; saved move and persisted DOM verified"],
+  "execution_conditions": ["Fresh live identityWeek6/team3, both WR eligible/unlocked before13:00","No acquisition/drop/budget needed","Archive and push this mutation before another"],
+  "fallback": "If an unexpected pre13:00 setback appears, use healthy London or Wilson while unlocked. After13:00 these players lock; do not imply later replacement remains legal.",
+  "recheck_at": "2026-10-18T15:00:00-04:00",
+  "deadline_at": "2026-10-18T13:00:00-04:00",
+  "verification": {"observed_at":"2026-10-18T12:07:00-04:00","persisted_result":"Exact LondonWR destination selected after Olave; reload verified OlaveWR/LondonBench,153.7pregame projection/25.4actual. MorningLove/Hurts/IR changes intact. Screenshot unavailable after one current capture timeout."},
+  "outcome": {"actual_points":null,"alternative_actual_points":null,"process_review":null},
+  "report": "../analysis/2026-week-06.md",
+  "infographic": "../analysis/infographics/2026-week-06-noon-start-olave.png"
+}
