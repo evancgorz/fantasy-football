@@ -1,0 +1,7 @@
+{
+ "title":"Achane released | IR capacity opened","subtitle":"Week6 Sunday8AM — verified roster action","observed_at":"2026-10-18T08:07:00-04:00","metrics":[],
+ "moves":[{"label":"Release Achane from IR","status":"executed","reason":"Reload verified empty IR slot. Current return estimate is after this season; league has no keepers."},{"label":"Hurts to IR / acquire QB","status":"proposed","reason":"Hurts is eligible and has potential later-season value. Each next action must be verified separately."}],
+ "notes":["No useful active player released; no immediate projected scoring gain.","Released player can be claimed by another owner.","Next: verified Hurts IR transfer, then fresh QB acquisition."],
+ "disclaimer":"Return estimates are not medical guarantees. Browser screenshot capture failed; saved notification and reloaded DOM verified the release.",
+ "sources":[{"label":"ESPN roster/cards, Manage IR and league settings","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-18T08:07:00-04:00"}]
+}
