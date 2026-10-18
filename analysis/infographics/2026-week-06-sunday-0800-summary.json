@@ -1,0 +1,8 @@
+{
+ "title":"Sunday 8 AM | QB coverage repaired","subtitle":"Chet vs Oldies — live Week 6 outlook","observed_at":"2026-10-18T08:15:00-04:00",
+ "metrics":[{"label":"Chet — live projected final","value":157.7,"kind":"projection","observed_at":"2026-10-18T08:15:00-04:00"},{"label":"Oldies — live projected final","value":129.0,"kind":"projection","observed_at":"2026-10-18T08:15:00-04:00"}],
+ "moves":[{"label":"Release Achane / move Hurts to IR","status":"executed","reason":"Each verified and pushed separately. No useful active depth lost; Hurts' possible later-season return preserved."},{"label":"Add and start Love","status":"executed","reason":"Two separately archived actions. Healthy current/Week 7 QB; Daniels retained as later-game fallback."},{"label":"London and Jeanty stay in","status":"retained","reason":"Olave remains questionable; Jeanty practiced fully all three days. Swift's bigger role merits noon review."}],
+ "notes":["Actual: Chet 25.4 vs Oldies 11.0; eight players yet to play each.","No rostered 9:30 AM player. Noon review before 1 PM WR/RB locks.","Sunday 7 PM: Love health/weather/inactives before 8:20 PM lock."],
+ "disclaimer":"Live finals include Thursday actuals. Pregame lineup forecast 151.4 is a different measure. No guaranteed win or actual gain; screenshot capture unavailable.",
+ "sources":[{"label":"ESPN live Week 6 boxscore, roster/cards and activity","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-18T08:15:00-04:00"}]
+}
