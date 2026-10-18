@@ -1,5 +1,11 @@
 # Fantasy Football Decision Log
 
+### 2026-10-18 — Week 6 — Sunday night QB check, approximately 7 PM EDT
+
+Unified Computer Use iab tab1 authenticated; fresh Week6 roster, scoring/individual locks, Love/Daniels/Prescott cards, QB market, activity and boxscore read. Retain LoveQB20.90 over Daniels19.94 after official Packers full inactives exclude Love/primary receivers. NWS updated17:51CDT: kickoff vicinity11mph/gust21 easing,0%precip; earlier WBAYgust25 and marine gale speeds distinguished. Love passing improvement/Dallas matchup narrowly preferred; DanielsFPallthree/no designation, rushing and SF Bosa/Wallow/SigleOUT make it close. DiggsQ/overallSFmatchup downside. No quantified weather penalty or actualgain invented. PrescottHealthyFA17.12 faces samewind/tougherGBpasscontext and requiresdrop; other startingQBs locked/bye, backupMariotaOUT. Fewerthan3usefulavailableacquisitioncandidates; no filleradd. AllnonQBslotslocked; eachbench/IR retain reason and limits in decisions/2026-week-06-sunday-1900-retain-love.json.
+
+No ESPN mutation/cost/trade/claim/IRchange. Current actual117.2–89.0, livefinal143.0–126.8, Chet3playing1yet/Oldies2playing2yet. LoveSun20:20; opponentCMC/KittleMonday20:15, resultunsettled. Olave14.3/London12.2completed2.1difference; Swift23/Jeanty15.8unfinishednotfinalcost. Love locks tonight; Monday cannotreplacewithDaniels. Monday17:00read-only/19:00 inspectpersistedstate andmatchup, not replayoldorders. Separatependingqueueunexposed/noemptyclaim. TabmarkedHandoff. Afternoonhandoffclosed; curatedPNG/input/report selectivelycommitted/pushed, hashinfinal. No credentials/security/account/automations/chatchanges.
+
 ### 2026-10-18 — Week 6 — Sunday 3 PM afternoon check
 
 Observed approximately15:00–15:06EDT, authenticated supported BrowserNode iab fallback reused; current team3/league582597924/2026/Week6/rules/cards/market/activity/boxscore refreshed. No ESPN mutation. Retain McBrideTE/JeantyFLEX/GayK: official Cardinals explicitlyMcBrideactive; Raiders full final list excludesJeanty/Gay and showsBuffaloOliverinactive. PPRvolume/fullpractice andGayaccuracy/indoorcontext supportholds; freshGrupe9.86/Bass9.09/Pineiro8.97cardtradeoffs recorded. TE/RB/WRlatepool no demonstratedwhole-rosterupgrade; earlybenchlocked. No claim/trade/drop or cost, no assertion separatependingqueueempty.
