@@ -1,0 +1,10 @@
+{
+ "title":"Noon check | Olave in, Jeanty stays",
+ "subtitle":"Chet vs Oldies — Week 6 live outlook",
+ "observed_at":"2026-10-18T12:10:00-04:00",
+ "metrics":[{"label":"Chet — live projected final","value":160.0,"kind":"projection","observed_at":"2026-10-18T12:10:00-04:00"},{"label":"Oldies — live projected final","value":129.0,"kind":"projection","observed_at":"2026-10-18T12:10:00-04:00"}],
+ "moves":[{"label":"Olave WR / London bench","status":"executed","reason":"Officially active; target volume supports a narrow PPR edge. Reload verified and action pushed separately."},{"label":"Jeanty at FLEX","status":"retained","reason":"Receiving role and Buffalo matchup preferred over Swift/Irving, despite their expanded opportunities."},{"label":"Love QB / Hurts IR","status":"retained","reason":"Morning changes remain intact. Daniels is the later-game backup; no extra drop or acquisition."}],
+ "notes":["Actual: Chet 25.4 vs Oldies 11.0; eight yet to play each.","1 PM bench locks mean Swift/Irving cannot be afternoon fallbacks.","Next: 3 PM late-player check; 7 PM Love health/weather/inactives."],
+ "disclaimer":"Live finals include banked Thursday points. Pregame lineup forecast153.7 is different. No guaranteed win or actual gain; website screenshot unavailable.",
+ "sources":[{"label":"ESPN live Week6 boxscore, roster/cards and official inactives","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-18T12:10:00-04:00"}]
+}
