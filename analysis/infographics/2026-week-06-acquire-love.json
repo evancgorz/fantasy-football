@@ -1,0 +1,7 @@
+{
+ "title":"Love acquired | QB coverage restored","subtitle":"Week6 Sunday8AM — verified free-agent addition","observed_at":"2026-10-18T08:10:00-04:00",
+ "metrics":[{"label":"Love — Week6","value":20.90,"kind":"projection","observed_at":"2026-10-18T08:10:00-04:00"},{"label":"Stafford — available alternative","value":19.63,"kind":"projection","observed_at":"2026-10-18T08:10:00-04:00"},{"label":"Mahomes — available alternative","value":18.77,"kind":"projection","observed_at":"2026-10-18T08:10:00-04:00"}],
+ "moves":[{"label":"Add Love to bench","status":"executed","reason":"Fresh roster verified Love on bench and Hurts in IR; no further drop, bid or priority charge."}],
+ "notes":["Healthy Sunday-night option; available for Daniels' Week7 bye.","Passing improvement and Dallas matchup support choice; turnover risk remains.","Next: choose best starter separately; Sunday7PM recheck before8:20PM."],"disclaimer":"Bench acquisition did not change starting projection. Forecasts are not actual gain; no promised future availability or performance.",
+ "sources":[{"label":"ESPN live QBmarket/cards and refreshed roster","url":"https://fantasy.espn.com/football/players/add?leagueId=582597924","observed_at":"2026-10-18T08:10:00-04:00"}]
+}
