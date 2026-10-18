@@ -1,0 +1,7 @@
+{
+ "title":"Love starts | Daniels remains available","subtitle":"Week6 — close QB choice, verified after reload","observed_at":"2026-10-18T08:11:00-04:00",
+ "metrics":[{"label":"Love — versus Dallas","value":20.90,"kind":"projection","observed_at":"2026-10-18T08:11:00-04:00"},{"label":"Daniels — at San Francisco","value":19.94,"kind":"projection","observed_at":"2026-10-18T08:11:00-04:00"}],
+ "moves":[{"label":"Love QB / Daniels bench","status":"executed","reason":"Improved passing and Dallas matchup narrowly favored. Reload verified; lineup forecast now151.4."}],
+ "notes":["Daniels is healthy and his rushing can outperform this choice.","Love locks Sunday8:20PM; Daniels plays Monday8:15PM.","Next: Sunday7PM weather, health and official inactive check."],"disclaimer":"Forecast difference0.96 is not actual gain. Actual team score remains25.4; no calibrated win probability.",
+ "sources":[{"label":"ESPN live roster and QBcards","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-18T08:11:00-04:00"}]
+}
