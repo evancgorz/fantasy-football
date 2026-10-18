@@ -1,0 +1,51 @@
+{
+  "schema_version":1,
+  "id":"2026-week-06-sunday-1500-retain",
+  "season":2026,
+  "week":6,
+  "observed_at":"2026-10-18T15:06:00-04:00",
+  "status":"monitoring",
+  "category":"afternoon retain and night QB handoff",
+  "summary":"Retain officially available McBride, Jeanty and Gay; no ESPN mutation. Close live matchup; night QB review remains.",
+  "responsible_automation":"sunday-late-game-lineup-check",
+  "requires_owner_approval":false,
+  "owner_approval":"October 11 hands-off delegation; no routine strategic approval needed.",
+  "sources":[
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-18T15:06:00-04:00","fact":"Authenticated Chet team3/league582597924/season2026/Week6,4-1. McBrideTE17.09/Healthy42REC56targets,JeantyFLEX19.17/Healthy22REC215yd2TD30targets plus88carries291yd0TD,GayK10.71/Healthy11of12FG11of11PAT. LoveQB20.9/Danielsbench19.9/HurtsIR intact; Jeffersonbye,London/Wilson/HallOUT/Swift/Irving bench. McBride16:05,Jeanty/Gay16:25,Love20:20 Sunday; DanielsMonday20:15. Final roster refreshed with no mutation."},
+    {"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-18T15:03:00-04:00","fact":"Snapshot actualChet53.7/Oldies68.14; livefinalforecast143.6/148.0, fourcurrentlyplaying/fouryet each. ChetBijan6.5,Taylor9.3,JSN25.4final,Olave3.5,PIT9; benchSwift22.8/London8.6/Irving5.2/Wilson2.5 in progress. OldiesMaye16.44/Henry5.8/Egbuka16.4/Loveland18.5/Broncos11final; Adams/Dicker/CMC/Kittle yet. Pregame153.7/123.5 is distinct; no win odds or settled result."},
+    {"url":"https://www.azcardinals.com/news/budda-baker-zaven-collins-active-for-cardinals-against-rams","observed_at":"2026-10-18T15:03:00-04:00","fact":"Official final list explicitly all four TEs active, including McBride. Brissett and Minshew ahead of emergencyQBBeck. JeremiyahLoveinactive, not our JordanLove."},
+    {"url":"https://www.azcardinals.com/news/doubling-up-cardinals-work-to-get-trey-mcbride-michael-wilson-free-in-passing-game","observed_at":"2026-10-18T15:03:00-04:00","fact":"Official team analysis corroborates McBride42catches56targets; heavy double teams and low yards per target are genuine downside despite volume. No planned offensive overhaul after Harrisontrade."},
+    {"url":"https://www.raiders.com/news/las-vegas-raiders-week-6-inactives-vs-buffalo-bills-101826","observed_at":"2026-10-18T15:05:00-04:00","fact":"Fresh browser official list: RaidersOConnell/emergencyQB,McCollum,DaltonJohnson,CianSlone,Cabeldue,Hemingway inactive; Jeanty/Gay absent. BuffaloDJMoore,MikeDanna,ReedAdams,Bowry,EdOliver inactive. Web search index lagged; supported browser loaded current article. No workload restriction reported, not a guarantee of full snaps."},
+    {"url":"https://www.raiders.com/news/las-vegas-raiders-buffalo-bills-week-6-injury-report-2026","observed_at":"2026-10-18T15:03:00-04:00","fact":"JeantyFPWedThuFri/no designation. BowersFPThuFri/no designation. Gay absent from injury report. BuffaloBernardLPFriday/no designation; do not assume he is out."},
+    {"url":"https://fantasy.espn.com/football/players/add?leagueId=582597924","observed_at":"2026-10-18T15:06:00-04:00","fact":"Fresh three kicker cards: GrupeHealthyFA9.86,newRamskicker replacingcutMevis,career86of105FG/96of98PAT,seasonstatsunknown; BassHealthyFA9.09,9of9FG15of17PAT,zero50plusattempts,outlookLVfewFGtries; PineiroHealthyFA8.97,5of8FG/all3misses50plus,17of19PAT,Monnight. TEFAKraft12.1/Kincaid8.1/Ferguson7/Higbee7.2 vsMcBride17.1. RBFAHampton9/Lloyd10.9,otherslocked/bye/inactive in inspected top pool. WRFAEvansQ14.9/Golden15.7 fromloadedallplayerpool; no demonstratedunlockedFLEXupgrade. EarlyWAplayers not legal immediate alternatives."},
+    {"url":"https://fantasy.espn.com/football/league/settings?leagueId=582597924","observed_at":"2026-10-18T15:06:00-04:00","fact":"Refreshed fullPPR,passingTD4/INTminus2,individualscheduledgame locks,16roster/7bench/1IR,one-daywaiversinverseweekly,noacquisition/tradelimit,no2027keepers,Dec2noontradedeadline/one-dayreview. KFGdistance3to6/missminus1/PAT1. No FAAB field or cost incurred."},
+    {"url":"https://fantasy.espn.com/football/recentactivity?leagueId=582597924","observed_at":"2026-10-18T15:06:00-04:00","fact":"Newest displayed acquisitions remain08:09LoveFAadd/08:07AchaneDrop. No separatependingqueue exposed; history/defaultexcludesMoved does not prove nonepending. No overlappingtransaction initiated."}
+  ],
+  "roster_reviews":[
+    {"player":"McBride","decision":"Retain active high-volume TE despite toughRamsTEcontext/doubleteams. No benchTE. Market alternatives requiredrop and do not establish better role/expectedpoints. Base sustainedPPRtargets; downsidecoverage/passprotection/lowefficiency; upsideTDplusvolumereceptions."},
+    {"player":"Jeanty","decision":"Retain active/FPadvantage andreceivingfloor; Oliverinactive supports matchup but no invented quantifiedbonus. Swift/Irvingnowlocked, cannot be pivots. Base carries+receptions; downsidefootrecurrence/Laubegoalline/LVdrivestalls; upsidefirst2026rushTD+receiving. No legal marketupgrade established; don't force highvariancebecause trailing."},
+    {"player":"Gay","decision":"Retain11of12accuracy/indoor10.71 versus three freshlyinspectedKcards. GrupebetterLARdrivecontext possible butnewteam/unknown2026sample/career81.9accuracy; Bassstrongoffense/9of9butfewFGopportunities/zero50plus; Pineirogoodoffensebut3longmisses andoutdoorMondayweatherunknown. GayLVCousins/Mendozaoffenseuncertainty acknowledged; conflictingBuffaloPAprose excluded. No arbitraryminimumprojectiongap."},
+    {"player":"Love/Daniels/Hurts","decision":"LoveHealthyQB retained20.9 versusDaniels19.9 now; freshnighthealth/weather/inactives before20:20. DanielsMondayfallbackonlyuntilLove locks. HurtsIR retainslater2026potential, not assumedreturndate; Love coversDanielsWeek7bye. No thirdactiveQBacquisition."},
+    {"player":"Jefferson","decision":"Bye6bench preserved forpremiumWeek7return; not a currentFLEXsolution. No strongerwhole-rostercase for dropping him to buy lower-rolelateplayer."},
+    {"player":"London/Wilson","decision":"BothlockedvaluableWRdepth, notlegalafternoonpivots. London8.6/Wilson2.5unfinished not drop signals. MorningbyeplanningLondon11/Wilson13/Olave8 retainedasdatedcontext; no newplayoffscheduleaudit."},
+    {"player":"Hall","decision":"OUT/lockedrecoveryasset; no assertionWeek7ready. Fullbench and current healthy starters create no emergencycapacityneed. No identifiedlateFAwhole-rosterbenefit justifies release withoutfreshWeek7recoverydata."},
+    {"player":"Swift/Irving","decision":"Lockeddepth withrealroles, retained. Swift22.8unfinishedoutperformance cannot be moved retroactively; reviewprelockMonangaiabsence weightingTuesdaywithoutrewritingnoonrationale. Irving5.2unfinishednotdropreason. Bye10planninghistorical; completeROS/playoffsreviewdeferredweekly."},
+    {"player":"Bijan/Taylor/Olave/JSN/PIT","decision":"All earlierlocks, no legal strategic edits. OlaveWR/Londonbench andprioractionspersist. Actualscoringdoesnot authorizechasing benchpoints ormovinglockeddefense."}
+  ],
+  "alternatives":[
+    {"action":"ReplaceMcBridewithKraft/Kincaid","evidence":"LegalFA laterstarts butrequiresdrop; activeMcBridevolumeoutweighs lowerprojectedroles; notforecastalone. No acquisition needed."},
+    {"action":"ReplaceJeantywithlateFA","evidence":"Fresh Hampton9/Lloyd10.9/EvansQ14.9 offer no establishedrole/healthimprovement afterassetcost. Golden15.66 was inspected at noon, not a newly refreshedcard this run. Swift/Irvinglockednotlegal."},
+    {"action":"SwapGayforGrupe/Bass/Pineiro","evidence":"Freshaccuracy/role/drive tradeoffs above supportGay; no roster mutation or fantasy cost."}
+  ],
+  "expected_benefit":{"points":null,"basis":"No mutation; no automatic scoring gain. Live forecastbehind4.4isnotestimatedcostofdecisions or winprobability.","confidence":"medium"},
+  "rationale":"Finalofficialactives+freshcards justify afternoonretains. Protect individual locks, avoidhindsightchurn and preserveusefuldepth. Fulfillnoonhandoff without routineownerapproval.",
+  "missing_evidence":["Fullroutes/snaps/goal-line/pressure dataset unavailable","Separatependingclaim/offerqueue unexposed","Nightofficialinactives and weather not yetchecked;19:00handoff","No fullupdatedROS/playoff audit thisfocusedlineupcheck; datedmorningcontextonly"],
+  "execution_conditions":["No ESPNmutation thisrun","Any latermutationrequiresfreshlegalalternatives and per-actionverify/log/commit/push","Do not undo verifiedearlyactions fromstale records"],
+  "fallback":"McBride16:05/JeantyGay16:25lockbefore19:00nextcheck; finalofficialavailability checkednow. If unexpectedprelocksetback requiresfreshcheck and legalFAcapacity. Night19:00 checkLove; DanielsMonday20:15pivotbeforeLove20:20lockonly, no assumptionlaterQBcanreplacealreadylockedLove.",
+  "recheck_at":"2026-10-18T19:00:00-04:00",
+  "deadline_at":"2026-10-18T20:20:00-04:00",
+  "verification":{"observed_at":"2026-10-18T15:06:00-04:00","persisted_result":"Finalteamview retainsMcBrideTE/JeantyFLEX/GayK/LoveQB/Danielsbench/HurtsIR/OlaveWR. Officiallateinactivesread. No ESPN mutation, no capture attempted forread-onlycheck. BrowserNode supportedfallback reused, authenticatedtab1markedHandoff; no credentials/account/security/automation/chatchanges."},
+  "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":"Earlygamesunfinished. TuesdaysettledscorecardmustreviewSwiftvsJeantyandLondonvsOlave usingoriginallegalavailability andprelockevidence, not invented counterfactuals."},
+  "report":"../analysis/2026-week-06.md",
+  "infographic":"../analysis/infographics/2026-week-06-sunday-1500.png"
+}

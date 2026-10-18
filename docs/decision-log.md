@@ -1,5 +1,11 @@
 # Fantasy Football Decision Log
 
+### 2026-10-18 — Week 6 — Sunday 3 PM afternoon check
+
+Observed approximately15:00–15:06EDT, authenticated supported BrowserNode iab fallback reused; current team3/league582597924/2026/Week6/rules/cards/market/activity/boxscore refreshed. No ESPN mutation. Retain McBrideTE/JeantyFLEX/GayK: official Cardinals explicitlyMcBrideactive; Raiders full final list excludesJeanty/Gay and showsBuffaloOliverinactive. PPRvolume/fullpractice andGayaccuracy/indoorcontext supportholds; freshGrupe9.86/Bass9.09/Pineiro8.97cardtradeoffs recorded. TE/RB/WRlatepool no demonstratedwhole-rosterupgrade; earlybenchlocked. No claim/trade/drop or cost, no assertion separatependingqueueempty.
+
+Snapshotactual53.7–68.14, livefinalforecast143.6–148.0, fourplaying/fouryet each; unfinished not winodds. Swift22.8/London8.6bench versusOlave3.5unfinished; no retroactivemoves or finalcounterfactual. Tuesdayreviewsettledoutcomes withprelockevidence. Noonmonitoringhandoffclosed; newrecord2026-week-06-sunday-1500-retain.json retains19:00Loveweather/inactiveshandoffbefore20:20, DanielsMondayfallbackbeforeLove lock. McBride16:05/JeantyGay16:25availabilitycheckednow. TeamtabmarkedHandoff. CuratedsummaryPNG/input/report archived; repository-only selectivecommit/push, hashinfinal. No secrets/security/automations/chatschanged.
+
 ### 2026-10-12 — Week 5 — Monday 5 PM read-only preflight
 
 - **Observed:** 17:00–17:02 EDT; authenticated unified Computer Use iab ESPN league 582597924/team 3/season 2026/Week 5. Roster/boxscore/scoring-lock rules/activity/JSN card inspected; team tab 1 preserved.

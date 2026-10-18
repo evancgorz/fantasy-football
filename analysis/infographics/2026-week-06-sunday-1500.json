@@ -1,0 +1,10 @@
+{
+ "title":"Afternoon check | Close matchup",
+ "subtitle":"Chet vs Oldies — Week 6 snapshot, not final",
+ "observed_at":"2026-10-18T15:06:00-04:00",
+ "metrics":[{"label":"Chet — live projected final","value":143.6,"kind":"projection","observed_at":"2026-10-18T15:03:00-04:00"},{"label":"Oldies — live projected final","value":148.0,"kind":"projection","observed_at":"2026-10-18T15:03:00-04:00"}],
+ "moves":[{"label":"McBride stays at TE","status":"retained","reason":"Officially active; 42 catches / 56 targets support role despite tough matchup. Locks 4:05 PM."},{"label":"Jeanty FLEX / Gay K stay","status":"retained","reason":"Both clear official Raiders inactive list. Receiving role / indoor kicking support hold. Lock 4:25 PM."},{"label":"Love stays QB for now","status":"retained","reason":"7 PM health/weather/inactives check before 8:20 PM. Daniels is a later fallback before Love locks."}],
+ "notes":["Actual snapshot: Chet 53.7 vs Oldies 68.14; early games unfinished.","Four playing and four yet to play each. No ESPN changes this check.","Swift 22.8 on locked bench; settled scorecard review Tuesday, not a legal pivot now."],
+ "disclaimer":"Projected finals are estimates, not win odds or actual gains. No change made; no website proof image claimed.",
+ "sources":[{"label":"ESPN Week6 roster/cards, market and live boxscore","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-18T15:03:00-04:00"},{"label":"Official Cardinals / Raiders final inactives","url":"https://www.raiders.com/news/las-vegas-raiders-week-6-inactives-vs-buffalo-bills-101826","observed_at":"2026-10-18T15:05:00-04:00"}]
+}
