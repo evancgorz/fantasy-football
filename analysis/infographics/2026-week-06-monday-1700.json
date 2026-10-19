@@ -1,0 +1,10 @@
+{
+  "title":"Monday preflight | 50.44-point lead",
+  "subtitle":"Week 6 — Chet finished; Oldies has two tonight",
+  "observed_at":"2026-10-19T17:00:00-04:00",
+  "metrics":[{"label":"Chet — completed score","value":139.44,"kind":"actual","observed_at":"2026-10-19T16:58:00-04:00"},{"label":"Oldies — points banked","value":89.0,"kind":"actual","observed_at":"2026-10-19T16:58:00-04:00"}],
+  "moves":[{"label":"No ESPN changes — read-only","status":"retained","reason":"All nine starting slots completed and locked. Love finished20.24; Monday Daniels cannot replace him."},{"label":"McCaffrey + Kittle remain for Oldies","status":"pending","reason":"8:15 PM Eastern. Need50.44 combined to tie, more to win, absent lineup changes or stat corrections."},{"label":"7 PM recheck, then Tuesday review","status":"pending","reason":"Verify persisted lineup and remaining matchup; no retroactive swaps or premature win declaration."}],
+  "notes":["Oldies live projected final125.1; remaining duo projected36.1 combined.","Forecast cushion14.34 is not a win probability or guaranteed margin.","Olave14.3 vs London12.2; Jeanty15.8 vs Swift23.0. Review process Tuesday."],
+  "disclaimer":"Actual bars show points banked, not comparable finished totals. Chet0 remaining; Oldies2 remaining. No transaction executed.",
+  "sources":[{"label":"ESPN Week6 live boxscore, roster/cards and scoring/locks","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-19T16:58:00-04:00"}]
+}

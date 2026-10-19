@@ -1,0 +1,44 @@
+{
+  "schema_version":1,
+  "id":"2026-week-06-monday-1700-preflight",
+  "season":2026,
+  "week":6,
+  "observed_at":"2026-10-19T17:00:00-04:00",
+  "status":"monitoring",
+  "category":"read-only Monday access and lineup preflight",
+  "summary":"All Chet starters complete at139.44; Oldies89.0 with McCaffrey/Kittle Monday. No legal starter change and no ESPN mutation.7PM matchup recheck remains.",
+  "responsible_automation":"monday-night-lineup-check",
+  "requires_owner_approval":false,
+  "owner_approval":"October11 hands-off delegation does not override this5PM read-only window or individual game locks.",
+  "sources":[
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-19T17:00:00-04:00","fact":"Authenticated Chet team3/league582597924/season2026/Week6,4-1. Starter finals: Love20.24,Bijan7.3,Taylor21.1,JSN25.4,Olave14.3,McBride12.3,Jeanty15.8,PIT11,Gay12; total139.44. All starters completed Thursday/Sunday. BenchJeffersonbye,London12.2,Wilson8.4,HallOUT,DanielsHealthy19.94/Mon20:15,Swift23,Irving6.9; HurtsIR. Persisted roster inspected; no lineup changes."},
+    {"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-19T16:58:00-04:00","fact":"Chet139.44 actual,0playing/0yet/0minutes; Oldies89.0actual,0playing/2yet/120minutes,liveprojectedfinal125.1. OldiesMcCaffrey21.2/Kittle14.9 atMonday20:15. OtherOldiesstartersMaye23.8,Henry5,Adams6.9,Egbuka17.8,Loveland18.5,Broncos11,Dicker6final. Derivedlead50.44; remainingforecast36.1, forecastcushion14.34. Exactcurrentlineup/correctionscondition applies; no win odds."},
+    {"url":"https://fantasy.espn.com/football/league/settings?leagueId=582597924","observed_at":"2026-10-19T16:59:00-04:00","fact":"Fresh fullPPR,passingTD4/rushingTD6/INTminus2,individualscheduledgametime locks,notiebreaker,one-weekregularmatchup,nohomeadvantage. No acquisition/trade limit,one-dayinverseweeklywaivers,no2027keepers,Dec2noontradedeadline/one-dayreview. No FAAB field observed; no budget spent."},
+    {"url":"https://fantasy.espn.com/football/recentactivity?leagueId=582597924","observed_at":"2026-10-19T16:59:00-04:00","fact":"Newest displayed acquisitions remainSunday08:09LoveFAadd/08:07AchaneDrop, thenThursdayGay/Myers. No independent pendingqueue exposed; history excludesMoved bydefault and cannot establish no outstandingoffers/claims."},
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-19T17:00:00-04:00","fact":"Fresh Daniels card Healthy19.94,21seasoncarries203yd2TD,latest9carries103yd2TD; no new injury alert in inspected recentnews. HisMondaygame remainsbenchonly; currenthealthdoesnotpermitreplacinglockedLove. HallOUT/HurtsIR labels observed, not medical recovery clearance."}
+  ],
+  "alternatives":[
+    {"action":"Start Daniels Monday","decision":"Not legal for current lineup: Lovealreadyplayed20.24 andQBslotlocked. No retroactive swap, including in7PMaction-capablewindow."},
+    {"action":"Add Monday RB/WR/TE/K/DST","decision":"No open unlocked starter slot; no useful Week6 role match. Three acquisitioncandidate comparison not applicable to completedlineup/read-onlypreflight. Do not drop usefuldepth for a player unabletoenterlineup."},
+    {"action":"No ESPN change;7PM state recheck","decision":"Correct current action. Base opponent meets36.1combinedforecast, finishes125.1; downside for Chet combined>50.44couldlose; upside opponentsunderforecast. Qualitative outcomes only, no probability or invented distribution."}
+  ],
+  "roster_reviews":[
+    {"players":"All nine starters","decision":"Complete/locked; no currentinactivezero. Love20.24 outcome recorded, not a Mondaystart/sitchoice. No legal defense/kicker swap."},
+    {"players":"Jefferson","decision":"Bye6 bench retained; premium nextweekstartingpath fromexistingplanning, no freshWeek7health/ROSclaim."},
+    {"players":"London/Wilson","decision":"12.2/8.4 finals, retain WRdepth; no nightstarter slot or evidence-backed acquisitionneed. Week7/Olavebye8 planning refreshTuesday, not premiumdrop basedonegame."},
+    {"players":"Swift/Irving","decision":"23/6.9finals, retainRBdepth and reviewedroles; Swift23vsJeanty15.8 is7.2realizedbenchdifference, not proof prelockexpectedvalue. TuesdayevaluateMonangaiabsenceweighting withoutrewritinghistory."},
+    {"players":"Hall/Hurts","decision":"OUTbench/IRrespectively; no newmedicalclearanceestablished. Preserve untilfreshWeek7recovery/replacementvalueanalysis;5PMnotactionwindow."},
+    {"players":"Daniels","decision":"HealthyMondaybench/Week7bye context retained; don't release longtermrushingvalue or swaplockedQB. His scoringoutcome unresolved. LovealreadyprovidesWeek7coverage whileHurtsIR."}
+  ],
+  "expected_benefit":{"points":null,"basis":"Read-onlyinspection and legalhandoff; no mutation or pointsadded.50.44lead and36.1opponentforecastare arithmetic, not simulation.","confidence":"high on completedslotlegality; outcome uncertain"},
+  "rationale":"FreshESPNconfirmsSundaychoicespersisted and allourstartersfinished. Respect5PMreadonlyscope andindividuallocks; avoiddoingtransactionsfortheir ownsake. Currentleadisfavorablebuttwoopponentplayersremain.",
+  "missing_evidence":["OfficialMondayinactives not yetverified inpreflight","Separatependingoffer/claimqueue unexposed","FreshWeek7medical/whole-roster/marketanalysis deferredweeklyreview","Futurestatcorrections andMondayoutcomes unknown"],
+  "execution_conditions":["NoESPNmutationauthorized in5PMwindow","7PMrefreshactualstate beforeanylegal action; no retroactivelockedslotedit","Anyfuturemutationverify/log/commit/pushindividually"],
+  "fallback":"At19:00verifycompletedlineupandopponentremainingplayersbefore20:15. NoChetstarterchangeexpected unlessfreshstatecontradictscurrentcompletedroster. Tuesday09:00settleoutcomeandscorecard,Week7injuries/byes; donotcallwinbeforeMondayfinishes.",
+  "recheck_at":"2026-10-19T19:00:00-04:00",
+  "deadline_at":"2026-10-19T20:15:00-04:00",
+  "verification":{"observed_at":"2026-10-19T17:00:00-04:00","persisted_result":"UnifiedComputerUseiabtab1authenticated, roster/boxscore/settings/activity/Danielscardread; teamtabmarkedHandoff. No ESPNmutation, no websiteproofscreenshotrequired. Nocredentials/security/account/automation/chatchanges. Sundaymonitoringhandoffclosed,7PMhandoffwritten."},
+  "outcome":{"actual_points":139.44,"alternative_actual_points":null,"process_review":"Chet totalcomplete subjectstatcorrections; matchupunsettled. Olave14.3vsLondon12.2realized+2.1; Jeanty15.8vsSwift23realizedminus7.2. Knownlegalprelockalternatives, not claimedknowablybetterforecasts. DanielsMondayunplayed, noLovecounterfactualyet."},
+  "report":"../analysis/2026-week-06.md",
+  "infographic":"../analysis/infographics/2026-week-06-monday-1700.png"
+}
