@@ -1,0 +1,44 @@
+{
+  "schema_version":1,
+  "id":"2026-week-06-monday-1900-final",
+  "season":2026,
+  "week":6,
+  "observed_at":"2026-10-19T19:06:00-04:00",
+  "status":"completed",
+  "category":"final Monday lineup and availability check",
+  "summary":"No ESPN mutation: all Chet starters complete and locked. Same139.44–89.0 matchup; official lists confirm no inactive McCaffrey/Kittle/Daniels. Tuesday outcome review remains.",
+  "responsible_automation":"monday-night-lineup-check",
+  "requires_owner_approval":false,
+  "owner_approval":"October11 hands-off delegation applies to legal choices, not retroactive locked-slot moves.",
+  "sources":[
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-19T19:04:00-04:00","fact":"Reloaded authenticated Chet4-1/league582597924/team3/2026/Week6. Same nine completed starters: Love20.24,Bijan7.3,Taylor21.1,JSN25.4,Olave14.3,McBride12.3,Jeanty15.8,PIT11,Gay12,total139.44. BenchJeffersonbye,London12.2,Wilson8.4,HallOUT,DanielsMon20:15/19.9,Swift23,Irving6.9; HurtsIR. No open unlocked starter slot."},
+    {"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-19T19:05:00-04:00","fact":"Same actual139.44–89.0; Chet0yet/Oldies2yet120minutes,Oldiesprojectedfinal125.1. McCaffrey21.2/Kittle14.9 scheduled20:15. Lead50.44/remainingforecast36.1; morethan50.44neededtobeatusunder currentlineup/absentcorrections. AdamsOUTlabelnowpresent but completed6.9pointsremain; not a currentinactivezero. No win probability."},
+    {"url":"https://www.49ers.com/news/mike-evans-active-kirk-out-vs-commanders-inactives-week-6-wasvssf","observed_at":"2026-10-19T19:05:00-04:00","fact":"Official final49ers list Rourke,Cruz,Deebo,Wallow,Sigle,Bosa,NaquanJones; McCaffrey/Kittle absent. Evans active, ChristianKirkOUTinprose despite notinfinalsevenlist (do not inferKirkactive). No usageguarantee or numericopponentboost inferred."},
+    {"url":"https://www.commanders.com/news/inactives-commanders-vs-49ers-week-6","observed_at":"2026-10-19T19:06:00-04:00","fact":"Official18:44 article inactives Mariota,Moreau,Yiadom,Maguranyanga,Togiai,Omenihu; Daniels absent. Daniels available but stillbench-only due completedQBslot. No limitation specified by inactive list, not completeworkloadassessment."},
+    {"url":"https://fantasy.espn.com/football/league/settings?leagueId=582597924","observed_at":"2026-10-19T19:05:00-04:00","fact":"Fresh fullPPR,passTD4/rushTD6,individualscheduledgame locks,no matchup tiebreaker,oneweekregularmatchup; one-dayinverseweeklywaivers,noacquisition/tradelimit,no2027keepers,Dec2noontrade deadline/one-dayreview. No cost incurred."},
+    {"url":"https://fantasy.espn.com/football/recentactivity?leagueId=582597924","observed_at":"2026-10-19T19:06:00-04:00","fact":"Newest acquisitions stillSundayLove08:09/Achane08:07. Separatependingclaim/offerqueue not exposed; no emptyqueue assertion. No overlappingtransactions initiated."}
+  ],
+  "alternatives":[
+    {"action":"Move Daniels toQB","decision":"Illegal becauseLovealreadycompleted20.24; don't attempt a swap despiteDanielsactive."},
+    {"action":"Acquire Mondayplayer to start","decision":"No useful legalrole match: all nine starter slotslocked. No three-candidate FA study needed for playersunabletoenterlineup; do not spenddepth/priority to manufactureactivity."},
+    {"action":"Preserve roster and close finalcheck","decision":"Correct legal bestlineup unchanged. Base opponentmeets36.1projection andfinishes125.1; downside combined>50.44couldlose; upside belowforecast. No generated probability or fabricated scenario distribution."}
+  ],
+  "roster_reviews":[
+    {"players":"Nine starters","decision":"Finished/locked; no start/sit, D/ST or K changelegal. No unavailablestarterzeroobserved."},
+    {"players":"Daniels","decision":"ActiveMondaybench, retainrushingrole/longtermvalue; Week7bye coveredbyLove. No retroactivestart or scorecounterfactualbeforegame."},
+    {"players":"Jefferson/London/Wilson","decision":"RetainpremiumWRreturn/depth; Week6bye/completedscoresnot newnightlineupchoices. FreshWeek7health/byes/playoffs/replacementreviewTuesday, not blindpremiumdrop."},
+    {"players":"Swift/Irving","decision":"RetainRBdepth andknownroles; Swift23/Irving6.9not groundsforonegamechurn. TuesdayprocessreviewJeanty15.8versusSwift23usingoriginalprelockevidence."},
+    {"players":"Hall/Hurts","decision":"OUTbench/IRpersist; recoveryuncertain, no newmedicalclearance or demonstratedlatepickupbenefit. FreshWeek7recovery/whole-rostervalueTuesday."}
+  ],
+  "expected_benefit":{"points":null,"basis":"No mutation; unchangednon-actionablecheck. Lead/projectionsnotactualgain or winodds.","confidence":"high on legalclosure; outcomeuncertain"},
+  "rationale":"Finish preflight handoff withfreshidentity/locks/officialavailability; no legal currentstarterchangeexists. Do nottrade/dropdepthjustbecauseauthoritypermitsactions.",
+  "missing_evidence":["Separatependingqueueunexposed","Complete freshWeek7ROS/playoff/replacementanalysis not part ofthisfinalcompletedlineupcheck","Mondayoutcomes/statcorrections unresolved"],
+  "execution_conditions":["No ESPNmutation thisrun","NeverretroactivelyreplaceLove orcompletedslots","NextweeklyrunrefreshesESPNbeforeWeek7recommendations"],
+  "fallback":"Tuesday09:00weeklyreview: settleWeek6matchup/statcorrections, fillLove/DanielsoutcomeonlyafterDanielsplays, assessHall/HurtsrecoveryandWeek7byes. No owneractionrequired andno newmonitor/schedulecreated.",
+  "recheck_at":"2026-10-20T09:00:00-04:00",
+  "deadline_at":null,
+  "verification":{"observed_at":"2026-10-19T19:06:00-04:00","persisted_result":"UnifiedComputerUseiab/teamtab1authenticated/reloaded; roster/boxscore/settings/activity andofficial49ers/Commandersfinalinactivesread. TeamtabmarkedHandoff. No ESPNmutation, no screenshotrequired. No duplicategraphic forunchangedscore/projection; retain5PMtimestampedvisual. No credentials/security/account/automation/chatmutations."},
+  "outcome":{"actual_points":139.44,"alternative_actual_points":null,"process_review":"Finalpregamecheckcomplete, matchupnotsettled; Tuesdayoutcomereview. No missedlegalMondaystarteractionidentified."},
+  "report":"../analysis/2026-week-06.md",
+  "prior_infographic":"../analysis/infographics/2026-week-06-monday-1700.png"
+}
