@@ -1,0 +1,11 @@
+{
+ "title":"Management Requests More Qualified Party Poopers",
+ "subtitle":"Satirical briefing | Defense request submitted, not awarded",
+ "observed_at":"2026-10-20T19:06:00-04:00",
+ "metrics":[],
+ "moves":[{"label":"Requested Minnesota's defense","status":"pending","reason":"A defense earns us points by stopping the other team. Minnesota has been good at that. We seek employees who hear 'everyone have fun' and immediately call security."},{"label":"Pittsburgh leaves only if Minnesota arrives","status":"pending","reason":"This would replace our current defense, not remove a useful backup player. We are upgrading security without firing the entire accounting department."}],
+ "notes":["This request is second in our list, after Nabers. ESPN says it processes Wednesday morning, Oct 21; getting them is not guaranteed.","Pittsburgh remains in our scoring lineup for now. If Minnesota arrives on our bench, the next lineup check must put the chosen defense in the scoring spot.","Next check: Wed Oct 21, 7 PM Eastern. No action needed from you."],
+ "disclaimer":"Real pending request; comic explanations. No guaranteed points gained. Minnesota faces tougher upcoming games, so this is not a lifetime employment contract.",
+ "sources":[{"label":"ESPN Vikings card and verified Pending Moves","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-20T19:06:00-04:00"}],
+ "comedic_anchors":[{"joke":"Party poopers/security","fact":"Vikings17sacks/58PAin5games support defensiveproduction, notguarantee."},{"joke":"Keep accounting","fact":"ConditionalPITdrop only; no skillplayer sacrifice."}]
+}
