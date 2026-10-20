@@ -1,0 +1,15 @@
+{
+ "title":"We Sent Three Job Offers. Nobody Works Here Yet.",
+ "subtitle":"Satirical briefing | Three requests saved; results Wednesday",
+ "observed_at":"2026-10-20T19:08:00-04:00",
+ "metrics":[],
+ "moves":[
+  {"label":"1. Nabers, a player who catches passes","status":"pending","reason":"Replace backup Garrett Wilson only if we get him. Nabers had 35 passes thrown his way in two games: lots of chances for points. We want the employee everyone keeps giving work to."},
+  {"label":"2. Minnesota's defense, replacing Pittsburgh's","status":"pending","reason":"Defenses earn us points by stopping opponents. Minnesota has done that well. We requested a security department with a documented hatred of other people's happiness."},
+  {"label":"3. Reichard, a kicker, replacing Matt Gay","status":"pending","reason":"Kickers earn points by kicking between the posts. Reichard has made all 15 field-goal attempts this season. Management favors the applicant who found the correct hole."}
+ ],
+ "notes":["ESPN confirms all three requests will process Wednesday morning, Oct 21. Other teams may get these players first; our current players stay unless their replacements arrive.","No scoring-lineup changes tonight, so no points added yet. Hall cannot use the injured-player slot now; we adjusted the plan instead of arguing with a filing cabinet.","Next check: Wed Oct 21, 7 PM Eastern. I'll verify the results; Thursday's check chooses who scores for us. No action needed from you."],
+ "disclaimer":"Real saved requests, silly explanations. Players are not acquired yet; future points are not guaranteed. Full analysis/conditions in analysis/2026-week-07.md.",
+ "sources":[{"label":"ESPN player cards, current roster and saved Pending Moves","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-20T19:08:00-04:00"}],
+ "comedic_anchors":[{"joke":"Joboffers, nobodyhiredyet","fact":"Allthreeclaims submitted/pending,notawarded; realplayersnotliterallyemployedbyus."},{"joke":"EveryonegivesNaberswork","fact":"35targetslasttwo,not35catches."},{"joke":"Securityhateshappiness","fact":"Vikings17sacks/58PAin5games; factualdefensecomparison inrecord."},{"joke":"Correcthole","fact":"Reichard15of15FG,5of5long, notaguaranteefutureaccuracy."},{"joke":"Filingcabinet","fact":"HallQ andManageIRexplicitlyineligible, morningcapacityplan superseded."}]
+}
