@@ -1,0 +1,11 @@
+{
+ "title":"We Applied to Hire the Ball's Favorite Coworker",
+ "subtitle":"Satirical briefing | Request submitted, player not yet ours",
+ "observed_at":"2026-10-20T19:04:00-04:00",
+ "metrics":[],
+ "moves":[{"label":"Requested Nabers, who catches passes","status":"pending","reason":"His team threw his way 35 times over two games. More chances can mean more points. Management believes a man receiving this much mail should work for us."},{"label":"Wilson leaves only if we get Nabers","status":"pending","reason":"Our team is full. The request would replace backup pass-catcher Garrett Wilson, not remove him now. We have discovered hiring someone requires a chair."},{"label":"Hall stays on our regular team","status":"retained","reason":"His injury label changed, so he cannot use the injured-player slot now. This changes our paperwork, not a promise he will play. The filing cabinet has spoken."}],
+ "notes":["No starting-lineup changes tonight. Adding a backup does not automatically add points to our weekly score.","ESPN says the request will process Wednesday morning, Oct 21. Other teams can get him first.","Next check: Wed Oct 21, 7 PM Eastern. I'll verify who we actually received. No action needed from you."],
+ "disclaimer":"Real request/status; ridiculous explanations. No guaranteed player or points. Full comparison and conditions: decisions/2026-week-07-nabers-wilson-claim.json.",
+ "sources":[{"label":"ESPN roster/cards, Manage IR and saved Pending Moves","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-20T19:04:00-04:00"}],
+ "comedic_anchors":[{"joke":"Ball's favorite coworker/mail","fact":"Nabers35targets lasttwo; targets are passes thrown hisway, notcatches."},{"joke":"Hiring requires chair","fact":"16active rosterfull; Wilsondrop conditional onaward."},{"joke":"Filingcabinet spoke","fact":"HallQ, ManageIRnoeligibleplayers; noIRmoveexecuted."}]
+}

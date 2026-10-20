@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-20 — Week 7 — Nabers/Wilson claim submitted, approximately 7:04 PM EDT
+
+Authenticated unified Computer Use iab refreshed league/team/week, roster/locks, scoring, capacity, waiver rules and relevant cards. Hall changed OUT to Q; ManageIR explicitly no eligible players. Superseded morning Hurtsdrop→HallIR plan; no IR or outright drop. Fresh Nabers61targets/35lasttwo/three100ydgames and Wilson48targets/healthy steadyrole compared with whole-roster depth/byes: conditional WR exchange preferable to sacrificing RBdepth/Danielscoverage. Submitted exact NabersBE/WilsonWaivers conditional claim. Saved notification and PendingMoves1 modal verify ownclaimpriority1/morningOct21processing; exactclockunexposed. Wilson stillbench, current138.4starterforecast unchanged; awardunknown. Leaguepriority4/4/noFAABormoneyfield. No lineupchanges. Sources/limits/Wednesdayhandoff in decisions/2026-week-07-nabers-wilson-claim.json, report and inspectedvisual. Selective commit/push required before next ESPN mutation; hash in final.
+
 ### 2026-10-20 — Beginner-friendly satire clarification (repository only)
 
 Owner requested funny overviews that assume no football knowledge. Added durable shared guidance for plain-language player roles, planned action and benefit, everyday jokes, translated terminology and concise result/next-step summaries. Revised the satirical Week 7 overview using the same October 20 9:05 AM EDT snapshot; no new ESPN inspection, strategic change or transaction. Original factual overview and rigorous report remain intact. Rendered/inspected the revised image, checked the diff and selectively committed/pushed; final response records the commit.

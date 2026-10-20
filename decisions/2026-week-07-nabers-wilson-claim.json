@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-07-nabers-wilson-claim",
+  "season": 2026,
+  "week": 7,
+  "observed_at": "2026-10-20T19:04:00-04:00",
+  "status": "submitted",
+  "category": "waiver",
+  "summary": "Submitted first-priority conditional Nabers-for-Wilson claim; award not yet processed. Hall no longer IR eligible, so morning capacity plan superseded.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation includes consequential replacement-value decisions. No per-action owner approval claimed.",
+  "sources": [
+    {"url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-20T19:04:00-04:00", "fact": "Authenticated Week7 Chet5-1 first/4, priority4/4, original nine starters and seven bench unchanged. Hall now Q; ManageIR explicitly says no eligible players. Hurts remains IR. WilsonHealthy15.07/35REC418yd3TD48targets, four games7+targets; currentMiami difficultWRcontext. NabersHealthy17.69/41REC494yd2TD61targets, last12of15for165 and29of42for398/2TDlastthree; three100ydgames, GiantsQBchange uncertainty. PendingMoves1 shows Nabers toBE/Wilson toWaivers conditional, own claimpriority1, processing morningOct21. Wilson stillbench; no award or actual drop yet."},
+    {"url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924", "observed_at": "2026-10-20T19:03:00-04:00", "fact": "Fresh fullPPR,16active/7bench/1IR,individualgametime locks,1daywaivers/inverseweeklystandings/noacquisitionlimit/no2027keepers. No bid or money field in claim flow."}
+  ],
+  "alternatives": [
+    {"action": "Morning Hurts release/HallIR/no-dropclaim", "evidence": "Rejected now: Hall changed O to Q; ManageIR explicitly ineligible. Releasing Hurts alone opens IR, not an active bench slot. Do not perform useless irreversible roster churn."},
+    {"action": "RetainWilson", "evidence": "Viable healthy lead WR with35catches/48targets/3TD and four7+target games. Nabers61targets/35lasttwo plus stronger recent role gives meaningfulPPR upgrade despite QBuncertainty; not merely17.69vs15.07 forecast."},
+    {"action": "DropHall/Swift/Irving/Daniels instead", "evidence": "Preserve recoverableRBdepth and healthy workload diversity plus DanielsWeek11Lovecoverage. Jefferson/London/Olave/JSN retained as importantWRdepth. One-for-oneWR replacement preserves positioncount; no speculativetwo-for-onetrade needed."},
+    {"action": "Other market candidates", "evidence": "Fresh pool also shows HigginsWA14.4, WarrenQ10.6,JudkinsQ andHamptonbye; no stronger immediate whole-rosterupgrade established. MorningGolden analysis retained as historical fallback, not a new card inspection or automatic claim."}
+  ],
+  "expected_benefit": {"points": null,"basis": "Greater high-volume receiving/startable depth; bench exchange does not itself change current starter total138.4. Forecast difference2.62 is not actualgain. Nabersbye8 overlapsOlave, but JSN/Jefferson/London can fill twoWRslots ifhealthy; Week11JSN/Londonbye stillcoveredJefferson/Nabers. LosingWilsonbye13reduces congestion. Futurestarts require fresh lineup judgment.","confidence":"medium"},
+  "rationale": "Fresh eligibility invalidated low-cost capacity path. Conditional Wilson drop buys stronger receiving volume while protecting RBdepth and two-QBcoverage. No preemptive drop; if claim fails Wilson remains. Priority4/4 means award uncertain, but resetweekly priority and strong potentialstartvalue justify request.",
+  "missing_evidence": ["Exact processing clock not exposed; confirmed morningOct21 and accepted pending claim", "GiantsWeek7QBstarter and finalpractices", "Complete snaps/routes/goal-line samples", "Separate trade-offer queue not exposed"],
+  "execution_conditions": ["Claim submitted only, not awarded", "Verified pending claim before archiving", "No further ESPNmutation until commit/push verified"],
+  "fallback": "Wednesday verify exact award/failure and actualroster before any new move. If failed, retainWilson and reevaluate Golden/market; do not replay old capacity plan. Thursday handles startinglineup.",
+  "recheck_at": "2026-10-21T19:00:00-04:00",
+  "deadline_at": null,
+  "deadline_note": "Claim acceptedTuesday; pending UI says morningOct21 processing, no exactcutoffclock. Next rosteredkickoffSwiftThuOct22 20:15EDT; Olave/PITSunOct25 09:30EDT.",
+  "verification": {"observed_at":"2026-10-20T19:04:00-04:00","persisted_result":"Move saved notification and PendingMoves modal independently show exact conditional Nabersadd/Wilsondrop, claimpriority1, Oct21morning. No lineup/IR change."},
+  "outcome": {"actual_points":null,"alternative_actual_points":null,"process_review":null},
+  "report": "../analysis/2026-week-07.md",
+  "visual": "../analysis/infographics/2026-week-07-nabers-claim.png"
+}

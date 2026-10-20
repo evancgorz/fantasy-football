@@ -1,5 +1,6 @@
 {
- "schema_version":1,"id":"2026-week-07-capacity-nabers","season":2026,"week":7,"observed_at":"2026-10-20T09:05:00-04:00","status":"proposed","category":"IR capacity and waiver acquisition",
+ "schema_version":1,"id":"2026-week-07-capacity-nabers","season":2026,"week":7,"observed_at":"2026-10-20T09:05:00-04:00","status":"superseded","category":"IR capacity and waiver acquisition",
+ "action_update":{"observed_at":"2026-10-20T19:04:00-04:00","fact":"Hall nowQ andManageIR explicitlynoeligibleplayers. NoHurtsdroporHalltransfer. ConditionalNabers/Wilsonclaimsubmitted; see2026-week-07-nabers-wilson-claim.json. Morningevidencebelowpreservedashistory,notorders."},
  "summary":"Recommend release likely-season-out Hurts, move eligible Hall to IR, then prioritize Nabers claim into open bench. No ESPN action this read-only review.",
  "responsible_automation":"fantasy-waiver-execution","requires_owner_approval":false,"owner_approval":"October11 hands-off delegation; weekly review remains ESPN read-only. Action run decides/executed only with fresh evidence and legal capacity.",
  "sources":[
