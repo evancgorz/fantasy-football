@@ -1,0 +1,10 @@
+{
+ "title":"Won by 1.84 | Now 5–1",
+ "subtitle":"Week 6 final result — Week 7 plans are proposed only",
+ "observed_at":"2026-10-20T09:05:00-04:00",
+ "metrics":[{"label":"Chet — Week 6 final","value":139.44,"kind":"actual","observed_at":"2026-10-20T09:05:00-04:00"},{"label":"Oldies — Week 6 final","value":137.60,"kind":"actual","observed_at":"2026-10-20T09:05:00-04:00"}],
+ "moves":[{"label":"Capacity + Nabers — not submitted","status":"proposed","reason":"Hurts expected out for season. Recheck Hall IR eligibility, release stash / transfer / claim separately in action run."},{"label":"Jefferson WR / FLEX review","status":"proposed","reason":"Jefferson returns from bye. London/Nabers challenge Jeanty; compare Taylor vs Jeanty at RB too. Swift decision Thursday."},{"label":"Minnesota D/ST + Reichard","status":"proposed","reason":"Secondary streamer claims after Nabers; PIT/Gay remain current starters and legal fallbacks."}],
+ "notes":["Olave over London: +2.1 actual. Jeanty over Swift: -7.2. Love over Daniels: -0.76.","Waiver priority 4/4. Next action run Tuesday 7 PM before Wednesday processing.","Swift Thu8:15 PM; Olave/PIT Sun9:30 AM Paris. Sunday8AM check is essential."],
+ "disclaimer":"No ESPN changes during read-only review. Actual final subject later corrections; proposed moves/forecast differences are not points gained or win odds.",
+ "sources":[{"label":"ESPN final Week6 boxscore, standings, roster/cards, market and settings","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","observed_at":"2026-10-20T09:05:00-04:00"},{"label":"Eagles / NFL Network Hurts update; official Patriots-Bears practice report","url":"https://www.philadelphiaeagles.com/news/eagles-and-jalen-hurts-agent-nicole-lynn-provide-an-update-on-qb-jalen-hurts","observed_at":"2026-10-20T09:05:00-04:00"}]
+}

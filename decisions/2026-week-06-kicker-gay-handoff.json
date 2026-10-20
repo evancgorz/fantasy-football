@@ -73,9 +73,11 @@
     "persisted_result": "No kicker transaction; Myers starter. Acquisition commit 574680d already pushed."
   },
   "outcome": {
-    "actual_points": null,
-    "alternative_actual_points": null,
-    "process_review": null
+    "actual_points": 12.0,
+    "alternative_actual_points": 7.0,
+    "observed_at":"2026-10-20T09:05:00-04:00",
+    "source_url":"https://fantasy.espn.com/football/players/add?leagueId=582597924",
+    "process_review":"Week6Gay12 verifiedfinalboxscore; Week7marketMyersLAST7. Realized+5 after actual verifiedFAexchange beforeMyersThursdaylock. Accuracy/indoor/replacementcost processsupported; result does not guarantee futuregain. Original expectedbenefit unchanged."
   },
   "report": "../analysis/2026-week-06.md",
   "infographic": "../analysis/infographics/2026-week-06-gay-for-myers.png"

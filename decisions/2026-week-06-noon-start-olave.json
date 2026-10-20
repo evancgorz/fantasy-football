@@ -32,7 +32,7 @@
   "recheck_at": "2026-10-18T15:00:00-04:00",
   "deadline_at": "2026-10-18T13:00:00-04:00",
   "verification": {"observed_at":"2026-10-18T12:07:00-04:00","persisted_result":"Exact LondonWR destination selected after Olave; reload verified OlaveWR/LondonBench,153.7pregame projection/25.4actual. MorningLove/Hurts/IR changes intact. Screenshot unavailable after one current capture timeout."},
-  "outcome": {"actual_points":null,"alternative_actual_points":null,"process_review":null},
+  "outcome": {"actual_points":14.3,"alternative_actual_points":12.2,"observed_at":"2026-10-20T09:05:00-04:00","source_url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod","process_review":"Realized +2.1 versus legal pre13:00 ownedLondon. Current139.44-137.60 win would be137.34-137.60 loss if only this choice changed, absent later corrections. Officialclearance/targetrole compared beforelock and swapverified/pushed; outcome not proof of permanent rank or precise prediction."},
   "report": "../analysis/2026-week-06.md",
   "infographic": "../analysis/infographics/2026-week-06-noon-start-olave.png"
 }

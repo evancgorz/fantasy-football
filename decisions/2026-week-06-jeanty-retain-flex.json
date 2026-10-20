@@ -68,12 +68,14 @@
     "persisted_result": "Read-only recommendation/review only; original lineup unchanged and iab team tab 1 preserved."
   },
   "outcome": {
-    "actual_points": null,
-    "alternative_actual_points": null,
-    "process_review": null
+    "actual_points": 15.8,
+    "alternative_actual_points": 23.0,
+    "observed_at":"2026-10-20T09:05:00-04:00",
+    "source_url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod",
+    "process_review":"Realized -7.2 versus ownedSwift, legal before13:00. MonangaiOUT and Swift expandedrole WERE reviewed at Sundaynoon, not missed. Reevaluate workload/goal-lineweight and overreliance on matchup rank: Swift16carries44yd2TD+4of5for26, Jeanty10carries22ydTD+4of6for36. TwoTDsnotrepeatablemean; preserve original forecast/evidence. Duplicate historical JSON keys renamed so Wednesdayproposedreview cannot override Thursdayexecution."
   },
-  "infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
-  "latest_review": {
+  "original_infographic": "../analysis/infographics/2026-week-06-weekly-review.png",
+  "wednesday_review": {
     "observed_at": "2026-10-14T19:08:00-04:00",
     "status": "proposed",
     "summary": "Retain Jeanty; lineup run compares FLEX afresh.",
