@@ -1,0 +1,35 @@
+{
+  "title": "Local Idiots Win Again, Request Larger Clipboard",
+  "subtitle": "Satirical briefing | Factual scores and status | Record: 5-1",
+  "observed_at": "2026-10-20T09:05:00-04:00",
+  "metrics": [
+    {"label": "Chet - Week 6 final", "value": 139.44, "kind": "actual", "observed_at": "2026-10-20T09:05:00-04:00"},
+    {"label": "Oldies - Week 6 final", "value": 137.60, "kind": "actual", "observed_at": "2026-10-20T09:05:00-04:00"}
+  ],
+  "moves": [
+    {"label": "Nabers: hire man football keeps contacting", "status": "proposed", "reason": "15 targets last game. The ball clearly has his address. We plan to intercept his mail, pending roster space and a successful waiver claim."},
+    {"label": "Jefferson: terminate paid vacation", "status": "proposed", "reason": "His bye is over. Our consultants believe employing our excellent receiver at receiver could disrupt the entire industry."},
+    {"label": "Minnesota: acquire security guard and one foot", "status": "proposed", "reason": "Vikings D/ST: 17 sacks through five games. Reichard: 15-for-15 field goals. Both show a worrying lack of respect for our culture of suspense."}
+  ],
+  "notes": [
+    "Won by 1.84. Management credits an elite ability to stop counting at the correct moment.",
+    "Waiver priority: 4th of 4. First in the standings; last in the buffet line. Next action check: Tue Oct 20, 7 PM ET.",
+    "Swift locks Thu Oct 22, 8:15 PM ET. Olave/PIT lock Sun Oct 25, 9:30 AM ET in Paris. Football has invaded breakfast."
+  ],
+  "disclaimer": "Satirical explanations, real snapshot. No ESPN moves made; all plans proposed. Original Oct 20, 9:05 AM EDT evidence, not a new live check. Final scores remain subject to corrections. Serious analysis: analysis/2026-week-07.md.",
+  "sources": [
+    {"label": "ESPN Week 6 final boxscore", "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod", "observed_at": "2026-10-20T09:05:00-04:00"},
+    {"label": "ESPN roster, schedule and player cards; market; waiver order (weekly report)", "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-20T09:05:00-04:00"}
+  ],
+  "satirical_presentation": true,
+  "analysis_reference": "analysis/2026-week-07.md",
+  "comedic_anchors": [
+    {"joke": "Local idiots and the larger clipboard", "fact": "Self-deprecating front-office parody; team won Week 6 and is 5-1. Not a claim that research or decision controls were abandoned."},
+    {"joke": "Football keeps contacting Nabers", "fact": "15 targets in his last game in the weekly review; proposed claim depends on capacity, fresh eligibility and award."},
+    {"joke": "Terminate Jefferson's paid vacation", "fact": "Jefferson returns from a bye; proposed starting WR reinstatement, subject to fresh health and lineup checks. No claim about literal employment or pay."},
+    {"joke": "Security guard and one foot threaten suspense", "fact": "Vikings defense had 17 sacks through five games and Reichard was 15-for-15 on field goals in the reviewed cards; both acquisitions remain proposed, not guaranteed."},
+    {"joke": "Stop counting at the correct moment", "fact": "Final score margin was 1.84 points; not a literal explanation of the win or a claim of scoring control."},
+    {"joke": "Last in the buffet line", "fact": "Observed waiver priority 4 of 4 despite first place in standings."},
+    {"joke": "Football invaded breakfast", "fact": "Observed Olave/PIT Paris kickoff Sunday October 25 at 9:30 AM ET; scheduled Sunday 8 AM check protects that window."}
+  ]
+}

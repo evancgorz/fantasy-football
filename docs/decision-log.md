@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-20 — Owner-requested satirical overview style (repository only)
+
+Updated shared agent, coaching and infographic guidance: owner-facing overview graphics use absurd deadpan explanations grounded in sourced facts; underlying research, decisions and executable handoffs remain rigorous and literal. All six scheduled coaching runs inherit the guidance by reading these shared files; no automation definitions changed. Scores, status, deadlines, security alerts and serious health information remain unambiguous. Created and visually inspected a satirical edition of the weekly overview using the existing October 20 9:05 AM EDT snapshot and explicit joke-to-fact anchors, preserving the original. No fresh ESPN inspection or ESPN mutation; no strategic changes. Selective commit/push and hash reported in final response.
+
 ### 2026-10-20 — Week 7 — Tuesday weekly review (ESPN read-only)
 
 Authenticated unifiedComputerUseiab/teamtab1 refreshedWeek7identity/roster/cards/IReligibility/schedules/rules/standings/Week6final/Week7opponent/market/priority/processedwaivers/activity/corrections. Won139.44–137.60,+1.84,5–1first; correctionsviewnonecurrently. Week6outcomesfilled: Olave+2.1,Jeanty-7.2,Love-0.76,Gay+5,Irving-Hamptonbenchminus1. Preserveoriginaldecisiontimeevidence; SwiftMonangaiabsencewasreviewed,notmissed. Jeantyrecordduplicatehistoricalkeysrenamedtocorrectparserprecedencewithoutlosinghistory.

@@ -47,3 +47,5 @@ No simulation engine or generated win probability is enabled. Before adding one,
 ## Visual reporting
 
 Follow docs/infographics.md for simple sourced move and matchup summaries. Archive curated input and PNG, link from the report and embed the image in final responses. Never delay a lock, verification or Git archiving for visuals; record a rendering failure and repair later.
+
+October 20 owner preference: overview copy is absurd deadpan satire with truthful anchors; coaching quality and operational records remain unchanged. Use the presentation rules in docs/infographics.md. Comedy must never obscure transaction status, actual versus projected points, deadlines, serious health news or an access/security blocker.

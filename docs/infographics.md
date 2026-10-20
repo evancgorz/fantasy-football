@@ -2,7 +2,20 @@
 
 Use one compact PNG for each verified ESPN move and meaningful matchup/weekly update. No visual is needed for an unchanged non-actionable check. Prefer a move summary, comparable projected totals, actual score with players remaining, or the next injury/lock check. Avoid decorative complexity or fabricated probabilities.
 
-## Workflow
+## Owner-facing tone: serious coaching, ridiculous briefing
+
+Effective October 20, 2026, use deadpan, absurd satirical sports reporting for overview slides and infographic copy. The owner wants an apparently clueless front office backed by genuinely careful analysis. Favor mock bureaucracy, wildly disproportionate conclusions and self-deprecating coaching incompetence. Every ridiculous explanation needs an ounce of truth from the sourced analysis. Aim for a punchline for each major item, not merely a playful title followed by a conventional report. For example, a receiver with 15 targets can be described as "a man the football keeps trying to contact."
+
+- This is a presentation layer only. Keep weekly analysis, structured decisions, evidence, replacement-value comparisons and executable handoffs literal and rigorous. Never select a player, invent a rationale or change risk tolerance to serve a joke.
+- Scores, metric labels, projection/actual distinctions, costs, observed timestamps, transaction statuses and next checks stay accurate and readable. A proposed claim remains PROPOSED, not a satirical announcement of an acquisition. Do not invent quotations, statistics, sources, offers, medical details or guaranteed outcomes.
+- Make the coach/front office the main butt of the joke. Do not ridicule serious illness, injury, suffering or family circumstances. Security/login failures and urgent owner actions get clear literal alerts, not comedy that conceals the required action.
+- Label the overview briefly: "Satirical briefing | factual scores and status." Do not explain every punchline on the image. Include a `comedic_anchors` array in the curated JSON mapping each joke to its literal factual anchor and report reference; the renderer may ignore this audit metadata. Preserve the serious report alongside the visual.
+- Use short, aggressively silly headlines and explanations, not dense paragraphs or generic inspirational sports copy. Broad deadpan parody is the reference, not copied headlines, branding or claims of affiliation with a publication.
+- Reusing an older snapshot for a new presentation does not constitute a fresh ESPN check. Preserve original observation times, label it as a snapshot and keep the original factual visual when producing a satirical edition of a historical report.
+
+All scheduled coaching runs read this file; apply this style without changing app automation definitions. Readability, sourcing, lock protection and Git archiving below still apply.
+
+## Rendering workflow
 
 1. Curate minimal sourced values from the verified decision/report, not a raw authenticated export. Write `analysis/infographics/YYYY-week-NN-<run-or-action>.json` with apply_patch. Each metric has a label, numeric value (or null for unknown), kind (`projection` or `actual`), and its own observation timestamp with offset. Include source URLs/timestamps, move status, concise reason, next check and limitations. Mark historical snapshots explicitly; do not call them live.
 2. Run `pwsh -NoProfile -File scripts/render-infographic.ps1 -InputPath analysis/infographics/<name>.json` with the configured PowerShell 7.5+ runtime on Windows. It creates a same-name PNG using built-in Windows drawing, no image-generation service or new credentials. Consult the Week 5 example for the input shape. Keep comparisons in the same kind/units; actual-versus-projected needs separate visuals. Cross-time projection bars are snapshots, not attribution of guaranteed gain. Do not change execution/security policies to run the renderer; report a limitation if the supported runtime is unavailable.
