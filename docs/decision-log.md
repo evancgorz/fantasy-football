@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-20 — Beginner-friendly satire clarification (repository only)
+
+Owner requested funny overviews that assume no football knowledge. Added durable shared guidance for plain-language player roles, planned action and benefit, everyday jokes, translated terminology and concise result/next-step summaries. Revised the satirical Week 7 overview using the same October 20 9:05 AM EDT snapshot; no new ESPN inspection, strategic change or transaction. Original factual overview and rigorous report remain intact. Rendered/inspected the revised image, checked the diff and selectively committed/pushed; final response records the commit.
+
 ### 2026-10-20 — Owner-requested satirical overview style (repository only)
 
 Updated shared agent, coaching and infographic guidance: owner-facing overview graphics use absurd deadpan explanations grounded in sourced facts; underlying research, decisions and executable handoffs remain rigorous and literal. All six scheduled coaching runs inherit the guidance by reading these shared files; no automation definitions changed. Scores, status, deadlines, security alerts and serious health information remain unambiguous. Created and visually inspected a satirical edition of the weekly overview using the existing October 20 9:05 AM EDT snapshot and explicit joke-to-fact anchors, preserving the original. No fresh ESPN inspection or ESPN mutation; no strategic changes. Selective commit/push and hash reported in final response.

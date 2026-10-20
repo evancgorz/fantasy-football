@@ -15,6 +15,18 @@ Effective October 20, 2026, use deadpan, absurd satirical sports reporting for o
 
 All scheduled coaching runs read this file; apply this style without changing app automation definitions. Readability, sourcing, lock protection and Git archiving below still apply.
 
+## Beginner accessibility: no football knowledge assumed
+
+The owner knows nothing about football. Owner-facing slides and chat summaries must make sense without a glossary or player-name recognition. Keep the absurd humor, but make the factual setup understandable first.
+
+- Lead with the consequence: "We won by 1.84 points" and "5 wins, 1 loss," not merely a score or "5-1." Briefly establish that real-game performance earns our fantasy team points when needed.
+- For each item communicate **who / action / benefit**, then the joke. Identify a receiver as someone who catches passes, a kicker as someone who kicks the ball between the posts, and a defense as a group that stops the other team. Do not bury the reader in position lessons.
+- Translate "targets" to "passes thrown his way" (not catches), "bye" to "scheduled week off," "waiver priority" to "our place in line to request available players," "start" to "put him in the scoring lineup," and "lock" to "deadline to change that player's lineup spot." Avoid unexplained WR, FLEX, IR, D/ST, PPR and team abbreviations in the overview. Operational records can retain precise terminology.
+- Explain that only the scoring lineup earns points; players on our bench do not contribute to our weekly score. Distinguish adding someone to the team from putting him in that lineup. Explain planned versus completed in normal words even when renderer status labels already say PROPOSED or EXECUTED.
+- Prefer one short factual setup plus one absurd punchline per item. Jokes should rely on everyday experiences (office work, shopping, vacations, breakfast), not football trivia. Do not replace jargon with equally mysterious metaphors.
+- Keep the overview compact: result, up to three understandable changes, next check and whether the owner needs to do anything. Put statistical detail and secondary deadlines in the linked serious report rather than shrinking text or turning the slide into a rulebook. Retain any genuinely urgent deadline/action explicitly.
+- Before rendering, ask: could someone who has never watched a game explain what we plan to do and why after reading this? Then inspect the rendered image for readability as usual.
+
 ## Rendering workflow
 
 1. Curate minimal sourced values from the verified decision/report, not a raw authenticated export. Write `analysis/infographics/YYYY-week-NN-<run-or-action>.json` with apply_patch. Each metric has a label, numeric value (or null for unknown), kind (`projection` or `actual`), and its own observation timestamp with offset. Include source URLs/timestamps, move status, concise reason, next check and limitations. Mark historical snapshots explicitly; do not call them live.

@@ -1,22 +1,22 @@
 {
-  "title": "Local Idiots Win Again, Request Larger Clipboard",
-  "subtitle": "Satirical briefing | Factual scores and status | Record: 5-1",
+  "title": "We Won. Please Do Not Ask How Calm We Were.",
+  "subtitle": "5 wins, 1 loss | Ridiculous explanations. Real scores.",
   "observed_at": "2026-10-20T09:05:00-04:00",
   "metrics": [
-    {"label": "Chet - Week 6 final", "value": 139.44, "kind": "actual", "observed_at": "2026-10-20T09:05:00-04:00"},
-    {"label": "Oldies - Week 6 final", "value": 137.60, "kind": "actual", "observed_at": "2026-10-20T09:05:00-04:00"}
+    {"label": "Us - last week's final score", "value": 139.44, "kind": "actual", "observed_at": "2026-10-20T09:05:00-04:00"},
+    {"label": "Our opponent - last week's final score", "value": 137.60, "kind": "actual", "observed_at": "2026-10-20T09:05:00-04:00"}
   ],
   "moves": [
-    {"label": "Nabers: hire man football keeps contacting", "status": "proposed", "reason": "15 targets last game. The ball clearly has his address. We plan to intercept his mail, pending roster space and a successful waiver claim."},
-    {"label": "Jefferson: terminate paid vacation", "status": "proposed", "reason": "His bye is over. Our consultants believe employing our excellent receiver at receiver could disrupt the entire industry."},
-    {"label": "Minnesota: acquire security guard and one foot", "status": "proposed", "reason": "Vikings D/ST: 17 sacks through five games. Reichard: 15-for-15 field goals. Both show a worrying lack of respect for our culture of suspense."}
+    {"label": "Try to add Nabers, a player who catches passes", "status": "proposed", "reason": "His team threw his way 15 times last game: more chances to earn points. We want to hire him because his coworkers keep giving him work. Need space on our team; another owner could get him first."},
+    {"label": "Put Jefferson back in our scoring lineup", "status": "proposed", "reason": "Our excellent pass-catcher returns from a scheduled week off. We plan to use him so his points count. Management has bravely discovered that employees on vacation do less work."},
+    {"label": "Try to improve our defense and kicker", "status": "proposed", "reason": "Minnesota's defense stops opponents; Reichard kicks the ball between the posts. Both could improve our points. He has made all 15 field-goal attempts. We favor a man who read the instructions on the goalposts."}
   ],
   "notes": [
-    "Won by 1.84. Management credits an elite ability to stop counting at the correct moment.",
-    "Waiver priority: 4th of 4. First in the standings; last in the buffet line. Next action check: Tue Oct 20, 7 PM ET.",
-    "Swift locks Thu Oct 22, 8:15 PM ET. Olave/PIT lock Sun Oct 25, 9:30 AM ET in Paris. Football has invaded breakfast."
+    "We won by just 1.84 points. Official coaching strategy: win by enough to count, but not enough to relax.",
+    "Only players in our scoring lineup earn us points. The bench is a very expensive waiting room.",
+    "Next check: Tue Oct 20, 7 PM Eastern. Planned changes, not completed. I'll handle the next steps; no action needed from you."
   ],
-  "disclaimer": "Satirical explanations, real snapshot. No ESPN moves made; all plans proposed. Original Oct 20, 9:05 AM EDT evidence, not a new live check. Final scores remain subject to corrections. Serious analysis: analysis/2026-week-07.md.",
+  "disclaimer": "Satirical briefing using the Oct 20, 9:05 AM Eastern snapshot, not a new live check. Scores may receive corrections. Full research, conditions and lineup deadlines: analysis/2026-week-07.md. No team changes made in this update.",
   "sources": [
     {"label": "ESPN Week 6 final boxscore", "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=6&scoringPeriodId=6&seasonId=2026&teamId=2&view=scoringperiod", "observed_at": "2026-10-20T09:05:00-04:00"},
     {"label": "ESPN roster, schedule and player cards; market; waiver order (weekly report)", "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026", "observed_at": "2026-10-20T09:05:00-04:00"}
@@ -24,12 +24,11 @@
   "satirical_presentation": true,
   "analysis_reference": "analysis/2026-week-07.md",
   "comedic_anchors": [
-    {"joke": "Local idiots and the larger clipboard", "fact": "Self-deprecating front-office parody; team won Week 6 and is 5-1. Not a claim that research or decision controls were abandoned."},
-    {"joke": "Football keeps contacting Nabers", "fact": "15 targets in his last game in the weekly review; proposed claim depends on capacity, fresh eligibility and award."},
-    {"joke": "Terminate Jefferson's paid vacation", "fact": "Jefferson returns from a bye; proposed starting WR reinstatement, subject to fresh health and lineup checks. No claim about literal employment or pay."},
-    {"joke": "Security guard and one foot threaten suspense", "fact": "Vikings defense had 17 sacks through five games and Reichard was 15-for-15 on field goals in the reviewed cards; both acquisitions remain proposed, not guaranteed."},
-    {"joke": "Stop counting at the correct moment", "fact": "Final score margin was 1.84 points; not a literal explanation of the win or a claim of scoring control."},
-    {"joke": "Last in the buffet line", "fact": "Observed waiver priority 4 of 4 despite first place in standings."},
-    {"joke": "Football invaded breakfast", "fact": "Observed Olave/PIT Paris kickoff Sunday October 25 at 9:30 AM ET; scheduled Sunday 8 AM check protects that window."}
+    {"joke": "Do not ask how calm we were", "fact": "Self-deprecating parody of the narrow 1.84-point win; not a claim about observed emotions or degraded coaching."},
+    {"joke": "Coworkers keep giving Nabers work", "fact": "15 targets means passes thrown his way, not 15 completed catches; proposed claim depends on capacity, fresh eligibility and award."},
+    {"joke": "Employees on vacation do less work", "fact": "Jefferson returns from a scheduled bye; proposed scoring-lineup reinstatement remains subject to fresh health and slot checks. No literal pay/employment claim."},
+    {"joke": "Read the instructions on the goalposts", "fact": "Reichard was 15-for-15 on field goals in the reviewed card; he and Minnesota defense are proposed improvements, not acquired or guaranteed gains."},
+    {"joke": "Enough to count, not enough to relax", "fact": "Final margin was 1.84 points. No deliberate manipulation of scoring or guarantee."},
+    {"joke": "Bench is an expensive waiting room", "fact": "Only designated starters contribute to this league's weekly team score. Expensive is figurative; no real-money expenditure is implied."}
   ]
 }
