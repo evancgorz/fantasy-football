@@ -1,0 +1,15 @@
+{
+ "title":"Anna Brings Superstars. Forgets Man With Foot.",
+ "subtitle":"Week 7 | Us: 5 wins, 1 loss | Anna: 3 wins, 3 losses",
+ "observed_at":"2026-10-21T19:58:00-04:00",
+ "metrics":[{"label":"Our current scoring lineup","value":141.5,"kind":"projection","observed_at":"2026-10-21T19:56:00-04:00"},{"label":"Anna's current lineup - NO KICKER yet","value":144.2,"kind":"projection","observed_at":"2026-10-21T19:56:00-04:00"}],
+ "moves":[
+  {"label":"Her danger: three excellent pass-catchers","status":"retained","reason":"Chase, Nacua and Lamb together are forecast for about 65 points. Anna appears to have mistaken our friendly family league for a job interview with the Avengers."},
+  {"label":"Our opening: choose the best healthy players","status":"proposed","reason":"Smith-Njigba and Bijan lead our current lineup. Jefferson, new arrival Nabers and Swift are options still on our bench. Only the scoring lineup counts; the waiting room does not win prizes."},
+  {"label":"The scoreboard is missing an employee","status":"retained","reason":"Anna's kicker spot is empty. One available kicker is forecast for 11.3 points; adding him would make her example total 155.5. We should not base strategy on her permanently forgetting that feet exist."}
+ ],
+ "notes":["My take: winnable, but not an easy favorite. Her lineup is incomplete and our injury checks are unfinished. Forecasts are estimates, not points earned or win odds.","First decision: Swift before Thursday Oct 22, 8:15 PM Eastern. Next coaching checks: Thursday 5 PM and 7 PM. No action needed from you.","Anna has Lamb playing Monday night, so this could stay tense into Monday. Management has penciled in an additional evening of staring at a phone."],
+ "disclaimer":"Satirical briefing; factual snapshots. No team changes in this preview. The 155.5 example assumes Anna legally adds/starts the available kicker and all other forecasts stay unchanged; it is NOT her current total.",
+ "sources":[{"label":"ESPN current matchup, opponent roster and available Fairbairn card","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&scoringPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-21T19:58:00-04:00"}],
+ "comedic_anchors":[{"joke":"Forgetsmanwithfoot","fact":"AnnaKslotcurrentlyempty, notclaimofliteralforgetfulnessorintent."},{"joke":"Avengersinterview","fact":"Chase21.7/Nacua24.8/Lamb18.5=65.0projected; figurativecomparison."},{"joke":"Waitingroom","fact":"Jefferson/Nabers/Swiftcurrentlybench, noscoreunlessselected; injurychecksunfinished."},{"joke":"PhoneappointmentMonday","fact":"AnnaLambMon20:15; noassertionresultwillnecessarilyclose."}]
+}

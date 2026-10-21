@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-21 — Week 7 — Owner-requested matchup preview, approximately 7:58 PM EDT (read-only)
+
+FreshESPNboxscore/opponentroster/cards: Chet141.5/Anna144.2butAnnaKempty/eightscorers; nofakewinoddsfrom2.7gap. FairbairnHealthyFA11.3usedonlyasexplicitAnna155.5illustration,notactualopponentmove. HerChase/Puka/Lamb65.0forecastmainthreat; ourJSN/Bijananchors andJefferson/Nabers/Swiftconditionaloptions explainedforbeginnerowner. BowersQhamstring/calfLPnew19:28report noted; notfinalOUT. AcceptedKyren/Zaytradehistorynotcurrentrostercompletion. Series1–1 verified; SwiftThu20:15/OlaveSun09:30/LambMon20:15timing explained. NoESPNmutation; nofullrosteracquisitionrunclaimed. Sourcedstructuredbrief/report/inspectedsatiricalvisualselectivelycommitted/pushed;hashinfinal. Tabpreserved.
+
 ### 2026-10-21 — Week 7 — Awards verified; Titans acquired, approximately 7:03 PM EDT
 
 FreshauthenticatedunifiedCUAiab confirmedWeek7Chet5-1/priority4/4/rules/roster/locks/market/cards/activity. ProcessedOct21reportand03:47AMactivity verifyNabersaward/Wilsondrop andReichardaward/Gaydrop; VikingsclaimexplicitlyfailedtoAnna. IncomingReichardalreadyK,NabersBE,noemptyK. ComparedTitansFA7.28/Jets7.38/Texans7.14/PIT6.4 pluscurrentofficialblocking/defensivepracticeconcernsandnextweekcosts; choseTitanshomeCLE,notbecause19lastpoints. ExactTitansadd/PITdropconfirmed, persistedTitansD/ST/PITabsent andforecast140.6→141.5; no manualstart-sit. Nextweek@CIN/bye9andlostPITCLEholdvalueexplicit. NoFAABbid/money/skilldepthsacrifice. Records/reportandinspectedvisual/proofselectivelycommitted/pushedbeforeanothermutation;hashinfinal.

@@ -1,0 +1,19 @@
+{
+ "schema_version":1,"id":"2026-week-07-owner-matchup-preview","season":2026,"week":7,"observed_at":"2026-10-21T19:58:00-04:00","status":"completed","category":"read-only matchup briefing",
+ "summary":"Owner requested plain-English Week7 preview. Current141.5Chet/144.2Anna is misleadinglyclose becauseAnnaKempty. No ESPNchanges.",
+ "responsible_automation":"owner-requested Head Coach briefing","requires_owner_approval":false,"owner_approval":"Report-only request; no external mutation authorized or performed.",
+ "sources":[
+  {"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&scoringPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-21T19:56:00-04:00","fact":"Week7Anna3-3third vsChet5-1first,actual0-0. Anna144.2with8yet/Kempty; Chet141.5with9yet. AnnaPurdy20.4,Warren17.7,Hubbard14.5,Chase21.7,Nacua24.8,BowersQ18.5,Lamb18.5,Vikings8.1,Kempty. ChetLoveQ19.6,Bijan19.2,Taylor15.2,JSN20.1,Olave15.7,McBride15.9,Jeanty17.0,Titans7.3,Reichard11.5. CurrentJeffersonQ18.5,Nabers17.7,Swift16.3bench; no lineupswap. PreviousmatchupsChet192.56-84.36Week1and116.22-173.7Week4,series1-1."},
+  {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=1&seasonId=2026","observed_at":"2026-10-21T19:57:00-04:00","fact":"OpponentKexplicitEmpty, LambMon20:15@PHI. ZayFlowersstillbench/Kyrennotlisted; acceptedtradehistorycannotbetreatedascurrentlycompletedrosterchange. BowerscardWed19:28news: hamstring/calfLP; QnotfinalOUT. Summaryinjurywidgetcontradictorily saysnone; individualcarddesignationcontrols."},
+  {"url":"https://fantasy.espn.com/football/players/add?leagueId=582597924","observed_at":"2026-10-21T19:58:00-04:00","fact":"FairbairnHealthyFreeAgentcard11.3displayedprojection. Illustrative144.2+11.3=155.5ifAnnaacquires/starts him withlegalcapacity, otherforecastsunchanged. Notheractualrequestorourrecommendedopponenttransaction."}
+ ],
+ "alternatives":[{"action":"Treatdisplayed2.7gap asfinalassessment","evidence":"Reject:8vs9scorers, opponentemptyK andbothlineupsunfinished; no validprecisewinodds."},{"action":"Illustrativehealthyownedlineupscenario","evidence":"Roundedboxvalues141.5-15.7+18.5-17.0+17.7=145.0ifJeffersonforOlave andNabersforJeanty; SwiftforTaylorwouldadd1.1to146.1. Notexecuted,recommendedautomatically, exactESPNtotalorhealthclearance. Thursday/Sundaydecidefresh."}],
+ "expected_benefit":{"points":null,"basis":"Clearunderstandingofopponentreceiverstrength/incompleteforecast andourlineupoptions; informationalonly,notactualgain.","confidence":"medium on qualitativecompetitiveassessment, unknown winprobability"},
+ "rationale":"AnnaChase/Nacua/Lambforecastsum65.0versusourcurrentJSN/Olave/Jeanty52.8; differentpositionFLEXeligiblebutlegalcurrent3slotscompared. OurBijan/Taylor34.4vsWarren/Hubbard32.2 modestoffset,ReichardK11.5currentlyversusmissingKnotdurableedge. Healthandslotchoices mattermorethanstaleheadline. Winnablebutnotcomfortablefavorite; opponentlikelystrongerwhenKfilled, conditionalonheractualchoices.",
+ "missing_evidence":["Finalstartinglineups/kickeracquisition/tradeprocessing","Finalhealth/workload/weather","Validatedscoringdistributions/winmodel"],
+ "execution_conditions":["No ESPNmutation inanswer-onlyrequest","No simulation or fabricatedwinprobability"],
+ "fallback":"Thursday17/19checks beforeSwiftThu20:15; Sunday08beforeOlave09:30 andJefferson13:00; Lovebackupifworsens. AnnaLambMon20:15meansresultcouldremainunsettledMonday.",
+ "recheck_at":"2026-10-22T17:00:00-04:00","deadline_at":"2026-10-22T20:15:00-04:00",
+ "verification":{"observed_at":"2026-10-21T19:58:00-04:00","persisted_result":"Read-onlyboxscore/opponentroster/Bowers/Fairbairncards inspected. No claim/trade/IR/start-sit; matchup tabpreserved."},
+ "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},"report":"../analysis/2026-week-07.md","visual":"../analysis/infographics/2026-week-07-matchup-preview.png"
+}
