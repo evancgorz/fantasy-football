@@ -1,0 +1,28 @@
+{
+ "schema_version":1,"id":"2026-week-07-titans-acquisition","season":2026,"week":7,"observed_at":"2026-10-21T19:03:00-04:00","status":"executed","category":"free-agent defense exchange",
+ "summary":"Added free-agent Titans defense and dropped Steelers after failedVikingsclaim; exactexchange and TitansD/STslot persisted. No independentstart/sitswap.",
+ "responsible_automation":"fantasy-waiver-execution","requires_owner_approval":false,"owner_approval":"October11hands-offdelegation includes evidence-backedadds/drops in acquisitionruns; no routineownerapproval. No money/bid or securitychange.",
+ "sources":[
+  {"url":"https://fantasy.espn.com/football/players/add?leagueId=582597924","observed_at":"2026-10-21T19:02:00-04:00","fact":"TitansHealthyFA7.28vCLE,16sacks4INT1FR129PAin6,last6sacks/2INT1FR/1defTD/19points; @CINWeek8 thenbye9. TexansHealthyFA7.14vNYG/18sacks3INT3FR143PAin6,last0sacks31PA/-2,bye8. JetsHealthyFA7.38vMIA/17sacks1INT7FR122PAin6,last0sacks26PA/3pts; Week8LV/9KC/10BUF. Allseasonproductionnotstrengthadjusted; last19isnotmeanforecast."},
+  {"url":"https://www.clevelandbrowns.com/team/injury-report/","observed_at":"2026-10-21T19:02:00-04:00","fact":"CurrentWeek7WednesdayCLE: C/GElgtonJenkinsDNPknee,GTevenJenkinsDNPback,TTytusHowardLPknee; DillonGabrielFPback, JudkinsLPankle, WRBostonLPfoot/ConcepcionLPcalfquad. TennesseeJohnFranklinMyersrestDNP, SAdams/WinstonLP. Practiceconcernsnotfinalabsences."},
+  {"url":"https://www.neworleanssaints.com/team/injury-report/","observed_at":"2026-10-21T19:02:00-04:00","fact":"CurrentPITWednesday: Ramsey/EcholsDNP, HighsmithLPgroin, JosephDayDNP; Watt/HeywardrestDNPnotinjuryabsence. PITcurrent6.4atNOParisSun09:30 andWeek8CLEusefulholdvalue."},
+  {"url":"https://www.miamidolphins.com/team/injury-report/","observed_at":"2026-10-21T19:02:00-04:00","fact":"MIAQBMalikWillisFPthumb/GJonahSavaiinaeaFPankle. NYJdefendersOssaiDNPankle/McDonaldLPtoe/SweatLPelbow/MauigoaDNPquad. Freshhealthcontextweakensprojection-onlyJetschoice; notfinalinactives."},
+  {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-21T19:03:00-04:00","fact":"BeforeexchangePITD/ST/ReichardK/NabersBE, forecast140.6; afterconfirmedTitansadd/PITdrop TitansD/ST/ReichardK/NabersBE,forecast141.5. All7benchretained and16active+HurtsIRlegal. Noindependentlineupswap. Screenshotinspected."},
+  {"url":"https://fantasy.espn.com/football/league/settings?leagueId=582597924","observed_at":"2026-10-21T19:00:00-04:00","fact":"FullPPR/PAandYADSTpenalties/16active7bench1IR/individualscheduledlocks/noacquisitionlimit/noFAABbidfield. Week7identity andpriority4/4 refreshed."}
+ ],
+ "alternatives":[
+  {"action":"KeepPIT","evidence":"6.4and16sacks/6INTseason inpreviousreport; usefulWeek8CLE. But freshCB/frontinjuryconcerns andShoughpassingTDcontext plusCLElineconcerns favorTitansnow. SacrificeWeek8CLEconveniencemeansanothermarketreview, notseconddststash."},
+  {"action":"Jets7.38","evidence":"Highestdisplayedavailableofthesethreebut7FRvs1INT,8sacksinonegame and0lastgame pluscurrentfrontinjuries/MIAQBFPreduceconfidence. LVWeek8advantage acknowledged; not automaticallybestbecause0.1higher."},
+  {"action":"Texans7.14","evidence":"NYGQBuncertainty,18sackssupportcase; 31PA/0sackslastgame andbye8makeoneweekcosthigher. TitanscurrentopponentOLconcernsslightlypreferred. NoinventedNabers/DSTcorrelationcoefficient."},
+  {"action":"ExtraWR/QB/RBchurn","evidence":"GoldennowQshoulderLP16.9afterNabersawarddoesnotjustifycuttinghealthyLondon/recoveringRBdepth. StaffordHealthyFA18.6@LV iscredibleLovefallbackbutAdamsabsence risk; noimmediatebackupsacrificeforLoveWednesdayLP. CurrentDanielsbye meansSundayQBcontingencymandatory."}
+ ],
+ "expected_benefit":{"points":null,"basis":"Same-windowdisplayedtotal140.6to141.5,about+0.9projected fromdefenseexchange. Notactualpointsorvalidatedforecastgain. Decisionusesopponentblocking/ourdefensivehealth andfuturestreamingcost, notprojectionalone.","confidence":"medium-low"},
+ "rationale":"ChoosehomeCLEmatchupwithmultipleblockingpracticeconcerns andrecentpassrushsuccess; hedgeexpectationsagainstTitanshighvariance/nextweekCIN. Oneforonedefenseexchangeprotectsallskilldepth andcostsnoFAAB/priority. ReevaluateFriday/SundaychangesbeforeSun13lock; nextTuesdaymustplanWeek8defense.",
+ "missing_evidence":["FinalFridayinactives/practice/OLavailability andSundayweather","Strengthadjustedpressure/yardageprojectiondataset","Separatependingtrade-offerqueue notexposed; noemptyqueueassertion"],
+ "execution_conditions":["ExactTitansadd/Steelersdropconfirmed", "Persistedslot/rosterchecked", "Write/log/render/commit/pushbeforeanotherESPNmutation"],
+ "fallback":"Thursday/SundayverifyTitanshealth/matchupbefore13:00Sunday; recompareavailabledefensesifpracticechanges. NoautomaticreaddPITwhilestillonwaivers. NoextraDSTstashoverusefulbench.",
+ "recheck_at":"2026-10-22T17:00:00-04:00","deadline_at":"2026-10-25T13:00:00-04:00",
+ "verification":{"observed_at":"2026-10-21T19:03:00-04:00","persisted_result":"AfterConfirmaddTitans/dropSteelers, rosterTitansD/STandPITabsent,ReichardKandNabersBEretained,total141.5. Platformreplacementplaceddefenseinstarters; no manualslotmutation."},
+ "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},
+ "report":"../analysis/2026-week-07.md","visual":"../analysis/infographics/2026-week-07-wednesday-outcomes.png","proof":"../analysis/infographics/2026-week-07-wednesday-roster-proof.png"
+}

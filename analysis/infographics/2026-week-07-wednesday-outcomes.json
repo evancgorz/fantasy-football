@@ -1,0 +1,15 @@
+{
+ "title":"Two Hires Arrived. We Found Our Own Bouncer.",
+ "subtitle":"Satirical briefing | Verified players, not imaginary points",
+ "observed_at":"2026-10-21T19:03:00-04:00",
+ "metrics":[{"label":"Team forecast before tonight's defense change","kind":"projection","value":140.6,"observed_at":"2026-10-21T18:59:00-04:00"},{"label":"Team forecast after tonight's defense change","kind":"projection","value":141.5,"observed_at":"2026-10-21T19:03:00-04:00"}],
+ "moves":[
+  {"label":"Nabers joined our team; Wilson left","status":"executed","reason":"The pass-catcher we requested is ours. His team keeps throwing him the ball. He is on our bench for now; management will first check whether his new office chair catches passes."},
+  {"label":"Reichard is our new scoring-lineup kicker","status":"executed","reason":"Our request succeeded; Matt Gay left. Reichard kicks between the posts for points. His 15-for-15 field-goal record meets our strict hiring standard: put ball in correct place."},
+  {"label":"Added Tennessee's defense; Pittsburgh left","status":"executed","reason":"Anna got Minnesota first. We chose Tennessee, which faces a team with injured blockers. Their job is to stop opponents. We hired bouncers after reading the other nightclub's staffing problems."}
+ ],
+ "notes":["About +0.9 projected points from tonight's defense change, not points already earned. Nabers still needs a decision before his points count.","Several players need injury rechecks. Swift's teammate is officially out tomorrow, which may mean more work for Swift. Thursday's check decides; no automatic promise.","Next checks: Thursday Oct 22, 5 PM and 7 PM Eastern; Swift's lineup deadline is 8:15 PM. No action needed from you."],
+ "disclaimer":"Awards and defense exchange verified. Forecasts are estimates, not guarantees. Wednesday practice absences are not final game absences. Full research: analysis/2026-week-07.md.",
+ "sources":[{"label":"ESPN processed awards and roster before/after defense exchange","url":"https://fantasy.espn.com/football/league/waiverreport?leagueId=582597924","observed_at":"2026-10-21T19:03:00-04:00"},{"label":"Official Browns/Titans Wednesday practice report","url":"https://www.clevelandbrowns.com/team/injury-report/","observed_at":"2026-10-21T19:02:00-04:00"}],
+ "comedic_anchors":[{"joke":"Nabersofficechair","fact":"AwardedNabersBEforWilson; no startingdecisionyet."},{"joke":"Ballincorrectplace","fact":"Reichard15of15FG beforebye; currentKstarter, notfuturecertainty."},{"joke":"Bouncers/staffing","fact":"CLEtwointeriorblockersDNP/HowardLP, notfinalOUT; VikingsawardedAnna andTitansnowours."}]
+}
