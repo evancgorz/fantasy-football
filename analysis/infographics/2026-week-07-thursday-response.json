@@ -1,0 +1,15 @@
+{
+ "title":"They Found Their Kicker. We Found Our Clipboard.",
+ "subtitle":"Actual score: 0-0 | Forecasts below are NOT points earned",
+ "observed_at":"2026-10-22T08:37:00-04:00",
+ "metrics":[{"label":"Our current scoring lineup","value":141.5,"kind":"projection","observed_at":"2026-10-22T08:35:00-04:00"},{"label":"Anna - now including a kicker","value":155.5,"kind":"projection","observed_at":"2026-10-22T08:35:00-04:00"}],
+ "moves":[
+  {"label":"Consider Swift for tonight's scoring lineup","status":"proposed","reason":"The teammate sharing his running work is officially out, so Swift has a stronger case for more chances. Management is reviewing whether giving work to the employee on duty is legal."},
+  {"label":"Give new pass-catcher Nabers a scoring spot","status":"proposed","reason":"He is ours, but still on our bench. His recent volume of passes supports using him. Our recruiting department has been informed that employees in reception do not score points."},
+  {"label":"Use Jefferson only if his ankle checks out","status":"proposed","reason":"He could improve our pass-catching lineup, but his availability is uncertain. Keep healthy alternatives ready. The clipboard is powerful, but cannot issue medical clearance."}
+ ],
+ "notes":["Those three changes would total about 146.1 using current rounded forecasts, IF chosen and healthy. That helps, but does not erase Anna's advantage or guarantee points.","Anna can still change her lineup too. We will choose the best healthy players, not trade away the furniture because a calculator looks unfriendly.","Next checks today: 5 PM and 7 PM Eastern. Swift's deadline: 8:15 PM. These are plans, not completed moves; no action needed from you."],
+ "disclaimer":"Satirical briefing; real snapshots. No team changes in this update. The game has not started. Forecasts and provisional choices can change with health and lineup news.",
+ "sources":[{"label":"ESPN current Week 7 matchup and benches","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&scoringPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-22T08:35:00-04:00"},{"label":"Official Patriots/Bears final injury report","url":"https://www.patriots.com/news/week-7-injury-report-patriots-at-bears","observed_at":"2026-10-22T08:37:00-04:00"}],
+ "comedic_anchors":[{"joke":"Foundkicker/clipboard","fact":"AnnaFairbairnnowK11.3; currentactual0-0."},{"joke":"Employeeonduty","fact":"MonangaiOUT supportsSwiftleadrole,notguaranteedusage."},{"joke":"Receptiondoesnotscore","fact":"Naberscurrentlybench,onlystarterscount."},{"joke":"Clipboardcannotclearankle","fact":"JeffersonQrequiresfreshhealthcheck; nohealthexpertiseorclearanceclaimed."},{"joke":"Donottradefurniture","fact":"No unsupported panictrade merelybecauseforecast14behind."}]
+}
