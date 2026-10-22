@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-07-thursday-1700-preflight",
+  "season": 2026,
+  "week": 7,
+  "observed_at": "2026-10-22T17:06:00-04:00",
+  "status": "monitoring",
+  "category": "read-only injury and access preflight",
+  "summary": "Access verified; Love full practice/Healthy, Hall and Irving limited/Q, Jefferson Q. No ESPN changes. Swift decision handed to7PM before20:15.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation permits action-capable runs to decide. This5PM run is strictly ESPN read-only; no new strategic approval requested.",
+  "sources": [
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-22T17:05:00-04:00","fact":"Authenticated Week7 Chet5-1. Lineup unchanged141.5. LoveHealthy/ThursdayFP4:21PMnews; HallQ/LP4:09PMnews; IrvingQ/LP3:53PMnews; JeffersonQ/latestWedLP. SwiftHealthy16.3BE Thu20:15, TaylorHealthy15.2RB, JeantyHealthy17FLEX, NabersHealthy17.7BE, London17.1BE. Danielsbye, HurtsIR. TitansD/ST andReichardK. OlaveSun09:30, mainothers13/16:05/16:25/20:20. Swift20toucheslastgameincludes2TD; no repeat assumed. Nabers35targetslasttwo,29-398-2lastthree; QBuncertain. Jeanty26-251-2receiving/36targets,3.2YPC; Taylor7TDstableleadrole despiteMIN."},
+    {"url":"https://www.packers.com/team/injury-report/","observed_at":"2026-10-22T17:03:00-04:00","fact":"Love back WednesdayLP ThursdayFP; Friday/game status not yet available."},
+    {"url":"https://www.vikings.com/team/injury-report/","observed_at":"2026-10-22T17:03:00-04:00","fact":"Jefferson ankle WedLP, Thursdayblank; sharedColtstable TaylorLPWed/FPThu. Blank is unknown, not clearance."},
+    {"url":"https://www.patriots.com/news/week-7-injury-report-patriots-at-bears","observed_at":"2026-10-22T17:04:00-04:00","fact":"OfficialOct21final MonangaiOUT, JonahJacksonFP/no game designation. Swiftcard's speculativeMonangaireturn is stale against officialOUT. Finalgameinactives notverified."},
+    {"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-22T17:05:00-04:00","fact":"Currentactual0-0; Chet141.5/Anna155.8 forecasts. Notactualdeficit or winodds."},
+    {"url":"https://fantasy.espn.com/football/league/settings?leagueId=582597924","observed_at":"2026-10-22T17:06:00-04:00","fact":"HeadtoheadPPR, individualscheduledgametimelocks, waiveracquisitions. No settingschanged."}
+  ],
+  "alternatives": [
+    {"choice":"ProvisionalSwiftRBoverTaylor","evidence":"Leadwork withMonangaiOUT, Healthy16.3 vsTaylor15.2/toughMIN; conditional7PMinactive/workloadrefresh. UseRBnotFLEX toretainSundayflexibility. Swiftinefficiency/Roschonrole/TDvariance downside."},
+    {"choice":"RetainTaylor and benchSwift","evidence":"TaylorHealthy/ThursdayFP andleadscoringrole arelegitimatecountercase; Jeanty17.0receivingrole plusNabers17.7/London17.1/JeffersonQ18.5 compete forremaininglegalspots. Do notfavorSwift solelyfromname/projectionortrailing."},
+    {"choice":"RetainLove, Hall, Irving, Jefferson pendingrefresh","evidence":"LoveFP removesurgentQBacquisitioncase; Hall/IrvingLPnotclearance, limitedworkloadcouldpersist. JeffersonlatestWedLPneedsfreshSundayreviewbeforeOlave09:30; Danielsbye providesnoWeek7cover."}
+  ],
+  "expected_benefit": {"points":null,"basis":"No move or realized gain. Swift16.3 minusTaylor15.2 is1.1 rounded projection arithmetic only; whole-lineup choice not fixed. No win probability model.","confidence":"medium pending final inactives and Sunday health"},
+  "rationale": "Archive current health improvements and actionable next-lock handoff without violating5PMread-only. Stable roles, health and whole-roster value take priority over erasing opponent forecastgap.",
+  "missing_evidence": ["Tonight final inactive list/weather/lateworkload","Jefferson Thursdaypractice notexposed","Friday/Sunday health andGiantsQBrole","Independentpendingoffer/claimqueue notexposed; no assertionempty","No fresh fullmarket/tradevaluation or complete snaps/routes/goal-line dataset"],
+  "execution_conditions": ["7PM action run refreshESPNidentity/currentroster/pendingstate andofficialtonightinactives","ChooseSwiftorbench before20:15 usingwholelineup, notfixedmorningorders","Eachactualmutationverify/log/commit/pushbeforeanother","Sunday08resolveOlave09:30earlylock andJefferson/Nabers/Londonchoices; laterhealthchecks beforeindividualkickoffs"],
+  "fallback": "IfSwiftlateinactive or materiallyworseworkload, keepbesthealthySundayRBs. IfJeffersonuncertain, usebestlegalhealthyNabers/London/Olave configuration; no inactivezero. IfLoverelapses, freshlyevaluatelegalQBmarket/dropcost becauseDanielsbye. No automaticIR/drop sequence.",
+  "recheck_at": "2026-10-22T19:00:00-04:00",
+  "deadline_at": "2026-10-22T20:15:00-04:00",
+  "later_deadline_at": "2026-10-25T09:30:00-04:00",
+  "verification": {"observed_at":"2026-10-22T17:06:00-04:00","persisted_result":"Read-only live inspection verified identity/week, roster, game windows andsettings. No lineup/claim/adddrop/IR/trade mutation attempted. Browserpreserved for7PM."},
+  "outcome": {"actual_points":null,"alternative_actual_points":null,"process_review":null},
+  "report": "../analysis/2026-week-07.md",
+  "visual": "../analysis/infographics/2026-week-07-thursday-preflight.png"
+}

@@ -1,0 +1,23 @@
+{
+ "title":"Quarterback Returns. Emergency Clipboard Laid Off.",
+ "subtitle":"Satirical briefing | Factual health and status | No moves made",
+ "observed_at":"2026-10-22T17:06:00-04:00",
+ "metrics":[],
+ "moves":[
+  {"label":"Keep Love, our player who throws the passes","status":"retained","reason":"He practiced fully today and ESPN removed his injury flag. No urgent replacement needed. Management has cancelled its search for a man who can throw a stapler."},
+  {"label":"Decide whether Swift joins the scoring lineup tonight","status":"proposed","reason":"A teammate who shares his running work is out, strengthening Swift's case for more chances. Our office has discovered that available employees can be assigned tasks."},
+  {"label":"Keep healthy backup plans for Sunday","status":"retained","reason":"Hall and Irving returned to limited practice; Jefferson is still uncertain. Nobody has been cleared by our highly qualified spreadsheet."}
+ ],
+ "notes":["Next check: tonight 7 PM Eastern. Swift's lineup-change deadline: 8:15 PM. He is still on our bench, where points do not count.","Sunday 8 AM check covers pass-catcher Olave's 9:30 AM deadline. Jefferson needs fresh health evidence; Nabers and London are alternatives.","No action needed from you. This was a read-only check; tonight's run makes the lineup decision."],
+ "disclaimer":"Full practice is encouraging, not a promise of Sunday availability. Proposed is not completed. No actual points gained in this check.",
+ "sources":[
+  {"label":"ESPN roster and player news","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-22T17:05:00-04:00"},
+  {"label":"Official Packers practice","url":"https://www.packers.com/team/injury-report/","observed_at":"2026-10-22T17:03:00-04:00"},
+  {"label":"Official Patriots/Bears report","url":"https://www.patriots.com/news/week-7-injury-report-patriots-at-bears","observed_at":"2026-10-22T17:04:00-04:00"}
+ ],
+ "comedic_anchors":[
+  {"joke":"Emergency clipboard laid off; stapler audition cancelled","fact":"Love upgraded to Thursday full practice/ESPNHealthy; no urgent replacement justified.","report":"../2026-week-07.md"},
+  {"joke":"Available employees assigned tasks","fact":"SwiftHealthy withMonangaiOUT; strongerleadworkcase, notguaranteedtouches.","report":"../2026-week-07.md"},
+  {"joke":"Spreadsheet cannot clear players","fact":"Hall/Irving limited andJeffersonQ stillrequirefreshavailabilityevidence.","report":"../2026-week-07.md"}
+ ]
+}
