@@ -1,0 +1,9 @@
+{
+ "title":"Pass-Catcher Returns. Clipboard Claims Medical Degree.","subtitle":"Satirical briefing | Jefferson now scores for our team","observed_at":"2026-10-22T19:03:00-04:00",
+ "metrics":[{"label":"Before Jefferson - forecast","value":142.5,"kind":"projection","observed_at":"2026-10-22T19:01:00-04:00"},{"label":"After Jefferson - forecast","value":145.3,"kind":"projection","observed_at":"2026-10-22T19:03:00-04:00"}],
+ "moves":[{"label":"Jefferson in; Olave on our bench","status":"executed","reason":"Jefferson catches passes and practiced fully today. His expected role supports using him again. The clipboard has taken credit for a recovery it observed from a chair."}],
+ "notes":["Olave stays on our team as a healthy alternative. We changed who earns our points, not who owns a parking permit.","Forecast rose 2.8 points; actual points gained: none yet. Full practice is encouraging, not a guarantee of Sunday availability.","Next health check Sunday 8 AM Eastern, before Olave's 9:30 AM deadline. No owner action needed."],
+ "disclaimer":"Verified saved lineup. Projections are estimates, not points earned. Serious health decisions use fresh evidence, not office stationery.",
+ "sources":[{"label":"ESPN roster and Thursday5:54PM player news","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-22T19:03:00-04:00"}],
+ "comedic_anchors":[{"joke":"Clipboardcreditsrecovery","fact":"Jeffersonfullpractice/ESPNHealthy,notcoachmedicalclearance.","report":"../2026-week-07.md"},{"joke":"Parkingpermit","fact":"Olavebenched,notdropped.","report":"../2026-week-07.md"}]
+}
