@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-22 — Week7 — Nabers started,7:02:45PMEDT
+
+AfterJeffersoncommitc2a8f39pushed, freshNabersHealthy/35targetslasttwo/receivingrolecomparison supportsNabersFLEXforJeanty. Executedswap/savedtoast/reloadverifyNabersFLEX/JeantyBE,146.0from145.3(+0.7projection); SwiftRB/JeffersonWRpersist. Combinedtonight141.5→146.0,+4.5forecastnotactualgain; roundedmorning146.1notverifiedtotal. Jeanty/Taylor/Olaveretained; Sunday08freshhealth/lineupcheckbeforeOlave09:30. Newrecord/report/inspectedoverviewandproofarchived/pushedbeforeanyfurthermutation. EarlierSwift/Jeffersonrecordtimesareapproximate7PMwindow labels, notexactevent-clocktelemetry; UIchangesoccurred18:59–19:03. Noacquisition/drop/IR/trade.
+
 ### 2026-10-22 — Week7 — Jefferson started, approximately7:03PMEDT
 
 AfterSwiftcommitfb6a9f9pushed, freshJeffersoncardHealthy/Thursday5:54PMfullpractice supportsJeffersonWRforOlave. Executedswap; savedtoast/reloadverifiedJeffersonWR/OlaveBE,145.3projectionfrom142.5(+2.8forecast,notactualgain). Olaveretained; Sunday08recheckbefore09:30earlyfallbacklock. No drop/trade/acquisition. Record/report/inspectedvisual/UIproof committed/pushedbeforeanothermutation;hashinfinal.

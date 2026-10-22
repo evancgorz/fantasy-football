@@ -1,0 +1,13 @@
+{
+ "title":"New Hire Finally Allowed to Leave Reception.","subtitle":"Satirical briefing | All three lineup changes saved","observed_at":"2026-10-22T19:02:45-04:00",
+ "metrics":[{"label":"Before tonight's three changes - forecast","value":141.5,"kind":"projection","observed_at":"2026-10-22T18:59:00-04:00"},{"label":"Current scoring lineup - forecast","value":146.0,"kind":"projection","observed_at":"2026-10-22T19:02:45-04:00"}],
+ "moves":[
+  {"label":"Nabers in; Jeanty on our bench","status":"executed","reason":"Nabers catches passes; 35 were thrown his way in his last two games. He now earns points for us. HR has discovered that an employee sitting in reception cannot do the job."},
+  {"label":"Swift in; Taylor on our bench","status":"executed","reason":"Swift has a stronger chance at running work with a teammate out. Management has bravely selected a person who is available to work tonight."},
+  {"label":"Jefferson in; Olave on our bench","status":"executed","reason":"Our pass-catcher practiced fully today. We are using him again; the office clipboard has nominated itself for a medical award."}
+ ],
+ "notes":["Combined forecast increase: 4.5 points. Not points earned, not a guaranteed win. All three benched players remain on our team.","Swift plays tonight at 8:15 PM Eastern. Sunday 8 AM: check health and remaining choices before Olave's 9:30 AM deadline. No owner action needed."],
+ "disclaimer":"Saved and reloaded on ESPN. Forecasts change; full practice does not guarantee Sunday availability. Only the scoring lineup contributes points.",
+ "sources":[{"label":"ESPN saved lineup and player news","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-22T19:02:45-04:00"},{"label":"Official Patriots/Bears injury report","url":"https://www.patriots.com/news/week-7-injury-report-patriots-at-bears","observed_at":"2026-10-22T18:59:00-04:00"}],
+ "comedic_anchors":[{"joke":"Receptioncannotdothejob","fact":"Naberswasbenchafteraward,nowFLEX;35targetsarenot35catches.","report":"../2026-week-07.md"},{"joke":"Selectavailableemployee","fact":"SwiftHealthy/MonangaiOUTsupportsrole,notguarantee.","report":"../2026-week-07.md"},{"joke":"Clipboardmedicalaward","fact":"Jeffersonactualfullpractice,notcoachmedicalauthority.","report":"../2026-week-07.md"}]
+}
