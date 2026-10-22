@@ -1,0 +1,11 @@
+{
+ "title":"Employee Given Ball. Management Calls It Innovation.",
+ "subtitle":"Satirical briefing | Swift is now in our scoring lineup",
+ "observed_at":"2026-10-22T19:01:00-04:00",
+ "metrics":[{"label":"Before Swift - forecast, not points earned","value":141.5,"kind":"projection","observed_at":"2026-10-22T18:59:00-04:00"},{"label":"After Swift - forecast, not points earned","value":142.5,"kind":"projection","observed_at":"2026-10-22T19:01:00-04:00"}],
+ "moves":[{"label":"Swift in; Taylor on the bench","status":"executed","reason":"Swift runs with the ball. A teammate who shares that work is out, giving Swift a stronger opportunity tonight. The front office has filed a patent for giving work to the employee who is present."}],
+ "notes":["Taylor stays on our team and can still be considered for Sunday's flexible scoring spot. This is a lineup change, not a firing.","The forecast rose 1.0 point. Actual points gained so far: none. Last week's two touchdowns are not a recurring calendar invitation.","Swift plays tonight at 8:15 PM Eastern. Sunday 8 AM: review the remaining lineup before Olave's 9:30 AM deadline. No owner action needed."],
+ "disclaimer":"Verified saved lineup. Forecasts can change and do not guarantee results. Official injury report checked; a separate final inactive article was not found.",
+ "sources":[{"label":"ESPN saved roster","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-22T19:01:00-04:00"},{"label":"Official Patriots/Bears injury report","url":"https://www.patriots.com/news/week-7-injury-report-patriots-at-bears","observed_at":"2026-10-22T18:59:00-04:00"}],
+ "comedic_anchors":[{"joke":"Patentforgivingworktoavailableemployee","fact":"SwiftHealthy,MonangaiOUT supportsleadrole.","report":"../2026-week-07.md"},{"joke":"Notafiring","fact":"Taylorbenchednotdropped; SundayFLEXoptionretained.","report":"../2026-week-07.md"},{"joke":"TDsnotcalendarinvite","fact":"LasttwoTDsnotassumedrepeatablemean.","report":"../2026-week-07.md"}]
+}
