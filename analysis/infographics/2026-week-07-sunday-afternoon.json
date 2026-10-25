@@ -1,0 +1,14 @@
+{
+ "title":"Coach Spots Lead. Immediately Misplaces Humility.",
+ "subtitle":"Satirical briefing | Live points, not final results",
+ "observed_at":"2026-10-25T15:02:00-04:00",
+ "metrics":[{"label":"Our points earned so far","value":67.7,"kind":"actual","observed_at":"2026-10-25T15:02:00-04:00"},{"label":"Anna's points earned so far","value":36.5,"kind":"actual","observed_at":"2026-10-25T15:02:00-04:00"}],
+ "moves":[
+  {"label":"Keep Love throwing passes for us this afternoon","status":"retained","reason":"He is available for his game and remains our best quarterback choice. Management will not replace the pilot because the plane has gained altitude."},
+  {"label":"Keep pass-catcher McBride in our scoring lineup","status":"retained","reason":"He is available and has caught at least seven passes in every game this season. The football has apparently marked him as a trusted contact."}
+ ],
+ "notes":["Five players on each side are still playing. Three of ours and four of Anna's have not started. Our current lead is not a final result.","Expected final totals: us 144.1, Anna 131.3. These are forecasts, not points earned or measured win odds.","No lineup changes. McBride plays at 4:05 PM; Love at 4:25 PM Eastern. Next check: 7 PM for Smith-Njigba, our nighttime pass-catcher. Nothing needed from you."],
+ "disclaimer":"The coach has been instructed to leave the trophy in the shopping cart. Scores can change; only our scoring lineup counts.",
+ "sources":[{"label":"ESPN live matchup and roster/cards","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-25T15:02:00-04:00"},{"label":"Official Packers availability","url":"https://www.packers.com/news/packers-lions-week-7-inactives-oct-25-2026","observed_at":"2026-10-25T15:02:00-04:00"},{"label":"Official Cardinals availability","url":"https://www.azcardinals.com/news/cornerback-max-melton-inactive-for-game-against-broncos","observed_at":"2026-10-25T15:02:00-04:00"}],
+ "comedic_anchors":[{"joke":"Donotreplacepilot","fact":"LoveavailableHealthyQBretained,notchurnforlead.","report":"../2026-week-07.md"},{"joke":"Trustedcontact","fact":"McBrideatleast7catcheseachof6games/65targetsfromcurrentcard.","report":"../2026-week-07.md"},{"joke":"Trophystaysincart","fact":"Gamesongoing/leadnotfinalwin.","report":"../2026-week-07.md"}]
+}
