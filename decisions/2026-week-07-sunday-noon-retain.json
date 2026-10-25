@@ -1,0 +1,26 @@
+{
+ "schema_version":1,"id":"2026-week-07-sunday-noon-retain","season":2026,"week":7,"observed_at":"2026-10-25T12:01:00-04:00","status":"completed","category":"lineup retain/noon availability check",
+ "summary":"Retain lineup. Nabers/Bijan/London absent official inactive lists; Jefferson/Reichard show no ESPN restriction, Jefferson finalFP/no designation. Hall nowOUT alreadybench. NoESPNchanges; no owneraction.",
+ "responsible_automation":"sunday-early-lineup-check","requires_owner_approval":false,"owner_approval":"October11hands-offdelegation; Sundaynoon action-capable review makesretainjudgment.",
+ "sources":[
+  {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-25T12:00:00-04:00","fact":"AuthenticatedWeek7Chet5-1,currentThursdaylineupintact. HallcardnowOUT, alreadybench; latestnewsstill07:43unlikelytoplay,donotmisquoteasofficialNFLinactiveproof. Otherstarterrowsunflagged. Swift19locked,Olaveearlygamealreadylockedbench. Remaining1PMBijan/Jefferson/Nabers/Titans/Reichard;Love16:25/McBride16:05/JSN20:20. No newpendingqueueexposed; notassertedempty."},
+  {"url":"https://www.giants.com/news/inactives-who-s-in-who-s-out-for-giants-at-texans","observed_at":"2026-10-25T12:00:00-04:00","fact":"Officialinactive listdoesnotincludeNabers. Mbowinactive,Eluemunornotlisted; TexanssafetiesPitre/Blankenshipinactive. McCarthystarts. SupportsretainNabers; no guaranteedusage."},
+  {"url":"https://www.atlantafalcons.com/news/atlanta-falcons-week-7-inactives-vs-san-francisco-49ers","observed_at":"2026-10-25T12:00:00-04:00","fact":"Officialinactive listdoesnotincludeBijanorLondon. BrianRobinsonJrout,notBijanRobinson. No mistakenname-basedbenching."},
+  {"url":"https://www.vikings.com/team/injury-report/","observed_at":"2026-10-25T12:01:00-04:00","fact":"JeffersonThu/FriFP/no game designation; officialnewsindex/searchdidnotexposefinalVikingsinactive list. ReichardunflaggedinESPN. No claimofdirectofficialSundayactiveverificationforMinnesotaplayers."},
+  {"url":"https://www.tennesseetitans.com/news/game-inactives-week-7-titans-vs-browns","observed_at":"2026-10-25T12:00:00-04:00","fact":"Officialarticlelocatedbutextractiondoesnotexposelisttext. RetainTitansbasedoncurrentlegalESPNslot andpriorCLEmatchupanalysis; do notinventpersonnelstatusesfromunreadimage."},
+  {"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-25T12:01:00-04:00","fact":"Actual19-0,8ours/9Annayet;liveexpectedfinal150.6vs149.4. Smallforecastsdriftnotmaterialstrategicchangeorwinprobability."}
+ ],
+ "alternatives":[
+  {"choice":"ReplaceJefferson/NaberswithLondon,JeantyorTaylor","evidence":"No newstarterrestrictionjustifiesreversal. JeffersonfinalFP/leadrole18.5; Nabersheavyvolume17.7andHoustonsecondaryabsencessupportretain. Londonhealthy17.2/Jeanty17/Taylor15.2remainstrongdepth,notautomaticprojectionorname-basedswap. Baseusualrole/downsideQBorlatehealth/upsidevolume unchanged; no probabilities."},
+  {"choice":"StartHallorreactivateOlave","evidence":"Reject: HallOUTbench,no startup. Olavealreadylockedearlybench,cannotlegallyuseaslatefallback. Do not chasecompleted/livebenchpoints."},
+  {"choice":"Acquisition/IR/tradechurn","evidence":"No newempty/ruledoutscoring-slotneed. MorningmarketWilson/Higgins/Likely andDST/Kscreenremainsdatedbackground,notfreshfullmarketanalysisthisrun. HallOUTdoesnotrequireIRmovewithfullroster/no acquisitionneed;HurtsIRunchanged. No money/priorityorcoredepthsacrificejustified."}
+ ],
+ "expected_benefit":{"points":null,"basis":"Retain/no pointsattributedtothischeck. Currentforecast150.6vs149.4notvalidatedwinodds.","confidence":"medium-high;finalVikingsinactive-listverificationincomplete"},
+ "rationale":"No actionable scoring-lineuphealthchange. Hall'sdesignationaffectsbenchonly. Currenthealthyrolesstillfavored; knownremainingfallbacks preservedwhereunlocked. MissingfullVikingslistdoesnotalonejustifybenchingunflaggedfull-practiceJefferson.",
+ "missing_evidence":["FinalVikingsinactive listnotlocatedininspectedofficialindex/search","Titansinactivegraphicnotreadableinwebtextextraction","Lateafternoon/nightofficialinactives","Fullfreshmarket/usagevaluationnotrepeatedinfocusedcheck","Independentpendingclaims/offersnotexposed"],
+ "execution_conditions":["NoESPNmutation","15:00inspectLove/McBrideandunlockedafternoonalternativesbefore16:05/16:25","19:00inspectJSNbefore20:20","Do notalterSwiftorOlavealreadylocked"],
+ "fallback":"Ifnewverified13:00starterproblememergesbeforekickoff,chooselegalhealthyLondon/Taylor/Jeantyconfiguration; noOlavelatefallback. IflaterLoveissue, Danielsbye requiresfreshQBmarket/dropcostanalysis.",
+ "recheck_at":"2026-10-25T15:00:00-04:00","deadline_at":"2026-10-25T13:00:00-04:00",
+ "verification":{"observed_at":"2026-10-25T12:01:00-04:00","persisted_result":"Readcurrentroster/card/matchup andofficialavailableinactiveevidence. Retainlineup; noESPNwrite. Healthychecks/noactionremainquiet; no duplicategraphicnecessary."},
+ "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},"report":"../analysis/2026-week-07.md"
+}

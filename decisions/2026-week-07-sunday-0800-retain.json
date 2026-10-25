@@ -1,5 +1,6 @@
 {
-  "schema_version":1,"id":"2026-week-07-sunday-0800-retain","season":2026,"week":7,"observed_at":"2026-10-25T08:02:00-04:00","status":"monitoring","category":"lineup retain and early-lock review",
+  "schema_version":1,"id":"2026-week-07-sunday-0800-retain","season":2026,"week":7,"observed_at":"2026-10-25T08:02:00-04:00","status":"completed","category":"lineup retain and early-lock review",
+  "followup":{"observed_at":"2026-10-25T12:01:00-04:00","record":"2026-week-07-sunday-noon-retain.json","fact":"Nooncheckretainedlineup; HallOUTalreadybench,Olavelocked. OfficialNabers/Bijan/Londoninactivecheckcompleted; finalVikingslistnotlocated,JeffersonFP/ESPNunflaggedretained. Next15:00."},
   "summary":"Retain current scoring lineup; keep Olave benched before09:30Paris. Swift19actual/locked, Jefferson andLove clearedfinalinjuryreports; NabersretaineddespiteconfirmedMcCarthystart. NoESPNmutation.",
   "responsible_automation":"sunday-early-lineup-check","requires_owner_approval":false,"owner_approval":"October11hands-offdelegation; action-capableSunday08review made retain judgment, no strategicapprovalneeded.",
   "sources":[
