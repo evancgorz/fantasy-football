@@ -1,0 +1,23 @@
+{
+ "schema_version":1,"id":"2026-week-07-sunday-night-retain","season":2026,"week":7,"observed_at":"2026-10-25T18:59:00-04:00","status":"completed","category":"Sunday-night lineup retain",
+ "summary":"Retain HealthyJSN atWR before20:20. Otherownscoringslotslocked; noESPNmutation. Actual116.32–104.52/liveforecast141.4–137.8; Lambtomorrowmeansnotfinal.",
+ "responsible_automation":"sunday-late-game-lineup-check","requires_owner_approval":false,"owner_approval":"October11hands-offdelegation; action-capable7PMnightlineupcheck chose retain.",
+ "sources":[
+  {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-25T18:58:00-04:00","fact":"AuthenticatedWeek7Chet5-1. JSNHealthy20.0,WRMovecontrolenabled/Sun20:20; card49catches717yd7TD/65targetsinsixgames,last12of16for134. KansasCitytopWRpointsallowedrankisadownside,notnewinactiveevidence. Otherstarterslocked:Love16.32,Bijan17.2,Swift19,Jefferson8.4,McBride25.3,Nabers18.1,Titans0,Reichard12 sum116.32snapshot. AtleastLove/McBridestillliveperboxscore. AllownedbenchWR/RBgamewindowsalreadylocked; Danielsbye/HurtsIR/HallOUTcannotreplaceJSN. Independentpendingqueueunexposed,notassertedempty."},
+  {"url":"https://www.seahawks.com/news/2026-week-7-injury-report-chiefs-at-seahawks","observed_at":"2026-10-25T18:59:00-04:00","fact":"OfficialreportexplicitlySmith-Njigbaoffinjuryreportthisweek; notamongFridayOUT/Q. Sneedquestionable,lastfinalavailabilitynotverified; noautomaticcoverageboost. SeparateSundaynightfinalinactivearticle notlocatedoninspectedSeahawks/Chiefsnewsindexes; NFL.comreadfailed,notESPNauthfailure."},
+  {"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-25T18:59:00-04:00","fact":"ActualChet116.32/Anna104.52. Ours2playing1yet,Anna3playing1yet. Projectedfinal141.4/137.8. JSNtonight20:20,LambMonOct26at20:15. Neithercurrent11.8actualleadnor3.6forecastleadguaranteeswin."}
+ ],
+ "alternatives":[
+  {"choice":"OwnedLondon/OlaveorothersforJSN","evidence":"Lockedfromearlierkickoffs,notlegalnightWRalternatives; JeantyRBnotWR andalsolocked. Danielsbye/HallOUT/HurtsIRirrelevant. No retroactivebenchpointchasing."},
+  {"choice":"AcquirelateWRtoswaphealthyJSN","evidence":"Rejectwithoutnewhealth/workloadreason: strong49catch/65targetprimaryrole20.0supportsretainevenagainsttoughKCcoverage. No fullfreshnightreplacementmarketvaluationperformed; no comparisonclaimaboutuninspectedplayer. AnemergencywouldrequirefreshlegalFAoptions/dropcostanalysis,notpremiumdropmerelyforvariance."},
+  {"choice":"BenchJSNtodefendlead","evidence":"Reject: maximizeexpectedpoints, currentleadnotclinched, Lambstilltomorrow. Notrade/IR/acquisitionneededtofillhealthyunlockedslot."}
+ ],
+ "expected_benefit":{"points":null,"basis":"Retain/no attributablegain. Currentexpectedfinalmargin3.6isnotwinoddsoractualgain; no unvalidatedsimulation.","confidence":"highonretainjudgment; normalgamevariance andfinalinactivesnotdirectlyverified"},
+ "rationale":"Healthyprimarypass-catcherwithhighvolume remainsbestownedlegalnightoption. Baseusualtargetrole; downsideKCcoverage/SeattleQBperformance; upsidevolume/explosiveplays. No changebecauseforecastleadnarrowed. Protectlegallocksandkeephealth/statusdistinctionsliteral.",
+ "missing_evidence":["SeparatefinalSundaynightinactive listnotlocatedinsupportedprimarysources; ESPNHealthy/officialfinalinjuryreportused,notclaimoffinalactiveverification","FullfreshnightFAmarket/route/snap/covariancemodelnotperformed","Othergamesstilllive/finalstatcorrections","Independentpendingclaims/offersnotexposed;noneattempted"],
+ "execution_conditions":["NoESPNmutation","JSNscheduledlock20:20tonight","Monday17:00read-onlyfollowup/19:00finalrunrespectscope andactualremainingroster; noactiononHurtsIR","Neverreplayoldlineupswapsortryeditlockedplayers"],
+ "fallback":"IfverifiedcriticalJSNnewsarrivesbefore20:20,inspectfreshavailablelegalnight/MondayWRreplacementsandwhole-rosterdropcost; no lockedbenchfallback. No currentrestrictionjustifiesreplacementnow.",
+ "recheck_at":"2026-10-26T17:00:00-04:00","deadline_at":"2026-10-25T20:20:00-04:00",
+ "verification":{"observed_at":"2026-10-25T18:59:00-04:00","persisted_result":"Readcurrentroster,JSNcard/liveboxscore andofficialSeattleinjuryreport; JSNalreadyWRretained. Browserpreserved. No lineup/adddrop/claim/trade/IRchange."},
+ "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},"report":"../analysis/2026-week-07.md","visual":"../analysis/infographics/2026-week-07-sunday-night.png"
+}

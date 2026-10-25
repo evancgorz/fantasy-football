@@ -1,0 +1,11 @@
+{
+ "title":"Coach Cancels Parade. Keeps Receipt for Confetti.",
+ "subtitle":"Satirical briefing | Actual points so far; games still running",
+ "observed_at":"2026-10-25T18:59:00-04:00",
+ "metrics":[{"label":"Our points earned so far","value":116.32,"kind":"actual","observed_at":"2026-10-25T18:59:00-04:00"},{"label":"Anna's points earned so far","value":104.52,"kind":"actual","observed_at":"2026-10-25T18:59:00-04:00"}],
+ "moves":[{"label":"Keep Smith-Njigba catching passes for us tonight","status":"retained","reason":"He is healthy and has caught 49 passes in six games. Management has decided that the employee repeatedly contacted by the football should remain on the mailing list."}],
+ "notes":["Expected final totals: us 141.4, Anna 137.8. That is close, not a guaranteed win. Some afternoon games are still running.","Our last player starts tonight at 8:20 PM Eastern. Anna still has pass-catcher Lamb tomorrow at 8:15 PM. The scoreboard has refused our request to skip Monday.","No lineup changes. The next scheduled review is Monday 5 PM Eastern. Nothing needed from you."],
+ "disclaimer":"No final result yet. Forecasts are estimates, not points earned. ESPN says healthy and the official injury report is clear; a separate final inactive list was not located.",
+ "sources":[{"label":"ESPN live matchup and player card","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-25T18:59:00-04:00"},{"label":"Official Seattle injury report","url":"https://www.seahawks.com/news/2026-week-7-injury-report-chiefs-at-seahawks","observed_at":"2026-10-25T18:59:00-04:00"}],
+ "comedic_anchors":[{"joke":"Confettireceipt","fact":"Currentleadnotfinalwin;nomoneyspent.","report":"../2026-week-07.md"},{"joke":"Footballmailinglist","fact":"JSN49catcheson65targetsinsixgames/Healthyretained.","report":"../2026-week-07.md"},{"joke":"ScoreboardrefusesskipMonday","fact":"AnnaLambscheduledMonday20:15; finalresultpending.","report":"../2026-week-07.md"}]
+}

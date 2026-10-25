@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-25 — Week7 — Sundaynight retain,6:58–6:59PMEDT
+
+FreshauthenticatedESPNWeek7card/roster/liveboxscore: JSNHealthy20.0/49catches65targetsinsixgames,WRbefore20:20retained. OfficialSeattlereportoffinjurylist; separatefinalnightinactivearticlenotlocated,notclaimedverified; NFLreadfailureisnotESPNauthfailure. OwnedWRalternativeslocked/no healthyhigh-volumeoverridecase. Actual116.32–104.52/liveexpectedfinal141.4–137.8,ours2playing1yet/Anna3playing1yet; Lambtomorrow20:15meansnotwon. NoESPNmutation/FAclaim/drop/trade/IR. Sourcedrecord/report/inspectedvisualarchived/committed/pushed;hashinfinal. Monday17:00nextreview,tabpreserved.
+
 ### 2026-10-25 — Week7 — Sunday3PM afternoon retain and live update
 
 FreshESPNWeek7roster/cards/matchup plusofficialPackers/CardinalsinactivesconfirmLoveHealthy/available16:25andMcBrideHealthy/available16:05. Retainboth; noownedlegalreplacementneed,Danielsbye/Jeantywrongposition/earlierbenchlocked. JSNnightprovisionallyretained,19:00checkrequired. Live67.7–36.5/5eachplaying/3vs4yet,expectedfinal144.1–131.3; notfinalwin/fakeodds. LondonQin-gamebenchdiagnosisunknown; noinjuryspeculation,carryforward. NoESPNmutation/FAclaim/drop/IR/trade. Sourcedrecord/report/inspectedvisualarchived/committed/pushed;hashinfinal.Tabpreserved.
