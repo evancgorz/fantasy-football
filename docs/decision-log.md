@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-25 — Week7 — Sunday08AM early-lock retain decision
+
+Authenticatedin-apprecoveryopenednewteamtabafterstale/missingbinding,notloginfailure. FreshWeek7roster/matchup/settings/cards/marketsconfirmSwift19actual/locked andThursdaychangespersist; actual19–0/8vs9yet,liveexpectedfinal150.7vs150.2. OfficialJefferson/LoveFriFP/nogamedesignation; McCarthyconfirmedGiantsstarter. RetainJefferson/Nabers;OlaveHealthybenchbefore09:30Paris,London/Jeanty/Taylorlaterfallbacks. Irvingclearedillness;HallQ0estimateNOTconfirmedOUT; Danielsbye/HurtsIRunchanged.3FAcandidates/DST-Kscreennotenoughupgradeforchurn; pendingqueueunexposed/notassertedempty. NoESPNmutation. Noonofficial1PMinactives,15:00afternoon/19:00nightchecksremain. Sharedretainrecord/report/inspectedvisualcommitted/pushed;hashinfinal. Nochat/schedule/model/securitychanges;tabpreserved.
+
 ### 2026-10-22 — Week7 — Nabers started,7:02:45PMEDT
 
 AfterJeffersoncommitc2a8f39pushed, freshNabersHealthy/35targetslasttwo/receivingrolecomparison supportsNabersFLEXforJeanty. Executedswap/savedtoast/reloadverifyNabersFLEX/JeantyBE,146.0from145.3(+0.7projection); SwiftRB/JeffersonWRpersist. Combinedtonight141.5→146.0,+4.5forecastnotactualgain; roundedmorning146.1notverifiedtotal. Jeanty/Taylor/Olaveretained; Sunday08freshhealth/lineupcheckbeforeOlave09:30. Newrecord/report/inspectedoverviewandproofarchived/pushedbeforeanyfurthermutation. EarlierSwift/Jeffersonrecordtimesareapproximate7PMwindow labels, notexactevent-clocktelemetry; UIchangesoccurred18:59–19:03. Noacquisition/drop/IR/trade.

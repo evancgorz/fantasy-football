@@ -1,0 +1,15 @@
+{
+ "title":"19 Points Before Breakfast. Coach Demands a Pension.",
+ "subtitle":"Satirical briefing | Actual points below; most players have not played",
+ "observed_at":"2026-10-25T08:02:00-04:00",
+ "metrics":[{"label":"Our points earned - 8 players still to play","value":19,"kind":"actual","observed_at":"2026-10-25T08:01:00-04:00"},{"label":"Anna's points earned - 9 players still to play","value":0,"kind":"actual","observed_at":"2026-10-25T08:01:00-04:00"}],
+ "moves":[
+  {"label":"Swift earned 19 points Thursday","status":"retained","reason":"Our runner's game is finished and his points count. Management has declared breakfast a competitive advantage despite contributing no documented rushing yards."},
+  {"label":"Keep Jefferson and Nabers catching passes for us","status":"retained","reason":"Jefferson has no final injury designation. Nabers still has a strong receiving role despite a new passer. We have decided not to replace employees simply because the office printer is nervous."},
+  {"label":"Keep Olave on our bench for his early game","status":"retained","reason":"He remains valuable, but today's selected pass-catchers have the stronger case. His Paris trip has been classified as remote work that does not count toward our score."}
+ ],
+ "notes":["Expected FINAL totals: us 150.7, Anna 150.2. That is nearly level, not a guaranteed win or a measured win probability.","No lineup changes this morning. Next check: noon Eastern for final 1 PM availability. Olave's lineup-change deadline is 9:30 AM. Nothing needed from you."],
+ "disclaimer":"Actual points and expected final totals are different things. Later health updates may change our choices. Only the scoring lineup earns points.",
+ "sources":[{"label":"ESPN current matchup and roster","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-25T08:01:00-04:00"},{"label":"Official Vikings final injury report","url":"https://www.vikings.com/team/injury-report/","observed_at":"2026-10-25T08:00:00-04:00"},{"label":"Official Giants quarterback announcement","url":"https://www.giants.com/news/j-j-mccarthy-to-start-quarterback-new-york-giants-week-7-houston-texans-john-harbaugh-jameis-winston","observed_at":"2026-10-25T08:01:00-04:00"}],
+ "comedic_anchors":[{"joke":"Breakfastcompetitiveadvantage","fact":"Swift19actualThursday; coachdidnotplay.","report":"../2026-week-07.md"},{"joke":"Nervousprinter","fact":"JeffersonfinalFP/no designation,NabersnewQBuncertaintydoesnotalonejustifybenching.","report":"../2026-week-07.md"},{"joke":"Parisremotework","fact":"Olavebenched/no fantasycontribution09:30Parisgame,retainednotdropped.","report":"../2026-week-07.md"}]
+}
