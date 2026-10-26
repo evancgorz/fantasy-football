@@ -1,0 +1,14 @@
+{
+ "schema_version":1,"id":"2026-week-07-monday-final-check","season":2026,"week":7,"observed_at":"2026-10-26T18:59:00-04:00","status":"completed","category":"Monday final lineup check",
+ "summary":"Unchanged150.06–114.42; allownscorerscomplete/locked,noMondaylineupactionavailable. OpponentLamb20:15pending. NoESPNchanges.",
+ "responsible_automation":"monday-night-lineup-check","requires_owner_approval":false,"owner_approval":"October11delegation/action-capable7PMscope; no routineapprovalneeded, butcannoteditcompletedlockedslots.",
+ "sources":[{"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&seasonId=2026&teamId=3","observed_at":"2026-10-26T18:59:00-04:00","fact":"CurrentWeek7ours150.06/0playing0yet;Anna114.42/0playing1yet,Lamb20:15Mon. ProjTotalours150.1/Anna132.9rounded. Actuallead35.64notfinalwin;statcorrectionspossible."},{"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-26T18:59:00-04:00","fact":"AuthenticatedChet5-1/Week7/league582597924/team3/season2026. Allownscoringslotslocked/completed,total150.06. DanielsbyeonlyordinaryMovecontrol;HurtsIRMon20:15nothealthyeligiblecover. No eligibleMondaybenchreplacementforfinishedslots; independentpendingqueueunexposed/notassertedempty."}],
+ "alternatives":[{"choice":"Retaincompletedlineup","evidence":"OnlylegalcurrentWeek7scoringchoice. Allownedstartersfinished."},{"choice":"AddMondayplayer/dropdepthoractivateHurts","evidence":"Cannotreplacealreadylockedscoringslot;noexpectedWeek7benefit. HurtsIRineligiblehealthycover. No fullfreshmarket/trade/benchvaluationneededfornonexistentunlockedneed; nextweeklyreviewevaluatesWeek8."}],
+ "expected_benefit":{"points":null,"basis":"Unchangedcheck,noESPNmutationorpointsadded; no fabricatedwinprobability.","confidence":"high"},
+ "rationale":"No move foractivity'ssake. OpponentLambcannotbecontrolledbyourteam. Mondayfinalinactivescouldaffectmatchupbutnotourcompletedlineup; do notclaim6-1untilfinalresultverified.",
+ "missing_evidence":["Mondayfinalresult/statcorrections","Independentpendingoffers/claimsnotexposed;noneattempted","FullfreshWeek8replacementanalysisdeferredtoscheduledweeklyreview"],
+ "execution_conditions":["NoESPNmutation","NeverreplayoldWeek7claims/startorders","Tuesdayreviewverifyfinalresult/decisionoutcomesandcurrentWeek8identity"],
+ "fallback":"Reportnewaccess/stateblockerifitoccurs; no illegalretroactiveswap.","recheck_at":"2026-10-27T09:00:00-04:00","deadline_at":"2026-10-26T20:15:00-04:00",
+ "verification":{"observed_at":"2026-10-26T18:59:00-04:00","persisted_result":"FreshprivateESPNboxscoreandteamconfirmunchangedscore/locks. No lineup/claim/drop/IR/tradewrite. Tabpreserved. No meaningfulnewownerupdate/duplicategraphic."},
+ "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},"report":"../analysis/2026-week-07.md"
+}
