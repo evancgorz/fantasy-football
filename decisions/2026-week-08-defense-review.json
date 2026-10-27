@@ -5,6 +5,7 @@
   "week": 8,
   "observed_at": "2026-10-27T09:07:16-04:00",
   "status": "submitted",
+  "final_tuesday_queue":{"observed_at":"2026-10-27T19:05:50-04:00","fact":"AfterseparatearchivedRamsandJAXmutations,reloadedPendingMoves3verifiesPITpriority1/Rams2/JAX3,allsameTitansdrop/allincomingBE/allmorningOct28. ThisrecordrepresentsPITrequestonly; noawardyet.","related_records":["2026-week-08-rams-backup-claim.json","2026-week-08-jaguars-backup-claim.json"],"visual":"../analysis/infographics/2026-week-08-defense-queue.png","proof":"../analysis/infographics/2026-week-08-defense-queue-proof.png"},
   "category": "defense acquisition",
   "summary": "Tuesday action run submitted Steelers/Titans conditional waiver claim; persisted pending priority1, processing morningOct28, incomingBE. Not awarded; historical morning proposal retained below.",
   "responsible_automation": "fantasy-waiver-execution",

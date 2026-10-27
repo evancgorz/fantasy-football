@@ -1,0 +1,73 @@
+{
+  "title": "One vacancy. Three forms. Coach declares jobs created.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-10-27T19:05:50-04:00",
+  "metrics": [
+    {
+      "label": "Pittsburgh — first request",
+      "value": 8,
+      "kind": "projection",
+      "observed_at": "2026-10-27T19:05:50-04:00"
+    },
+    {
+      "label": "Rams — second request",
+      "value": 7.6,
+      "kind": "projection",
+      "observed_at": "2026-10-27T19:05:50-04:00"
+    },
+    {
+      "label": "Jacksonville — third request",
+      "value": 7.4,
+      "kind": "projection",
+      "observed_at": "2026-10-27T19:05:50-04:00"
+    },
+    {
+      "label": "Tennessee — still on our team",
+      "value": 3.2,
+      "kind": "projection",
+      "observed_at": "2026-10-27T19:05:50-04:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Three requests for ONE replacement defense.",
+      "status": "pending",
+      "reason": "A defense earns points by stopping opponents. First Pittsburgh, then Rams, then Jacksonville; each would replace Tennessee. Our job-creation program consists entirely of paperwork."
+    },
+    {
+      "label": "Keep Reichard, who kicks the ball between the posts.",
+      "status": "retained",
+      "reason": "He has made 18 of 19 field-goal attempts. We considered replacing him with a committee, but the committee missed the meeting."
+    }
+  ],
+  "notes": [
+    "Requests process tomorrow morning, Oct 28. Nobody new has been acquired yet.",
+    "Scoring lineup unchanged. Next check: Wednesday, 7 PM Eastern.",
+    "These are forecasts, not points earned. No owner action needed."
+  ],
+  "disclaimer": "Only one of these exact Tennessee replacement swaps can succeed. Verify the award and scoring-lineup placement.",
+  "sources": [
+    {
+      "label": "ESPN market / player cards",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-27T19:05:50-04:00"
+    },
+    {
+      "label": "ESPN pending requests / roster",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-27T19:05:50-04:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "Jobs created entirelythroughpaperwork",
+      "fact": "Threepersistedconditionalrequestsforonedrop, noaward,noactualjobclaim.",
+      "report": "../2026-week-08.md"
+    },
+    {
+      "joke": "Committee missedmeeting",
+      "fact": "Reichardretained18of19FG; noactualcommitteeorincidentasserted.",
+      "report": "../2026-week-08.md"
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-27 — Week8 — Jacksonville final fallback and queue closeout,19:05–19:06EDT
+
+AfterRamscommitb7ba8a8verifiedonoriginmain, submittedJAXadd/Titansconditionaldrop. Savedtoast/reloadedPendingMoves3 confirmsPIT1/Rams2/JAX3,eachprocessmorningOct28/incomingBE. Titansstillowned/scoringlineupunchanged,noawards. JAX7.4vsTEN3.2 forecastdiff4.2conditional/notactual/notadditive.11sacks9takeaways6games andINDlatest10scoredsupportfallback;TayloroffensiveriskandpreferredPIT/Ramsmatchupskeepthird. Exactovernightclockunshown;acceptedrequestdateexplicit. No cash/FAAB/premiumdrop/trade/IR/lineupmutation,allretentionreasoning/sharedlineuphandoffinreport. [Record](../decisions/2026-week-08-jaguars-backup-claim.json) · [overview](../analysis/infographics/2026-week-08-defense-queue.png) · [proof](../analysis/infographics/2026-week-08-defense-queue-proof.png). October11delegatedauthority,requires_owner_approval=false. NextWednesday19:00verifyawards/failuresandactualslot;ThursdayactionfillsDSTifawardedBE. No furthermutation;tabpreserved. Eachrequesthasseparateverifiedcommit/push.
+
 ### 2026-10-27 — Week8 — Rams conditional backup,19:04EDT
 
 AfterPITarchive24dda0bpushed/verified, submittedRamsadd/Titansconditionaldrop. Savedtoast and reloadedPendingMoves2verifyPITpriority1/Ramspriority2,bothmorningOct28/incomingBE. Noawards, cash, additionaldefensestashorlineupswap. Rams7.64vsLAC/favorableOPRK32, JAX7.4vsINDclosealternative; weakRamsseasonbaselineexplicit, PITretainsfirstpriority. SameTitansdrop ensureslowerclaimcannotstackanothersuccessafterTitansremoved; verifyESPNoutcomesWednesday. [Record](../decisions/2026-week-08-rams-backup-claim.json) · [visual](../analysis/infographics/2026-week-08-rams-claim.png) · [proof](../analysis/infographics/2026-week-08-rams-claim-proof.png). October11delegation,noownerapprovalrequired. Archive/pushbeforeanothermutation.

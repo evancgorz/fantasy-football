@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-jaguars-backup-claim",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-10-27T19:05:50-04:00",
+  "status": "submitted",
+  "category": "conditional defense waiver",
+  "summary": "Submitted Jacksonville/Titans final fallback, priority3 behind Pittsburgh1/Rams2; morningOct28 processing, incomingBE, not awarded.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation covers evidence-backed conditional acquisitions, no routine per-action approval.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-27T19:05:50-04:00",
+      "fact": "JAXHealthy7.4vsIND,11sacks7INT2FR/34points6games; PIT8.0vsCLE,18sacks11takeaways7games; Rams7.64vsLAC,10sacks6takeaways7games. CurrentTEN3.2@CIN/bye9."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-27T19:05:50-04:00",
+      "fact": "Reload/reopenedPendingMoves3 confirmsPIT1/Rams2/JAX3,allconditionallydropTitans/allincomingBE/allprocessmorningOct28. Scoringlineupunchanged,notawarded."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "No third fallback",
+      "evidence": "Would leave weakerTEN@CINifbothpreferreddefensesawardedelsewhere; no additional skill drop or cashcost inconditional request."
+    },
+    {
+      "choice": "Move JAX above Rams/PIT",
+      "evidence": "Betterbaseline thanRams but Taylor/INDoffense threat; RamsLACenvironment/7.64 vs7.4 marginallypreferred. PIT18sacks/11takeaways and8.0 supportfirst. Uncertaintyexplicit,notprojection-only."
+    },
+    {
+      "choice": "Retain productive skill depth",
+      "evidence": "No skilldrop needed. FullbenchreviewretainsTaylor/Jeanty/London/Olave/Hall/Daniels/Irving; concentratedbye11/13coverage valuable. HallQnotcleared,IRunchanged."
+    }
+  ],
+  "expected_benefit": {
+    "points": 4.2,
+    "basis": "JAX7.4 minusTEN3.2 forecasts, onlyifhigherclaims fail. Not additive withPIT/Rams, notactualgain.",
+    "confidence": "medium-low; actualclaimcompetition/finalhealthunknown"
+  },
+  "rationale": "Third researched defense offers useful fallback while preserving roster capacity and skill depth. One shared conditionaldrop means at most one of these exact swaps can succeed.",
+  "missing_evidence": [
+    "Exactprocessingclockunshown, ESPN morningOct28 explicit",
+    "FinalWeek8inactives/weather/pressure-rate dataset",
+    "Independenttradeofferqueueunexposed"
+  ],
+  "execution_conditions": [
+    "Ramsmutationb7ba8a8verifiedpushedbeforethismutation",
+    "ExactJAXadd/Titansconditionaldropconfirmed",
+    "Savedtoast thenreload/reopenqueueverifythreecorrectorders",
+    "Archivebeforeanyfurthermutation; nofurtherplanned",
+    "Wednesdayverifyactualaward/failure/slot; ThursdaylineupactionfillsDSTifincomingBE/empty"
+  ],
+  "fallback": "Ifallrequestslose, WednesdayfreshFAcomparison/replacement beforeSundayNov1 13EST. Neverrepeatpendingclaims blindly; afterawardreadactualroster/slots andstatus. No lineupchanges duringwaiverrun.",
+  "recheck_at": "2026-10-28T19:00:00-04:00",
+  "deadline_at": null,
+  "deadline_note": "AcceptedTuesdaywithESPNprocessmorningOct28; exactclocknotdisplayed.",
+  "verification": {
+    "observed_at": "2026-10-27T19:05:50-04:00",
+    "persisted_result": "PendingMoves3 afterreload: PIT1/Rams2/JAX3; eachTitansconditionaldrop,morningOct28,incomingBE; noaward/lineup/IR/trade.",
+    "proof": "../analysis/infographics/2026-week-08-defense-queue-proof.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Submitted, pending processing; teamstillownsTitans."
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-defense-queue.png"
+}
