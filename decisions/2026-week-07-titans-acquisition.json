@@ -23,6 +23,6 @@
  "fallback":"Thursday/SundayverifyTitanshealth/matchupbefore13:00Sunday; recompareavailabledefensesifpracticechanges. NoautomaticreaddPITwhilestillonwaivers. NoextraDSTstashoverusefulbench.",
  "recheck_at":"2026-10-22T17:00:00-04:00","deadline_at":"2026-10-25T13:00:00-04:00",
  "verification":{"observed_at":"2026-10-21T19:03:00-04:00","persisted_result":"AfterConfirmaddTitans/dropSteelers, rosterTitansD/STandPITabsent,ReichardKandNabersBEretained,total141.5. Platformreplacementplaceddefenseinstarters; no manualslotmutation."},
- "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},
+ "outcome":{"actual_points":0,"alternative_actual_points":9,"process_review":"Final Week7: Titans0 vs dropped Steelers9 (-9). PIT card game log verified Oct27. Projection/matchup fallback missed; compare pressure/turnover baseline explicitly before chasing opponent weakness. Performance zero, not inactive/access failure.","reviewed_at":"2026-10-27T09:07:16-04:00","scorecard":"../analysis/2026-week-08.md"},
  "report":"../analysis/2026-week-07.md","visual":"../analysis/infographics/2026-week-07-wednesday-outcomes.png","proof":"../analysis/infographics/2026-week-07-wednesday-roster-proof.png"
 }

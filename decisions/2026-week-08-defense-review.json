@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-defense-review",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-10-27T09:07:16-04:00",
+  "status": "proposed",
+  "category": "defense acquisition",
+  "summary": "Propose Steelers claim/drop Titans; refresh Rams and Jaguars conditional fallbacks. No ESPN submission in read-only weekly review.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation covers evidence-backed acquisitions in action-capable runs; no per-action approval claimed.",
+  "sources": [
+    {"url":"https://fantasy.espn.com/football/players/add?leagueId=582597924","observed_at":"2026-10-27T09:07:16-04:00","fact":"Available WA(Wed): PIT8.0vsCLE,18season sacks/7INT/4FR/57points7games; Rams7.64vsLAC,10sacks/5INT/1FR/26points7games; JAX7.31vsIND,11sacks/7INT/2FR/34points6games. PITbye9,Week7actual9."},
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-27T09:07:16-04:00","fact":"Week8 Titans3.1@CIN,bye9;16active/bench+HurtsIR,priority4/4; no independent pending queue exposed."},
+    {"url":"https://fantasy.espn.com/football/league/settings?leagueId=582597924","observed_at":"2026-10-27T09:07:16-04:00","fact":"Individual scheduled-game locks;1daywaivers,weekly inverse standings priority;no acquisition cap,no FAAB shown;DSTyards/points penalties apply."}
+  ],
+  "alternatives": [
+    {"choice":"Retain Titans","evidence":"3.1@CIN,0actualWeek7,bye9; inferior current matchup and no coverage benefit, replaceable roster slot."},
+    {"choice":"Rams fallback","evidence":"7.64vsLAC/OPRK32, optimistic3sack/13allowed projection but10sacks in7games weaker underlying production; reassess before claim."},
+    {"choice":"Jaguars fallback","evidence":"7.31vsIND,11sacks/9takeaways in6games; INDlatest10points supports matchup, Taylor remains threat. Refresh order vsRams."},
+    {"choice":"Retain Reichard","evidence":"11.2@DET,18/19FG with6from50+,persistentopportunities; Boswell10.4/Shrader10.2/Myers9.7 no clear improvement."}
+  ],
+  "expected_benefit": {"points":4.9,"basis":"PIT8.0 minusTitans3.1 rounded Week8 forecasts; conditional individual projection difference, not actual gain. Priority4/4/no FAAB; no premium asset sacrifice.","confidence":"medium; current health/processing and rival claims unknown"},
+  "rationale":"Use current defense slot to improve pressure/turnover baseline and opponent environment, preserve productive depth. PITbye9 requires fresh next-week stream review.",
+  "missing_evidence":["Exact waiver processing clock","Independent pending claims/offers","Final Week8 defensive injuries/opposing QB status/weather","Detailed pressure-rate dataset"],
+  "execution_conditions":["Weekly review is read-only; do not submit now","Tuesday19:00 refresh season/week, roster, available candidates and actual processing deadline; do not assume Wednesday evening precedes processing","Inspect pending claims/offers before overlapping submissions; refresh priority/rules/capacity","Claim PIT/drop Titans if still justified; conditional fallback claims must use same drop and no accidental second defense or premium-player drop","No cash spend; no invented FAAB allowance","After each mutation verify saved status, log/record, selective commit and push before next mutation","Wednesday verify award/failure and resulting slot; acquiring is not assumed to set legal scoring lineup, hand off to Thursday"],
+  "fallback":"Refresh Rams then Jaguars; exact order evidence-dependent. If no meaningful available replacement retain temporarily and record remaining need; report critical access/deadline blockers. Do not execute expired Week7 Titans/PIT instructions.",
+  "recheck_at":"2026-10-27T19:00:00-04:00",
+  "deadline_at":null,
+  "verification":{"observed_at":"2026-10-27T09:07:16-04:00","persisted_result":"Read-only roster/market/card review; Titans still owned, no claim submitted. Deadline clock unknown, must be inspected tonight."},
+  "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},
+  "report":"../analysis/2026-week-08.md",
+  "visual":"../analysis/infographics/2026-week-08-weekly-review.png"
+}

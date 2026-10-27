@@ -1,0 +1,36 @@
+{
+  "schema_version":1,
+  "id":"2026-week-08-lineup-review",
+  "season":2026,
+  "week":8,
+  "observed_at":"2026-10-27T09:07:16-04:00",
+  "status":"proposed",
+  "category":"lineup and whole-roster retention",
+  "summary":"Propose Daniels over Love before Thursday lock; London for bye Nabers; Irving over Swift with Taylor/Jeanty close alternatives. No ESPN changes.",
+  "responsible_automation":"thursday-lineup-check",
+  "requires_owner_approval":false,
+  "owner_approval":"October11 hands-off delegation includes close start/sit decisions; respect Thursday5PM read-only and7PM action scopes.",
+  "sources":[
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-27T09:07:16-04:00","fact":"Week8current120.4:Love17.1,Bijan19.3,Swift13,JSN22,Jefferson17.3,McBride17.5,Nabersbye,Titans3.1,Reichard11.2; all healthy exceptHallOUT/HurtsIR. BenchTaylor15.9,Jeanty16.8,London18.1,Olavebye,Hall15.4conditional,Daniels21.4,Irving17.3."},
+    {"url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-27T09:07:16-04:00","fact":"Card evidence:London7/10for66TD;Irving24carries106yd2TD+1catch4yd;Taylor18carries95TD+2/3for15;Jeanty8carries15+8/8for61TD,34season catches on44targets;Daniels latest29/40for300/2TD0INT beforebye;Love27/45for274/2TD1INT. Hall4missedquad;HurtsIRno newprognosis. Current scheduleLoveThuOct29 20:15EDT; mostSundayNov1 13EST;DanielsSunday20:20EST;Swift/JSNMondayNov2 20:15EST."},
+    {"url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3&scoringPeriodId=8","observed_at":"2026-10-27T09:07:16-04:00","fact":"Actual0–0/PAYrents4–3; unoptimized120.4vs111.7 includesbothbyeFLEX. OpponentAllen23.7/Flowers20.1/LaPorta10.7bench canraise currentforecast toabout142.7; not guaranteed actual lineup."}
+  ],
+  "alternatives":[
+    {"choice":"Love early vsDaniels late","evidence":"PreferDaniels21.4and recentpostelbowpassing/bye rest; Love17.1Healthy offers earlyavailability. Refreshofficialhealth and crediblelaterfallbackbeforebenchingLove; no automaticThursdaycarryover."},
+    {"choice":"London for Nabersbye","evidence":"Healthy18.1,threeconsecutivedouble-digit-targetgames, latest7/10for66TD;NabersnoWeek8game,Olavealsooff. Londonbriefconcussioncheckreturned, refreshnewstatus."},
+    {"choice":"Irving vsSwift/Taylor/Jeanty","evidence":"IrvingHealthy17.3/24latestcarries supportbase;Taylor15.9stablegoal-line8rushTDbutJAXOPRK2;Jeanty16.8receivingroleprotectsdownsidebutpoorrecent rushing;Swift13.0Monangai possible return/Mondaytiming. Freshwholelineupcomparison beforeSunday13EST."},
+    {"choice":"Retain core and bench depth","evidence":"Bijandualrole/JSN12latesttargets/McBride13latesttargets/Jeffersonhealthy7latesttargets. Taylor/Jeanty/London/Olave/Hall/Daniels/Irvingretained forcurrentrolesandbye11/13coverage. HallOUTnotcleared;HurtsIRunchanged nofreshseasonprognosis. Fullbenchreviewinreport."}
+  ],
+  "expected_benefit":{"points":26.7,"basis":"London18.1forbye +Daniels/Love4.3 +Irving/Swift4.3 fromroundedESPNforecasts. Current120.4 plus26.7 about147.1; individualroundedplayer sum147.2. Conditional arithmetic, notsavedtotal/actualgain/winodds; defenseproposal separately4.9.","confidence":"provisional medium; weekly practice and finalinactives unknown"},
+  "rationale":"Remove guaranteed bye zero and compare evidence-adjusted roles rather than carry over winning lineup or select solely from lastscore. Preserve strong depth forconcentratedbyes; do not chasevariance becauseopponent may improve.",
+  "missing_evidence":["Week8officialpractice/finalinactives/Monangaishare","Detailedroutes/snaps/goal-lineusage","Pendingqueueindependentlyunexposed","Hurtscurrentprognosis/Hallreturnworkload","Weather/lateQBfallback availability"],
+  "execution_conditions":["No swaps in read-only review or acquisition-only run","Thursday17EDTread-only/19EDTactionfreshhealth,locks,pendingstatebeforeLove20:15EDT","SundayNov1usesEST(-05:00);08AM/noonrefresh1PMinactivesandchoosebestlegalRB/WR/FLEX before13:00","Do not startOUT Hall fromprojection; no automaticHurtsdrop/IRreplay","Monday17/19ESTchecksJSNandanyremainingunlockedSwiftbefore20:15EST","EachESPNmutationverify/log/selectivecommit/pushbeforeanother"],
+  "fallback":"IfDanielshealthchanges compareLovebeforeThursdaylock; ifLovealreadybenched/locked, evaluatehealthyavailablelateQB withfullcost/locks. ForLondon/Jefferson/Bijan/Irvingnewissues usebestlegalownedTaylor/Jeanty/Swiftbeforetheirindividualdeadlines; Nabers/Olavebye cannotcover. MondayJSNproblemcannotretroactivelyuseSundaybench. Reportgenuineearlycoverage/accessblocker.",
+  "recheck_at":"2026-10-29T17:00:00-04:00",
+  "deadline_at":"2026-10-29T20:15:00-04:00",
+  "later_deadline_at":"2026-11-01T13:00:00-05:00",
+  "verification":{"observed_at":"2026-10-27T09:07:16-04:00","persisted_result":"CurrentlineupstillLove/Swift/Nabers/Titans; noESPNmutation; authenticatedteampreserved. Week7oldordersnotreplayed."},
+  "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},
+  "report":"../analysis/2026-week-08.md",
+  "visual":"../analysis/infographics/2026-week-08-weekly-review.png"
+}

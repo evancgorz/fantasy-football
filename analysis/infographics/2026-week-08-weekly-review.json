@@ -1,0 +1,29 @@
+{
+  "title":"Six wins. Front office demands participation trophy.",
+  "subtitle":"Satirical briefing | factual scores and status",
+  "observed_at":"2026-10-27T09:07:16-04:00",
+  "metrics":[
+    {"label":"Our final score — Week 7","value":150.06,"kind":"actual","observed_at":"2026-10-27T09:07:16-04:00"},
+    {"label":"Anna's Bananas — final","value":138.82,"kind":"actual","observed_at":"2026-10-27T09:07:16-04:00"}
+  ],
+  "moves":[
+    {"label":"We won by 11.24 points. Six wins, one loss.","status":"retained","reason":"Still first. Everyone makes the playoffs, so management has declared the entrance exam our greatest achievement."},
+    {"label":"Plan: London scores while Nabers takes a week off.","status":"proposed","reason":"Both catch passes. Only players in our scoring lineup earn points. We have discovered that working employees outperform employees on vacation."},
+    {"label":"Plan: request Pittsburgh's defense tonight.","status":"proposed","reason":"A defense stops the other team. Ours scored 0 last week. We are interviewing a replacement that lists 'stopping people' under relevant experience."}
+  ],
+  "notes":[
+    "Next opponent: PAYrents. New week starts at 0–0; their lineup can improve too.",
+    "Next check: tonight, Oct 27, 7 PM Eastern. No ESPN changes made this morning.",
+    "Owner action: none. Coach handles requests and lineup choices after fresh checks."
+  ],
+  "disclaimer":"Actual scores above. Changes are planned, not completed. Forecasts are not guarantees.",
+  "sources":[
+    {"label":"ESPN final boxscore / standings","url":"https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=7&seasonId=2026&teamId=3&scoringPeriodId=7","observed_at":"2026-10-27T09:07:16-04:00"},
+    {"label":"ESPN roster / available players","url":"https://fantasy.espn.com/football/players/add?leagueId=582597924","observed_at":"2026-10-27T09:07:16-04:00"}
+  ],
+  "comedic_anchors":[
+    {"joke":"Participation trophy / entrance exam","fact":"6–1 first; all four teams clinched playoffs, championship still undecided.","report":"../2026-week-08.md#results-and-opponent"},
+    {"joke":"Working employees outperform vacationing employees","fact":"Nabers bye8 cannot score; healthy London18.1 is proposed replacement, no swap executed.","report":"../2026-week-08.md#startsit-recommendation-and-qualitative-scenarios"},
+    {"joke":"Stopping people under relevant experience","fact":"Titans0 actualWeek7; PIT18season sacks/11takeaways and8.0Week8projection support proposed request.","report":"../2026-week-08.md#available-market-acquisition-priorities-costs-and-defense--kicker"}
+  ]
+}

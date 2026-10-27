@@ -1,5 +1,9 @@
 # Fantasy Football Decision Log
 
+### 2026-10-27 — Week8 — Tuesday read-only weekly review,09:00–09:07EDT
+
+ESPN final Week7 Chet150.06–Anna138.82 (+11.24), now6–1/first; standings PF1050.96/allfourclinched. Corrections list reviewed, current result unchanged. Week8 PAYrents0–0, incomplete forecasts120.4–111.7 each include bye player; no invented win odds. Refreshed roster/cards/locks/scoring/byes, every bench retain/monitor rationale, available PIT/Rams/JAX and depth WR/TE candidates, kicker alternatives. Propose PIT/Titans claim tonight after actual processing/pending-state refresh, retain Reichard. Propose Daniels before LoveThuOct29 20:15EDT, London for Nabersbye, Irving over Swift with Taylor/Jeanty comparison. No ESPN mutation, claim submission, IR or trade. HallOUT/HurtsIRunchanged; queue unexposed, not asserted empty. SundayNov1 clocks change toEST; next1PMlocks use-05:00. Structured Week8 handoffs/report/visual archived; Week7 outcomes updated and monitoring closed, never replay old orders. [Report](../analysis/2026-week-08.md) · [lineup](../decisions/2026-week-08-lineup-review.json) · [defense](../decisions/2026-week-08-defense-review.json) · [visual](../analysis/infographics/2026-week-08-weekly-review.png). Sources: ESPN team/boxscores/standings/settings/market/statcorrections URLs linked in report. Next action run tonight19:00EDT. No owner action required; browser preserved. Selective report commit/push hash supplied in final response.
+
 ### 2026-10-26 — Week7 — Mondayfinalcheck,6:59PMEDT
 
 FreshESPNWeek7privateboxscore/teamconfirmallownscorerscomplete/locked150.06,Anna114.42plusLambMon20:15;unchanged35.64lead/notfinalwin. Danielsbye/HurtsIRnoteligibleMondaycover; no lineupswap/acquisition/drop/trade/IRneededorexecuted. No overlappingpendingtransaction,queueunexposed/notassertedempty. Sharedrecord/reportarchived/pushed,quietunchangedcheck/noimage. Tuesday09:00weeklyreviewfinalresult/correctionsandWeek8. Tabpreserved.

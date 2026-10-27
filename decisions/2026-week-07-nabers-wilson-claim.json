@@ -30,7 +30,7 @@
   "deadline_at": null,
   "deadline_note": "Claim acceptedTuesday; pending UI says morningOct21 processing, no exactcutoffclock. Next rosteredkickoffSwiftThuOct22 20:15EDT; Olave/PITSunOct25 09:30EDT.",
   "verification": {"observed_at":"2026-10-21T19:03:00-04:00","persisted_result":"Oct21processedwaiverreport Added, activity03:47AM, rosterNabersBE/Wilsonabsent. No manualstart/sit orIRchange Wednesday."},
-  "outcome": {"actual_points":null,"alternative_actual_points":null,"process_review":null},
+  "outcome":{"actual_points":18.1,"alternative_actual_points":4.6,"process_review":"Final Week7 Nabers18.1 vs Wilson4.6 (market last inspected Oct27), individual difference13.5. Acquisition and separate FLEX choice overlap; do not double-count with Jeanty comparison or imply causal win proof.","reviewed_at":"2026-10-27T09:07:16-04:00","scorecard":"../analysis/2026-week-08.md"},
   "report": "../analysis/2026-week-07.md",
   "visual": "../analysis/infographics/2026-week-07-nabers-claim.png"
 }
