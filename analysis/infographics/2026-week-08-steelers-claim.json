@@ -1,0 +1,17 @@
+{
+ "title":"Defense department files request to acquire a defense.",
+ "subtitle":"Satirical briefing | factual scores and status",
+ "observed_at":"2026-10-27T19:01:18-04:00",
+ "metrics":[
+  {"label":"Pittsburgh defense — if acquired","value":8.0,"kind":"projection","observed_at":"2026-10-27T19:01:18-04:00"},
+  {"label":"Tennessee defense — currently owned","value":3.2,"kind":"projection","observed_at":"2026-10-27T19:01:18-04:00"}
+ ],
+ "moves":[
+  {"label":"Requested Pittsburgh; Tennessee leaves only if approved.","status":"pending","reason":"A defense earns points for stopping opponents. Pittsburgh has the stronger record of disrupting plays. Our hiring committee finally read the job description."},
+  {"label":"Keep Reichard, the man who kicks between the posts.","status":"retained","reason":"He has made 18 of 19 field-goal attempts. Management considers this suspiciously relevant experience."}
+ ],
+ "notes":["Request processes the morning of Oct 28. Pittsburgh is NOT on our team yet.","Projected difference: 4.8 points, not actual points earned. Scoring lineup unchanged.","Next check: Wednesday 7 PM Eastern. No owner action needed."],
+ "disclaimer":"Only one pending request verified so far. Award and scoring-lineup placement require later checks.",
+ "sources":[{"label":"ESPN market / cards","url":"https://fantasy.espn.com/football/players/add?leagueId=582597924","observed_at":"2026-10-27T19:01:18-04:00"},{"label":"ESPN pending request / team","url":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","observed_at":"2026-10-27T19:01:18-04:00"}],
+ "comedic_anchors":[{"joke":"Defense department acquires a defense / job description","fact":"PIT18sacks11takeaways7games/current8.0projection versusTitans3.2, conditionalrequestnotaward.","report":"../2026-week-08.md"},{"joke":"Suspiciously relevant experience","fact":"Reichard18of19FG,retained overavailablekickers.","report":"../2026-week-08.md"}]
+}

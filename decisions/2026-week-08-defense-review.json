@@ -4,9 +4,9 @@
   "season": 2026,
   "week": 8,
   "observed_at": "2026-10-27T09:07:16-04:00",
-  "status": "proposed",
+  "status": "submitted",
   "category": "defense acquisition",
-  "summary": "Propose Steelers claim/drop Titans; refresh Rams and Jaguars conditional fallbacks. No ESPN submission in read-only weekly review.",
+  "summary": "Tuesday action run submitted Steelers/Titans conditional waiver claim; persisted pending priority1, processing morningOct28, incomingBE. Not awarded; historical morning proposal retained below.",
   "responsible_automation": "fantasy-waiver-execution",
   "requires_owner_approval": false,
   "owner_approval": "October 11 hands-off delegation covers evidence-backed acquisitions in action-capable runs; no per-action approval claimed.",
@@ -29,7 +29,8 @@
   "recheck_at":"2026-10-27T19:00:00-04:00",
   "deadline_at":null,
   "verification":{"observed_at":"2026-10-27T09:07:16-04:00","persisted_result":"Read-only roster/market/card review; Titans still owned, no claim submitted. Deadline clock unknown, must be inspected tonight."},
-  "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":null},
+  "tuesday_execution":{"observed_at":"2026-10-27T19:01:18-04:00","source":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","pending_source":"https://fantasy.espn.com/football/league/transactions?leagueId=582597924","market_source":"https://fantasy.espn.com/football/players/add?leagueId=582597924","terms":"Claim Steelers D/ST/drop Titans D/ST only if successful; incomingBE; no cash/FAAB.","persisted_result":"Move saved toast; PendingMoves1 reopened afterreload shows exactPITadd/TENdrop,WaiverPriority1,processmorningOct28. CurrentTitansstillownedD/ST,scoringlineupunchanged121.2. Nootherpendingclaimlisted; noindependenttradequeueexposed.","fresh_comparison":"PITHealthy8.0vsCLE/18sacks7INT4FR57points7games; RamsHealthy7.64vsLAC/10sacks5INT1FR26points7; JAXHealthy7.4vsIND/11sacks7INT2FR34points6. Titans3.2@CIN/bye9; PITbye9 needsnextweekstream. PIT-TENroundedprojectiondifference4.8,notactualgain. ConsidercontingentRams/JAXsamedropclaims onlyafterthismutationarchived; no premiumskilldrop.","processing_at":"morning of2026-10-28, exactclocknotdisplayed; requestacceptedTuesdaybeforeprocessing","proof":"../analysis/infographics/2026-week-08-steelers-claim-proof.png","visual":"../analysis/infographics/2026-week-08-steelers-claim.png","next_check":"WednesdayOct28 19:00EDTverifyaward/failureandactualslot; incomingBE means ThursdayactionmustfillDSTifempty,notassumeautoactivation."},
+  "outcome":{"actual_points":null,"alternative_actual_points":null,"process_review":"Submitted/persisted pending, not acquired; outcome verification Wednesday."},
   "report":"../analysis/2026-week-08.md",
   "visual":"../analysis/infographics/2026-week-08-weekly-review.png"
 }
