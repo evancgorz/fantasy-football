@@ -5,6 +5,7 @@
   "week":8,
   "observed_at":"2026-10-27T09:07:16-04:00",
   "status":"proposed",
+  "tuesday_action_handoff":{"observed_at":"2026-10-27T19:04:03-04:00","source":"https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026","fact":"No scoring-lineup swaps in acquisitionrun. HallnowQUESTIONABLE notOUT/estimatedNov1notclearance;noIRmove. DanielsHealthy22.8vsLove17.1,JeffersonHealthy17.9,McBrideHealthy17.7,Bijan19.2,London18.1,Irving17.3,Swift13,JSN22. Current121.2includesNabersbye/Titans3.2. PendingPIT/TEN1,Rams/TEN2processmorningOct28/incomingBE; Wednesdayverifyaward/failureandThursdayfillDSTifempty. KeepThursday19:00QBchoicebeforeLove20:15EDT;SundayNov1usesEST. Do notexecuteoldmorningOUT/capacityinstructions."},
   "category":"lineup and whole-roster retention",
   "summary":"Propose Daniels over Love before Thursday lock; London for bye Nabers; Irving over Swift with Taylor/Jeanty close alternatives. No ESPN changes.",
   "responsible_automation":"thursday-lineup-check",

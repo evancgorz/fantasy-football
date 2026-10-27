@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-rams-backup-claim",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-10-27T19:04:03-04:00",
+  "status": "submitted",
+  "category": "conditional defense waiver",
+  "summary": "Submitted Rams/Titans request behind Pittsburgh; persisted priority2, processing morningOct28; incomingBE, not awarded.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation; no routine per-action approval.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-27T19:04:03-04:00",
+      "fact": "RamsHealthy7.64vsLAC/OPRK32,10sacks5INT1FR26points7games; PITHealthy8.0/18sacks11takeaways7games; JAXHealthy7.4/11sacks9takeaways6games. Titans3.2@CIN/bye9."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-27T19:04:03-04:00",
+      "fact": "ReloadedPendingMoves2: PIT/TENpriority1,Rams/TENpriority2,bothprocessingmorningOct28/incomingBE. Titansstillowned, lineupunchanged."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Only Pittsburgh request",
+      "evidence": "Risk another manager gets PIT and desirable fallback also unavailable at Wednesday check; conditional backup preserves same roster slot."
+    },
+    {
+      "choice": "Jaguars backup ahead of Rams",
+      "evidence": "Stronger realized baseline but Taylor/INDoffense and7.4forecast vsRams7.64/favorableLACenvironment; Ramsnarrowlypreferred, uncertaintyexplicit."
+    },
+    {
+      "choice": "Retain Titans",
+      "evidence": "3.2@CIN/bye9, no starting/depth reason to retainoverresearchedfallback."
+    }
+  ],
+  "expected_benefit": {
+    "points": 4.44,
+    "basis": "ConditionalRams7.64 minusTitans3.2 forecast. Not actual gain, not additive withPITclaim. Onlyone successfulTitansdrop possible.",
+    "confidence": "medium-low; Ramsweakseasonproduction/claimcompetition"
+  },
+  "rationale": "Protect defense upgrade if higher request fails, without dropping productive skill depth or holding additional defense. PoorRamsbaseline keepsPITfirst; strongestmatchupcontextamongclosefallbacks supports second.",
+  "missing_evidence": [
+    "Exactovernightprocessingclocknotdisplayed",
+    "FinalWeek8defensive/opposingQBhealth/weather",
+    "Independenttradeofferqueueunexposed"
+  ],
+  "execution_conditions": [
+    "ExecutedonlyafterPITcommit24dda0bverifiedonoriginmain",
+    "ExactRamsadd/Titansconditionaldropconfirmation",
+    "No cash/FAAB orlineupswap",
+    "Verify/log/selectivecommit/push beforefurthermutation",
+    "Wednesdayaward/failureandactualslotinspection;incomingBErequiresThursdaylineuphandoff"
+  ],
+  "fallback": "ConsiderJaguars/Titansconditionalpriority3 afterthisrecordarchived. IfPITawarded, Titansgone andlowerrequests mustnotaddadditionaldefenses. Verifyactualoutcomes, neverinferautomaticstarter.",
+  "recheck_at": "2026-10-28T19:00:00-04:00",
+  "deadline_at": null,
+  "deadline_note": "ESPN explicitlyprocessmorningOct28; acceptedTuesday. Exactcutoffclockunshown.",
+  "verification": {
+    "observed_at": "2026-10-27T19:04:03-04:00",
+    "persisted_result": "Savedtoast thenreload/reopenPendingMoves2 confirmsPIT1/Rams2 exactsameTitansdrop;notawarded.",
+    "proof": "../analysis/infographics/2026-week-08-rams-claim-proof.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Pending, no acquisition claimed."
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-rams-claim.png"
+}

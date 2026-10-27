@@ -1,0 +1,57 @@
+{
+  "title": "Backup defense hired conditionally by imaginary HR.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-10-27T19:04:03-04:00",
+  "metrics": [
+    {
+      "label": "Pittsburgh — first request",
+      "value": 8,
+      "kind": "projection",
+      "observed_at": "2026-10-27T19:04:03-04:00"
+    },
+    {
+      "label": "Los Angeles Rams — backup request",
+      "value": 7.6,
+      "kind": "projection",
+      "observed_at": "2026-10-27T19:04:03-04:00"
+    },
+    {
+      "label": "Tennessee — still owned",
+      "value": 3.2,
+      "kind": "projection",
+      "observed_at": "2026-10-27T19:04:03-04:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Rams requested only as a backup to Pittsburgh.",
+      "status": "pending",
+      "reason": "Both requests replace Tennessee if successful. A defense stops opponents. Management has finally added a Plan B that is not 'look concerned'."
+    }
+  ],
+  "notes": [
+    "Pittsburgh is request 1; Rams request 2. Neither has been acquired.",
+    "Both process the morning of Oct 28. Scoring lineup unchanged.",
+    "Next check: Wednesday 7 PM Eastern. No owner action needed."
+  ],
+  "disclaimer": "Forecasts, not actual points. Backup gains cannot be added to the first request's gain.",
+  "sources": [
+    {
+      "label": "ESPN market / cards",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-27T19:04:03-04:00"
+    },
+    {
+      "label": "ESPN pending requests",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-27T19:04:03-04:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "ImaginaryHR / PlanBlookconcerned",
+      "fact": "Conditionalpriority2Rams/TENonlyifhigherPITclaimdoesnotremoveTitans;8.0/7.6/3.2projectionsnotawards.",
+      "report": "../2026-week-08.md"
+    }
+  ]
+}
