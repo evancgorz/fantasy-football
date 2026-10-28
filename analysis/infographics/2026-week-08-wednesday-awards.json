@@ -1,0 +1,71 @@
+{
+  "title": "Defense department hired to tell strangers 'no'.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+  "metrics": [
+    {
+      "label": "Pittsburgh — acquired, in scoring lineup",
+      "value": 8,
+      "kind": "projection",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00"
+    },
+    {
+      "label": "Tennessee — released",
+      "value": 3.2,
+      "kind": "projection",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Pittsburgh joined; Tennessee left.",
+      "status": "executed",
+      "reason": "A defense earns points by stopping opponents. Pittsburgh has the stronger record of disrupting plays. Management has now hired an entire department to tell other people 'no'."
+    },
+    {
+      "label": "Tomorrow: choose who throws the ball for us.",
+      "status": "proposed",
+      "reason": "Daniels is the current favorite over Love. Love plays Thursday night, so we must decide before 8:15 PM Eastern. The office has discovered deadlines also apply to sports."
+    }
+  ],
+  "notes": [
+    "Backup requests closed: Rams went elsewhere; Jacksonville was no longer needed.",
+    "Hall remains questionable; limited practice is expected, not clearance to play.",
+    "Next checks: Thursday 5 PM and 7 PM Eastern. No owner action needed."
+  ],
+  "disclaimer": "Forecast difference: 4.8 points, not points earned. No new manual lineup changes tonight.",
+  "sources": [
+    {
+      "label": "ESPN award report",
+      "url": "https://fantasy.espn.com/football/league/waiverreport?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00"
+    },
+    {
+      "label": "ESPN activity",
+      "url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00"
+    },
+    {
+      "label": "ESPN roster / cards",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00"
+    },
+    {
+      "label": "ESPN available market",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "Hireddepartmenttotellpeople no",
+      "fact": "PITawarded03:35alreadyD/ST,TENreleased;PIT18sacks11takeaways7games.",
+      "report": "../2026-week-08.md"
+    },
+    {
+      "joke": "Deadlinesapplytosports",
+      "fact": "LoveThu20:15EDTindividualdeadline,Daniels22.8vsLove17.1provisionalcomparison.",
+      "report": "../2026-week-08.md"
+    }
+  ]
+}

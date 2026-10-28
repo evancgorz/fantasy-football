@@ -4,9 +4,9 @@
   "season": 2026,
   "week": 8,
   "observed_at": "2026-10-27T19:04:03-04:00",
-  "status": "submitted",
+  "status": "failed",
   "category": "conditional defense waiver",
-  "summary": "Submitted Rams/Titans request behind Pittsburgh; persisted priority2, processing morningOct28; incomingBE, not awarded.",
+  "summary": "Ramsbackupunsuccessful:awardedAnnaOct28;preferredPITclaimfulfilledandTitansreleased.",
   "responsible_automation": "fantasy-waiver-execution",
   "requires_owner_approval": false,
   "owner_approval": "October11 hands-off delegation; no routine per-action approval.",
@@ -20,6 +20,21 @@
       "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
       "observed_at": "2026-10-27T19:04:03-04:00",
       "fact": "ReloadedPendingMoves2: PIT/TENpriority1,Rams/TENpriority2,bothprocessingmorningOct28/incomingBE. Titansstillowned, lineupunchanged."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/league/waiverreport?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "Oct28report:CHETaddedPIT/droppedTEN;RamsawardedAnna,CHETunsuccessfulalreadyadded;JAXunsuccessfulplayeralreadydropped."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "PIT/TENprocessedOct28at03:35AM. AnnaRams/PurdyandMcPherson/Fairbairnalsoprocessed03:35."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "Chet6–1/Week8,PITalreadyD/STHealthy8.0,TENabsent,16+HurtsIR,priority3/4,noPendingMoveslink. Currenttotal126.1;NabersbyeFLEXstillrequiresThursday/Sundayaction. HallQ/currentcardexpectsWednesdayLP;allotherhealthybench,Daniels22.8/Love17.1."
     }
   ],
   "alternatives": [
@@ -55,19 +70,25 @@
     "Wednesdayaward/failureandactualslotinspection;incomingBErequiresThursdaylineuphandoff"
   ],
   "fallback": "ConsiderJaguars/Titansconditionalpriority3 afterthisrecordarchived. IfPITawarded, Titansgone andlowerrequests mustnotaddadditionaldefenses. Verifyactualoutcomes, neverinferautomaticstarter.",
-  "recheck_at": "2026-10-28T19:00:00-04:00",
+  "recheck_at": null,
   "deadline_at": null,
   "deadline_note": "ESPN explicitlyprocessmorningOct28; acceptedTuesday. Exactcutoffclockunshown.",
   "verification": {
-    "observed_at": "2026-10-27T19:04:03-04:00",
-    "persisted_result": "Savedtoast thenreload/reopenPendingMoves2 confirmsPIT1/Rams2 exactsameTitansdrop;notawarded.",
-    "proof": "../analysis/infographics/2026-week-08-rams-claim-proof.png"
+    "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+    "persisted_result": "Oct28reportRamsAddedAnna/dropPurdy;CHETUnsuccessful/playeralreadyaddedtoanotherteam. NoRamsowned."
   },
   "outcome": {
     "actual_points": null,
     "alternative_actual_points": null,
-    "process_review": "Pending, no acquisition claimed."
+    "process_review": "Backupnotawarded;normalconditionalclaimresult,notaccessfailure. PreferredPITacquired,do notresubmit.",
+    "reviewed_at": "2026-10-28T19:00:04.0231780-04:00"
   },
   "report": "../analysis/2026-week-08.md",
-  "visual": "../analysis/infographics/2026-week-08-rams-claim.png"
+  "visual": "../analysis/infographics/2026-week-08-wednesday-awards.png",
+  "submission_verification": {
+    "observed_at": "2026-10-27T19:04:03-04:00",
+    "persisted_result": "Savedtoast thenreload/reopenPendingMoves2 confirmsPIT1/Rams2 exactsameTitansdrop;notawarded.",
+    "proof": "../analysis/infographics/2026-week-08-rams-claim-proof.png"
+  },
+  "wednesday_review": "2026-week-08-wednesday-award-review.json"
 }

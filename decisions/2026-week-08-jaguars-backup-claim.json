@@ -4,9 +4,9 @@
   "season": 2026,
   "week": 8,
   "observed_at": "2026-10-27T19:05:50-04:00",
-  "status": "submitted",
+  "status": "failed",
   "category": "conditional defense waiver",
-  "summary": "Submitted Jacksonville/Titans final fallback, priority3 behind Pittsburgh1/Rams2; morningOct28 processing, incomingBE, not awarded.",
+  "summary": "JacksonvillebackupunsuccessfulbecauseTitansalreadydroppedbywinningPITclaim;noextra defenseadded.",
   "responsible_automation": "fantasy-waiver-execution",
   "requires_owner_approval": false,
   "owner_approval": "October11 hands-off delegation covers evidence-backed conditional acquisitions, no routine per-action approval.",
@@ -20,6 +20,21 @@
       "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
       "observed_at": "2026-10-27T19:05:50-04:00",
       "fact": "Reload/reopenedPendingMoves3 confirmsPIT1/Rams2/JAX3,allconditionallydropTitans/allincomingBE/allprocessmorningOct28. Scoringlineupunchanged,notawarded."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/league/waiverreport?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "Oct28report:CHETaddedPIT/droppedTEN;RamsawardedAnna,CHETunsuccessfulalreadyadded;JAXunsuccessfulplayeralreadydropped."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "PIT/TENprocessedOct28at03:35AM. AnnaRams/PurdyandMcPherson/Fairbairnalsoprocessed03:35."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "Chet6–1/Week8,PITalreadyD/STHealthy8.0,TENabsent,16+HurtsIR,priority3/4,noPendingMoveslink. Currenttotal126.1;NabersbyeFLEXstillrequiresThursday/Sundayaction. HallQ/currentcardexpectsWednesdayLP;allotherhealthybench,Daniels22.8/Love17.1."
     }
   ],
   "alternatives": [
@@ -55,19 +70,25 @@
     "Wednesdayverifyactualaward/failure/slot; ThursdaylineupactionfillsDSTifincomingBE/empty"
   ],
   "fallback": "Ifallrequestslose, WednesdayfreshFAcomparison/replacement beforeSundayNov1 13EST. Neverrepeatpendingclaims blindly; afterawardreadactualroster/slots andstatus. No lineupchanges duringwaiverrun.",
-  "recheck_at": "2026-10-28T19:00:00-04:00",
+  "recheck_at": null,
   "deadline_at": null,
   "deadline_note": "AcceptedTuesdaywithESPNprocessmorningOct28; exactclocknotdisplayed.",
   "verification": {
-    "observed_at": "2026-10-27T19:05:50-04:00",
-    "persisted_result": "PendingMoves3 afterreload: PIT1/Rams2/JAX3; eachTitansconditionaldrop,morningOct28,incomingBE; noaward/lineup/IR/trade.",
-    "proof": "../analysis/infographics/2026-week-08-defense-queue-proof.png"
+    "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+    "persisted_result": "Oct28reportUnsuccessful/Aplayerinvolvedhasalreadybeendropped.CurrentPITD/ST/TENabsent;noJAXowned."
   },
   "outcome": {
     "actual_points": null,
     "alternative_actual_points": null,
-    "process_review": "Submitted, pending processing; teamstillownsTitans."
+    "process_review": "Shared-dropcapacityguardworked;preferredPITawardalreadyfulfilledneed.No cancellation/replayneeded.",
+    "reviewed_at": "2026-10-28T19:00:04.0231780-04:00"
   },
   "report": "../analysis/2026-week-08.md",
-  "visual": "../analysis/infographics/2026-week-08-defense-queue.png"
+  "visual": "../analysis/infographics/2026-week-08-wednesday-awards.png",
+  "submission_verification": {
+    "observed_at": "2026-10-27T19:05:50-04:00",
+    "persisted_result": "PendingMoves3 afterreload: PIT1/Rams2/JAX3; eachTitansconditionaldrop,morningOct28,incomingBE; noaward/lineup/IR/trade.",
+    "proof": "../analysis/infographics/2026-week-08-defense-queue-proof.png"
+  },
+  "wednesday_review": "2026-week-08-wednesday-award-review.json"
 }

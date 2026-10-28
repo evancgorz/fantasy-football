@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-wednesday-award-review",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+  "status": "completed",
+  "category": "award verification and roster retention",
+  "summary": "Verified Pittsburgh award/Tennessee drop at03:35Oct28; PITalreadyD/ST. Rams/JAXfailed andclosed. Retain roster/kicker, no new ESPNmutation; Thursdaylineuphandoff remains.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October11hands-offdelegation;thisrunverifiedpriorclaimsandretainedafterfreshanalysis,notnewper-actionapproval.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/league/waiverreport?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "Oct28report:CHETaddedPIT/droppedTEN;RamsawardedAnna,CHETunsuccessfulalreadyadded;JAXunsuccessfulplayeralreadydropped."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "PIT/TENprocessedOct28at03:35AM. AnnaRams/PurdyandMcPherson/Fairbairnalsoprocessed03:35."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "Chet6–1/Week8,PITalreadyD/STHealthy8.0,TENabsent,16+HurtsIR,priority3/4,noPendingMoveslink. Currenttotal126.1;NabersbyeFLEXstillrequiresThursday/Sundayaction. HallQ/currentcardexpectsWednesdayLP;allotherhealthybench,Daniels22.8/Love17.1."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "FAHiggins15.2/Parker16.2/Likelybye;PurdyHealthyWAThu/bye8/146.02total20.9average.JAXFA7.4,WSHFA7.1,SEAFA5.8,TENWAThu3.2;BoswellFA10.4,ShraderFA10.2,MyersFA9.7,FairbairnWAThu/bye."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "FullPPR/4passTD/individualscheduled-game locks,1daywaivers/weeklyinversestandings/noacquisitionlimit/noFAABshown/no2027keepers;trade deadlineDec2noonEST."
+    },
+    {
+      "url": "https://www.packers.com/news/packers-list-four-questionable-rule-out-three-vs-panthers-week-8-injury-report",
+      "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+      "fact": "OfficialPackerssearchresultexcerptOct28finalreport:GoldenQ,Glover/RhyanOUT,Loveunlisted;fullwebopenfailed,notclaimedfullarticleverification."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Retain Pittsburgh defense",
+      "evidence": "Healthy8.0vsCLE,18sacks7INT4FR/57points7games;JAX7.4/34points6games,WSH7.1/23points6games,SEA5.8/66points7games.TEN3.2@CIN/bye9,notreadd.PITbye9requiresnextweekreview;noarbitraryprojectionthreshold."
+    },
+    {
+      "choice": "Taylor retain",
+      "evidence": "Healthy15.9@JAX,18carries95TD+2catches15latest/eightrushTDseason;reliableworkload/bye11RBcover. Noavailabledepthplayerclearupgrade."
+    },
+    {
+      "choice": "Jeanty retain",
+      "evidence": "Healthy16.8@NYJ;latest21.6actual,priorverifiedreceivingrole34catches44targetshelpsPPR,poorrecentrushingnotignored. Bye13sharedwithTaylor/HallrequiresotherRBdepth."
+    },
+    {
+      "choice": "London retain and propose lineup",
+      "evidence": "Healthy18.1@TB,latest7of10for66TD/three10+targetgames;preferredNabersbyecover,notautomaticallyexecutedhere."
+    },
+    {
+      "choice": "Olave retain through bye",
+      "evidence": "Healthybye8/latest6of10for56;17.8seasonaverageandWeek11WRcover beat droppingforHiggins15.2/Parker16.2singleweekforecast/no immediatevacancy."
+    },
+    {
+      "choice": "Hall monitor/retain",
+      "evidence": "Qquad,Oct28cardcoachexpectsLPWednesdayafterfourmisses;possibleAllenbackfieldsplitevenifactive. Notcleared/notIRassumed;nohealthydepthdrop."
+    },
+    {
+      "choice": "Daniels retain",
+      "evidence": "Healthy22.8vsPHI,last29of40for300/2TD0INTbeforebye;provisionaloverLove17.1inThursdayaction,nightfallbackriskstillrequiresfreshhealth."
+    },
+    {
+      "choice": "Irving retain",
+      "evidence": "Healthy17.3vsATL,latest24carries106/2TD+1catch4;newOct28videoheadlinenoexposednewrestriction. PreferprovisionallytoSwift13withMonangaireturnuncertain;Sundayclosechoice."
+    },
+    {
+      "choice": "Retain Reichard",
+      "evidence": "Healthy11.2vsBoswell10.4/Shrader10.2/Myers9.7;18of19FG/strongopportunities;no meaningfulreasonfornewKchurn."
+    },
+    {
+      "choice": "Higgins/Parker/Likely FA",
+      "evidence": "HigginsHealthy6of7for148TD/season33-571-2,15.2;ParkerHealthy4of11for64latest/16.2;LikelyHealthybye8/latest2of4for12withnewQB. No clearstartingupgradeoverLondon/Jefferson/McBrideordepthworthdrop;TEbackupbeforeMcBridebye14revisit."
+    },
+    {
+      "choice": "Purdy watch instead of Love now",
+      "evidence": "HealthyWAThu/bye8,20.9avgvsLove18.2;latest27of40for288/1TD2INTwithinjuredreceivers. GenuinefutureQBcomparison,butreplacingLovebeforeThursdaydecisionremovesonlyhealthyownedactivebackupforDanielsnightgame. No immediateclaim;ThursdayreassessDanielshealthandQBfallbackmarketbeforeanypost-byeupgrade. Don'tdropproductiveRB/WRtoholdthirdQB."
+    },
+    {
+      "choice": "Hurts IR unchanged",
+      "evidence": "CurrentcardOct19season-outprognosisre-read;notnewOct28diagnosis. No2027keeperslimitsfuturevalue,butHallQnotIReligibleverified/noavailableusefulcapacitysequence,so no purposelessrelease."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Awardconfirmed;PIT8.0vsdroppedTEN3.2freshforecasts4.8conditionaldifference,notactualpoints.Currentsaved126.1stillincludesNabersbye;nohealthylineupmadehere.",
+    "confidence": "highforaward/slot;mediumforretention/Thursdaychoices"
+  },
+  "rationale": "Preferreddefenseacquiredandalreadyinlegalscoringslot;fallbackguardworked. Retainrole-supporteddepthandkicker;noactionforitsownsake. ProtectThursdayQBdeadlineandSundaybyecoverthroughsharedrecord.",
+  "missing_evidence": [
+    "Purdy can be claimed by another team before Thursday; preserving Week8 active backup is a deliberate tradeoff, not a reservation of Purdy.",
+    "Independentpendingtradeofferqueueunexposed;noPendingMoveslink,notblanketemptyclaim",
+    "FinalWeek8Sunday/Mondayinactivesandfullroutes/snaps/goal-line/pressure/weatherdataset",
+    "OfficialcompletedHallWednesdaypracticeparticipationnotindependentlyread;cardcoachexpectationonly",
+    "Purdyrest-of-seasonupsideandThursdayfallbackmarketneedfreshcomparison"
+  ],
+  "execution_conditions": [
+    "No newESPNmutationinWednesdayverificationrun",
+    "Readexistingrecords,neverreplayoldPIT/Rams/JAXrequests",
+    "Thursday17read-only/19actionbeforeLove20:15EDT; refreshofficialstatusandlegalalternatives",
+    "SundayNov1usesEST(-05:00),NabersbyeFLEXmustbereplacedbeforeavailablefallbacks13:00",
+    "MondayNov2JSN20:15ESTchecksretaincoverage",
+    "Repositoryreports/records/visualsselectivecommit/push"
+  ],
+  "fallback": "IfPITnewinjury/matchupdowngrade recompareJAX/WSH/SEAwithfullcostandlocks;noautomaticnewclaim. IfDanielsnewissueThursdayusebestlegalQBbeforeLove20:15,otherwisecomparelateFAoptionsafterLove locks. HallnotclearedfromQalone.",
+  "recheck_at": "2026-10-29T17:00:00-04:00",
+  "deadline_at": "2026-10-29T20:15:00-04:00",
+  "verification": {
+    "observed_at": "2026-10-28T19:00:04.0231780-04:00",
+    "persisted_result": "ReportAddedPIT/TENdrop;teamPITalreadyD/ST126.1;RamsalreadyawardedAnna/JAXfailedTitansalreadydropped.No new ESPNwrite. Authenticatedtabpreserved."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Acquisitionoutcomesverified,performancepending.No retroactiveWeek7points: rosterLAST159.06reflectscurrentplayers'previousgames,notWeek7publishedresult."
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-wednesday-awards.png"
+}
