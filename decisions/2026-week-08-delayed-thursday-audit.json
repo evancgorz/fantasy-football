@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-delayed-thursday-audit",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-10-30T06:50:14-04:00",
+  "status": "blocked",
+  "category": "late trigger and browser access failure",
+  "summary": "ThursdayheartbeatarrivedFriday06:45EDTafterLovegame;lockedLove21.52stillQB,Danielsbench.NabersbyeFLEXopenneed;browserpermissionbecamedisabledbeforefreshhealthreviewcouldfinish.NoESPNmutation.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11delegationremains;genuineaccessrestrictionblocksinspection/execution,notstrategicapproval.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-30T06:48:00-04:00",
+      "fact": "Authenticatedfreshrecoverytab2:Week8Chet6–1;LoveQBcompletedW27–19/21.52actual,nolegalMovebutton;Danielsbench22.8projection;NabersFLEXbye;Londonbench18.1,Irving17.3,SwiftRB13,Taylor15.9,Jeanty16.8,HallQ15.4;Bijan20.4,JSN21.8,Jefferson17.9,McBride17.7,PIT8,K11.2;rosterforecast127.1."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3",
+      "observed_at": "2026-10-30T06:48:00-04:00",
+      "fact": "ActualChet21.52/PAYrents11.8,7yet each,0playing;liveexpectedfinal131.5vs108.8,notroster127.1.Totalincludeseachsidebyes/opponentcanimprove."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Execute old Daniels/Love recommendation",
+      "evidence": "IllegalafterThursdayOct29 20:15EDTlock/Lovecompletedgame. Rejectexpiredinstruction;cannotretroactivelymoveLove."
+    },
+    {
+      "choice": "Refresh legal WR/FLEX/RB alternatives",
+      "evidence": "London18.1forNabersbyeandIrving17.3vsSwift13/Taylor15.9/Jeanty16.8remaincandidates;Fridayhealthcardsaborted,sohandofffreshchecksnotblindSundayorders."
+    },
+    {
+      "choice": "Treat failure as login-required",
+      "evidence": "Incorrect:authenticatedteam/boxscorewereinspectedsuccessfully,thenBrowserfallbackexplicitlyreportedlocalbrowserusedisabledinWorksettings."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "No quantified missedQBpoints:Love21.52actual,Danielsnotplayed;22.8projectionminusLove21.52=1.28isforecastbenchmarkONLY,notactualcost.No simulatedwinodds.",
+    "confidence": "highforinspectedscore/lock;unknownhealthaftertoolwithdrawal"
+  },
+  "rationale": "ActualcurrenttimeoverridesstaleThursdaycadence;flagmissedcoverageandstopexpiredQBtransaction. PreserveverifiableevidenceandSundayhandoffwithoutsecurityworkaround.",
+  "missing_evidence": [
+    "CauseoflateFridayheartbeat;nosavedThursdayactioninrepo,notproofallpossibleschedulerrunhistory",
+    "FreshFridayLondon/Irving/Hall/Danielshealthcardsaborted",
+    "Currentpendingclaims/offersnotindependentlyinspected",
+    "FinalFriday/Sundayinactives/rulesrefreshauditnotcompleted",
+    "Recoverytabhandoffmarkunconfirmedaftertoolremoval"
+  ],
+  "execution_conditions": [
+    "NoESPNwriteperformed",
+    "Do notalterlockedQB/replayoldtransactions",
+    "Do notchangeWorksecuritysettingsorusealternatecontrolafterexplicitdisabledpermission",
+    "EnablebrowseruseinWorksettingsforfurtherlivechecks;ownersigninnotrequestedwithoutESPNloginscreen",
+    "Sundayactionrunfreshidentity/health/slots/locks/remainingmatchupbeforeWR-FLEX/RBdecisions",
+    "Commit/pushreports/record/visual;do noteditappautomationsduringroutinecoaching"
+  ],
+  "fallback": "RestoreapprovedbrowseraccessbeforeSundayNov1 08:00ESTcheck,refreshownedalternativesandreplacebyeFLEXbefore13:00EST. Ifstillblockednotifyaffecteddeadline;neverclaimuninspectedlineupissafe. Preserveexistingtabs;newtabmarkcouldnotbecompleted.",
+  "recheck_at": "2026-11-01T08:00:00-05:00",
+  "deadline_at": "2026-11-01T13:00:00-05:00",
+  "verification": {
+    "observed_at": "2026-10-30T06:50:14-04:00",
+    "persisted_result": "FreshESPNinitialreadverifiedscore/locks;subsequenthealthinspectionabortedwhenCUAremoved.Toolinventorythenhadnobrowsercontrols;Nodefallbackreturnedlater.TrustedinstalledBrowser26.1027.30824pathverified;setupreturned'Local browser use is disabled in Work settings'.Noauthorizationbypass/noESPNwrite.",
+    "initial_recovery": "getTab/directtabs.getfailedbrowser.userunavailable;documentedfreshiabtab2restoredauthenticatedreadbriefly.",
+    "trigger_at": "2026-10-30T10:45:47.367Z",
+    "missed_deadline_at": "2026-10-29T20:15:00-04:00"
+  },
+  "outcome": {
+    "actual_points": 21.52,
+    "alternative_actual_points": null,
+    "process_review": "Missedpre-Thursdaylockcoverage;noQBswaprecorded/liveLoveunchanged.Causeofdeliverydelayunverified.Danielsactualpending;dontinventactualpointloss."
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-delayed-thursday.png"
+}

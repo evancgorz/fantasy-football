@@ -1,0 +1,56 @@
+{
+  "title": "Coach confirms yesterday has already happened.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-10-30T06:48:00-04:00",
+  "metrics": [
+    {
+      "label": "Our points so far — actual",
+      "value": 21.52,
+      "kind": "actual",
+      "observed_at": "2026-10-30T06:48:00-04:00"
+    },
+    {
+      "label": "PAYrents points so far — actual",
+      "value": 11.8,
+      "kind": "actual",
+      "observed_at": "2026-10-30T06:48:00-04:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Love scored 21.52; his scoring spot is locked.",
+      "status": "retained",
+      "reason": "He throws the ball for us. The Thursday check arrived Friday, so the planned switch to Daniels was missed. Yesterday has declined our request to reschedule."
+    },
+    {
+      "label": "Still needed: replace Nabers, who has a week off.",
+      "status": "proposed",
+      "reason": "London, who catches passes, is a possible replacement. Only players in the scoring lineup count. Fresh health checks are required before making the change."
+    }
+  ],
+  "notes": [
+    "ACCESS BLOCKER: Browser use is disabled in Work settings. Enable it before Sunday's check.",
+    "Next planned checks: Sunday Nov 1, 8 AM and noon Eastern Standard Time.",
+    "Replacement deadline: Sunday 1 PM EST. No actual missed-quarterback-point cost is known."
+  ],
+  "disclaimer": "Snapshot before browser controls became unavailable. No ESPN changes made; lineup is not declared safe.",
+  "sources": [
+    {
+      "label": "ESPN team / individual locks",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-30T06:48:00-04:00"
+    },
+    {
+      "label": "ESPN live matchup",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3",
+      "observed_at": "2026-10-30T06:48:00-04:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "Yesterdaydeclinedrescheduling",
+      "fact": "ThursdayautomationtriggerarrivedFriday06:45afterLovecompletedgame;cannotretroactiveswap.",
+      "report": "../2026-week-08.md"
+    }
+  ]
+}

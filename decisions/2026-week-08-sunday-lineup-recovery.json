@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-sunday-lineup-recovery",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-10-30T06:50:14-04:00",
+  "status": "proposed",
+  "category": "Sunday legal lineup recovery",
+  "summary": "FreshSundayactioncheckmustreplaceNabersbyeFLEX;Londoncurrentcandidate,compareRBchoices.Love21.52QBcompleted/locked;neverstartDanielsretroactively.Accessrestorationrequired.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11hands-offdelegationcoversSunday08AM/noonlineupactions;noownerapprovalforroutinechoices.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-10-30T06:48:00-04:00",
+      "fact": "Authenticatedfreshrecoverytab2:Week8Chet6–1;LoveQBcompletedW27–19/21.52actual,nolegalMovebutton;Danielsbench22.8projection;NabersFLEXbye;Londonbench18.1,Irving17.3,SwiftRB13,Taylor15.9,Jeanty16.8,HallQ15.4;Bijan20.4,JSN21.8,Jefferson17.9,McBride17.7,PIT8,K11.2;rosterforecast127.1."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3",
+      "observed_at": "2026-10-30T06:48:00-04:00",
+      "fact": "ActualChet21.52/PAYrents11.8,7yet each,0playing;liveexpectedfinal131.5vs108.8,notroster127.1.Totalincludeseachsidebyes/opponentcanimprove."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "London forNabersbye",
+      "evidence": "LastreadLondonbench18.1vsNabersnogame;freshhealthnotcompletedbecausebrowserblocked. CompareWR/FLEXwholelineupwithJeanty/Taylor/Irving,notfixedorder."
+    },
+    {
+      "choice": "Irving vsSwift/Taylor/Jeanty/Hall",
+      "evidence": "Lastread17.3/13/15.9/16.8/HallQ15.4;finalFridaypractice/inactives,MonangaishareandHallworkloadrequired. Do notstartHallfromestimateorcarryoveroldOUTstatus."
+    },
+    {
+      "choice": "RetainLoveQBlocked",
+      "evidence": "21.52actualcomplete;Danielsbench22.8projectioncannotreplacehim aftergame. NopanicQBpickup/droporvariancechasing."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Avoidfuturebyezerowithbestlegalhealthyreplacement;London18.1iscurrentforecast,notactualgain.FutureRBdecisionpendingfreshrole/health.",
+    "confidence": "provisionaluntilaccess/Fridayhealthrestored"
+  },
+  "rationale": "SalvageremaininglegalwindowswithoutreplayingexpiredThursdayQBplanorclaimingovernightfix. Currentlead9.72actualdoesnotjustifyignoringbyeorprotectingleadwithweakerexpectedlineup.",
+  "missing_evidence": [
+    "BrowserusecurrentlydisabledinWorksettings",
+    "FreshFridayhealth/practiceandSundayinactives",
+    "Latestkickoff/specialwindowchangesandpendingtransactions",
+    "Fullremainingopponentlineup/marketifownedhealthfails"
+  ],
+  "execution_conditions": [
+    "Requireapprovedsupportedbrowseraccess,no credentialexports/securityworkarounds",
+    "SundayNov1timezoneEST(-05:00);08AMreviewinternational/earlierwindows,noon1PMinactives;actualkickoffsoverridecadence",
+    "Refreshidentityweek8/roster/legaleligibleunlockedslots/pendingmoves",
+    "ReplacebyeFLEXwithbestlegalhealthyownedplayerincludingclosejudgmentwithoutownerapproval",
+    "RecompareRBstarter/wholelineupincludingSwiftMondaylateflexibility;noautomaticIrvingorder",
+    "LoveQBcompleted/locked;noDanielsretroactiveswap",
+    "AftereachESPNmutationverify/log/selectivecommit/pushbeforeanother",
+    "Ifblockedreport1PMdeadlineandrequiredaccess;nevermarkproposedassaved"
+  ],
+  "fallback": "IfLondonunavailableusebestlegalhealthyownedTaylor/Jeanty/Irving/SwiftforFLEXandadjustRBslotswithfreshroledata. Nabers/Olavebye/HurtsIRcannotcover. Noextraacquisitionunlessownedoptioninadequateandfullcost/rulesverified.",
+  "recheck_at": "2026-11-01T08:00:00-05:00",
+  "deadline_at": "2026-11-01T13:00:00-05:00",
+  "verification": {
+    "observed_at": "2026-10-30T06:50:14-04:00",
+    "persisted_result": "Nochangeexecuted;thisnewrecordsupersedesexpiredThursdaycomponentof2026-week-08-lineup-review.json. CurrentFLEXstillNabers."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-delayed-thursday.png"
+}

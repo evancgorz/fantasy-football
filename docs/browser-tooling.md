@@ -1,5 +1,9 @@
 # Browser tooling readiness and recovery
 
+## October30 runtime and permission incident
+
+Browser/unifiedComputerUseinstalledmetadata now26.1027.30824(enabled). Read-onlycheckverified currentcache browser-client.mjspresent at C:/Users/Evan Gorczynski/.codex/plugins/cache/openai-bundled/browser/26.1027.30824/scripts/browser-client.mjs; do not assume the historical26.1002path below remains current. SkillsfoldercontainednoSKILL.md. getTab/directtabs.get reportedbrowser.userunavailable; documentedfreshiabteamtabcreationbrieflyrestoredauthenticatedESPNread. LaterCUAwaswithdrawnduringhealthinspection;NodeREPLreturnedandtrustedsetupfailedwith **Local browser use is disabled in Work settings**. Thisispermission/toolavailabilityfailure,notanESPNloginfailure. Stoponthisrestriction;donotswitchcontrolmethods/browsersorshelltobypassit,changepermissionssilently,orrequestcredentials. OwnerneedsbrowseruseenabledinWorksettingsfornextlivecheck. Freshsetuphasnotbeensuccessfullyverifiedonthisversion;recheckinstalledmetadata/runtime/toolavailabilityafteraccessrestoration. Existingtab1leftuntouched;newtab2handoffmarkunconfirmedafterwithdrawal.
+
 Use the installed desktop browser integration, not shell browser control, raw CDP, credential exports, or a replacement third-party browser. Keep the existing in-app preference and site security/approval checks. A visible or queued panel is not evidence of a readable browser session.
 
 ## Choose the available supported tool
