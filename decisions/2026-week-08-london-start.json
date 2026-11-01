@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-london-start",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-01T08:03:00-05:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Started Drake London at FLEX; Malik Nabers moved to bench for scheduled Week8 bye.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation; Sunday8AM action scope.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-01T08:03:00-05:00",
+      "fact": "Reloaded roster: London FLEX18.11 projected, Nabers bench/bye, total146.39 rounded146.4. London Healthy card; latest game7/10 for66TD, three consecutive double-digit target games. Outlook says9 targets while game log/news10; use10 and retain discrepancy. Rules refreshed fullPPR/individual scheduled locks. Owned next locks Sunday13EST."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Nabers retained scoring",
+      "evidence": "Scheduled bye; cannot score."
+    },
+    {
+      "choice": "Jeanty/Taylor/Irving",
+      "evidence": "Healthy forecasts16.83/15.87/17.22; London sustained target role and18.11 preferred. Jeanty receiving volume strong but poor rushing, Taylor difficultJAX, Irving eligible RB change separately."
+    }
+  ],
+  "expected_benefit": {
+    "points": 18.11,
+    "basis": "London forecast replacing scheduled nonplaying slot; not actual points gained.",
+    "confidence": "moderate"
+  },
+  "rationale": "Avoid known bye zero with healthy high-volume owned receiver; no acquisition/drop/cost required.",
+  "missing_evidence": [
+    "Official Sunday1PM inactives not yet published at8AM; noon recheck required.",
+    "Full snaps/routes and weather not inspected.",
+    "No pending moves link visible; independent trade queue not exposed. No overlapping acquisition/trade submitted."
+  ],
+  "execution_conditions": [
+    "Verified London Healthy/currentWeek8/unlocked and legal FLEX.",
+    "No further mutation before selective commit/push."
+  ],
+  "fallback": "At noon replace if newly unavailable with best healthy owned option before13EST.",
+  "recheck_at": "2026-11-01T12:00:00-05:00",
+  "deadline_at": "2026-11-01T13:00:00-05:00",
+  "verification": {
+    "observed_at": "2026-11-01T08:03:00-05:00",
+    "persisted_result": "Swap saved then team page reloaded; London FLEX/Nabers bench,total146.4.",
+    "proof": "../analysis/infographics/2026-week-08-london-start-proof.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-london-start.png"
+}

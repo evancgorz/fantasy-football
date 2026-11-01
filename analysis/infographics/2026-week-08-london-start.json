@@ -1,0 +1,40 @@
+{
+  "title": "Coach replaces vacationing employee with employee.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-01T08:03:00-05:00",
+  "metrics": [
+    {
+      "label": "London — now in scoring lineup",
+      "value": 18.11,
+      "kind": "projection",
+      "observed_at": "2026-11-01T08:03:00-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "London catches passes; Nabers has the week off.",
+      "status": "executed",
+      "reason": "Only our scoring lineup earns points. London now replaces Nabers there. Management has courageously promoted someone who has a game."
+    }
+  ],
+  "notes": [
+    "London remains on our team; Nabers stays safely on the bench.",
+    "Next check: noon Eastern today, before the 1 PM deadline.",
+    "No owner action needed. Other lineup choices reviewed separately."
+  ],
+  "disclaimer": "18.11 is a forecast, not points earned. Final game availability still needs checking.",
+  "sources": [
+    {
+      "label": "ESPN roster / London card",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-01T08:03:00-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "Promote someone who has a game",
+      "fact": "Nabers scheduledbye; healthyLondon movedFLEX.",
+      "report": "../2026-week-08.md"
+    }
+  ]
+}
