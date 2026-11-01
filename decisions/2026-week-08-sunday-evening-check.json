@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-sunday-evening-check",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-01T19:00:00-05:00",
+  "status": "monitoring",
+  "category": "late-game lineup retention",
+  "summary": "Retain Healthy JSN Monday FLEX22.1 with Swift14.7 backup. Actual102.42–111.96, expected124.5–118.8. No ESPN changes. Stale tab failed; fresh supported in-app tab3 recovered authenticated access.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation; Sunday3PM action-capable check.",
+  "sources": [
+    {
+      "observed_at": "2026-11-01T19:00:00-05:00",
+      "fact": "Actual102.42–111.96; ours0playing1yet/60min; opponent3playing0yet/40min. Expected124.5–118.8, not odds.",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3"
+    },
+    {
+      "observed_at": "2026-11-01T19:00:00-05:00",
+      "fact": "Week8 same saved roster; JSN Healthy22.1 MondayFLEX, Swiftbench14.7. Hall nowOUTbench. Other scorerslocked. No pendingqueue exposed.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "RetainJSN",
+      "evidence": "Healthy,strongreceivingroleand22.1vsSwift14.7; scoringformatrewardsreceptions. Morningcard9/12for150TD+13rush freshcardroleunchanged; noverifiednewrestriction."
+    },
+    {
+      "choice": "SwiftFLEX",
+      "evidence": "Healthy14.7Mondayownedbackup; potentialMonangaitimeshare/SEAdefense downside. Insurancefallback notstrongerscorer."
+    },
+    {
+      "choice": "LateFAStevenson/Burden/Diggs",
+      "evidence": "15.7/13.4/12.6 vs22.1, no criticalneed to sacrifice rosterdepth; rowscreen only/no fullnewcardanalysis so no consequentialdrop."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Retainhighest-supportedunlockedscorer; noESPNchange/projectiongainclaimed. Liveforecastlead12.2notprobability.",
+    "confidence": "moderate"
+  },
+  "rationale": "Do notreacttoLondon0bymovinglockedplayersorchasemoreactivity. CurrenthealthsupportsJSNMonday; preserveSwiftfallbackandcoredepth. Noacquisition/trade/IRnecessary.",
+  "missing_evidence": [
+    "Final Monday inactives and Swift fresh card still need Monday check.",
+    "Independent pending offers unknown; no overlapping transaction."
+  ],
+  "execution_conditions": [
+    "No lockedplayeredits.",
+    "At19ESTrefreshremainingnight/Mondayhealth, notautomaticoldorders.",
+    "Monday17ESTreadonly/19ESTaction before20:15 deadline.",
+    "Everyfuturemutationverify/log/commit/push."
+  ],
+  "fallback": "IfJSNnewlyunavailableandSwifthealthy beforeMonday20:15, usebestlegalowned/availableFLEXafterfreshcomparison; otherearlybenchplayersalreadylocked.",
+  "recheck_at": "2026-11-02T17:00:00-05:00",
+  "deadline_at": "2026-11-02T20:15:00-05:00",
+  "verification": {
+    "persisted_result": "No ESPN mutation; supported fresh tab3 authenticated after tab1 browser.user unavailable; preserved tab3.",
+    "observed_at": "2026-11-01T19:00:00-05:00"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Midgameonly; no finalchoiceoutcomes/causalgain inferred."
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-sunday-evening.png"
+}
