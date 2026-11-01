@@ -1,0 +1,56 @@
+{
+  "title": "Coach assigns work to man already doing all the work.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-01T08:05:00-05:00",
+  "metrics": [
+    {
+      "label": "Irving — now in scoring lineup",
+      "value": 17.22,
+      "kind": "projection",
+      "observed_at": "2026-11-01T08:05:00-05:00"
+    },
+    {
+      "label": "Swift — now on our bench",
+      "value": 14.67,
+      "kind": "projection",
+      "observed_at": "2026-11-01T08:05:00-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Irving carries the ball; his points now count.",
+      "status": "executed",
+      "reason": "His steady workload and favorable opponent win this choice. Swift may share more work. Management has outsourced hiring to whoever looks busiest."
+    },
+    {
+      "label": "London is also in; Nabers has the week off.",
+      "status": "executed",
+      "reason": "London catches passes. Nabers stays on our team but cannot score this week. His out-of-office reply has been removed from the scoring lineup."
+    }
+  ],
+  "notes": [
+    "Both lineup changes saved. Nobody released; no spending.",
+    "Next check: noon Eastern today, before 1 PM games.",
+    "No owner action needed."
+  ],
+  "disclaimer": "Irving/Swift forecast gap: 2.55 points, not points earned. Final availability still needs checking.",
+  "sources": [
+    {
+      "label": "ESPN roster / player cards",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-01T08:05:00-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "Assign work to busiestemployee",
+      "fact": "Irving leadvolume vsSwiftpossibleworkshare",
+      "report": "../2026-week-08.md"
+    },
+    {
+      "joke": "Outofofficereply",
+      "fact": "LondonFLEX/Nabersbye",
+      "report": "../2026-week-08.md"
+    }
+  ]
+}

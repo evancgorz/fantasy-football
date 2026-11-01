@@ -585,3 +585,6 @@ Three mutations already independently pushed0f2e6bb/c1ebabf/747fbeb, no further 
 
 ## 2026-11-01 08:03 EST — Week8 London started
 ESPN team https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026. October11 delegation: replaced bye Nabers with Healthy London FLEX18.11 forecast; reload verified London scoring/Nabers bench,total146.4. Sustained target role preferred vsIrving17.22/Jeanty16.83/Taylor15.87. No drop/cost. Love21.52 locked. Noon inactives check before13EST. Structured record decisions/2026-week-08-london-start.json; screenshot/visual archived. Browser recovered; no security change. Commit reported in run final.
+
+## 2026-11-01 08:05 EST — Week8 Irving started
+ESPN team https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026. Delegated Sunday action: Irving RB for Swift, saved and reload verified, London FLEX remains. Healthy17.22 vs14.67 (+2.55 forecast only); leadvolume/ATLmatchup favored over uncertainSwiftMonangaishare/SEA, Taylor15.87 difficultJAX and Jeanty16.83 receivingfloor close alternative. Priorc3e2c18 verifiedoriginbeforemutation. No drop/cost. Noon finalinactives before13EST. Structured record decisions/2026-week-08-irving-start.json; proof/visual archived. Commit reported in run final.

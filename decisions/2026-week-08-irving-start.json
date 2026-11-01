@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-irving-start",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-01T08:05:00-05:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Started Bucky Irving RB; D'Andre Swift moved to bench.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation; Sunday8AM action scope.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-01T08:05:00-05:00",
+      "fact": "Irving Healthy17.22 vsSwift Healthy14.67; Irving latest24carries106/2TD,1catch4;120carries558/4TD and18catches78/TD season. ESPN outlook last3games111.3totalyd/1.3TD pergame, Atlanta26.8 allowed toRB. Swift22carries78TD+4catches12 last, workhorse role withMonangai out; return workload uncertain; SEA15.4 allowedperoutlook. Forecasts are estimates not actualfuturemetrics."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-01T08:05:00-05:00",
+      "fact": "Taylor Healthy15.87 and20+touches6of7games, butJAXleague-low72rushydallowed and recentNelsontradeweakenslinecontinuity (impact not quantified). Jeanty Healthy16.83,34catches312/3TD44targets,>=6targets6of7;3.1yards/carry and season-low15rushinglast. Hall Qquad Fridaylimited, possible easing/timeshare, liveforecast0 contradicts olderboxscore15.4; no clearance inferred."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Swift",
+      "evidence": "14.67; improved from stale13 but return ofMonangai uncertain and difficultSEA. Mondaybackup remains useful."
+    },
+    {
+      "choice": "Jeanty",
+      "evidence": "16.83 receivingfloor best countercase in fullPPR; poor rushing makesIrving lead-volume/matchup preference defensible, narrowforecastdifference0.39 not decisive alone."
+    },
+    {
+      "choice": "Taylor",
+      "evidence": "15.87 established20+touchrole; tougherJAXfront and linechange add downside."
+    },
+    {
+      "choice": "Hall",
+      "evidence": "LimitedFriday/Qquad afterlongabsence; uncertainrole/notclearance, lower expected availability."
+    }
+  ],
+  "expected_benefit": {
+    "points": 2.55,
+    "basis": "Same-observation forecasts17.22minus14.67; not guaranteed or actual gain. London previous separate change18.11 not doublecounted.",
+    "confidence": "moderate"
+  },
+  "rationale": "Prefer Irving current lead rushing role and ATL matchup toSwift uncertain shared workload and SEA defense. DownsideIrvingTDregression/limitedreceiving; upside leadvolume+scoring. Jeantyreceivingfloor remains close, Taylorprovenrole retained. No drop/cash/prioritycost.",
+  "missing_evidence": [
+    "Official1PM inactives not yet available at8AM; noonrefresh.",
+    "Fullsnap/route/goal-line/weatherdata unavailable; exactMonangai finalMondaystatus not verified."
+  ],
+  "execution_conditions": [
+    "PriorLondon actionc3e2c18 verified onoriginmain before mutation.",
+    "Saved then reloaded IrvingRB/Swiftbench; London FLEX remains."
+  ],
+  "fallback": "Noon ifIrving unavailable choosebesthealthyJeanty/Taylor; SwiftMonday backup, protect13ESTfallbacklocks.",
+  "recheck_at": "2026-11-01T12:00:00-05:00",
+  "deadline_at": "2026-11-01T13:00:00-05:00",
+  "verification": {
+    "observed_at": "2026-11-01T08:05:00-05:00",
+    "persisted_result": "ReloadedrosterIrvingRB/Swiftbench; LondonFLEXunchanged.",
+    "proof": "../analysis/infographics/2026-week-08-irving-start-proof.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-irving-start.png"
+}
