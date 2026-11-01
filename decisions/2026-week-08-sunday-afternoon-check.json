@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-sunday-afternoon-check",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-01T15:00:00-05:00",
+  "status": "monitoring",
+  "category": "late-game lineup retention",
+  "summary": "Keep healthy Smith-Njigba FLEX for Monday with Swift backup. Early starters already playing/locked. London cleared to return after head evaluation. No ESPN mutation.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation; Sunday3PM action-capable check.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-01T15:00:00-05:00",
+      "fact": "Authenticated Chet6-1/Week8. Love21.52completed. Bijan7.8/Irving10.1/Jefferson12.5/London0/McBride4/PIT15/Reichard0 inprogress atboxsnapshot; JSNFLEXMonday20:15EST healthy22.1forecast. SwiftbenchHealthy14.7 sameMondaygame. LondonNov1 13:31ESPNnews: returned/clearedfollowingpossibleconcussionevaluation; no catches2targetsatexitearlier, notcurrenttargetcount."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3",
+      "observed_at": "2026-11-01T15:00:00-05:00",
+      "fact": "Actual70.92–38.88; ours7playing1yet, theirs5playing3yet; expectedfinal128.7–116.5. Opponent nowAllenQB/LaPortaTE, FlowersWR,RiceFLEX; Walker/Rice/Chiefs16:25gamesnotstarted. Do notusemorningincompletelineupforecastorclaimodds."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924",
+      "observed_at": "2026-11-01T15:00:00-05:00",
+      "fact": "FullPPR/4passTD/0.04passyd andscheduledgametimeindividuallocks refreshed. Earlymovebuttons remainvisible butnotlegalauthoritytomoveinprogressplayers."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-11-01T15:00:00-05:00",
+      "fact": "LateFAalternativesStevenson15.7Sun16:25,Burden13.4Monday20:15,Diggs12.6Sunday20:20. SEAdefense5.8/Myers9.5availableMondaybutPIT/Reichardalreadylocked. HigginsalreadyplayingWA(Wed)20.7actualnotavailablebeforeearlylocknow. PurdyFAbye notanactiveFLEXalternative."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "RetainJSN",
+      "evidence": "Healthy,strongreceivingroleand22.1vsSwift14.7; scoringformatrewardsreceptions. Morningcard9/12for150TD+13rush freshcardroleunchanged; noverifiednewrestriction."
+    },
+    {
+      "choice": "SwiftFLEX",
+      "evidence": "Healthy14.7Mondayownedbackup; potentialMonangaitimeshare/SEAdefense downside. Insurancefallback notstrongerscorer."
+    },
+    {
+      "choice": "LateFAStevenson/Burden/Diggs",
+      "evidence": "15.7/13.4/12.6 vs22.1, no criticalneed to sacrifice rosterdepth; rowscreen only/no fullnewcardanalysis so no consequentialdrop."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Retainhighest-supportedunlockedscorer; noESPNchange/projectiongainclaimed. Liveforecastlead12.2notprobability.",
+    "confidence": "moderate"
+  },
+  "rationale": "Do notreacttoLondon0bymovinglockedplayersorchasemoreactivity. CurrenthealthsupportsJSNMonday; preserveSwiftfallbackandcoredepth. Noacquisition/trade/IRnecessary.",
+  "missing_evidence": [
+    "No independentpendingclaims/tradequeue exposed; no assertionempty, no overlappingtransactions submitted.",
+    "FinalMondayofficialinactivesnotyetpublished/inspected.",
+    "No archivednoonrun found aftermorning25d8353; cannotclaimnoonofficialcheckcompleted ordiagnosecause.",
+    "Detailedsnaps/routes/weather andfinalgameoutcomesunknown."
+  ],
+  "execution_conditions": [
+    "No lockedplayeredits.",
+    "At19ESTrefreshremainingnight/Mondayhealth, notautomaticoldorders.",
+    "Monday17ESTreadonly/19ESTaction before20:15 deadline.",
+    "Everyfuturemutationverify/log/commit/push."
+  ],
+  "fallback": "IfJSNnewlyunavailableandSwifthealthy beforeMonday20:15, usebestlegalowned/availableFLEXafterfreshcomparison; otherearlybenchplayersalreadylocked.",
+  "recheck_at": "2026-11-01T19:00:00-05:00",
+  "deadline_at": "2026-11-02T20:15:00-05:00",
+  "verification": {
+    "observed_at": "2026-11-01T15:00:00-05:00",
+    "persisted_result": "Readcurrentroster/boxscore/cards/rules/market; morning3movesstillpersist, no ESPNwrites. Tab1preserved."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Midgameonly; no finalchoiceoutcomes/causalgain inferred."
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-sunday-afternoon.png"
+}

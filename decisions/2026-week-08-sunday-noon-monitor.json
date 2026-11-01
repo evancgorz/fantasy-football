@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 8,
   "observed_at": "2026-11-01T08:09:00-05:00",
-  "status": "monitoring",
+  "status": "expired",
   "category": "lineup and retention handoff",
   "summary": "Three morning lineup actions verified. Noon recheck official1PM inactives; preserve MondayJSNFLEX/Swiftfallback. Retain bench/monitor Hall's reduced role.",
   "responsible_automation": "sunday-early-lineup-check",
@@ -66,5 +66,9 @@
     "process_review": null
   },
   "report": "../analysis/2026-week-08.md",
-  "visual": "../analysis/infographics/2026-week-08-late-flex.png"
+  "visual": "../analysis/infographics/2026-week-08-late-flex.png",
+  "resolution": {
+    "observed_at": "2026-11-01T15:00:00-05:00",
+    "result": "No archived noon check found;1PM deadlinepassed. Currentearlystartersplaying/locked,Londonclearedreturned; do notclaimnooncheckcompleted. RemainingMondaymonitoring handedto2026-week-08-sunday-afternoon-check.json. NoESPNmutation."
+  }
 }
