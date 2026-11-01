@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-late-flex",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-01T08:09:00-05:00",
+  "status": "completed",
+  "category": "lineup flexibility",
+  "summary": "Moved London from FLEX to WR and Smith-Njigba from WR to FLEX, preserving same scorers and enabling Monday Swift fallback.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation; Sunday8AM lineup action.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-01T08:09:00-05:00",
+      "fact": "Reloaded Week8 roster: Jefferson/LondonWR; Smith-NjigbaFLEXMonNov2 20:15EST; SwiftRBbench samegame. Bijan/IrvingRB. Totalstatic148.9; no scorer/projection gain fromslot rearrangement. FullPPRindividualscheduledlocks fresh."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3",
+      "observed_at": "2026-11-01T08:08:00-05:00",
+      "fact": "Actual21.52–11.8;8yet/0playing each; expectedfinal153.4–127.6. OpponentFlowersWR/RiceFLEXnow, not priorbyelineup. Notwinodds."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "KeepLondonFLEX/JSNWR",
+      "evidence": "Sameprojectedpoints but SwiftRB cannot coverWR if JSN lateMondayabsence afterLondonSundaylock."
+    },
+    {
+      "choice": "MoveJSNFLEX/LondonWR",
+      "evidence": "Same scorers; SwiftMondayRB eligibleFLEX, preserving ownedfallback withoutpickup/drop."
+    }
+  ],
+  "expected_benefit": {
+    "points": 0,
+    "basis": "No current projection change; improves legal late backup options, no quantified insurancevalue.",
+    "confidence": "highforlegalflexibility"
+  },
+  "rationale": "Preserve last-game flexible scoring slot beforeSunday13Londonlock. No strategic downgrade or unnecessaryacquisition.",
+  "missing_evidence": [
+    "FinalMondayinactives notyetknown.",
+    "FinalSunday1PMinactives require nooncheck."
+  ],
+  "execution_conditions": [
+    "PreviousIrvingcommit8cf2296verifiedoriginmainbeforemutation.",
+    "Saved/reloadedexactslots; nolockedQBchange."
+  ],
+  "fallback": "IfJSNnewlyunavailableMondayandSwifthealthy/unlocked, compareSwiftFLEXvsavailablelateWRunderfreshstatus; noautoblindorder.",
+  "recheck_at": "2026-11-01T12:00:00-05:00",
+  "deadline_at": "2026-11-02T20:15:00-05:00",
+  "verification": {
+    "observed_at": "2026-11-01T08:09:00-05:00",
+    "persisted_result": "ReloadverifiedLondonWR/JSNFLEX/Swiftbench/IrvingRB.",
+    "proof": "../analysis/infographics/2026-week-08-late-flex-proof.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-late-flex.png"
+}

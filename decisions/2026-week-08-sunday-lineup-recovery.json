@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 8,
   "observed_at": "2026-10-30T06:50:14-04:00",
-  "status": "proposed",
+  "status": "completed",
   "category": "Sunday legal lineup recovery",
   "summary": "FreshSundayactioncheckmustreplaceNabersbyeFLEX;Londoncurrentcandidate,compareRBchoices.Love21.52QBcompleted/locked;neverstartDanielsretroactively.Accessrestorationrequired.",
   "responsible_automation": "sunday-early-lineup-check",
@@ -71,5 +71,15 @@
     "process_review": null
   },
   "report": "../analysis/2026-week-08.md",
-  "visual": "../analysis/infographics/2026-week-08-delayed-thursday.png"
+  "visual": "../analysis/infographics/2026-week-08-delayed-thursday.png",
+  "resolution": {
+    "observed_at": "2026-11-01T08:09:00-05:00",
+    "result": "Access restored; London started forNabers andIrving forSwift,thenLondonWR/JSNFLEXverified. Love21.52locked preserved. Noon officialinactives recheck remains in newmonitoringrecord.",
+    "records": [
+      "2026-week-08-london-start.json",
+      "2026-week-08-irving-start.json",
+      "2026-week-08-late-flex.json",
+      "2026-week-08-sunday-noon-monitor.json"
+    ]
+  }
 }

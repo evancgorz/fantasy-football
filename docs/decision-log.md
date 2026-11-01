@@ -588,3 +588,6 @@ ESPN team https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&sea
 
 ## 2026-11-01 08:05 EST — Week8 Irving started
 ESPN team https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026. Delegated Sunday action: Irving RB for Swift, saved and reload verified, London FLEX remains. Healthy17.22 vs14.67 (+2.55 forecast only); leadvolume/ATLmatchup favored over uncertainSwiftMonangaishare/SEA, Taylor15.87 difficultJAX and Jeanty16.83 receivingfloor close alternative. Priorc3e2c18 verifiedoriginbeforemutation. No drop/cost. Noon finalinactives before13EST. Structured record decisions/2026-week-08-irving-start.json; proof/visual archived. Commit reported in run final.
+
+## 2026-11-01 08:09 EST — Week8 Monday flexibility preserved
+ESPNteam https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026. LondonWR/Smith-NjigbaFLEXswap saved and reloadverified; same scorers/projection, SwiftRBMondaybench now legalFLEXfallback. Previous8cf2296verifiedpushedbeforemutation. No lockedplayers/drop/cost. Freshboxscore21.52–11.80actual,eightyet each; expected153.4–127.6, not odds. Allbench/threecandidates/DSTKreview in Week8report; noon finalinactives before13EST. Record decisions/2026-week-08-late-flex.json, proof/visual archived. Commitreportedfinal.

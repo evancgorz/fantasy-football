@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 8,
   "observed_at": "2026-10-30T06:50:14-04:00",
-  "status": "blocked",
+  "status": "completed",
   "category": "late trigger and browser access failure",
   "summary": "ThursdayheartbeatarrivedFriday06:45EDTafterLovegame;lockedLove21.52stillQB,Danielsbench.NabersbyeFLEXopenneed;browserpermissionbecamedisabledbeforefreshhealthreviewcouldfinish.NoESPNmutation.",
   "responsible_automation": "thursday-lineup-check",
@@ -73,5 +73,14 @@
     "process_review": "Missedpre-Thursdaylockcoverage;noQBswaprecorded/liveLoveunchanged.Causeofdeliverydelayunverified.Danielsactualpending;dontinventactualpointloss."
   },
   "report": "../analysis/2026-week-08.md",
-  "visual": "../analysis/infographics/2026-week-08-delayed-thursday.png"
+  "visual": "../analysis/infographics/2026-week-08-delayed-thursday.png",
+  "recovery": {
+    "observed_at": "2026-11-01T08:09:00-05:00",
+    "result": "Supported CUA authenticated access and three persisted lineup actions verified. Friday browser block resolved; late-trigger cause remains unknown. Original Friday failure evidence retained.",
+    "records": [
+      "2026-week-08-london-start.json",
+      "2026-week-08-irving-start.json",
+      "2026-week-08-late-flex.json"
+    ]
+  }
 }

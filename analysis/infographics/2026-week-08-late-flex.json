@@ -1,0 +1,66 @@
+{
+  "title": "Coach discovers emergency exit; leaves it unlocked.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-01T08:09:00-05:00",
+  "metrics": [
+    {
+      "label": "Chet — expected final score",
+      "value": 153.4,
+      "kind": "projection",
+      "observed_at": "2026-11-01T08:08:00-05:00"
+    },
+    {
+      "label": "PAYrents — expected final score",
+      "value": 127.6,
+      "kind": "projection",
+      "observed_at": "2026-11-01T08:08:00-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "London replaces Nabers, who has the week off.",
+      "status": "executed",
+      "reason": "London catches passes; his points now count. Management has stopped asking an out-of-office email to catch a ball."
+    },
+    {
+      "label": "Irving replaces Swift in the scoring lineup.",
+      "status": "executed",
+      "reason": "Irving's workload and opponent earn the nod. Coach selected the busiest employee, a radical departure from sorting by first name."
+    },
+    {
+      "label": "Smith-Njigba gets the flexible scoring spot.",
+      "status": "executed",
+      "reason": "He catches passes Monday. This spot lets Swift cover if needed. We have purchased backup insurance using furniture rearrangement."
+    }
+  ],
+  "notes": [
+    "Forecasts, not a guaranteed win; both teams can still change.",
+    "Next check: noon Eastern today for final game availability.",
+    "No owner action needed. All three changes saved."
+  ],
+  "disclaimer": "Actual score remains 21.52–11.80; eight players yet to play each. Slot rearrangement adds zero projected points.",
+  "sources": [
+    {
+      "label": "ESPN saved roster / matchup",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-01T08:09:00-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "outofofficeemail",
+      "fact": "Nabersbye/Londonstarted",
+      "report": "../2026-week-08.md"
+    },
+    {
+      "joke": "busiestemployee",
+      "fact": "Irvingcurrentleadvolume/Swiftshareuncertainty",
+      "report": "../2026-week-08.md"
+    },
+    {
+      "joke": "furniturerearrangementinsurance",
+      "fact": "JSNFLEXallowsSwiftRBMondayfallback",
+      "report": "../2026-week-08.md"
+    }
+  ]
+}
