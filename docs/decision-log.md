@@ -596,3 +596,5 @@ ESPNteam https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seas
 ESPNteam/Week8boxscore authenticated:70.92–38.88actual,expected128.7–116.5,ours7playing1yet/theirs5playing3yet. RetainHealthyJSNFLEX22.1Monday/Swift14.7backup; earlyplayerslocked,noESPNwrite. London13:31news clearedreturnedafterheadassessment. FreshlateFAcomparisonStevenson15.7/Burden13.4/Diggs12.6; noupgradejustifiesdrop. Noonchecknotarchived/expiredhandoffclosedwithoutclaimontimeverification. Sunday19ESTnext,Monday20:15deadline. Recorddecisions/2026-week-08-sunday-afternoon-check.json andvisual linkedWeek8report; selectivecommit/push.
 
 2026-11-01 19:00EST Week8: noESPNchange; recoveredtab3 authenticated,102.42–111.96actual/124.5–118.8expected; retainHealthyJSNFLEX22.1MondaywithSwiftbackup. Monday17/19ESTnext; record2026-week-08-sunday-evening-check.json. Tabpreserved.
+
+2026-11-02 16:57 EST Monday read-only preflight: ESPN Week8 102.42–114.36, only JSN remains, 22.1 forecast Healthy; Swift Healthy14.7 backup. Need more than11.94 to lead subject corrections. Final inactives 19:00 check before20:15; no ESPN mutation. decisions/2026-week-08-monday-preflight.json.

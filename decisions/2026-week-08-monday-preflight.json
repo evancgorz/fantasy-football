@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-monday-preflight",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-02T16:57:00-05:00",
+  "status": "monitoring",
+  "category": "read-only pregame preflight",
+  "summary": "JSN healthy 22.1 projection in FLEX, Swift healthy 14.7 bench; score 102.42–114.36. Recheck official inactives at 7 PM.",
+  "responsible_automation": "monday-night-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 delegation; this 5 PM preflight is read-only.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-02T16:57:00-05:00",
+      "fact": "Week8 JSN Healthy, FLEX22.1, Monday8:15PM; Swift Healthy14.7 bench. ESPN outlook last game JSN9 catches/150 yards/TD; Swift role may change if Monangai returns."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3",
+      "observed_at": "2026-11-02T16:57:00-05:00",
+      "fact": "Actual102.42–114.36, ours one yet, theirs zero; projected124.5–114.4. JSN must exceed11.94 to win, subject to corrections."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Retain JSN",
+      "evidence": "Healthy high-volume receiver, 22.1 forecast."
+    },
+    {
+      "choice": "Swift",
+      "evidence": "Healthy bench14.7, Monday eligible fallback; possible workload sharing; final status not yet known."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Read-only, no projection gain claimed.",
+    "confidence": "moderate"
+  },
+  "rationale": "High receiving volume supports current starter; recheck fresh final inactive list before kickoff.",
+  "missing_evidence": [
+    "Final inactive list and latest official practice report not inspected.",
+    "Pending offers not independently exposed."
+  ],
+  "execution_conditions": [
+    "5 PM read-only; 7 PM action check refresh eligibility and final inactives."
+  ],
+  "fallback": "If JSN unavailable, reassess healthy Swift and legal Monday options before 20:15 EST.",
+  "recheck_at": "2026-11-02T19:00:00-05:00",
+  "deadline_at": "2026-11-02T20:15:00-05:00",
+  "verification": {
+    "observed_at": "2026-11-02T16:57:00-05:00",
+    "persisted_result": "Authenticated team and matchup read; no ESPN write."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-monday-preflight.png"
+}

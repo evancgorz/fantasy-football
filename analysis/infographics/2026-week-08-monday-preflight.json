@@ -1,0 +1,46 @@
+{
+  "title": "Coach asks one employee to deliver 12 points.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-02T16:57:00-05:00",
+  "metrics": [
+    {
+      "label": "Chet — points earned",
+      "value": 102.42,
+      "kind": "actual",
+      "observed_at": "2026-11-02T16:57:00-05:00"
+    },
+    {
+      "label": "PAYrents — points earned",
+      "value": 114.36,
+      "kind": "actual",
+      "observed_at": "2026-11-02T16:57:00-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Smith-Njigba remains in the scoring lineup.",
+      "status": "retained",
+      "reason": "Our pass catcher plays tonight. He needs more than 11.94 points to put us ahead. The office has assigned him a very specific homework problem."
+    }
+  ],
+  "notes": [
+    "Swift is our available backup if needed.",
+    "Next check: 7 PM Eastern, before the 8:15 PM game.",
+    "Opponent has no players left; scores can still be corrected."
+  ],
+  "disclaimer": "Current score and forecasts can change. ESPN projects Smith-Njigba 22.1; not guaranteed.",
+  "sources": [
+    {
+      "label": "ESPN matchup and roster",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3",
+      "observed_at": "2026-11-02T16:57:00-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "specific homework",
+      "fact": "JSN needs more than11.94 points to overcome deficit",
+      "report": "../2026-week-08.md"
+    }
+  ]
+}
