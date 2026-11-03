@@ -600,3 +600,5 @@ ESPNteam/Week8boxscore authenticated:70.92–38.88actual,expected128.7–116.5,o
 2026-11-02 16:57 EST Monday read-only preflight: ESPN Week8 102.42–114.36, only JSN remains, 22.1 forecast Healthy; Swift Healthy14.7 backup. Need more than11.94 to lead subject corrections. Final inactives 19:00 check before20:15; no ESPN mutation. decisions/2026-week-08-monday-preflight.json.
 
 2026-11-02 19:02 EST: retain JSN FLEX; ESPN Healthy22.1, Swift Healthy14.7, official Saturday final report Monangai OUT. Score102.42–114.36, JSN only remaining. Final inactives not located; no ESPN mutation. decisions/2026-week-08-monday-final.json.
+
+2026-11-03 09:05 EST Week9 weekly review: Week8 win126.22–114.36, 7–1. Pittsburgh bye requires defense; Tuesday19EST acquisition handoff decisions/2026-week-09-defense-acquisition.json. Bijan/London early Sunday09:30EST. Read-only; no ESPN changes. Remaining uncertainties in analysis/2026-week-09.md.

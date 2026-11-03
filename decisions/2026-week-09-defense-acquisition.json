@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-defense-acquisition",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-03T09:05:00-05:00",
+  "status": "proposed",
+  "category": "defense waiver handoff",
+  "summary": "Pittsburgh defense is on bye; Tuesday action run must refresh and submit justified replacement claim before processing.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 hands-off delegation; weekly review read-only.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-03T09:05:00-05:00",
+      "fact": "Week9 Pittsburgh D/ST occupies starter slot with bye; 4 of4 waiver priority; full roster."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-11-03T09:05:00-05:00",
+      "fact": "Seattle WA Wed8.0 vsARI Sun16:25; Jacksonville WA Wed8.5 @BAL Thu20:15; options may be claimed; screen only, not full cards."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Seattle",
+      "evidence": "8.0 projection, 67 season points and 8.4 average; Sun provides flexibility, but 1 point last game and ARI offense need current detailed review."
+    },
+    {
+      "choice": "Jacksonville",
+      "evidence": "8.5 projection, 55 season points and 7.9 average, 21 last; Thursday 20:15 lock, BAL matchup and volatile defense scoring require evaluation."
+    },
+    {
+      "choice": "Retain Pittsburgh through bye",
+      "evidence": "Would score zero this week; consider roster cost, future role, priority and alternatives before drop or stash."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Avoid known bye zero; source forecasts are not guaranteed points.",
+    "confidence": "provisional"
+  },
+  "rationale": "Refresh full market, costs and actual waiver processing; prioritize evidence-adjusted matchups not last game or displayed forecast alone.",
+  "missing_evidence": [
+    "Exact processing time, updated queue and opponent QB/injury news.",
+    "Full defense card matchup, roster drop value, alternative defenses, trade offers."
+  ],
+  "execution_conditions": [
+    "Tuesday 19 EST action run independently refreshes eligibility, queue, league rules and budget.",
+    "Submit justified claim autonomously, verify pending and archive before another mutation."
+  ],
+  "fallback": "If claims fail, inspect free agent defense before first relevant lock; no blind Thursday game commitment.",
+  "recheck_at": "2026-11-03T19:00:00-05:00",
+  "deadline_at": "2026-11-05T20:15:00-05:00",
+  "verification": {
+    "observed_at": "2026-11-03T09:05:00-05:00",
+    "persisted_result": "Read-only review, no ESPN request submitted."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-09.md"
+}

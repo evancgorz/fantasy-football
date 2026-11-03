@@ -1,0 +1,61 @@
+{
+  "title": "Coach wins; immediately discovers defense is on vacation.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-03T09:05:00-05:00",
+  "metrics": [
+    {
+      "label": "Chet — Week 8 points",
+      "value": 126.22,
+      "kind": "actual",
+      "observed_at": "2026-11-03T09:05:00-05:00"
+    },
+    {
+      "label": "PAYrents — Week 8 points",
+      "value": 114.36,
+      "kind": "actual",
+      "observed_at": "2026-11-03T09:05:00-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "We won by 11.86 points.",
+      "status": "retained",
+      "reason": "Smith-Njigba caught passes and scored 23.8 points. Management has filed a request to keep doing that."
+    },
+    {
+      "label": "Find a defense for this week.",
+      "status": "proposed",
+      "reason": "Our defense has a scheduled week off. A replacement can earn points while the office attempts to locate its vacation calendar."
+    }
+  ],
+  "notes": [
+    "Our record: 7 wins and 1 loss; first place.",
+    "Early game Sunday: Robinson and London play at 9:30 AM Eastern.",
+    "Next: Tuesday 7 PM Eastern, review available players."
+  ],
+  "disclaimer": "Week 9 defense replacement is proposed, not acquired. Scores may still be corrected.",
+  "sources": [
+    {
+      "label": "ESPN team, matchup and available players",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-03T09:05:00-05:00"
+    },
+    {
+      "label": "ESPN available market",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-11-03T09:05:00-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "vacation calendar",
+      "fact": "Pittsburgh bye9",
+      "report": "../2026-week-09.md"
+    },
+    {
+      "joke": "keep doing that",
+      "fact": "JSN23.8actual",
+      "report": "../2026-week-09.md"
+    }
+  ]
+}
