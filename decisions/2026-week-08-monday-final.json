@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-08-monday-final",
+  "season": 2026,
+  "week": 8,
+  "observed_at": "2026-11-02T19:02:00-05:00",
+  "status": "completed",
+  "category": "final lineup retention",
+  "summary": "Retain healthy Jaxon Smith-Njigba at FLEX, Swift backup; no ESPN mutation. Monangai ruled out, strengthens Swift backup. Final inactive list not located.",
+  "responsible_automation": "monday-night-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 delegated hands-off authority; no routine approval.",
+  "sources": [
+    {
+      "fact": "ESPN lists JSN Healthy22.1 FLEX and Swift Healthy14.7 bench, game Monday20:15 EST, saved lineup unchanged.",
+      "observed_at": "2026-11-02T19:02:00-05:00",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    },
+    {
+      "fact": "Saturday final injury report: JSN full participation, no game designation; Bears RB Monangai out; Shaheed and Cross out. Official game-day inactives not located.",
+      "observed_at": "2026-11-02T19:02:00-05:00",
+      "url": "https://www.seahawks.com/news/week-8-injury-report-bears-at-seahawks"
+    },
+    {
+      "fact": "102.42–114.36 actual, only JSN remains; projected124.5–114.4.",
+      "observed_at": "2026-11-02T19:02:00-05:00",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=8&seasonId=2026&teamId=3"
+    }
+  ],
+  "alternatives": [
+    {
+      "evidence": "Healthy, no final injury designation, nine catches 150 yards TD last, 22.1 projection, consistent high-volume receiving.",
+      "choice": "Retain Smith-Njigba"
+    },
+    {
+      "evidence": "Healthy14.7 projection. Monangai ruled out boosts likely workload, credible alternative; SEA rushing defense and JSN receiving volume favor JSN.",
+      "choice": "Swift"
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Read-only, no projection gain claimed.",
+    "confidence": "moderate"
+  },
+  "rationale": "Choose JSN on receiving workload and expected points; Swift is credible backup with Monangai out. Individual outcomes uncertain.",
+  "missing_evidence": [
+    "Official game-day inactive list not located; ESPN Healthy and Saturday final report are not an official active-list verification.",
+    "Pending offers not exposed; no overlapping transactions."
+  ],
+  "execution_conditions": [
+    "ESPN unchanged; inspect any late news before kickoff if available."
+  ],
+  "fallback": "If JSN unavailable, reassess healthy Swift and legal Monday options before 20:15 EST.",
+  "recheck_at": "2026-11-03T09:00:00-05:00",
+  "deadline_at": "2026-11-02T20:15:00-05:00",
+  "verification": {
+    "observed_at": "2026-11-02T19:02:00-05:00",
+    "persisted_result": "Fresh in-app tab4 authenticated; JSN remains FLEX, Swift bench. No ESPN mutation."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-08.md",
+  "visual": "../analysis/infographics/2026-week-08-monday-final.png"
+}
