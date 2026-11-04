@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-jacksonville-backup",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-03T19:08:00-05:00",
+  "status": "submitted",
+  "category": "waiver defense",
+  "summary": "Conditionally claim Jacksonville defense, drop Pittsburgh if successful; pending priority2 behind Seattle, morning Nov4.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-03T19:08:00-05:00",
+      "fact": "Pending Moves 2: Seattle priority1 and Jacksonville priority2; each conditionally drops Pittsburgh and adds incoming defense to bench, processes morning Nov4."
+    },
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-11-03T19:05:00-05:00",
+      "fact": "Seattle Healthy7.85 projection vsARI, 18 sacks,8 interceptions,5 recoveries,67 season points; JAX Healthy8.59 @BAL Thursday,15 sacks,9 interceptions,3 recoveries,55 season points. Seattle bye passed, Arizona matchup has McBride; performance downside and correlation acknowledged."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Jacksonville",
+      "evidence": "8.59 projection, 15 sacks/12 takeaways; Baltimore opponent and Thursday kickoff, fewer sacks and less flexibility."
+    },
+    {
+      "choice": "Keep Pittsburgh",
+      "evidence": "Bye9 cannot score, 73points/9.1 average indicates valuable future asset, but full active roster and concentrated bye11/13 skill depth make second-defense stash expensive; streaming and reacquisition risk."
+    },
+    {
+      "choice": "Drop IR Hurts",
+      "evidence": "Expected rest-of-season absence/no keeper, but dropping IR occupant does not clearly free active slot; Hall Q not verified IR eligible. Preserve Hurts pending capacity analysis instead of relying on invalid slot."
+    }
+  ],
+  "expected_benefit": {
+    "points": 8.59,
+    "basis": "Forecast if Jacksonville awarded and started, not actual points; not additive to Seattle request.",
+    "confidence": "moderate"
+  },
+  "rationale": "Jacksonville backup8.59 forecast, 15 sacks and12 takeaways, although Baltimore matchup and Thursday lock less attractive; identical conditional drop prevents accumulating two defenses.",
+  "missing_evidence": [
+    "Independent trade offers not exposed.",
+    "Final opposing quarterback, defense injury reports and detailed pressures unknown.",
+    "Actual waiver clock not shown; ESPN explicitly says morning Nov4."
+  ],
+  "execution_conditions": [
+    "Verify award/failure Nov4; if awarded check exact roster and activate only in lineup run.",
+    "If failed, refresh fallback options before Thursday20:15 Jacksonville game."
+  ],
+  "fallback": "Compare legal available defenses on Wednesday, no blind replay.",
+  "recheck_at": "2026-11-04T19:00:00-05:00",
+  "deadline_at": null,
+  "verification": {
+    "proof": "../analysis/infographics/2026-week-09-defense-queue-proof.png",
+    "persisted_result": "Pending queue shows Seattle priority1, Jacksonville priority2, same Pittsburgh conditional drop, both morning Nov4.",
+    "observed_at": "2026-11-03T19:08:00-05:00"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  },
+  "report": "../analysis/2026-week-09.md",
+  "visual": "../analysis/infographics/2026-week-09-defense-queue.png"
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Coach applies for two substitutes, has only one chair.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-03T19:08:00-05:00",
+  "metrics": [
+    {
+      "value": 7.85,
+      "observed_at": "2026-11-03T19:08:00-05:00",
+      "kind": "projection",
+      "label": "Seattle defense — projected"
+    },
+    {
+      "value": 8.59,
+      "observed_at": "2026-11-03T19:08:00-05:00",
+      "kind": "projection",
+      "label": "Jacksonville defense — projected"
+    }
+  ],
+  "moves": [
+    {
+      "status": "pending",
+      "reason": "Both requests would replace Pittsburgh only if awarded. The front office has submitted two applications for one empty chair.",
+      "label": "Seattle first; Jacksonville is our backup."
+    }
+  ],
+  "notes": [
+    "Both requests process Wednesday morning, according to ESPN.",
+    "Other teams may receive the defenses first. We will verify awards.",
+    "If awarded, check the scoring lineup before the defense plays."
+  ],
+  "disclaimer": "Projections are not points earned. Both requests use the same conditional drop and are not additive.",
+  "sources": [
+    {
+      "label": "ESPN team and pending moves",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-03T19:08:00-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "fact": "Both pending claims conditionally drop Pittsburgh",
+      "report": "../2026-week-09.md",
+      "joke": "Two applications for one chair"
+    }
+  ]
+}
