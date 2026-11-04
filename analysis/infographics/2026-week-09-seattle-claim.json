@@ -1,0 +1,40 @@
+{
+  "title": "Coach requests temporary substitute for entire department.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-03T19:05:00-05:00",
+  "metrics": [
+    {
+      "label": "Seattle defense — projected points",
+      "value": 7.85,
+      "kind": "projection",
+      "observed_at": "2026-11-03T19:05:00-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Requested Seattle; Pittsburgh would leave if awarded.",
+      "status": "pending",
+      "reason": "A defense earns points by stopping the other team. Pittsburgh has the week off, so management requested an entire substitute department."
+    }
+  ],
+  "notes": [
+    "This is a request, not an acquisition; other teams can claim Seattle first.",
+    "ESPN expects to process it Wednesday morning; we'll verify the result.",
+    "If successful, check that Seattle is in the scoring lineup before Sunday."
+  ],
+  "disclaimer": "7.85 is a forecast, not points earned. Pittsburgh stays until a successful award.",
+  "sources": [
+    {
+      "label": "ESPN team and pending moves",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-03T19:05:00-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "substitute department",
+      "fact": "Seattle defense request replaces Pittsburgh bye conditional",
+      "report": "../2026-week-09.md"
+    }
+  ]
+}
