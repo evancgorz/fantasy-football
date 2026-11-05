@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-thursday-preflight-blocked",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-05T16:57:19-05:00",
+  "status": "blocked",
+  "category": "lineup preflight",
+  "summary": "In-app browser unavailable. No ESPN roster, injury or lock verification.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "fact": "Prior November 4 observation: Seattle awarded; Jacksonville went to another team.",
+      "url": "https://fantasy.espn.com/football/league/waiverreport?leagueId=582597924"
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "In-app tab creation returned browser unavailable and browser inventory was empty.",
+  "missing_evidence": [
+    "Current lineup, injury status, pending transactions and Thursday locks."
+  ],
+  "execution_conditions": [
+    "At 7 PM verify current roster and earliest lock first, then confirm Seattle is in the scoring lineup or choose the best legal alternative."
+  ],
+  "fallback": "",
+  "recheck_at": "2026-11-05T19:00:00-05:00",
+  "deadline_at": null,
+  "verification": {
+    "persisted_result": "ESPN not reached. Read-only run."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}

@@ -610,3 +610,5 @@ ESPNteam/Week8boxscore authenticated:70.92–38.88actual,expected128.7–116.5,o
 2026-11-04 19:04 EST Week9 waiver verification blocked: unified Computer Use browser unavailable and no browser in inventory; no ESPN inspection or mutation. Claim outcomes and scoring defense unknown. If Jacksonville awarded, last-observed kickoff Thursday20:15 EST. decisions/2026-week-09-wednesday-browser-blocker.json.
 
 November 4 recovery: authenticated browser access restored. ESPN waiver report verifies Seattle awarded/Pittsburgh dropped; Jacksonville backup unsuccessful because Pittsburgh already dropped. Starting slot unverified. No new ESPN mutation.
+
+November 5, 4:57 p.m. Eastern: Thursday read-only preflight blocked by unavailable browser. Verify tonight's locks and Seattle scoring slot at 7 p.m. Record: 2026-week-09-thursday-preflight-blocked.
