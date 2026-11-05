@@ -608,3 +608,5 @@ ESPNteam/Week8boxscore authenticated:70.92–38.88actual,expected128.7–116.5,o
 2026-11-03 19:08 EST Week9: submitted Jacksonville backup, conditional Pittsburgh drop, priority2 behind Seattle1, verified both process morning Nov4. Previous mutation commit744ccea verified remote before submission. Incoming bench; Thursday20:15 lock if awarded. decisions/2026-week-09-jacksonville-backup.json.
 
 2026-11-04 19:04 EST Week9 waiver verification blocked: unified Computer Use browser unavailable and no browser in inventory; no ESPN inspection or mutation. Claim outcomes and scoring defense unknown. If Jacksonville awarded, last-observed kickoff Thursday20:15 EST. decisions/2026-week-09-wednesday-browser-blocker.json.
+
+November 4 recovery: authenticated browser access restored. ESPN waiver report verifies Seattle awarded/Pittsburgh dropped; Jacksonville backup unsuccessful because Pittsburgh already dropped. Starting slot unverified. No new ESPN mutation.

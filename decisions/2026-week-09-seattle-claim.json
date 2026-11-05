@@ -4,7 +4,7 @@
   "season": 2026,
   "week": 9,
   "observed_at": "2026-11-03T19:05:00-05:00",
-  "status": "submitted",
+  "status": "awarded",
   "category": "waiver defense",
   "summary": "Conditionally claim Seattle defense, drop Pittsburgh defense if successful; pending November 4 morning.",
   "responsible_automation": "fantasy-waiver-execution",
@@ -56,7 +56,7 @@
   "deadline_at": null,
   "verification": {
     "observed_at": "2026-11-03T19:05:00-05:00",
-    "persisted_result": "Pending Moves 1 displays Seattle conditional add to bench and Pittsburgh conditional drop, priority1, morning Nov4 processing.",
+    "persisted_result": "November 4 ESPN Waiver Report: Seattle added; Pittsburgh dropped. Jacksonville backup unsuccessful because Pittsburgh already dropped. Starting slot not yet inspected.",
     "proof": "../analysis/infographics/2026-week-09-seattle-claim-proof.png"
   },
   "outcome": {
