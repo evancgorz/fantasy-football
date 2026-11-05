@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-wednesday-browser-blocker",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-04T19:04:39-05:00",
+  "status": "blocked",
+  "category": "waiver verification",
+  "summary": "Browser unavailable; Seattle and Jacksonville claim outcomes and current starting defense unverified.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-03T19:08:00-05:00",
+      "fact": "Prior observation only: Seattle and Jacksonville claims pending, each to bench and conditional on Pittsburgh drop, processing November 4 morning."
+    }
+  ],
+  "alternatives": [
+    {
+      "evidence": "Required current browser access unavailable.",
+      "choice": "Verify claims and roster"
+    }
+  ],
+  "expected_benefit": {
+    "basis": "No current projections or awards verified.",
+    "points": null,
+    "confidence": "unknown"
+  },
+  "rationale": "Unified Computer Use reports browser unavailable for existing and new in-app tab; inventory has no browsers. No visible login request and no evidence of failed authentication.",
+  "missing_evidence": [
+    "Waiver outcomes, current roster, legal alternatives, pending offers and starter status not inspected.",
+    "Current game and injury status not verified."
+  ],
+  "execution_conditions": [
+    "Restore supported browser availability, verify awards and starter slot before any action.",
+    "If Jacksonville was awarded, ensure an eligible scoring defense before its Thursday November 5 20:15 EST kickoff."
+  ],
+  "fallback": "Owner can inspect ESPN roster and waiver results; retain current claims as outcome unknown, not pending or awarded.",
+  "recheck_at": "2026-11-05T17:00:00-05:00",
+  "deadline_at": "2026-11-05T20:15:00-05:00",
+  "verification": {
+    "persisted_result": "No ESPN page inspected and no ESPN mutation attempted.",
+    "observed_at": "2026-11-04T19:04:39-05:00"
+  },
+  "outcome": {
+    "process_review": null,
+    "alternative_actual_points": null,
+    "actual_points": null
+  },
+  "report": "../analysis/2026-week-09.md"
+}
