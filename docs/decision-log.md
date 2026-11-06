@@ -612,3 +612,5 @@ ESPNteam/Week8boxscore authenticated:70.92–38.88actual,expected128.7–116.5,o
 November 4 recovery: authenticated browser access restored. ESPN waiver report verifies Seattle awarded/Pittsburgh dropped; Jacksonville backup unsuccessful because Pittsburgh already dropped. Starting slot unverified. No new ESPN mutation.
 
 November 5, 4:57 p.m. Eastern: Thursday read-only preflight blocked by unavailable browser. Verify tonight's locks and Seattle scoring slot at 7 p.m. Record: 2026-week-09-thursday-preflight-blocked.
+
+November 5, 7:02 p.m. Eastern: Week 9 roster verified. Seattle starts and no Thursday roster locks. Sunday 8 a.m. review before Atlanta 9:30 a.m. kickoff. No ESPN changes. 2026-week-09-thursday-final.

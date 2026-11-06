@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-thursday-final",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-05T19:02:51-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "No Thursday roster locks. Seattle starts Sunday. Recheck Atlanta starters before Sunday 9:30 a.m.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "fact": "All roster games Sunday or Monday. Seattle starts Sunday 4:25 p.m. (7.8 projected). Robinson and London Sunday 9:30 a.m.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-05T19:02:51-05:00"
+    }
+  ],
+  "alternatives": [
+    {
+      "evidence": "ESPN 19.6 or 18.6 versus 15.6; refresh role and health before Sunday.",
+      "choice": "Taylor or Swift over Irving"
+    },
+    {
+      "evidence": "ESPN 19.8 versus 17.0; Daniels plays earlier, confirm health and role before 1 p.m.",
+      "choice": "Daniels over Love"
+    },
+    {
+      "evidence": "17.1 or 14.2 versus 16.4; compare availability and matchup before London locks.",
+      "choice": "Nabers or Olave over London"
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "No Thursday deadline and no empty scoring slot. Preserve flexibility for final availability and workload evidence.",
+  "missing_evidence": [
+    "Official Sunday inactives, current workload, trade queue and market alternatives were not verified."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-08T08:00:00-05:00",
+  "deadline_at": "2026-11-08T09:30:00-05:00",
+  "verification": null,
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
