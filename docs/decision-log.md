@@ -618,3 +618,5 @@ November 5, 7:02 p.m. Eastern: Week 9 roster verified. Seattle starts and no Thu
 November 8, 7:55 a.m. Eastern: early check blocked by unavailable browser. Robinson/London previously scheduled 9:30 a.m. Current availability unknown. No ESPN mutation. 2026-week-09-sunday-early-blocked.
 
 November8 noon: live roster verified, Atlanta37.8actual still in progress. RetainLove, DanielsHealthy but difficult passing matchup. Running-back optimization and official inactives incomplete. No ESPN mutation. 2026-week-09-noon-review.
+
+November8 15:02EST: retainIrving provisionally, SwiftHealthy higher projection but difficult TB run matchup and TD reliance. Recheck19EST before20:20. Atlanta38.5finalactual. No ESPN mutation. 2026-week-09-sunday-afternoon.

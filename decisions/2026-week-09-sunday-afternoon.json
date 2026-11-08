@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-sunday-afternoon",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-08T15:02:33-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "Retain Irving provisionally over Swift and Jeanty; evening final inactives still required.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 delegation",
+  "sources": [
+    {
+      "fact": "Week9 Robinson26.7/London11.8 final actual. Taylor,Daniels,Olave,Hall,Nabers games underway and locked. SwiftHealthy18.6,Irving15.6,Jeanty14.8. Swift outlook TB first in fantasy points allowed to RBs; last27carries69yards3TD,2catches10yards.",
+      "observed_at": "2026-11-08T15:02:33-05:00",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Swift over Irving",
+      "evidence": "18.6 forecast higher,27 carries last game but2.6yards/carry and3TD-dependent output vs first-ranked TB run matchup. Monangai current status unknown."
+    },
+    {
+      "choice": "Jeanty over Irving",
+      "evidence": "14.8 forecast vs15.6 and SF matchup. Less compelling than retaining night flexibility."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Retain Irving provisionally and preserve same-game Swift fallback until official evening status. Swift higher forecast balanced against difficult matchup and touchdown dependence.",
+  "missing_evidence": [
+    "Official afternoon inactives and complete workload review.",
+    "Current Monangai availability, independent trade queue and market.",
+    "Full opponent score and projections. Noon Taylor comparison was incomplete before lock."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-08T19:00:00-05:00",
+  "deadline_at": "2026-11-08T20:20:00-05:00",
+  "verification": {
+    "persisted_result": "Read-only review. No ESPN mutation. Seattle and remaining afternoon starters have no injury tag in roster view, not official active confirmation."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
