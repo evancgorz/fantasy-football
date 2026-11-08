@@ -614,3 +614,5 @@ November 4 recovery: authenticated browser access restored. ESPN waiver report v
 November 5, 4:57 p.m. Eastern: Thursday read-only preflight blocked by unavailable browser. Verify tonight's locks and Seattle scoring slot at 7 p.m. Record: 2026-week-09-thursday-preflight-blocked.
 
 November 5, 7:02 p.m. Eastern: Week 9 roster verified. Seattle starts and no Thursday roster locks. Sunday 8 a.m. review before Atlanta 9:30 a.m. kickoff. No ESPN changes. 2026-week-09-thursday-final.
+
+November 8, 7:55 a.m. Eastern: early check blocked by unavailable browser. Robinson/London previously scheduled 9:30 a.m. Current availability unknown. No ESPN mutation. 2026-week-09-sunday-early-blocked.

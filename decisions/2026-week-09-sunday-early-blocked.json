@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-sunday-early-blocked",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-08T07:55:25-05:00",
+  "status": "blocked",
+  "category": "lineup",
+  "summary": "Early international lineup check blocked by unavailable browser.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "fact": "Historical Thursday observation: Robinson and London starting, Sunday 9:30 a.m. kickoff.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-05T19:02:51-05:00"
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Creating the ESPN team tab returned browser unavailable. Inventory returned no browsers.",
+  "missing_evidence": [
+    "Current Atlanta inactives and workload, current lineup and legal replacements.",
+    "Pending claims/offers, scoring rules and current locks unverified."
+  ],
+  "execution_conditions": [
+    "Restore supported browser access and inspect Atlanta starters before 9:30 a.m. Eastern. Noon check cannot repair already locked early players."
+  ],
+  "fallback": "",
+  "recheck_at": null,
+  "deadline_at": "2026-11-08T09:30:00-05:00",
+  "verification": {
+    "persisted_result": "No ESPN page reached or mutation attempted."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
