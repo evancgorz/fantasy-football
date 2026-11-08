@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-sunday-night",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-08T18:56:07-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "Retain Healthy Irving over Healthy Swift for Sunday night.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 delegation",
+  "sources": [
+    {
+      "observed_at": "2026-11-08T18:56:07-05:00",
+      "fact": "IrvingHealthy15.6 starting,SwiftHealthy18.6 bench. Irving outlook over100 rushing yards3 of4games,121.8 rushing average over4,91season;Chicago18.9 fantasyRBpoints allowed. Swift last27carries69yards3TD, TB first-ranked RB defense. Score106.28-84.86 with afternoon games ongoing.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    }
+  ],
+  "alternatives": [
+    {
+      "evidence": "Higher18.6 forecast and goal-line upside, but TB strongest fantasy RB matchup and efficiency2.6yards/carry last game. Current Monangai status unavailable.",
+      "choice": "Swift"
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Irving sustained rushing production and focal role support retaining despite lower forecast. Both opponents difficult. Swift touchdowns offer upside but substantial touchdown dependence. Current score does not justify variance chasing.",
+  "missing_evidence": [
+    "Official inactives and current Monangai status not verified.",
+    "Full opponent remaining roster, offers and market not inspected."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-09T17:00:00-05:00",
+  "deadline_at": "2026-11-08T20:20:00-05:00",
+  "verification": {
+    "persisted_result": "Irving remains scoring RB. No ESPN mutation."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
