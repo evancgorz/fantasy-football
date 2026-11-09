@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-monday-preflight",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-09T17:01:00-05:00",
+  "status": "reviewed",
+  "category": "read-only preflight",
+  "summary": "Jefferson Healthy, Jefferson/Reichard scoring slots Monday20:15. Score137.68-91.94.",
+  "responsible_automation": "monday-night-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "observed_at": "2026-11-09T17:01:00-05:00",
+      "fact": "Jefferson card Healthy18.3,9targets last game. BUF28th fantasyWRdefense per outlook. Reichard10.7 no roster injury tag. Love36.18,Irving28.5 actual;Swift3.1 actual. Current score137.68-91.94.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Read-only17EST preflight. Final19EST run must inspect official inactives before20:15 kickoff.",
+  "missing_evidence": [
+    "Official inactives, Reichard player-card health, opponent remaining players and legal market alternatives not inspected."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-09T19:00:00-05:00",
+  "deadline_at": "2026-11-09T20:15:00-05:00",
+  "verification": {
+    "persisted_result": "Authenticated Week9 team roster read. No ESPN mutation."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}

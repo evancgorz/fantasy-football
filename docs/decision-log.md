@@ -622,3 +622,5 @@ November8 noon: live roster verified, Atlanta37.8actual still in progress. Retai
 November8 15:02EST: retainIrving provisionally, SwiftHealthy higher projection but difficult TB run matchup and TD reliance. Recheck19EST before20:20. Atlanta38.5finalactual. No ESPN mutation. 2026-week-09-sunday-afternoon.
 
 November8 18:56EST retainIrvingHealthy over SwiftHealthy on sustained rushing role vs touchdown dependence. Official inactives unverified. No ESPN mutation. 2026-week-09-sunday-night.
+
+November9 17:01EST read-only preflight: JeffersonHealthy, Reichard no roster tag, Monday20:15 slots.137.68-91.94actual. Official inactives and opponent remaining unverified. 2026-week-09-monday-preflight.
