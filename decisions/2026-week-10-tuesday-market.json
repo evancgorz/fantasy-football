@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-10-tuesday-market",
+  "season": 2026,
+  "week": 10,
+  "observed_at": "2026-11-10T18:57:48-05:00",
+  "status": "retained",
+  "category": "acquisition",
+  "summary": "No acquisition submitted. Retain current depth provisionally; current market reviewed, due diligence incomplete.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 delegation",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "fact": "WA Wed Purdy20.7,Kittle15.3,Higgins16.2,Golden17.2,Lawrence21.5,Texans7.3. Team8-1first,waiver4of4.",
+      "observed_at": "2026-11-10T18:57:48-05:00"
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Purdy",
+      "evidence": "20.7 vsDaniels18.6/Love15.4. Potential QB upgrade but no health/role or justified drop analysis completed."
+    },
+    {
+      "choice": "Kittle",
+      "evidence": "15.3 vsMcBride14.1 and futureTEbye coverage, but active roster cost and keeper/bye health need inspection."
+    },
+    {
+      "choice": "Higgins",
+      "evidence": "16.2 vsLondon14.8, Olave15.8 and Nabers16.4. Modest immediate gain with crowded receiver group."
+    },
+    {
+      "choice": "Texans",
+      "evidence": "7.3forecast vsSeattle6.1,41seasonpoints vs77. Projection gap insufficient without current matchup/injury comparison."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Current skill depth covers Irving/Swift bye viaTaylor/Jeanty/Hall and upcomingWeek11 receivers. No completed replacement-value case for sacrificing skill depth or waiver priority.",
+  "missing_evidence": [
+    "Current detailed injury/workload, pending offers/claims, verified processing clock and D/ST/K full comparison.",
+    "Acquisition review incomplete. No new waiver submitted before expected Wednesday processing."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-11T19:00:00-05:00",
+  "deadline_at": "2026-11-12T20:15:00-05:00",
+  "verification": {
+    "persisted_result": "No ESPN mutation or new pending claim. Existing transaction queue not independently inspected."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
