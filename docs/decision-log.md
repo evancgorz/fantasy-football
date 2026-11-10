@@ -626,3 +626,5 @@ November8 18:56EST retainIrvingHealthy over SwiftHealthy on sustained rushing ro
 November9 17:01EST read-only preflight: JeffersonHealthy, Reichard no roster tag, Monday20:15 slots.137.68-91.94actual. Official inactives and opponent remaining unverified. 2026-week-09-monday-preflight.
 
 November9 19:01EST retainJefferson/Reichard bothHealthy scoring slots20:15. Official inactive list unverified. No ESPN mutation. 2026-week-09-monday-final.
+
+November10 09:04EST partial weekly review: Week9 win155.48-99.24. Irving bye requires scoring replacement; ThursdayDaniels/Nabers20:15. No ESPN mutation.

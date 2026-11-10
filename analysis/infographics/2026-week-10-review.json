@@ -1,0 +1,46 @@
+{
+  "title": "Coach discovers vacations do not earn points.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-10T09:04:38-05:00",
+  "metrics": [
+    {
+      "kind": "actual",
+      "value": 155.48,
+      "label": "Our actual points",
+      "observed_at": "2026-11-10T09:04:38-05:00"
+    },
+    {
+      "kind": "actual",
+      "value": 99.24,
+      "label": "Their actual points",
+      "observed_at": "2026-11-10T09:04:38-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Replace Irving during his week off",
+      "status": "proposed",
+      "reason": "Only the scoring lineup earns points. Management has reluctantly discontinued paid vacation scoring."
+    }
+  ],
+  "notes": [
+    "Won by56.24 points.",
+    "Daniels and Nabers play Thursday8:15PM Eastern.",
+    "Next review Tuesday7PM Eastern."
+  ],
+  "disclaimer": "Partial review. Market and injury analysis remain incomplete.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "label": "ESPN team",
+      "observed_at": "2026-11-10T09:04:38-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "fact": "Irving bye in starting slot",
+      "report": "../2026-week-10.md",
+      "joke": "Vacation scoring"
+    }
+  ]
+}

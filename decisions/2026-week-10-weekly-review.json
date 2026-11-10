@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-10-weekly-review",
+  "season": 2026,
+  "week": 10,
+  "observed_at": "2026-11-10T09:04:38-05:00",
+  "status": "proposed",
+  "category": "lineup handoff",
+  "summary": "Replace bye Irving in action lineup run; evaluate Thursday Daniels and Nabers before20:15.",
+  "responsible_automation": "fantasy-weekly-review",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "fact": "Week10 roster and Week9 final155.48-99.24 observed November10."
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Current roster shows starting bye; Taylor/Jeanty/Hall legal positional candidates require health review.",
+  "missing_evidence": [
+    "Market three candidates, official injury workload, standings/corrections and offers uninspected."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-10T19:00:00-05:00",
+  "deadline_at": "2026-11-12T20:15:00-05:00",
+  "verification": null,
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
