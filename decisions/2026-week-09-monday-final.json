@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-09-monday-final",
+  "season": 2026,
+  "week": 9,
+  "observed_at": "2026-11-09T19:01:31-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "Retain Jefferson and Reichard in Monday scoring slots, both ESPN Healthy.",
+  "responsible_automation": "monday-night-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October11 delegation",
+  "sources": [
+    {
+      "fact": "Score137.68-91.94. JeffersonHealthy18.3,ReichardHealthy10.7,Monday20:15. Reichard18/20FG,10/10XP per card. Jefferson9targets last week,BUF28th fantasyWRdefense.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-09T19:01:31-05:00"
+    }
+  ],
+  "alternatives": [
+    {
+      "evidence": "Requires current market,drop and Monday eligibility evidence; no health-driven need established.",
+      "choice": "Acquisition"
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Healthy productive receiver with favorable positional matchup. Healthy kicker18/20 field goals. Owned bench alternatives already played, no verified better eligible replacement.",
+  "missing_evidence": [
+    "Official inactive list not independently located.",
+    "Current opponent remaining roster and pending offers not inspected."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": null,
+  "deadline_at": "2026-11-09T20:15:00-05:00",
+  "verification": {
+    "persisted_result": "Both scoring slots filled. No ESPN mutation."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
