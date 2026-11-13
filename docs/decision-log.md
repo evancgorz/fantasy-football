@@ -630,3 +630,5 @@ November9 19:01EST retainJefferson/Reichard bothHealthy scoring slots20:15. Offi
 November10 09:04EST partial weekly review: Week9 win155.48-99.24. Irving bye requires scoring replacement; ThursdayDaniels/Nabers20:15. No ESPN mutation.
 
 November10 18:57EST reviewed market and retained roster provisionally. No claims submitted; due diligence incomplete. 2026-week-10-tuesday-market.
+
+November 12 Thursday late check: ESPN confirmed Taylor starts for bye-week Irving. Daniels and Nabers had already locked on the bench. decisions/2026-week-10-taylor-bye.json.

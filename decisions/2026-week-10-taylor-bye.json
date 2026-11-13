@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-10-taylor-bye",
+  "season": 2026,
+  "week": 10,
+  "observed_at": "2026-11-12T20:38:17-05:00",
+  "status": "executed",
+  "category": "lineup",
+  "summary": "Taylor starts in place of Irving, who has a bye.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "fact": "ESPN Moves Saved; Taylor starting against Miami Sunday 1 p.m. ET, Irving bench bye. Daniels and Nabers already playing on bench."
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Taylor projects 17.8 and averages 17.1, ahead of Jeanty 13.6 and Hall 12.1 projections. ESPN ranks Miami 26th against running backs.",
+  "missing_evidence": [
+    "Sunday final inactives pending; Thursday pregame window missed."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": null,
+  "deadline_at": null,
+  "verification": {
+    "persisted_result": "Moves Saved, Taylor RB and Irving bench."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
