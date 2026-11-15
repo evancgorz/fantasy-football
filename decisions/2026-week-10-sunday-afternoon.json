@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-10-sunday-afternoon",
+  "season": 2026,
+  "week": 10,
+  "observed_at": "2026-11-15T14:57:21-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "Retain Smith-Njigba, McBride and Seattle for 4:05 p.m. Eastern.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "observed_at": "2026-11-15T14:57:21-05:00",
+      "fact": "Actual 28.68 to 29.70; projected finishes 110.5 to 154.5; three of our starters and six opponent starters yet to play.",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=10&seasonId=2026&teamId=3"
+    },
+    {
+      "observed_at": "2026-11-15T14:57:21-05:00",
+      "fact": "Smith-Njigba full practice after rest.",
+      "url": "https://www.seahawks.com/news/week-10-injury-report-seahawks-at-raiders"
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Jeanty for Smith-Njigba",
+      "evidence": "13.6 vs 22.3 ESPN projection and 15.5 vs 25.8 season fantasy average. Same kickoff; no flexibility gain."
+    },
+    {
+      "choice": "McBride or Seattle replacement",
+      "evidence": "No eligible on-roster replacement."
+    }
+  ],
+  "expected_benefit": {
+    "basis": "Smith-Njigba has stronger season scoring and full practice; maintain expected points.",
+    "points": null,
+    "confidence": "moderate"
+  },
+  "rationale": "Hold. Jeanty has scoring upside, but there is no evidence that substituting him improves expected scoring. The projected deficit alone does not justify a swap.",
+  "missing_evidence": [
+    "Final late-game inactive lists not verified; Friday Seattle practice report available. Detailed workload, league settings, waiver and trade queues not independently refreshed."
+  ],
+  "execution_conditions": [],
+  "fallback": "Check for late availability changes before 4:05 when possible; 7 p.m. scheduled check is after those locks.",
+  "recheck_at": "2026-11-15T19:00:00-05:00",
+  "deadline_at": "2026-11-15T16:05:00-05:00",
+  "verification": {
+    "result": "Live team and box score verified; no ESPN mutation.",
+    "infographic": "../analysis/infographics/2026-week-10-sunday-afternoon.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}

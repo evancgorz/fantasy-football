@@ -1,0 +1,40 @@
+{
+  "observed_at": "2026-11-15T14:57:21-05:00",
+  "metrics": [
+    {
+      "observed_at": "2026-11-15T14:57:21-05:00",
+      "kind": "actual",
+      "label": "Our actual points",
+      "value": 28.68
+    },
+    {
+      "observed_at": "2026-11-15T14:57:21-05:00",
+      "kind": "actual",
+      "label": "Anna actual points",
+      "value": 29.7
+    }
+  ],
+  "moves": [],
+  "subtitle": "Satirical briefing | factual score and status",
+  "notes": [
+    "No lineup changes. Jaxon catches passes and has scored more per game than our backup option.",
+    "Management tried unplugging the scoreboard. The deficit came back.",
+    "Our three remaining starters begin at 4:05 p.m. Eastern. Next scheduled check: 7 p.m."
+  ],
+  "disclaimer": "Live snapshot with games underway. Final late-game inactive lists unverified.",
+  "title": "Office keeps its most productive employee at his desk",
+  "comedic_anchors": [
+    {
+      "joke": "Unplugging scoreboard",
+      "fact": "Down 1.02 actual points at snapshot",
+      "report": "../2026-week-10.md"
+    }
+  ],
+  "sources": [
+    {
+      "observed_at": "2026-11-15T14:57:21-05:00",
+      "label": "ESPN Week 10 box score",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=10&seasonId=2026&teamId=3"
+    }
+  ]
+}
