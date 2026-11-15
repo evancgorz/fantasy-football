@@ -1,0 +1,49 @@
+{
+  "notes": [
+    "Next check: 3 p.m. Eastern before the 4:05 p.m. games."
+  ],
+  "moves": [
+    {
+      "label": "Olave in, London to bench",
+      "reason": "Olave catches passes and has scored more per game. HR promotes whoever answers the most calls.",
+      "status": "executed"
+    }
+  ],
+  "subtitle": "Satirical briefing | factual projections and status",
+  "observed_at": "2026-11-15T12:03:56-05:00",
+  "sources": [
+    {
+      "label": "ESPN team",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-15T12:03:56-05:00"
+    },
+    {
+      "label": "NFL inactive lists",
+      "url": "https://www.nfl.com/news/nfl-week-10-inactives-players-ruled-out-sunday-2026-season",
+      "observed_at": "2026-11-15T12:03:56-05:00"
+    }
+  ],
+  "disclaimer": "ESPN projections are estimates. No actual points gained from the swap yet.",
+  "comedic_anchors": [
+    {
+      "report": "../2026-week-10.md",
+      "joke": "HR phone policy",
+      "fact": "Olave caught seven passes last week"
+    }
+  ],
+  "metrics": [
+    {
+      "label": "Olave projected points",
+      "observed_at": "2026-11-15T12:03:56-05:00",
+      "kind": "projection",
+      "value": 15.8
+    },
+    {
+      "label": "London projected points",
+      "observed_at": "2026-11-15T12:03:56-05:00",
+      "kind": "projection",
+      "value": 14.8
+    }
+  ],
+  "title": "Office promotes employee who keeps answering the phone"
+}

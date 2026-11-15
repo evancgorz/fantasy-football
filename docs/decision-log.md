@@ -632,3 +632,5 @@ November10 09:04EST partial weekly review: Week9 win155.48-99.24. Irving bye req
 November10 18:57EST reviewed market and retained roster provisionally. No claims submitted; due diligence incomplete. 2026-week-10-tuesday-market.
 
 November 12 Thursday late check: ESPN confirmed Taylor starts for bye-week Irving. Daniels and Nabers had already locked on the bench. decisions/2026-week-10-taylor-bye.json.
+
+November 15, 12:03 p.m. Eastern: Week 10 Olave starts for London based on season scoring and matchup, verified after ESPN reload. https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026 . decisions/2026-week-10-sunday-1203-olave.json.

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-10-sunday-1203-olave",
+  "season": 2026,
+  "week": 10,
+  "observed_at": "2026-11-15T12:03:56-05:00",
+  "status": "executed",
+  "category": "lineup",
+  "summary": "Start Chris Olave at wide receiver and move Drake London to the bench.",
+  "responsible_automation": "sunday-early-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation; no per-action approval",
+  "sources": [
+    {
+      "note": "ESPN team 3, Week 10 roster, projections and post-save reload",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-15T12:03:56-05:00"
+    },
+    {
+      "note": "Official 1 PM inactive lists; Olave, London and Vikings receiver Justin Jefferson not listed for their respective teams",
+      "url": "https://www.nfl.com/news/nfl-week-10-inactives-players-ruled-out-sunday-2026-season",
+      "observed_at": "2026-11-15T12:03:56-05:00"
+    },
+    {
+      "note": "Olave Week 9 catches and yards",
+      "url": "https://media.nfl.com/content/dam/communications/football-communications/2026/capsules/Week%2010%20Capsules.pdf",
+      "observed_at": "2026-11-15T12:03:56-05:00"
+    }
+  ],
+  "alternatives": [
+    {
+      "reason": "Active, but lower season fantasy average (13.5) and tougher ESPN positional matchup rank (2nd vs 16th).",
+      "player": "Drake London",
+      "projection": 14.8
+    },
+    {
+      "reason": "Retain; active, despite uncertain workload with Minnesota missing multiple passing-game starters.",
+      "player": "Justin Jefferson",
+      "projection": 17.9
+    },
+    {
+      "reason": "Thursday lock, unavailable for swap.",
+      "player": "Malik Nabers"
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "ESPN projection difference +1.0, not actual gain or independent estimate; Olave season average 17.7 vs 13.5.",
+    "confidence": "moderate"
+  },
+  "rationale": "Olave is active, caught seven passes for 98 yards last week per NFL Week 10 capsules, and has the more favorable matchup and stronger season scoring. London remains a credible alternative with touchdown upside; active status does not guarantee workload. Both lock at 1 PM, so the swap does not reduce late flexibility.",
+  "missing_evidence": [
+    "Detailed snap/route participation and workload limits unverified",
+    "No separate current league scoring, waiver or trade queue audit completed; no acquisition or trade attempted"
+  ],
+  "execution_conditions": [
+    "Both players available in ESPN and not listed inactive; ESPN exposed legal receiver swap before 1 PM."
+  ],
+  "fallback": "Recheck late players at 3 PM before 4:05 PM kickoff.",
+  "recheck_at": "2026-11-15T15:00:00-05:00",
+  "deadline_at": "2026-11-15T13:00:00-05:00",
+  "verification": {
+    "result": "Fresh authenticated ESPN team reload shows Olave at WR, London on bench, Jefferson still starting.",
+    "observed_at": "2026-11-15T12:03:56-05:00",
+    "infographic": "../analysis/infographics/2026-week-10-sunday-1203-olave.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
