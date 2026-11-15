@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-10-sunday-night",
+  "season": 2026,
+  "week": 10,
+  "observed_at": "2026-11-15T18:57:55-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "All nine Chet starters completed their games. No legal Week 10 scoring lineup change remains.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "fact": "Full Box Score: Chet 127.0 actual, Anna 95.4 actual, 141.0 projected. Lamb still playing; Burrow and Chase scheduled 8:20 p.m. Eastern.",
+      "observed_at": "2026-11-15T18:57:55-05:00",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=10&seasonId=2026&teamId=3"
+    }
+  ],
+  "alternatives": [
+    {
+      "evidence": "No unplayed scoring slot; Jeanty and other playing bench options had completed games.",
+      "choice": "Late lineup swap"
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Our 31.60-point actual lead remains live. Anna needs more than 31.60 additional points to pass us before any scoring corrections. No roster transaction would change completed scoring slots.",
+  "missing_evidence": [
+    "Separate league-settings, claims and offers screens not independently inspected. No acquisition or trade attempted."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-16T17:00:00-05:00",
+  "deadline_at": null,
+  "verification": {
+    "result": "Full Box Score shows zero playing and zero yet to play on our side. No ESPN mutation.",
+    "infographic": "../analysis/infographics/2026-week-10-sunday-night.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}

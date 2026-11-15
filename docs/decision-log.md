@@ -636,3 +636,5 @@ November 12 Thursday late check: ESPN confirmed Taylor starts for bye-week Irvin
 November 15, 12:03 p.m. Eastern: Week 10 Olave starts for London based on season scoring and matchup, verified after ESPN reload. https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026 . decisions/2026-week-10-sunday-1203-olave.json.
 
 November 15, 2:57 p.m. Eastern: Week 10 late starters retained. ESPN live 28.68 to 29.70; official late inactive lists unverified. decisions/2026-week-10-sunday-afternoon.json.
+
+November 15, 6:57 p.m. Eastern: Week 10 lead 127.0 to 95.4; our lineup finished and Anna had three scorers remaining. No change. decisions/2026-week-10-sunday-night.json.

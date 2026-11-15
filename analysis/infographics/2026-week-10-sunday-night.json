@@ -1,0 +1,40 @@
+{
+  "notes": [
+    "We lead by 31.60. All nine of our players finished.",
+    "Anna has one player still going and two about to start.",
+    "Next scheduled check: Monday 5 p.m. Eastern."
+  ],
+  "title": "Office clocks out, leaves scoreboard with night shift",
+  "comedic_anchors": [
+    {
+      "report": "../2026-week-10.md",
+      "fact": "Our players completed their games while Anna still had scoring time",
+      "joke": "Office clocked out before the night shift"
+    }
+  ],
+  "metrics": [
+    {
+      "kind": "actual",
+      "observed_at": "2026-11-15T18:57:55-05:00",
+      "label": "Our actual points",
+      "value": 127
+    },
+    {
+      "kind": "actual",
+      "observed_at": "2026-11-15T18:57:55-05:00",
+      "label": "Anna actual points",
+      "value": 95.4
+    }
+  ],
+  "moves": [],
+  "subtitle": "Satirical briefing | factual score and status",
+  "observed_at": "2026-11-15T18:57:55-05:00",
+  "disclaimer": "Live score. ESPN projects Anna to finish with 141.0 points.",
+  "sources": [
+    {
+      "observed_at": "2026-11-15T18:57:55-05:00",
+      "label": "ESPN Week 10 box score",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=10&seasonId=2026&teamId=3"
+    }
+  ]
+}
