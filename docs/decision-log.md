@@ -638,3 +638,5 @@ November 15, 12:03 p.m. Eastern: Week 10 Olave starts for London based on season
 November 15, 2:57 p.m. Eastern: Week 10 late starters retained. ESPN live 28.68 to 29.70; official late inactive lists unverified. decisions/2026-week-10-sunday-afternoon.json.
 
 November 15, 6:57 p.m. Eastern: Week 10 lead 127.0 to 95.4; our lineup finished and Anna had three scorers remaining. No change. decisions/2026-week-10-sunday-night.json.
+
+November 16, 5:10 p.m. Eastern: ESPN Week 10 loss 127.00 to 175.36, no Monday players remaining. Read-only. decisions/2026-week-10-monday-preflight.json.

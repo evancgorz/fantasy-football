@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-10-monday-preflight",
+  "season": 2026,
+  "week": 10,
+  "observed_at": "2026-11-16T17:10:21-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "Read-only preflight: Week 10 loss 127.00 to 175.36. Neither lineup has a Monday player.",
+  "responsible_automation": "monday-night-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "fact": "Both teams show zero playing and zero yet to play.",
+      "observed_at": "2026-11-16T17:10:21-05:00",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=10&seasonId=2026&teamId=3"
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "No Monday lineup decision exists. Tuesday review should verify corrections and review individual choices using evidence available at decision time.",
+  "missing_evidence": [
+    "Stat corrections, Week 11 health, scoring settings and transaction queues not independently refreshed."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": null,
+  "deadline_at": null,
+  "verification": {
+    "result": "Authenticated ESPN box score via unified Computer Use. Tab preserved. No ESPN mutation.",
+    "infographic": "../analysis/infographics/2026-week-10-monday-preflight.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Team lost by 48.36 in the completed scoring snapshot."
+  }
+}

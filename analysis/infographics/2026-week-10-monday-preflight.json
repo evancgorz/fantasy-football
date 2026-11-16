@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "observed_at": "2026-11-16T17:10:21-05:00",
+      "label": "ESPN Week 10 box score",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=10&seasonId=2026&teamId=3"
+    }
+  ],
+  "moves": [],
+  "subtitle": "Satirical briefing | factual score and status",
+  "notes": [
+    "We lost by 48.36 points. Neither team has anyone left to play.",
+    "The comeback was on the calendar. Nobody was assigned to it.",
+    "Tuesday 9 a.m. Eastern: review the result and prepare for Week 11."
+  ],
+  "comedic_anchors": [
+    {
+      "fact": "No players left to score",
+      "joke": "Unstaffed comeback meeting",
+      "report": "../2026-week-10.md"
+    }
+  ],
+  "disclaimer": "Actual ESPN scores, subject to stat corrections.",
+  "title": "Office cancels comeback meeting after checking calendar",
+  "metrics": [
+    {
+      "label": "Our actual points",
+      "observed_at": "2026-11-16T17:10:21-05:00",
+      "kind": "actual",
+      "value": 127
+    },
+    {
+      "label": "Anna actual points",
+      "observed_at": "2026-11-16T17:10:21-05:00",
+      "kind": "actual",
+      "value": 175.36
+    }
+  ],
+  "observed_at": "2026-11-16T17:10:21-05:00"
+}
