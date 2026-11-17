@@ -1,0 +1,50 @@
+{
+  "metrics": [
+    {
+      "observed_at": "2026-11-17T18:56:16-05:00",
+      "label": "Pittsburgh defense",
+      "value": 8.5,
+      "kind": "projection"
+    },
+    {
+      "observed_at": "2026-11-17T18:56:16-05:00",
+      "label": "Jacksonville defense",
+      "value": 7,
+      "kind": "projection"
+    }
+  ],
+  "title": "Office requests a defense that will be at work",
+  "subtitle": "Satirical briefing | claim pending",
+  "comedic_anchors": [
+    {
+      "fact": "Seattle is on bye",
+      "report": "../2026-week-11.md",
+      "joke": "Showing up as competitive advantage"
+    }
+  ],
+  "disclaimer": "Projected points. Pittsburgh would join the bench first.",
+  "moves": [
+    {
+      "label": "Request Pittsburgh defense",
+      "reason": "Seattle has the week off. HR has classified showing up as a competitive advantage.",
+      "status": "pending"
+    }
+  ],
+  "notes": [
+    "Seattle leaves only if the claim succeeds.",
+    "ESPN processes Wednesday morning. Verify the award Wednesday evening."
+  ],
+  "observed_at": "2026-11-17T18:56:16-05:00",
+  "sources": [
+    {
+      "observed_at": "2026-11-17T18:56:16-05:00",
+      "label": "ESPN pending claim",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    },
+    {
+      "observed_at": "2026-11-17T18:56:16-05:00",
+      "label": "ESPN market",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924"
+    }
+  ]
+}

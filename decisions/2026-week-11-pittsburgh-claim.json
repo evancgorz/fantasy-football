@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-11-pittsburgh-claim",
+  "season": 2026,
+  "week": 11,
+  "observed_at": "2026-11-17T18:56:16-05:00",
+  "status": "submitted",
+  "category": "waiver",
+  "summary": "Claim Pittsburgh defense with conditional drop of Seattle. ESPN lists Wednesday morning processing.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "observed_at": "2026-11-17T18:56:16-05:00",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "fact": "League priority 4 of 4. Pending Moves lists Pittsburgh add to bench, conditional Seattle drop, Nov 18 morning processing."
+    },
+    {
+      "observed_at": "2026-11-17T18:56:16-05:00",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "fact": "Pittsburgh 8.5, Jacksonville 7.0, Houston 6.9, Minnesota 4.5 Week 11 projections."
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Jacksonville",
+      "evidence": "7.8 season average vs Pittsburgh 7.3, but weaker Week 11 outlook per market and midrange opponent rank."
+    },
+    {
+      "choice": "Houston",
+      "evidence": "Earlier Thursday lock and lower season average 5.1 despite favorable matchup rank."
+    },
+    {
+      "choice": "Keep both defenses",
+      "evidence": "Would sacrifice useful skill depth or leave an unfilled scoring slot."
+    }
+  ],
+  "expected_benefit": {
+    "confidence": "moderate",
+    "basis": "8.5 ESPN projection vs an idle slot, with meaningful performance uncertainty and post-bye opportunity cost.",
+    "points": null
+  },
+  "rationale": "Seattle is on bye and scored 8.9 per game, 12 last week. Pittsburgh faces Philadelphia with Hurts on injured reserve and is replaceable if matchup conditions change. Pittsburgh had minus seven last week, and the season average gap favors Seattle; use the broad market and skill-slot value to justify the defensive-only swap. Priority cost is limited given last place in the current order.",
+  "missing_evidence": [
+    "Exact Wednesday processing hour, independent team practice and replacement QB confirmation, playoff schedule and separate offers screen."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-18T19:00:00-05:00",
+  "deadline_at": null,
+  "verification": {
+    "infographic": "../analysis/infographics/2026-week-11-pittsburgh-claim.png",
+    "result": "Pending Moves 1. Pittsburgh to bench, Seattle dropped only on award. No fantasy bid field shown. No starter changed."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}

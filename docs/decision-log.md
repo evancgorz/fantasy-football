@@ -642,3 +642,5 @@ November 15, 6:57 p.m. Eastern: Week 10 lead 127.0 to 95.4; our lineup finished 
 November 16, 5:10 p.m. Eastern: ESPN Week 10 loss 127.00 to 175.36, no Monday players remaining. Read-only. decisions/2026-week-10-monday-preflight.json.
 
 November 17, 9 a.m. Eastern: Week 11 read-only review. Four bye slots. Defense acquisition comparison handed to Tuesday action run. decisions/2026-week-11-weekly-review.json.
+
+November 17, 6:56 p.m. Eastern: Pittsburgh defense claim pending, conditional Seattle drop. Wednesday morning processing verified in ESPN Pending Moves. https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026 . decisions/2026-week-11-pittsburgh-claim.json.
