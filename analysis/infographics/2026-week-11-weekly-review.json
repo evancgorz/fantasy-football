@@ -1,0 +1,45 @@
+{
+  "notes": [
+    "We lost by 48.36 and are still first at 8 wins, 2 losses.",
+    "Backups can cover three gaps. We need a team defense that actually has a game.",
+    "Tuesday 7 p.m. Eastern: compare available defenses and what each would cost."
+  ],
+  "moves": [],
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "label": "ESPN team",
+      "observed_at": "2026-11-17T09:00:06-05:00"
+    },
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=10&seasonId=2026&teamId=3",
+      "label": "ESPN box score",
+      "observed_at": "2026-11-17T09:00:06-05:00"
+    }
+  ],
+  "observed_at": "2026-11-17T09:00:06-05:00",
+  "comedic_anchors": [
+    {
+      "report": "../2026-week-11.md",
+      "joke": "Attendance policy",
+      "fact": "Four scoring slots on bye"
+    }
+  ],
+  "disclaimer": "Week 11 plan only. No ESPN changes submitted.",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "metrics": [
+    {
+      "observed_at": "2026-11-17T09:00:06-05:00",
+      "label": "Our Week 10 points",
+      "value": 127,
+      "kind": "actual"
+    },
+    {
+      "observed_at": "2026-11-17T09:00:06-05:00",
+      "label": "Anna Week 10 points",
+      "value": 175.36,
+      "kind": "actual"
+    }
+  ],
+  "title": "Four staff vacations expose flaw in attendance policy"
+}

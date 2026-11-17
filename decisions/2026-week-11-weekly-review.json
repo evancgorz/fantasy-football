@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-11-weekly-review",
+  "season": 2026,
+  "week": 11,
+  "observed_at": "2026-11-17T09:00:06-05:00",
+  "status": "proposed",
+  "category": "lineup",
+  "summary": "Cover four scoring slots on bye. Defense is the priority acquisition review. Daniels, Swift and Irving are provisional lineup candidates.",
+  "responsible_automation": "fantasy-weekly-review",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation. This review is read-only.",
+  "sources": [
+    {
+      "observed_at": "2026-11-17T09:00:06-05:00",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    },
+    {
+      "observed_at": "2026-11-17T09:00:06-05:00",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924"
+    },
+    {
+      "observed_at": "2026-11-17T09:00:06-05:00",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=10&seasonId=2026&teamId=3"
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Pittsburgh, Jacksonville, Houston defenses",
+      "evidence": "Wednesday claims shown. Projections 8.3, 7.1, 7.0. Compare drop and post-bye value."
+    },
+    {
+      "choice": "Nabers over Irving in flex",
+      "evidence": "16.2 vs 17.1 projected. Compare workload and opponent before Sunday."
+    },
+    {
+      "choice": "Prescott or Lawrence",
+      "evidence": "Conditional quarterback cover if Daniels becomes uncertain."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Only defense lacks an on-roster bye replacement. Compare immediate points and rest-of-season replacement cost before bidding.",
+  "missing_evidence": [
+    "Current practice participation, exact waiver processing time, pending claims and offers, playoff and trade settings, separate stat-correction audit."
+  ],
+  "execution_conditions": [
+    "Verify transaction queue, processing deadline, health and costs before any acquisition. Thursday lineup run checks Taylor before 8:15 p.m. Eastern."
+  ],
+  "fallback": "",
+  "recheck_at": "2026-11-17T19:00:00-05:00",
+  "deadline_at": "2026-11-19T20:15:00-05:00",
+  "verification": {
+    "infographic": "../analysis/infographics/2026-week-11-weekly-review.png",
+    "result": "Read-only ESPN roster, market, league home and Week 10 box score."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
