@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-11-thursday-preflight",
+  "season": 2026,
+  "week": 11,
+  "observed_at": "2026-11-19T16:55:30-05:00",
+  "status": "proposed",
+  "category": "lineup",
+  "summary": "Read-only preflight verified Taylor starting Thursday 8:15 p.m. Eastern. Three bye slots remain for the 7 p.m. action run.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 delegation; this preflight is read-only.",
+  "sources": [
+    {
+      "fact": "Taylor 16.6 in RB slot; Pittsburgh scoring D/ST; Love, Robinson and Smith-Njigba bye slots. Daniels 19.6, Swift 16.9, Irving 17.2, Nabers 16.2.",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Recheck Taylor official active/workload at 7 p.m. Compare Swift, Irving and Nabers for bye coverage, Daniels for Love. Keep Thursday Taylor in RB to preserve flexible slot.",
+  "missing_evidence": [
+    "Official Thursday inactives and workload, current queues/settings not independently refreshed."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-19T19:00:00-05:00",
+  "deadline_at": "2026-11-19T20:15:00-05:00",
+  "verification": {
+    "result": "Authenticated ESPN read; no ESPN mutation; tab preserved."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
