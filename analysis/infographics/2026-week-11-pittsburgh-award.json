@@ -1,0 +1,39 @@
+{
+  "sources": [
+    {
+      "observed_at": "2026-11-18T19:00:09-05:00",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "label": "ESPN refreshed roster"
+    }
+  ],
+  "notes": [
+    "ESPN shows Pittsburgh in the scoring lineup. Seattle has left the roster.",
+    "Next check: Thursday 5 p.m. Eastern, then 7 p.m. before Taylor plays."
+  ],
+  "moves": [
+    {
+      "status": "executed",
+      "reason": "They stop the other team and have a game this week. HR hired the applicants who could attend.",
+      "label": "Pittsburgh defense acquired"
+    }
+  ],
+  "title": "New security team arrives before anyone finds the keys",
+  "metrics": [
+    {
+      "kind": "projection",
+      "value": 8.5,
+      "label": "Pittsburgh projected points",
+      "observed_at": "2026-11-18T19:00:09-05:00"
+    }
+  ],
+  "subtitle": "Satirical briefing | acquisition completed",
+  "observed_at": "2026-11-18T19:00:09-05:00",
+  "disclaimer": "Forecast points. Award verified, no new change made tonight.",
+  "comedic_anchors": [
+    {
+      "report": "../2026-week-11.md",
+      "fact": "Seattle has a scheduled week off",
+      "joke": "Applicant attendance"
+    }
+  ]
+}
