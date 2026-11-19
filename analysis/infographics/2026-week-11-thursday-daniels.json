@@ -1,0 +1,31 @@
+{
+  "disclaimer": "Scoring lineup verified. Availability will be checked again.",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-19T19:00:00-05:00",
+      "label": "ESPN team"
+    }
+  ],
+  "metrics": [],
+  "title": "Office appoints the manager who came to work",
+  "notes": [
+    "Next check: Sunday before kickoff."
+  ],
+  "comedic_anchors": [
+    {
+      "report": "../2026-week-11.md",
+      "fact": "Replaced player on scheduled week off",
+      "joke": "Attendance policy"
+    }
+  ],
+  "moves": [
+    {
+      "status": "executed",
+      "label": "Daniels starts for Love",
+      "reason": "Daniels throws passes for points. Love has the week off, so his out-of-office reply lost the interview."
+    }
+  ],
+  "observed_at": "2026-11-19T19:00:00-05:00",
+  "subtitle": "Satirical briefing | lineup move executed"
+}

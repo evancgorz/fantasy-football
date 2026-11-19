@@ -648,3 +648,5 @@ November 17, 6:56 p.m. Eastern: Pittsburgh defense claim pending, conditional Se
 November 18, 7 p.m. Eastern: Pittsburgh award verified in scoring slot after reload; Seattle gone. No new ESPN mutation. decisions/2026-week-11-pittsburgh-award.json.
 
 November 19, 4:55 p.m. Eastern read-only preflight: Taylor Thursday8:15 verified, three bye slots handed to7PMaction. No ESPN mutation. decisions/2026-week-11-thursday-preflight.json.
+
+November 19, 7 p.m. Eastern: Daniels starts for Love. ESPN reload verified. decisions/2026-week-11-thursday-daniels.json.
