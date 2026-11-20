@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-11-thursday-irving",
+  "season": 2026,
+  "week": 11,
+  "observed_at": "2026-11-19T19:00:00-05:00",
+  "status": "executed",
+  "category": "lineup",
+  "summary": "Irving starts for Smith-Njigba",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "label": "ESPN team",
+      "observed_at": "2026-11-19T19:00:00-05:00"
+    }
+  ],
+  "alternatives": [
+    {
+      "reason": "Nabers offers 16.2 projected and later flexibility; Irving has stronger season average 17.7 vs 15.2 and 17.2 projection despite tough Detroit matchup",
+      "choice": "Nabers"
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Irving has sustained season scoring and is available for a scoring slot while Smith-Njigba has a bye",
+  "missing_evidence": [
+    "Final Sunday/Monday availability remains subject to recheck. No trade or acquisition queue audit completed."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-22T12:00:00-05:00",
+  "deadline_at": null,
+  "verification": {
+    "result": "Fresh ESPN reload verified the scoring slot.",
+    "infographic": "../analysis/infographics/2026-week-11-thursday-irving.png"
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}

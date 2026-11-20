@@ -1,0 +1,31 @@
+{
+  "notes": [
+    "Next check: Sunday before kickoff."
+  ],
+  "comedic_anchors": [
+    {
+      "report": "../2026-week-11.md",
+      "fact": "Replaced player on scheduled week off",
+      "joke": "Attendance policy"
+    }
+  ],
+  "disclaimer": "Scoring lineup verified. Availability will be checked again.",
+  "observed_at": "2026-11-19T19:00:00-05:00",
+  "subtitle": "Satirical briefing | lineup move executed",
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "label": "ESPN team",
+      "observed_at": "2026-11-19T19:00:00-05:00"
+    }
+  ],
+  "title": "Office revokes work-from-vacation policy",
+  "moves": [
+    {
+      "reason": "Irving carries the ball for points. The vacationing employee offered to help by email, which accounting rejected.",
+      "label": "Irving starts for Smith-Njigba",
+      "status": "executed"
+    }
+  ],
+  "metrics": []
+}

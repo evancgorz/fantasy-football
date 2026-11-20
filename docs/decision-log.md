@@ -652,3 +652,5 @@ November 19, 4:55 p.m. Eastern read-only preflight: Taylor Thursday8:15 verified
 November 19, 7 p.m. Eastern: Daniels starts for Love. ESPN reload verified. decisions/2026-week-11-thursday-daniels.json.
 
 November 19, 7 p.m. Eastern: Swift starts for Robinson. ESPN reload verified. decisions/2026-week-11-thursday-swift.json.
+
+November 19, 7 p.m. Eastern: Irving starts for Smith-Njigba. ESPN reload verified. decisions/2026-week-11-thursday-irving.json.
