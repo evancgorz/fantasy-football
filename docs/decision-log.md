@@ -650,3 +650,5 @@ November 18, 7 p.m. Eastern: Pittsburgh award verified in scoring slot after rel
 November 19, 4:55 p.m. Eastern read-only preflight: Taylor Thursday8:15 verified, three bye slots handed to7PMaction. No ESPN mutation. decisions/2026-week-11-thursday-preflight.json.
 
 November 19, 7 p.m. Eastern: Daniels starts for Love. ESPN reload verified. decisions/2026-week-11-thursday-daniels.json.
+
+November 19, 7 p.m. Eastern: Swift starts for Robinson. ESPN reload verified. decisions/2026-week-11-thursday-swift.json.

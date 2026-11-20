@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-11-thursday-swift",
+  "season": 2026,
+  "week": 11,
+  "observed_at": "2026-11-19T19:00:00-05:00",
+  "status": "executed",
+  "category": "lineup",
+  "summary": "Swift starts for Robinson",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "label": "ESPN team",
+      "observed_at": "2026-11-19T19:00:00-05:00",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026"
+    }
+  ],
+  "alternatives": [
+    {
+      "reason": "Jeanty 13.8 and Hall 12.9 projections trail Swift 16.9; Irving remains flexible-slot candidate",
+      "choice": "Jeanty and Hall"
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Swift has a 17.1 season scoring average and favorable New Orleans matchup while Robinson has a bye",
+  "missing_evidence": [
+    "Final Sunday/Monday availability remains subject to recheck. No trade or acquisition queue audit completed."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-22T12:00:00-05:00",
+  "deadline_at": null,
+  "verification": {
+    "infographic": "../analysis/infographics/2026-week-11-thursday-swift.png",
+    "result": "Fresh ESPN reload verified the scoring slot."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
