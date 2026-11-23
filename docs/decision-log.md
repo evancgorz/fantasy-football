@@ -654,3 +654,5 @@ November 19, 7 p.m. Eastern: Daniels starts for Love. ESPN reload verified. deci
 November 19, 7 p.m. Eastern: Swift starts for Robinson. ESPN reload verified. decisions/2026-week-11-thursday-swift.json.
 
 November 19, 7 p.m. Eastern: Irving starts for Smith-Njigba. ESPN reload verified. decisions/2026-week-11-thursday-irving.json.
+
+November22 20:46EST Week11 late check after night lock.119.76 opponent finished,77.60 Chet with two playing and Daniels Monday. No change. decisions/2026-week-11-sunday-night.json.

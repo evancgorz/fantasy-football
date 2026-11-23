@@ -1,0 +1,41 @@
+{
+  "notes": [
+    "We need more than 42.16 additional points to win, before corrections.",
+    "Jefferson and Reichard are playing. Daniels plays Monday.",
+    "Next check Monday 5 p.m. Eastern before the 7 p.m. final review."
+  ],
+  "metrics": [
+    {
+      "value": 77.6,
+      "observed_at": "2026-11-22T20:46:34-05:00",
+      "label": "Our actual points",
+      "kind": "actual"
+    },
+    {
+      "value": 119.76,
+      "observed_at": "2026-11-22T20:46:34-05:00",
+      "label": "PAYrents actual points",
+      "kind": "actual"
+    }
+  ],
+  "disclaimer": "ESPN projects us to finish at 122.7. Forecast is uncertain.",
+  "subtitle": "Satirical briefing | factual score and status",
+  "comedic_anchors": [
+    {
+      "report": "../2026-week-11.md",
+      "fact": "Three Chet scorers still have scoring time",
+      "joke": "Overdue project"
+    }
+  ],
+  "moves": [],
+  "sources": [
+    {
+      "observed_at": "2026-11-22T20:46:34-05:00",
+      "fact": "PAYrents119.76 finished. Chet77.60 actual,122.7 projected, two playing and one remaining.",
+      "label": "ESPN Week 11 box score",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=11&seasonId=2026&teamId=4"
+    }
+  ],
+  "observed_at": "2026-11-22T20:46:34-05:00",
+  "title": "Office requests three employees finish one overdue project"
+}

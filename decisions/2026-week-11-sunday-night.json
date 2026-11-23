@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-11-sunday-night",
+  "season": 2026,
+  "week": 11,
+  "observed_at": "2026-11-22T20:46:34-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "Late check after Sunday-night kickoff. Jefferson and Reichard locked and playing; Daniels remains scoring quarterback Monday.",
+  "responsible_automation": "sunday-late-game-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "observed_at": "2026-11-22T20:46:34-05:00",
+      "fact": "PAYrents119.76 finished. Chet77.60 actual,122.7 projected, two playing and one remaining.",
+      "label": "ESPN Week 11 box score",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=11&seasonId=2026&teamId=4"
+    }
+  ],
+  "alternatives": [
+    {
+      "choice": "Love or Hurts",
+      "evidence": "Bye or IR. No eligible on-roster Monday replacement."
+    }
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "No Sunday starter can legally be changed. Love is on bye and Hurts remains injured reserve. Retain Daniels pending Monday availability check.",
+  "missing_evidence": [
+    "Sunday noon and afternoon checks have no new shared record; pregame night availability review missed because this trigger arrived after kickoff. Monday practice/inactive status and independent transaction queue not refreshed."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-23T17:00:00-05:00",
+  "deadline_at": "2026-11-23T20:15:00-05:00",
+  "verification": {
+    "infographic": "../analysis/infographics/2026-week-11-sunday-night.png",
+    "result": "Authenticated live ESPN read. No ESPN mutation."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
