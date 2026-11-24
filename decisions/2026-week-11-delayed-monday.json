@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-11-delayed-monday",
+  "season": 2026,
+  "week": 11,
+  "observed_at": "2026-11-24T05:31:37-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "Delayed Monday wakeup on Tuesday verified Week 11 loss 112.36 to119.76. Daniels completed at17.06.",
+  "responsible_automation": "monday-night-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=11&seasonId=2026&teamId=4",
+      "observed_at": "2026-11-24T05:31:37-05:00",
+      "label": "ESPN box score"
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "All scoring games completed. No Monday pregame action remains. Next weekly review must audit missed coverage and score corrections.",
+  "missing_evidence": [
+    "Monday pregame availability was not checked in this run, which arrived Tuesday morning. Independent correction audit pending."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": null,
+  "deadline_at": null,
+  "verification": {
+    "result": "Authenticated team page and Week11 box score. No ESPN mutation."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}

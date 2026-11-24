@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=11&seasonId=2026&teamId=4",
+      "observed_at": "2026-11-24T05:31:37-05:00",
+      "label": "ESPN box score"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "joke": "Request more points",
+      "fact": "Lost by7.40",
+      "report": "../2026-week-11.md"
+    }
+  ],
+  "metrics": [
+    {
+      "value": 112.36,
+      "observed_at": "2026-11-24T05:31:37-05:00",
+      "kind": "actual",
+      "label": "Our actual points"
+    },
+    {
+      "value": 119.76,
+      "observed_at": "2026-11-24T05:31:37-05:00",
+      "kind": "actual",
+      "label": "PAYrents actual points"
+    }
+  ],
+  "subtitle": "Satirical briefing | factual final snapshot",
+  "observed_at": "2026-11-24T05:31:37-05:00",
+  "disclaimer": "Scores subject to corrections. Monday wakeup arrived Tuesday morning.",
+  "moves": [],
+  "title": "Comeback department submits work 7.40 points short",
+  "notes": [
+    "We lost by 7.40 points. Daniels scored 17.06 Monday.",
+    "Management has requested that next week contain more points.",
+    "Next check: Tuesday 9 a.m. Eastern weekly review."
+  ]
+}
