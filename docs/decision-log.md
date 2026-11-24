@@ -658,3 +658,5 @@ November 19, 7 p.m. Eastern: Irving starts for Smith-Njigba. ESPN reload verifie
 November22 20:46EST Week11 late check after night lock.119.76 opponent finished,77.60 Chet with two playing and Daniels Monday. No change. decisions/2026-week-11-sunday-night.json.
 
 November24 05:31EST delayed Monday run: Week11 loss112.36–119.76, Daniels17.06. Monday pregame window missed. No change. decisions/2026-week-11-delayed-monday.json.
+
+November24 08:59EST weekly review blocked: supported browser inventory empty; iab inventory and fresh-tab creation unavailable. Current holiday locks unverified. decisions/2026-week-12-review-blocked.json.

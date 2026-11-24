@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-12-review-blocked",
+  "season": 2026,
+  "week": 12,
+  "observed_at": "2026-11-24T08:59:45-05:00",
+  "status": "blocked",
+  "category": "access",
+  "summary": "Weekly review blocked by unavailable browser service.",
+  "responsible_automation": "fantasy-weekly-review",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "In-app inventory and fresh team-tab creation both returned Browser is not available: iab. Supported browser inventory empty. No ESPN inspection or mutation.",
+  "missing_evidence": [
+    "Current identity/week, standings, corrections, health, full roster and bench review, three available acquisition candidates, defense/kicker market, pending claims/offers, rules and holiday locks."
+  ],
+  "execution_conditions": [],
+  "fallback": "",
+  "recheck_at": "2026-11-24T19:00:00-05:00",
+  "deadline_at": null,
+  "verification": {
+    "result": "Browser-unavailable, not an observed ESPN login failure."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
