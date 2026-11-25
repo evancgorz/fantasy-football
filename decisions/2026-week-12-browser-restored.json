@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-12-browser-restored",
+  "season": 2026,
+  "week": 12,
+  "observed_at": "2026-11-25T07:56:45.4741967-05:00",
+  "status": "completed",
+  "category": "access",
+  "summary": "Authenticated ESPN access restored in the existing Head Coach chat.",
+  "responsible_automation": "owner-requested recovery",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [
+    {
+      "observed_at": "2026-11-25T07:56:45.4741967-05:00",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "label": "ESPN team clubhouse"
+    }
+  ],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Opened the installed desktop app and navigated its main window to the existing Head Coach chat. Browser calls still failed until the Computer Use JavaScript session was reset through its supported tool. Fresh in-app navigation then displayed the authenticated Week 12 clubhouse. The earlier graceful restart timed out and the app process was unchanged.",
+  "missing_evidence": [
+    "Unattended access on a future heartbeat and availability near kickoff require separate verification."
+  ],
+  "execution_conditions": [],
+  "fallback": "If access recurs, use the supported desktop navigation and fresh Computer Use session once, then verify the live roster.",
+  "recheck_at": null,
+  "deadline_at": null,
+  "verification": {
+    "result": "ESPN displayed team 3, season 2026, Week 12, roster controls and Chet and the Jets at 8-3, first of four. Authenticated tab 2 was preserved. No ESPN lineup change during the recovery."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Browser access restored and verified interactively."
+  }
+}

@@ -55,3 +55,7 @@ November 8 owner-triggered retry bound existing in-app tab 1 successfully and re
 ## November 25 owner-requested runtime diagnosis
 
 Read-only installed metadata verified browser, unified-computer-use, chrome and computer-use enabled at version 26.1120.50957, and the matching browser-client.mjs exists. With no initialized Node browser bindings, one supported setupBrowserRuntime call returned: **Local browser access is unavailable for this chat**. This refines the earlier iab-unavailable diagnosis: installed plugins are present, but this chat cannot initialize local browser access. It is not a verified ESPN login failure. Do not repeatedly reinstall, recreate tabs, switch control mechanisms, change security settings or create a replacement chat to evade this restriction. Restore supported local browser availability in the existing chat, then rerun the documented setup and verify ESPN. No repair or login state has been verified.
+
+## November 25 verified recovery
+
+Open the installed desktop app if it has no visible window. Use the app navigation tool to show the existing Head Coach chat. If the current Computer Use session still reports local access unavailable after navigation, reset that JavaScript session once and open the ESPN team tab using the supported in-app entry point. This sequence restored authenticated Week 12 access on November 25. Reset clears tool bindings rather than browser data. Preserve the verified team tab. The earlier app restart timed out. This interactive recovery does not establish unattended coverage.

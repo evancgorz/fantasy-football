@@ -668,3 +668,5 @@ November25 05:32EST delayed waiver run: explicit ESPN tab creation failed, suppo
 November25 07:51EST owner explicitly authorized autonomous app restart. Prepared one normal-close/relaunch attempt with 30-second close timeout and no force termination. Browser repair unverified. decisions/2026-week-12-graceful-app-restart.json.
 
 November25 restart outcome verification: normal close timed out; helper aborted without force termination. Supported browser startup retest still reports local browser access unavailable for this chat. No ESPN mutation.
+
+2026-11-25T07:56:45.4741967-05:00 browser recovery verified. Navigated the desktop to the existing chat and reset the supported Computer Use session. Authenticated ESPN Week 12 clubhouse loaded and tab preserved. ESPN displays Swift Thursday at 1 p.m. Eastern, before regular preflight. decisions/2026-week-12-browser-restored.json.
