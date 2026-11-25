@@ -666,3 +666,5 @@ November25 05:32EST delayed waiver run: explicit ESPN tab creation failed, suppo
 2026-11-25T07:49:41.9680369-05:00 owner-requested browser repair: installed/enabled integration verified; documented runtime initialization returned Local browser access is unavailable for this chat. No ESPN access or mutation; repair not verified. decisions/2026-week-12-owner-browser-recovery.json.
 
 November25 07:51EST owner explicitly authorized autonomous app restart. Prepared one normal-close/relaunch attempt with 30-second close timeout and no force termination. Browser repair unverified. decisions/2026-week-12-graceful-app-restart.json.
+
+November25 restart outcome verification: normal close timed out; helper aborted without force termination. Supported browser startup retest still reports local browser access unavailable for this chat. No ESPN mutation.

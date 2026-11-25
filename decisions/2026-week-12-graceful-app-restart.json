@@ -3,10 +3,10 @@
   "id": "2026-week-12-graceful-app-restart",
   "season": 2026,
   "week": 12,
-  "observed_at": "2026-11-25T07:51:16.1910220-05:00",
-  "status": "proposed",
+  "observed_at": "2026-11-25T07:51:16.191022-05:00",
+  "status": "blocked",
   "category": "access",
-  "summary": "Owner authorized a bounded graceful desktop-app restart; browser repair remains unverified.",
+  "summary": "Graceful restart aborted after normal-close timeout; browser access still unavailable.",
   "responsible_automation": "owner-requested recovery",
   "requires_owner_approval": false,
   "owner_approval": null,
@@ -26,11 +26,11 @@
   "recheck_at": null,
   "deadline_at": null,
   "verification": {
-    "result": "Restart prepared; launch and browser access not yet verified."
+    "result": "Helper status at 2026-11-25T07:52:29-05:00: Normal close timed out; app left running, no force termination. Follow-up supported browser startup again returned Local browser access is unavailable for this chat."
   },
   "outcome": {
     "actual_points": null,
     "alternative_actual_points": null,
-    "process_review": "Restart may interrupt current tool connection. Helper writes a local status file for later inspection. A successful relaunch alone does not verify browser repair."
+    "process_review": "Restart did not complete and browser repair failed verification. No forced termination or ESPN mutation."
   }
 }
