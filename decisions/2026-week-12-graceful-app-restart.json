@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-12-graceful-app-restart",
+  "season": 2026,
+  "week": 12,
+  "observed_at": "2026-11-25T07:51:16.1910220-05:00",
+  "status": "proposed",
+  "category": "access",
+  "summary": "Owner authorized a bounded graceful desktop-app restart; browser repair remains unverified.",
+  "responsible_automation": "owner-requested recovery",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Owner explicitly requested autonomous app restart because manual action is unavailable. Verified main ChatGPT window process 28428 and installed executable path. A detached local helper will request normal window closure once, wait up to 30 seconds, and relaunch the same installed executable only after that process exits. No force termination, data clearing, credential access, permission changes, automation changes or alternate browser-control path.",
+  "missing_evidence": [
+    "Current identity/week, standings, corrections, health, full roster and bench review, three available acquisition candidates, defense/kicker market, pending claims/offers, rules and holiday locks."
+  ],
+  "execution_conditions": [],
+  "fallback": "If normal close is refused or times out, helper records aborted and leaves app running. If relaunched, verify existing Head Coach chat and supported ESPN browser access before any team mutation.",
+  "recheck_at": null,
+  "deadline_at": null,
+  "verification": {
+    "result": "Restart prepared; launch and browser access not yet verified."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Restart may interrupt current tool connection. Helper writes a local status file for later inspection. A successful relaunch alone does not verify browser repair."
+  }
+}

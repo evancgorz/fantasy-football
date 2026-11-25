@@ -664,3 +664,5 @@ November24 08:59EST weekly review blocked: supported browser inventory empty; ia
 November25 05:32EST delayed waiver run: explicit ESPN tab creation failed, supported browser inventory empty. Claims/awards and Thanksgiving locks unverified; no ESPN mutation. decisions/2026-week-12-waiver-access-blocked.json.
 
 2026-11-25T07:49:41.9680369-05:00 owner-requested browser repair: installed/enabled integration verified; documented runtime initialization returned Local browser access is unavailable for this chat. No ESPN access or mutation; repair not verified. decisions/2026-week-12-owner-browser-recovery.json.
+
+November25 07:51EST owner explicitly authorized autonomous app restart. Prepared one normal-close/relaunch attempt with 30-second close timeout and no force termination. Browser repair unverified. decisions/2026-week-12-graceful-app-restart.json.
