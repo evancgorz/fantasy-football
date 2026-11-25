@@ -4,6 +4,8 @@ Updated October 15, 2026. All times are America/New_York. The six ACTIVE app aut
 
 ## Required recovery sequence
 
+If the in-app browser service reports that local access is unavailable, follow the [verified Head Coach chat recovery procedure](browser-tooling.md#recover-local-browser-access-for-the-head-coach-chat) before logging the run as blocked.
+
 Read browser-tooling.md first. Missing unified Computer Use does not mean all browser controls are absent: the installed Browser plugin may expose its supported Node tool and require runtime initialization. Use its documented setup, not a queued panel or shell workaround, and distinguish tooling/runtime failures from actual ESPN login-required.
 
 1. Owner changed the preference to the in-app browser on October 4. Select iab first; reuse its ESPN tab or open one even when its tab inventory is empty. Do not treat missing tabs as failed authentication.

@@ -1,5 +1,27 @@
 # Browser tooling readiness and recovery
 
+## Recover local browser access for the Head Coach chat
+
+Use this sequence when supported in-app tab creation fails because the browser service is unavailable, including when the tool says `Local browser access is unavailable for this chat`. If the browser is reachable but the ESPN tab is missing, use normal tab creation first.
+
+1. Check the desktop app's window inventory through Computer Use. If the installed ChatGPT app has no visible window, open it using its returned app ID and verify that its window appears.
+2. Use `mcp__codex_app__navigate_to_codex_page` with `threadId: "01a09c17-7e9a-7380-9748-bda15f3dcf51"` to show the existing Head Coach chat. Check for `navigated: true`.
+3. Retry the supported in-app browser connection from that chat. If local access is still unavailable, run `mcp__cua_repl.js_reset` once. This clears the Computer Use JavaScript bindings and leaves browser data intact.
+4. Make this the first call in the fresh Computer Use session. Read its returned documentation and initial page state.
+
+   ```javascript
+   let espn = await cua.createBrowserTab(
+     "iab",
+     "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+     { visible: true },
+   );
+   ```
+
+5. Verify that ESPN shows the signed-in Chet and the Jets clubhouse, the requested league, team and season, and the current week's roster and management controls. Preserve the verified team tab with the browser's documented tab-marking method. Refresh game deadlines and pending transactions before continuing the coaching run.
+6. If ESPN visibly requests sign-in, preserve the sign-in tab and follow the manual handoff procedure. If browser initialization still fails after the reset, record the exact tool failure and any affected deadline. A queued browser panel only opens when the chat is shown. Confirm access from readable ESPN content before reporting recovery.
+
+This sequence restored authenticated Week 12 access on November 25 after a graceful app restart attempt timed out. Future scheduled runs still need to verify access independently. [Verified recovery record](../decisions/2026-week-12-browser-restored.json).
+
 ## November 1 access recovery
 
 Sunday08AMEST supported unified Computer Use successfully read authenticated team3/2026/Week8 and saved/reloaded three legal lineup changes. No permission/security changes or credential access. October30 permission failure below is historical, not a current blocker. Future runs still verify access independently; this does not establish late-trigger cause or repair scheduling. Current in-app tab1 preserved for next check.
@@ -55,7 +77,3 @@ November 8 owner-triggered retry bound existing in-app tab 1 successfully and re
 ## November 25 owner-requested runtime diagnosis
 
 Read-only installed metadata verified browser, unified-computer-use, chrome and computer-use enabled at version 26.1120.50957, and the matching browser-client.mjs exists. With no initialized Node browser bindings, one supported setupBrowserRuntime call returned: **Local browser access is unavailable for this chat**. This refines the earlier iab-unavailable diagnosis: installed plugins are present, but this chat cannot initialize local browser access. It is not a verified ESPN login failure. Do not repeatedly reinstall, recreate tabs, switch control mechanisms, change security settings or create a replacement chat to evade this restriction. Restore supported local browser availability in the existing chat, then rerun the documented setup and verify ESPN. No repair or login state has been verified.
-
-## November 25 verified recovery
-
-Open the installed desktop app if it has no visible window. Use the app navigation tool to show the existing Head Coach chat. If the current Computer Use session still reports local access unavailable after navigation, reset that JavaScript session once and open the ESPN team tab using the supported in-app entry point. This sequence restored authenticated Week 12 access on November 25. Reset clears tool bindings rather than browser data. Preserve the verified team tab. The earlier app restart timed out. This interactive recovery does not establish unattended coverage.

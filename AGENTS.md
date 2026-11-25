@@ -19,3 +19,5 @@ October 20 owner presentation preference: overview slides/infographics should be
 Owner knows nothing about football: make owner-facing updates understandable without football knowledge. Explain who each player is, what we are doing and why it helps in plain language before/within the joke. Spell out unfamiliar terms; no unexplained football abbreviations. Humor must work without knowing the sport. See the beginner-accessibility rules in docs/infographics.md.
 
 November 8 owner clarification: actively bind or create a supported ESPN browser tab on every run. Empty inventory alone is insufficient to stop. Follow the recovery steps in docs/browser-tooling.md and preserve successful tabs each turn. Distinguish failed tab recovery from an unavailable browser service.
+
+If the local browser service is unavailable, use the [verified recovery procedure](docs/browser-tooling.md#recover-local-browser-access-for-the-head-coach-chat) before declaring the run blocked.
