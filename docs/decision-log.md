@@ -662,3 +662,5 @@ November24 05:31EST delayed Monday run: Week11 loss112.36–119.76, Daniels17.06
 November24 08:59EST weekly review blocked: supported browser inventory empty; iab inventory and fresh-tab creation unavailable. Current holiday locks unverified. decisions/2026-week-12-review-blocked.json.
 
 November25 05:32EST delayed waiver run: explicit ESPN tab creation failed, supported browser inventory empty. Claims/awards and Thanksgiving locks unverified; no ESPN mutation. decisions/2026-week-12-waiver-access-blocked.json.
+
+2026-11-25T07:49:41.9680369-05:00 owner-requested browser repair: installed/enabled integration verified; documented runtime initialization returned Local browser access is unavailable for this chat. No ESPN access or mutation; repair not verified. decisions/2026-week-12-owner-browser-recovery.json.

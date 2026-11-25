@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-12-owner-browser-recovery",
+  "season": 2026,
+  "week": 12,
+  "observed_at": "2026-11-25T07:49:41.9680369-05:00",
+  "status": "blocked",
+  "category": "access",
+  "summary": "Owner-requested recovery isolated chat-level browser access failure; repair not verified.",
+  "responsible_automation": "owner-requested recovery",
+  "requires_owner_approval": false,
+  "owner_approval": null,
+  "sources": [],
+  "alternatives": [],
+  "expected_benefit": {
+    "points": null,
+    "basis": "",
+    "confidence": "unknown"
+  },
+  "rationale": "Read-only codex plugin list verified browser, unified-computer-use, chrome and computer-use installed/enabled at 26.1120.50957. Verified current browser-client.mjs exists. Available supported Node REPL had no initialized agent/browser. One documented trusted-runtime initialization failed with Local browser access is unavailable for this chat. This is a chat-level browser access failure before ESPN inspection; not an observed ESPN login error. Browser bootstrap guidance requires reporting unavailable access rather than switching to unrelated control mechanisms.",
+  "missing_evidence": [
+    "Current identity/week, standings, corrections, health, full roster and bench review, three available acquisition candidates, defense/kicker market, pending claims/offers, rules and holiday locks."
+  ],
+  "execution_conditions": [],
+  "fallback": "Restore local browser availability for this existing Head Coach chat through the application. After restoration, initialize the supported runtime, create or bind ESPN team tab, verify authenticated league/team/season/week and persisted transactions, then resume current-scope management. No security change, credential request, new chat or automation alteration.",
+  "recheck_at": null,
+  "deadline_at": null,
+  "verification": {
+    "result": "Plugin installation and runtime file verified; runtime startup denied access for this chat. ESPN access and repair remain unverified."
+  },
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "More precise blocker established; installed plugin does not establish live browser-service availability."
+  }
+}
