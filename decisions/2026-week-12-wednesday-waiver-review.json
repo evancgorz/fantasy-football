@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-12-wednesday-waiver-review",
+  "season": 2026,
+  "week": 12,
+  "observed_at": "2026-11-25T18:57:58-05:00",
+  "status": "retained",
+  "category": "acquisition",
+  "summary": "Keep the roster after Wednesday verification. Flag Swift’s Thanksgiving deadline for lineup review.",
+  "responsible_automation": "fantasy-waiver-execution",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "label": "Team clubhouse",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    },
+    {
+      "label": "League settings",
+      "url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    },
+    {
+      "label": "Waiver report",
+      "url": "https://fantasy.espn.com/football/league/waiverreport?leagueId=582597924",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    },
+    {
+      "label": "Recent activity",
+      "url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    },
+    {
+      "label": "Available players",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    },
+    {
+      "label": "Week 12 box score",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=12&scoringPeriodId=12&seasonId=2026&teamId=2&view=scoringperiod",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    }
+  ],
+  "alternatives": [
+    "Bijan Robinson: retain. ESPN projects 17.7 with a 19.8 average despite a difficult Minnesota matchup (fifth by ESPN opponent rank). First internal alternative to Swift if availability is confirmed.",
+    "Jaxon Smith-Njigba: retain. 21.6 projected, 26.3 average and first at his position. Strong alternative to Olave in the scoring lineup.",
+    "Ashton Jeanty: retain. 15.3 projected, 16.1 average and 27.9 last game. Sunday night timing provides backup flexibility.",
+    "Drake London: monitor and retain. 14.0 projected, 13.9 average and a difficult Minnesota matchup. Higgins offers a credible upgrade on scoring evidence, but current comparative workload and playoff value were not established.",
+    "Breece Hall: retain. 13.8 projected and 14.7 average, with 19.0 last game and a softer Miami matchup. Useful behind multiple close running back choices.",
+    "Jordan Love: hold for now and monitor. 13.4 projected against the Rams versus Daniels at 22.0. Love averages 19.6 and gives short-term depth while Hurts remains on injured reserve. Purdy is the stronger replacement candidate if his workload and future matchups support it.",
+    "Malik Nabers: retain. 16.5 projected, 15.6 average and 18.5 last game. Direct alternative to Olave if availability or role changes.",
+    "Free agents: Brock Purdy 18.8 projected and 22.5 average but a difficult Seattle matchup. Trevor Lawrence 23.3 projected against Tennessee and 18.7 average, a plausible one-week play with limited margin over Daniels at 22.0. Tee Higgins 15.8 projected and 18.4 average deserves comparison with London, but has no clear path into the scoring lineup over Jefferson and Smith-Njigba. Derrick Henry 14.5 projected and 16.4 average is comparable to our reserve backs, with Robinson and Irving ahead for Week 12.",
+    "Defense: Pittsburgh 6.4 projected and 7.3 average. Available Minnesota 6.5/10.6 (0 last game); Jacksonville 6.9/7.5; Seattle 4.4/8.9. Minnesota is the strongest follow-up, especially for future weeks. Its small immediate edge and uncertain matchup benefit against Atlanta do not justify losing Pittsburgh on this evidence.",
+    "Kicker: available Cam Little 12.6 projected and 11.1 average versus Will Reichard at 11.0/10.4. Tennessee provides the better ESPN matchup rank. Field goal opportunities fluctuate, and remaining schedule and conditions were not established. Keep Reichard for now and revisit if conditions or role change.",
+    "Injured reserve: ESPN still lists Jalen Hurts on IR with 0.0 projected. Keep the eligible stash. ESPN lists 16 roster spots (9 starters and 7 bench) plus one IR, all filled."
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Keep known depth and preserve options until a clear upgrade is supported by role and schedule evidence.",
+    "confidence": "moderate"
+  },
+  "rationale": "ESPN showed an 8–3 record, first of four, with individual kickoff locks, full point per reception, one-day waivers, inverse standings priority (4 of 4), no acquisition limit, and a Dec 2 noon Eastern trade deadline. Waiver Report and Recent Activity confirm the prior Steelers-for-Seahawks award on Nov 18 at 3:14 a.m. as displayed. No Nov 25 award for this team was visible and there was no Week 12 submission in the repo. No pending claims or offers were surfaced on the team page; there was no separate verified pending-offer list. Available candidates inspected were marked free agents. No actionable offer was verified.",
+  "missing_evidence": [
+    "Official Thanksgiving inactives and updated practice/workload data beyond Swift’s ESPN card. Future matchup and playoff role comparisons for possible churn. Exact next processing time for an actual waiver listing. A separate pending offer list did not surface."
+  ],
+  "execution_conditions": [
+    "Before Thanksgiving 1 p.m. Eastern, refresh Swift and Robinson. Prefer Robinson if both are healthy based on season scoring and later kickoff flexibility. Swift had 15 touches to Kyle Monangai’s eight last game per ESPN, with a possible workload shift into a tough Detroit matchup. Swift remains playable if confirmed healthy and Robinson’s status worsens.",
+    "Keep Daniels over early-playing Love. Reassess Smith-Njigba over Olave and late flexibility before Sunday. Pittsburgh plays Friday 3 p.m. Eastern."
+  ],
+  "fallback": "Lineup run must handle swaps. If the ordinary Thursday check fires after Swift has locked, leave his scoring slot intact and optimize remaining unlocked positions.",
+  "recheck_at": "2026-11-26T12:00:00-05:00",
+  "deadline_at": "2026-11-26T13:00:00-05:00",
+  "verification": "Authenticated roster, waiver report, recent activity, league settings and free agent list read in scheduled run. No ESPN mutation. See ../analysis/infographics/2026-week-12-wednesday-waiver-review.png.",
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": "Wednesday review confirmed prior award and identified Thanksgiving coverage gap."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Personnel freezes hiring, discovers lunch deadline",
+  "subtitle": "Satirical briefing | factual projections and status",
+  "observed_at": "2026-11-25T18:57:58-05:00",
+  "metrics": [
+    {
+      "label": "Chet and the Jets",
+      "value": 137.55,
+      "kind": "projection",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    },
+    {
+      "label": "Oldies but Goodies",
+      "value": 135.14,
+      "kind": "projection",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Roster stays put",
+      "status": "Retained",
+      "reason": "Our backups already cover the openings. HR files a requisition for a calendar."
+    }
+  ],
+  "notes": [
+    "Pittsburgh defense’s earlier pickup verified.",
+    "Check D’Andre Swift before Thanksgiving at 1 p.m. Eastern."
+  ],
+  "disclaimer": "ESPN projections. No roster or scoring lineup changes in this review.",
+  "sources": [
+    {
+      "label": "Team clubhouse",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    },
+    {
+      "label": "Week 12 box score",
+      "url": "https://fantasy.espn.com/football/boxscore?leagueId=582597924&matchupPeriodId=12&scoringPeriodId=12&seasonId=2026&teamId=2&view=scoringperiod",
+      "observed_at": "2026-11-25T18:57:58-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "fact": "No acquisitions and a Thanksgiving kickoff before regular coverage",
+      "joke": "HR files a requisition for a calendar",
+      "report": "../2026-week-12.md"
+    }
+  ]
+}
