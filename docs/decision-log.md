@@ -676,3 +676,5 @@ November 25, 6:58 p.m. Eastern: scheduled ESPN access verified. November 18 Pitt
 November 26, 4:57 p.m. Eastern: read-only Thanksgiving preflight reached ESPN after Swift’s 1 p.m. lock. Swift scored 29.2 in the scoring lineup. Live score 29.20–27.62. Pittsburgh Friday 3 p.m. next. decisions/2026-week-12-thursday-preflight.json.
 
 November 26 evening, Week 12: started Robinson for Taylor in the open running-back slot. ESPN reload verified both slots. decisions/2026-week-12-robinson-for-taylor.json.
+
+November 26 evening, Week 12: kept Pittsburgh for Friday 3 p.m. Eastern and Olave pending Smith-Njigba’s ankle update before Sunday 1 p.m. Eastern. decisions/2026-week-12-thursday-retain.json.

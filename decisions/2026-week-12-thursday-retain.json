@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-12-thursday-retain",
+  "season": 2026,
+  "week": 12,
+  "observed_at": "2026-11-26T18:55:22-05:00",
+  "status": "retained",
+  "category": "lineup",
+  "summary": "Retained Pittsburgh for Friday and kept Olave as the early receiver while Smith-Njigba’s ankle status develops.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "label": "ESPN roster and player card",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-26T18:55:22-05:00"
+    },
+    {
+      "label": "ESPN available players",
+      "url": "https://fantasy.espn.com/football/players/add?leagueId=582597924",
+      "observed_at": "2026-11-26T18:55:22-05:00"
+    },
+    {
+      "label": "ESPN league settings",
+      "url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924",
+      "observed_at": "2026-11-26T18:55:22-05:00"
+    },
+    {
+      "label": "ESPN recent activity",
+      "url": "https://fantasy.espn.com/football/recentactivity?leagueId=582597924",
+      "observed_at": "2026-11-26T18:55:22-05:00"
+    }
+  ],
+  "alternatives": [
+    "Pittsburgh (6.4 projected, 7.3 average) starts Friday at 3 p.m. Eastern. Free agents San Francisco (7.5, 8.1) and Jacksonville (6.9, 7.5) show slight improvements. Tampa Bay (6.5, 9.2) has a better season average but scored -1 most recently and plays Monday. Washington (8.9, 4.9) has the highest displayed forecast among these but worse season scoring. Minnesota is rostered by Anna’s Bananas. Houston is on Saturday waivers. The full roster would require a drop, with insufficient evidence of a durable upgrade.",
+    "Olave (14.5 projected, 16.7 average) stays for now. Nabers (16.5, 15.6) is the closest early fallback. Smith-Njigba (21.6, 26.3) is the leading upside option if his ankle supports a normal workload, but he was limited in both practice reports per ESPN and starts later. London is another early option (14.0, 13.9).",
+    "Reichard (11.0 projected, 10.4 average) stays with Sunday flexibility. Available Cam Little (12.6, 11.1) offers a small modeled edge without an established schedule or role advantage worth the roster churn."
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Guard against an uncovered receiver slot and avoid sacrificing an existing defense for a small, uncertain improvement.",
+    "confidence": "moderate"
+  },
+  "rationale": "ESPN confirmed point-per-reception scoring and individual game-time locks. Swift and Love had already played and Hurts remained on injured reserve during Philadelphia’s game. Robinson’s sole lineup change is separately recorded. Keep Daniels, Jefferson, McBride and Irving in their existing spots at this check. Recent activity showed the Minnesota acquisition by Anna. No team pending claim or offer notice was visible; no separate offer list was verified.",
+  "missing_evidence": [
+    "Official Sunday inactives and Friday final practice report were not available in this review. No separate pending-offer list was verified. No current team defense inactive lists were verified."
+  ],
+  "execution_conditions": [
+    "Keep Pittsburgh’s Friday 3 p.m. Eastern lineup deadline in view. Before Sunday 1 p.m. Eastern, use Friday’s practice report and current updates to choose between the receivers. Start Smith-Njigba if expected to play normally or if a legal later receiver fallback is secured. Otherwise choose between Olave and Nabers on confirmed role and availability."
+  ],
+  "fallback": "If forced to choose before the 1 p.m. players lock with no viable later receiver fallback, use the best confirmed early receiver. Keep Irving in the flexible slot pending Monday availability.",
+  "recheck_at": "2026-11-29T12:00:00-05:00",
+  "deadline_at": "2026-11-27T15:00:00-05:00",
+  "verification": "ESPN showed Pittsburgh scoring, Olave scoring and Smith-Njigba on the bench. No additional ESPN transaction. See ../analysis/infographics/2026-week-12-robinson-for-taylor.png for the action-run briefing.",
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}
