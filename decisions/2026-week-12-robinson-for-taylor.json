@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-12-robinson-for-taylor",
+  "season": 2026,
+  "week": 12,
+  "observed_at": "2026-11-26T18:55:22-05:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Started Bijan Robinson over Jonathan Taylor at running back.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation",
+  "sources": [
+    {
+      "label": "ESPN roster and player cards",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-26T18:55:22-05:00"
+    }
+  ],
+  "alternatives": [
+    "Taylor: Healthy, 14.0 projected and 15.7 season average. ESPN card cited 16.3 touches per game over his last four and said Seth McGowan is out, which could restore some work.",
+    "Robinson: Healthy, 17.7 projected and 19.8 season average. ESPN card cited 22.0 touches per game and recent receiving volume, with a difficult Vikings matchup.",
+    "Hall and Jeanty are viable backups, projected 13.8 and 15.3. Swift’s Thursday slot is locked. Irving stays in the Monday flex slot pending later review."
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "ESPN lineup display moved from 137.55 to 141.26. Robinson’s workload and receiving role favor him in reception scoring, with Taylor’s recent role and McGowan’s absence tempering confidence.",
+    "confidence": "moderate"
+  },
+  "rationale": "Both candidates were healthy on ESPN and start Sunday at 1 p.m. Eastern. Robinson’s greater reported workload and reception floor outweigh the difficult matchup. Taylor’s upside if vacated carries return is the strongest reason to keep him as first backup.",
+  "missing_evidence": [
+    "Official Sunday inactives are not yet available."
+  ],
+  "execution_conditions": [
+    "ESPN exposed an eligible swap between the two unlocked running backs."
+  ],
+  "fallback": "If Robinson’s eligibility or health changes before Sunday at 1 p.m. Eastern, compare Taylor, Hall and Jeanty again.",
+  "recheck_at": "2026-11-29T12:00:00-05:00",
+  "deadline_at": "2026-11-29T13:00:00-05:00",
+  "verification": "Reload displayed Robinson at RB, Taylor on the bench and Swift’s 29.2 actual points unchanged. See ../analysis/infographics/2026-week-12-robinson-for-taylor.png.",
+  "outcome": {
+    "actual_points": null,
+    "alternative_actual_points": null,
+    "process_review": null
+  }
+}

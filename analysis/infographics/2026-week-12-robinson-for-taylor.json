@@ -1,0 +1,45 @@
+{
+  "title": "Robinson promoted after a workload audit",
+  "subtitle": "Satirical briefing | factual projections and status",
+  "observed_at": "2026-11-26T18:55:22-05:00",
+  "metrics": [
+    {
+      "label": "Our lineup before the swap",
+      "value": 137.55,
+      "kind": "projection",
+      "observed_at": "2026-11-26T18:55:22-05:00"
+    },
+    {
+      "label": "Our lineup after the swap",
+      "value": 141.26,
+      "kind": "projection",
+      "observed_at": "2026-11-26T18:55:22-05:00"
+    }
+  ],
+  "moves": [
+    {
+      "label": "Bijan Robinson starts for Jonathan Taylor",
+      "status": "Executed",
+      "reason": "Robinson handles the ball more often. Payroll has issued him a second inbox."
+    }
+  ],
+  "notes": [
+    "D’Andre Swift’s 29.2 actual points still count.",
+    "Next deadline: Pittsburgh defense, Friday 3 p.m. Eastern."
+  ],
+  "disclaimer": "Projected lineup totals. The change is not points scored.",
+  "sources": [
+    {
+      "label": "ESPN roster and player cards",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-26T18:55:22-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "fact": "Robinson has the larger reported workload",
+      "joke": "Payroll issued a second inbox",
+      "report": "../2026-week-12.md"
+    }
+  ]
+}
