@@ -1,0 +1,40 @@
+{
+  "title": "Swift clocks in before the office opens",
+  "subtitle": "Satirical briefing | factual scores and status",
+  "observed_at": "2026-11-26T16:57:20-05:00",
+  "metrics": [
+    {
+      "label": "Chet and the Jets",
+      "value": 29.2,
+      "kind": "actual",
+      "observed_at": "2026-11-26T16:57:20-05:00"
+    },
+    {
+      "label": "Oldies but Goodies",
+      "value": 27.62,
+      "kind": "actual",
+      "observed_at": "2026-11-26T16:57:20-05:00"
+    }
+  ],
+  "moves": [],
+  "notes": [
+    "Swift scored all 29.2 of our points so far.",
+    "His slot locked before the scheduled check.",
+    "Next team deadline: Pittsburgh defense, Friday 3 p.m. Eastern."
+  ],
+  "disclaimer": "Live Week 12 score. Read-only check. Final scores may change.",
+  "sources": [
+    {
+      "label": "ESPN roster, player card and live matchup",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-26T16:57:20-05:00"
+    }
+  ],
+  "comedic_anchors": [
+    {
+      "fact": "Swift’s kickoff preceded the preflight",
+      "joke": "Swift clocks in before the office opens",
+      "report": "../2026-week-12.md"
+    }
+  ]
+}

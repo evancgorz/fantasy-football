@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "id": "2026-week-12-thursday-preflight",
+  "season": 2026,
+  "week": 12,
+  "observed_at": "2026-11-26T16:57:20-05:00",
+  "status": "completed",
+  "category": "lineup",
+  "summary": "Read-only holiday preflight verified Swift’s 29.2 actual points and flagged the missed pre-kickoff window.",
+  "responsible_automation": "thursday-lineup-check",
+  "requires_owner_approval": false,
+  "owner_approval": "October 11 hands-off delegation applies to the subsequent action window. This preflight was read-only.",
+  "sources": [
+    {
+      "label": "ESPN roster, player card and live matchup",
+      "url": "https://fantasy.espn.com/football/team?leagueId=582597924&teamId=3&seasonId=2026",
+      "observed_at": "2026-11-26T16:57:20-05:00"
+    },
+    {
+      "label": "ESPN league settings",
+      "url": "https://fantasy.espn.com/football/league/settings?leagueId=582597924",
+      "observed_at": "2026-11-26T16:57:20-05:00"
+    }
+  ],
+  "alternatives": [
+    "Swift is locked. His 29.2 points are actual and recorded in the scoring lineup. The Wednesday Robinson-for-Swift idea expired at Thursday kickoff; no alternative outcome is imputed.",
+    "Friday: Pittsburgh remains the only rostered defense. ESPN projects 6.4 and shows Friday 3 p.m. Eastern. Wednesday alternatives were Minnesota 6.5 and Jacksonville 6.9. Recheck market, matchup and cost before any acquisition. Both Wednesday differences were small.",
+    "Sunday running back: Robinson (17.7 projected, 19.8 season average) leads Taylor (14.0, 15.7) and Hall (13.8, 14.7) with a difficult Minnesota matchup. Jeanty (15.3, 16.1) has a later game and remains a useful fallback. Healthy Robinson is the provisional choice over Taylor after current status and eligible slots are verified.",
+    "Sunday receiver: Smith-Njigba (21.6 projected, 26.3 average) has a higher expected ceiling than Olave (14.5, 16.7) or Nabers (16.5, 15.6). ESPN’s card reports limited Wednesday practice with an ankle injury. Keep an early-game fallback until Friday report and Sunday availability clarify risk. Olave has the stronger season average, while Nabers has the higher ESPN projection and the same 1 p.m. deadline. London (14.0, 13.9) is a lower priority fallback.",
+    "Daniels remains the Sunday quarterback. Love already played Wednesday and scored 8.62 on the bench. Hurts is on injured reserve and Philadelphia’s game was underway. Irving is in the Monday flexible slot, with no backup on this roster shown playing that late."
+  ],
+  "expected_benefit": {
+    "points": null,
+    "basis": "Action handoff only. ESPN forecasts are comparison inputs.",
+    "confidence": "moderate"
+  },
+  "rationale": "The first scheduled Thursday check arrived after Swift’s listed 1 p.m. kickoff. Authenticated ESPN showed Week 12, individual game-time locks, point-per-reception scoring, and a live score of 29.20–27.62. Swift’s game was final. The later Thursday game involving Hurts was already underway and he remained on injured reserve. No pending claim or offer surfaced on the team page.",
+  "missing_evidence": [
+    "Independent official inactive lists and final practice reports were not verified. No separate pending-offer list was verified. Friday market prices and availability require a fresh check before any transaction."
+  ],
+  "execution_conditions": [
+    "At 7 p.m. Eastern refresh newly available evidence and act only on eligible unlocked options. Protect Pittsburgh’s Friday 3 p.m. Eastern kickoff. Recheck Sunday early injury and lineup deadlines at noon Eastern."
+  ],
+  "fallback": "If Smith-Njigba remains uncertain going into Sunday’s 1 p.m. deadline, use the best confirmed early-game receiver or preserve an eligible late replacement without sacrificing a stronger starter.",
+  "recheck_at": "2026-11-26T19:00:00-05:00",
+  "deadline_at": "2026-11-27T15:00:00-05:00",
+  "verification": "ESPN reloaded and showed Swift at 29.2 actual, score 29.20–27.62 and Pittsburgh Friday 3 p.m. Eastern. No ESPN write. Briefing at ../analysis/infographics/2026-week-12-thursday-preflight.png.",
+  "outcome": {
+    "actual_points": 29.2,
+    "alternative_actual_points": null,
+    "process_review": "The coverage gap prevented a pregame decision on Swift. His actual result does not establish whether a different pregame choice was preferable."
+  }
+}
